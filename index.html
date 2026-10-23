@@ -1,101 +1,521 @@
-<!doctype html><html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>女主POV完整交互初版 · Seedance 2.5</title><style>
-*{box-sizing:border-box}body{margin:0;background:#101712;color:#eef0df;font:15px/1.6 system-ui}main{max-width:1200px;margin:0 auto;padding:24px}a{color:#ded6b5}h1{font-size:26px}.status{padding:16px;border:1px solid #536155;border-radius:12px;background:#202c23}.bar{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}button,select{font:inherit;background:#28382c;color:inherit;border:1px solid #617365;border-radius:8px;padding:10px 15px;cursor:pointer}button:disabled{opacity:.45;cursor:default}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}.card{border:1px solid #35493b;border-radius:12px;overflow:hidden;padding-bottom:12px}.card img,.card video{width:100%;aspect-ratio:9/16;object-fit:contain;background:black}.card p,.card button{margin:10px 12px}.pill{font-size:12px;color:#cfb8a0}.viewer{position:fixed;inset:0;z-index:50;background:black;display:none;align-items:center;justify-content:center}.viewer.open{display:flex}.stage{width:min(100vw,56.25vh);height:min(177.78vw,100vh);position:relative;overflow:hidden;background:#111}.stage video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.hud{position:absolute;z-index:3;left:5%;right:5%;top:max(18px,env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:8px}.hud button{background:#18241bc0;padding:6px 10px}.bottom{position:absolute;z-index:4;left:5%;right:5%;bottom:max(18px,env(safe-area-inset-bottom))}.progress{width:100%;accent-color:#e5e9d0}.subtitle{position:absolute;left:6%;right:6%;bottom:17%;text-align:center;font-size:clamp(16px,2.8vh,22px);text-shadow:0 2px 5px black;pointer-events:none}.suben{font-size:.85em}.choices{position:absolute;left:8%;right:8%;top:46%;z-index:6;display:grid;gap:12px}.choices button{background:#18382edc;border-color:#e5e9d0}.notice{position:absolute;left:8%;right:8%;top:30%;z-index:7;background:#18281fed;padding:24px;border-radius:14px}.pause{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:76px;height:76px;border-radius:50%;border:1px solid #e5e9d0;background:#19281dcf;display:grid;place-items:center;z-index:5}.pause svg{width:28px;height:28px}.hide{display:none!important}.tiny{font-size:12px;color:#b6c2b8}.chat{max-height:40vh;overflow:auto;white-space:pre-wrap}section{scroll-margin-top:18px}
-.notice{max-height:65%;overflow:auto}.chat p{white-space:normal}/* Immersive portrait layout; original drama palette. */
-.viewer{background:#080e0b}.stage{width:min(100vw,56.25dvh);height:min(177.78vw,100dvh);font-family:Arial,'PingFang SC',sans-serif;color:#faf7ed}
-.stage:before{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(5,16,11,.16),transparent 18%,transparent 73%,rgba(5,16,11,.4))}
-.hud{left:5.2%;right:4.8%;top:max(4.2%,env(safe-area-inset-top));gap:10px;justify-content:flex-start;align-items:center;font-size:clamp(12px,1.75dvh,24px)}
-.series-title{font-size:clamp(10px,1.46dvh,21px);font-weight:700;letter-spacing:.15em;white-space:nowrap}
-.hud button{padding:0;border:0;background:none;border-radius:0;color:inherit;line-height:1.3;font-size:inherit}.hud #language{margin-left:auto;flex-shrink:0}.chapter-trigger{display:flex;gap:.35em;align-items:center;white-space:nowrap}.chapter-trigger small{font-size:.55em}
-#close{display:none}.bottom{left:5.2%;right:4.8%;bottom:max(2%,env(safe-area-inset-bottom));font-size:clamp(14px,1.8dvh,25px)}
-.transport{display:flex;align-items:center;gap:1.05em;margin:0 0 3.8dvh;line-height:1.25}.transport button,.transport select{border:0;background:none;padding:0;color:#faf7ed;font-size:inherit;box-shadow:none;border-radius:0}.transport #pause{width:1.8em;height:1.8em;display:grid;place-items:center;font-family:Arial,sans-serif}.transport #speed{margin-left:auto;appearance:none;text-align:right;cursor:pointer}.transport #clock{font-variant-numeric:tabular-nums;font-size:.96em}
-.progress{display:block;appearance:none;-webkit-appearance:none;width:100%;height:5px;padding:0;border:0;border-radius:6px;background:linear-gradient(to right,#e8dfbd 0%,#e8dfbd var(--played,0%),#ffffff50 var(--played,0%),#ffffff50 100%);margin:0 0 2.6dvh;cursor:pointer}.progress::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:20px;height:20px;border-radius:50%;background:#eee5c7;border:0}.progress::-moz-range-thumb{width:20px;height:20px;border:0;border-radius:50%;background:#eee5c7}.chapter-caption{font-size:.82em;letter-spacing:.025em;line-height:1.4}
-.notice{left:9%;right:6%;top:26%;max-height:48%;background:#e9e3cccF;color:#293e33;padding:5% 4.5%;border-radius:3px;font-size:clamp(16px,1.95dvh,27px);line-height:1.8;box-shadow:none;backdrop-filter:blur(5px)}.notice .chat{max-height:30dvh;overflow:auto}.notice strong{font-weight:500}.notice button{background:#244637e8;color:#f6f0df;border:1px solid #314c3d;padding:.55em .8em;font-size:.8em;border-radius:4px}.notice .bar{margin:1em 0 0;gap:8px}
-.choices{left:9%;right:9%;top:44%;gap:12px}.choices button{padding:15px;border-radius:5px;background:#e9e3cced;color:#263f32;border:1px solid #eee6d3;font-size:clamp(15px,1.8dvh,24px);backdrop-filter:blur(5px)}
-.pause{width:76px;height:76px;background:#203e34a8;border-color:#e7e4cf80}.pause svg{display:block;width:26px;height:26px;margin:0}.subtitle{bottom:22%;line-height:1.5}
-.chapter-menu{position:absolute;z-index:12;left:5.2%;right:4.8%;top:10%;padding:20px;background:#e9e3ccf5;color:#263f32;border:1px solid #e9e3cc;border-radius:5px;box-shadow:0 12px 35px #0003;max-height:68%;overflow:auto}.chapter-menu header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;font-size:16px}.chapter-menu button{display:block;width:100%;padding:12px;text-align:left;margin:4px 0;border:0;border-bottom:1px solid #233c3020;background:transparent;color:#263f32;border-radius:0;font-size:15px}.chapter-menu button.active{background:#294c3c;color:#f6f0df}.chapter-menu .menu-close{width:auto;margin:0;padding:4px;font-size:20px;border:0}.chapter-menu a{display:inline-block;color:#355744;font-size:13px;margin-top:16px;text-decoration:underline}
-@media(max-width:420px){.hud{gap:8px}.series-title{letter-spacing:.1em}.transport{margin-bottom:3.5dvh}.progress::-webkit-slider-thumb{width:17px;height:17px}}
-</style><link rel="stylesheet" href="caption-runtime.css"><style>a[href="episodes.html"],a[href="intimacy-review.html"],a[href="../image-gallery.html"],a[href="../index.html"],a[href="制作说明.md"],a[href="qa/交付自检.md"],a[href="?view=production"],button[data-play]{display:none!important}</style><main><h1>ONE NIGHT, NINE LIVES</h1><div class=status><b>捕到了黑猫大佬</b><p>一只没人要的黑猫，一份只算一晚的收留条款。六集竖屏互动恋爱剧，全程女主第一人称视角，20 处选择，3 个结局。</p><p>英语原声·中英双语字幕·建议手机竖屏游玩</p></div><div class=bar><a href="episodes.html">完整视频 · 播放与下载</a><button data-episode="1">从第一集开始完整游玩</button><button data-play="P01-07">看整理衣袖修订</button><a href="intimacy-review.html">10处亲密镜头修订</a><a href="../image-gallery.html">完整分镜图库</a><a href="../index.html">剧本分镜</a><a href="制作说明.md">制作配置与预算</a><a href="qa/交付自检.md">检查范围与未完成项</a></div><div class=bar><button data-episode="1">01 · 收留条款</button><button data-episode="2">02 · 危险室友</button><button data-episode="3">03 · 咬回去</button><button data-episode="4">04 · 别替我决定</button><button data-episode="5">05 · 今晚可以违规</button><button data-episode="6">06 · 把王冠放下</button></div><section id="ep1"><h2>01 · 收留条款</h2><div class=cards><article class=card><video src="m/P01-01-s01.mp4" controls playsinline preload="none"></video><p>P01-01 · 建立女主主动性与猫的尊严</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-01" >播放候选</button></article><article class=card><video src="m/P01-02-spatial-r3-s01.mp4" controls playsinline preload="none"></video><p>P01-02 · 明确救助时限，不先讲王庭</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-02" >播放候选</button></article><article class=card><video src="m/P01-03-door-r5-s01.mp4" controls playsinline preload="none"></video><p>P01-03 · 救助动作完整，建立第一条记忆</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-03" >播放候选</button></article><article class=card><video src="m/P01-04-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-04 · 把人物和猫包真的带入同一公寓</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-04" >播放候选</button></article><article class=card><video src="m/P01-05-s01.mp4" controls playsinline preload="none"></video><p>P01-05 · Mochi制造生活喜剧，不增加第三视点</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-05" >播放候选</button></article><article class=card><video src="m/P01-06-s01.mp4" controls playsinline preload="none"></video><p>P01-06 · 提前交代毛巾和屏风，消除后面凭空道具</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-06" >播放候选</button></article><article class=card><video src="m/P01-07-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-07 · 先建立你换装和夜色，而非外拍女主</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-07" >播放候选</button></article><article class=card><video src="m/P01-08t-s01.mp4" controls playsinline preload="none"></video><p>P01-08t · 补上卧室到厨房的移动过程，避免硬切</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-08t" >播放候选</button></article><article class=card><video src="m/P01-09-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-09 · 惊吓动作迅速，不慢吞吞</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-09" >播放候选</button></article><article class=card><video src="m/P01-10-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-10 · 迅速解释和安抚，正事先于挑逗</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-10" >播放候选</button></article><article class=card><video src="m/P01-11-continuity-r5-s01.mp4" controls playsinline preload="none"></video><p>P01-11 · 为不相信他保留合理空间</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-11" >播放候选</button></article><article class=card><video src="m/P01-12-continuity-r5-s01.mp4" controls playsinline preload="none"></video><p>P01-12 · 交出决定权，首次玩笑有明确底线</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-12" >播放候选</button></article><article class=card><video src="m/P01-12a-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-12a · 回应留下但不自动拉近</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-12a" >播放候选</button></article><article class=card><video src="m/P01-12b-s01.mp4" controls playsinline preload="none"></video><p>P01-12b · 拒绝不变成惩罚，开关门不重复</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-12b" >播放候选</button></article><article class=card><video src="m/P01-12b2-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-12b2 · 你主动重新邀请，不瞬移</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-12b2" >播放候选</button></article><article class=card><video src="m/P01-12c-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-12c · 理性询问也有性格反馈</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-12c" >播放候选</button></article><article class=card><video src="m/P01-13-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-13 · 只陈述必要秘密，留下后续悬念</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-13" >播放候选</button></article><article class=card><video src="m/P01-14-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-14 · 身份冲突落到具体秘密</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-14" >播放候选</button></article><article class=card><video src="m/P01-15-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-15 · 用生活规则与幽默建立新关系</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-15" >播放候选</button></article><article class=card><video src="m/P01-16-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-16 · 天亮必须提前处理，不让男主掉落</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-16" >播放候选</button></article><article class=card><video src="m/P01-17-s01.mp4" controls playsinline preload="none"></video><p>P01-17 · 亲眼确认同一黑猫，不剪成陌生动物</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-17" >播放候选</button></article><article class=card><video src="m/P01-18-s01.mp4" controls playsinline preload="none"></video><p>P01-18 · 小互动回报，保留给猫空间</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-18" >播放候选</button></article><article class=card><video src="m/P01-18a-s01.mp4" controls playsinline preload="none"></video><p>P01-18a · 安全跳跃与支撑先后完整</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-18a" >播放候选</button></article><article class=card><video src="m/P01-18b-s01.mp4" controls playsinline preload="none"></video><p>P01-18b · 不抱也有可爱回应</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-18b" >播放候选</button></article><article class=card><video src="m/P01-19-s01.mp4" controls playsinline preload="none"></video><p>P01-19 · 章末手机关系建立，不能猫发人声</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-19" >播放候选</button></article><article class=card><video src="m/P01-15x-r7-s01.mp4" controls playsinline preload="none"></video><p>P01-15x · 提前建立手机便笺的真正来源</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P01-15x" >播放候选</button></article></div></section><section id="ep2"><h2>02 · 危险室友</h2><div class=cards><article class=card><video src="m/P02-01-r7-s01.mp4" controls playsinline preload="none"></video><p>P02-01 · 确认职业与同行动机</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-01" >播放候选</button></article><article class=card><video src="m/P02-02-s01.mp4" controls playsinline preload="none"></video><p>P02-02 · Deb的幽默服务职业，不抢戏</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-02" >播放候选</button></article><article class=card><video src="m/P02-03-r6-s01.mp4" controls playsinline preload="none"></video><p>P02-03 · 先建立储物间通道和出口</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-03" >播放候选</button></article><article class=card><video src="m/P02-04-r7-s01.mp4" controls playsinline preload="none"></video><p>P02-04 · Vael首次出现，不能换成Rhys的脸</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-04" >播放候选</button></article><article class=card><video src="m/P02-05-r8-s01.mp4" controls playsinline preload="none"></video><p>P02-05 · 由女主阻止被带走，选择不考手速</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-05" >播放候选</button></article><article class=card><video src="m/P02-05a-r7-s01.mp4" controls playsinline preload="none"></video><p>P02-05a · 行动型保护，物件不悬空</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-05a" >播放候选</button></article><article class=card><video src="m/P02-05b-r7-s01.mp4" controls playsinline preload="none"></video><p>P02-05b · 借助同伴也算主动选择</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-05b" >播放候选</button></article><article class=card><video src="m/P02-06-r7-s01.mp4" controls playsinline preload="none"></video><p>P02-06 · 调查线继续，不追逐到变形</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-06" >播放候选</button></article><article class=card><video src="m/P02-07-s01.mp4" controls playsinline preload="none"></video><p>P02-07 · 回程省略有标志，不凭空换背景</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-07" >播放候选</button></article><article class=card><video src="m/P02-08-s01.mp4" controls playsinline preload="none"></video><p>P02-08 · 女主换衣通过自己视点交代</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-08" >播放候选</button></article><article class=card><video src="m/P02-09-s01.mp4" controls playsinline preload="none"></video><p>P02-09 · Rhys换衣不在画面里突然变</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-09" >播放候选</button></article><article class=card><video src="m/P02-10-s01.mp4" controls playsinline preload="none"></video><p>P02-10 · 生活技能反差，不把他写成废物</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-10" >播放候选</button></article><article class=card><video src="m/P02-11-s01.mp4" controls playsinline preload="none"></video><p>P02-11 · 制造脱衣误会，有真实原因</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-11" >播放候选</button></article><article class=card><video src="m/P02-11a-s01.mp4" controls playsinline preload="none"></video><p>P02-11a · 女性主动触碰，先碰衣料再收到反应</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-11a" >播放候选</button></article><article class=card><video src="m/P02-11b-s01.mp4" controls playsinline preload="none"></video><p>P02-11b · 不碰也得到俏皮回应</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-11b" >播放候选</button></article><article class=card><video src="m/P02-11c-r7-s01.mp4" controls playsinline preload="none"></video><p>P02-11c · 让反将一军成为角色爽点</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-11c" >播放候选</button></article><article class=card><video src="m/P02-12-s01.mp4" controls playsinline preload="none"></video><p>P02-12 · 认真道谢，给暧昧一层价值</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-12" >播放候选</button></article><article class=card><video src="m/P02-13-s01.mp4" controls playsinline preload="none"></video><p>P02-13 · 坐下有过程，距离不突然变</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-13" >播放候选</button></article><article class=card><video src="m/P02-14-s01.mp4" controls playsinline preload="none"></video><p>P02-14 · 男主先逗，女主有反击余地</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-14" >播放候选</button></article><article class=card><video src="m/P02-14a-r7-s01.mp4" controls playsinline preload="none"></video><p>P02-14a · 触碰落在颈侧，不掐喉、不新增袖子</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-14a" >播放候选</button></article><article class=card><video src="m/P02-14b-s01.mp4" controls playsinline preload="none"></video><p>P02-14b · 脸颊路线表现被珍惜，而非同一反应</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-14b" >播放候选</button></article><article class=card><video src="m/P02-14c-s01.mp4" controls playsinline preload="none"></video><p>P02-14c · 认真路线同样推进关系，不逼选身体接触</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-14c" >播放候选</button></article><article class=card><video src="m/P02-15-s01.mp4" controls playsinline preload="none"></video><p>P02-15 · 埋婚盟秘密，不能玩笑蒙混过去</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-15" >播放候选</button></article><article class=card><video src="m/P02-16-s01.mp4" controls playsinline preload="none"></video><p>P02-16 · H2毛巾有来源、覆盖过程与固定尺寸</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-16" >播放候选</button></article><article class=card><video src="m/P02-17-r7-s01.mp4" controls playsinline preload="none"></video><p>P02-17 · Deb来访结束误会，支线不拖长</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-17" >播放候选</button></article><article class=card><video src="m/P02-18-s01.mp4" controls playsinline preload="none"></video><p>P02-18 · 收回毛巾与猫耳连续性</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-18" >播放候选</button></article><article class=card><video src="m/P02-19-r7-s01.mp4" controls playsinline preload="none"></video><p>P02-19 · 后续记忆只引用真正发生的触碰</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-19" >播放候选</button></article><article class=card><video src="m/P02-00-r6-s01.mp4" controls playsinline preload="none"></video><p>P02-00 · 补上赴诊所前的猫包和服装来源</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P02-00" >播放候选</button></article></div></section><section id="ep3"><h2>03 · 咬回去</h2><div class=cards><article class=card><video src="m/P03-01-s01.mp4" controls playsinline preload="none"></video><p>P03-01 · 温柔与笑点来自同一只猫</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-01" >播放候选</button></article><article class=card><video src="m/P03-02-s01.mp4" controls playsinline preload="none"></video><p>P03-02 · 给女主自己的生活需求</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-02" >播放候选</button></article><article class=card><video src="m/P03-03-r7-s01.mp4" controls playsinline preload="none"></video><p>P03-03 · 日落与换装完整、服装延续</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-03" >播放候选</button></article><article class=card><video src="m/P03-04-s01.mp4" controls playsinline preload="none"></video><p>P03-04 · 用玩笑接住她的真话</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-04" >播放候选</button></article><article class=card><video src="m/P03-05-s01.mp4" controls playsinline preload="none"></video><p>P03-05 · 初次轻咬必须来自玩家主动邀请</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-05" >播放候选</button></article><article class=card><video src="m/P03-05a-r7-s01.mp4" controls playsinline preload="none"></video><p>P03-05a · 轻咬是玩笑接触，不留下伤痕</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-05a" >播放候选</button></article><article class=card><video src="m/P03-05b-s01.mp4" controls playsinline preload="none"></video><p>P03-05b · 不接受咬也保留暧昧</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-05b" >播放候选</button></article><article class=card><video src="m/P03-05c-s01.mp4" controls playsinline preload="none"></video><p>P03-05c · 拆穿后男主自嘲，不强行执行</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-05c" >播放候选</button></article><article class=card><video src="m/P03-06-s01.mp4" controls playsinline preload="none"></video><p>P03-06 · 让“咬回来”成为真正的独立选择</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-06" >播放候选</button></article><article class=card><video src="m/P03-06a-r7-s01.mp4" controls playsinline preload="none"></video><p>P03-06a · 回咬仍是纯女主POV</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-06a" >播放候选</button></article><article class=card><video src="m/P03-06b-s01.mp4" controls playsinline preload="none"></video><p>P03-06b · 聪明回应也会被记住</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-06b" >播放候选</button></article><article class=card><video src="m/P03-07-s01.mp4" controls playsinline preload="none"></video><p>P03-07 · 信息打断由真实信件到达，而非凭空出现</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-07" >播放候选</button></article><article class=card><video src="m/P03-08-r7-s01.mp4" controls playsinline preload="none"></video><p>P03-08 · 拿信让观众看见内容，不能迟到补设定</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-08" >播放候选</button></article><article class=card><video src="m/P03-09-r7-s01.mp4" controls playsinline preload="none"></video><p>P03-09 · 男主腹黑先表现在观察与试探</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-09" >播放候选</button></article><article class=card><video src="m/P03-10-s01.mp4" controls playsinline preload="none"></video><p>P03-10 · 完整讲出婚盟的用途，保留未说的动机</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-10" >播放候选</button></article><article class=card><video src="m/P03-11-s01.mp4" controls playsinline preload="none"></video><p>P03-11 · 给女主询问权，不让调情替代答案</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-11" >播放候选</button></article><article class=card><video src="m/P03-12-r7-s01.mp4" controls playsinline preload="none"></video><p>P03-12 · 换环境有明确动机与物件去向</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-12" >播放候选</button></article><article class=card><video src="m/P03-13-r7-s01.mp4" controls playsinline preload="none"></video><p>P03-13 · 上楼和开屋顶门不越轴</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-13" >播放候选</button></article><article class=card><video src="m/P03-14-r7-s01.mp4" controls playsinline preload="none"></video><p>P03-14 · 用共同杯口缩短距离</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-14" >播放候选</button></article><article class=card><video src="m/P03-15-r6-s01.mp4" controls playsinline preload="none"></video><p>P03-15 · 喝完才说话，轻佻里有真正亲近</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-15" >播放候选</button></article><article class=card><video src="m/P03-16-r7-s01.mp4" controls playsinline preload="none"></video><p>P03-16 · 亲密前先解决杯子和外套，没凭空消失</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-16" >播放候选</button></article><article class=card><video src="m/P03-16a-s01.mp4" controls playsinline preload="none"></video><p>P03-16a · 拉手的力与身体移动一致</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-16a" >播放候选</button></article><article class=card><video src="m/P03-16b-s01.mp4" controls playsinline preload="none"></video><p>P03-16b · 首次吻以眼睛与嘴的高度差拍</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-16b" >播放候选</button></article><article class=card><video src="m/P03-16c-s01.mp4" controls playsinline preload="none"></video><p>P03-16c · 不亲也能有情感回报</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-16c" >播放候选</button></article><article class=card><video src="m/P03-17-s01.mp4" controls playsinline preload="none"></video><p>P03-17 · 约定第四条规矩，指向他的自主返回</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-17" >播放候选</button></article><article class=card><video src="m/P03-18-s01.mp4" controls playsinline preload="none"></video><p>P03-18 · 离开屋顶的过程与物件完结</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-18" >播放候选</button></article><article class=card><video src="m/P03-19-r7-s01.mp4" controls playsinline preload="none"></video><p>P03-19 · 为下一集的背叛感留可验证线索</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P03-19" >播放候选</button></article></div></section><section id="ep4"><h2>04 · 别替我决定</h2><div class=cards><article class=card><video src="m/P04-01-s01.mp4" controls playsinline preload="none"></video><p>P04-01 · 把生活压力与王庭压力接在一起</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-01" >播放候选</button></article><article class=card><video src="m/P04-02-s01.mp4" controls playsinline preload="none"></video><p>P04-02 · 外部对手冷硬，Rhys显出权力感</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-02" >播放候选</button></article><article class=card><video src="m/P04-03-r7-s01.mp4" controls playsinline preload="none"></video><p>P04-03 · 揭示真正代价，不能临终才塞解法</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-03" >播放候选</button></article><article class=card><video src="m/P04-04-s01.mp4" controls playsinline preload="none"></video><p>P04-04 · 让选择权与婚盟规则清晰</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-04" >播放候选</button></article><article class=card><video src="m/P04-05-r7-s01.mp4" controls playsinline preload="none"></video><p>P04-05 · 男主对外的腹黑有行动，不空说强大</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-05" >播放候选</button></article><article class=card><video src="m/P04-05a-r7-s01.mp4" controls playsinline preload="none"></video><p>P04-05a · 并肩不是外拍双人镜</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-05a" >播放候选</button></article><article class=card><video src="m/P04-05b-r7-s01.mp4" controls playsinline preload="none"></video><p>P04-05b · 女主掌握信息，不成为被保护的道具</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-05b" >播放候选</button></article><article class=card><video src="m/P04-06-s01.mp4" controls playsinline preload="none"></video><p>P04-06 · 对外策略兑现、留下一条真实后果</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-06" >播放候选</button></article><article class=card><video src="m/P04-07-s01.mp4" controls playsinline preload="none"></video><p>P04-07 · 来访结束不再多开一次门</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-07" >播放候选</button></article><article class=card><video src="m/P04-08-s01.mp4" controls playsinline preload="none"></video><p>P04-08 · 以脱外套产生误会，但不转移质问</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-08" >播放候选</button></article><article class=card><video src="m/P04-09-r7-s01.mp4" controls playsinline preload="none"></video><p>P04-09 · 真实脱衣动作与物件落点</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-09" >播放候选</button></article><article class=card><video src="m/P04-10-r7-s01.mp4" controls playsinline preload="none"></video><p>P04-10 · 核心背叛感明确回应</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-10" >播放候选</button></article><article class=card><video src="m/P04-11-s01.mp4" controls playsinline preload="none"></video><p>P04-11 · 腹黑与真心可以并存，但要承担错处</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-11" >播放候选</button></article><article class=card><video src="m/P04-12-r7-s01.mp4" controls playsinline preload="none"></video><p>P04-12 · 明确情感界限，停顿有意义但不拖</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-12" >播放候选</button></article><article class=card><video src="m/P04-12a-r7-s01.mp4" controls playsinline preload="none"></video><p>P04-12a · 空间被尊重，不制造追墙堵门</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-12a" >播放候选</button></article><article class=card><video src="m/P04-12b-s01.mp4" controls playsinline preload="none"></video><p>P04-12b · 理性回答给清楚剧情，而非长篇设定</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-12b" >播放候选</button></article><article class=card><video src="m/P04-12c-s01.mp4" controls playsinline preload="none"></video><p>P04-12c · 握手不强迫原谅，动作真实完成</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-12c" >播放候选</button></article><article class=card><video src="m/P04-13-s01.mp4" controls playsinline preload="none"></video><p>P04-13 · 给下一步具体承诺</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-13" >播放候选</button></article><article class=card><video src="m/P04-14-r7-s01.mp4" controls playsinline preload="none"></video><p>P04-14 · 让亲密成为你主动的和解方式</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-14" >播放候选</button></article><article class=card><video src="m/P04-14a-s01.mp4" controls playsinline preload="none"></video><p>P04-14a · 拥抱不切到第三人称</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-14a" >播放候选</button></article><article class=card><video src="m/P04-14b-s01.mp4" controls playsinline preload="none"></video><p>P04-14b · 女主能让从容的男主短暂失措</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-14b" >播放候选</button></article><article class=card><video src="m/P04-14c-s01.mp4" controls playsinline preload="none"></video><p>P04-14c · 低接触路线同样得到成熟回报</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-14c" >播放候选</button></article><article class=card><video src="m/P04-15-s01.mp4" controls playsinline preload="none"></video><p>P04-15 · 幽默回到被允许的位置</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-15" >播放候选</button></article><article class=card><video src="m/P04-16-r7-s01.mp4" controls playsinline preload="none"></video><p>P04-16 · 邀请进入卧室由女主主动，空间明确</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-16" >播放候选</button></article><article class=card><video src="m/P04-17-s01.mp4" controls playsinline preload="none"></video><p>P04-17 · 别把夜晚与第五集接成两个不同日子</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-17" >播放候选</button></article><article class=card><video src="m/P04-02x-r7-s01.mp4" controls playsinline preload="none"></video><p>P04-02x · 礼服袋从Vael进入空间，不凭空生成R6</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P04-02x" >播放候选</button></article></div></section><section id="ep5"><h2>05 · 今晚可以违规</h2><div class=cards><article class=card><video src="m/P05-01-s01.mp4" controls playsinline preload="none"></video><p>P05-01 · 交代换装省略，不把演员外拍</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-01" >播放候选</button></article><article class=card><video src="m/P05-02-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-02 · 开门有原因，换衣前后两次开门不重复</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-02" >播放候选</button></article><article class=card><video src="m/P05-03-r9-s01.mp4" controls playsinline preload="none"></video><p>P05-03 · 他真的走到床边坐好</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-03" >播放候选</button></article><article class=card><video src="m/P05-04-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-04 · 只关一次门，耳尾衣服与坐位不变</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-04" >播放候选</button></article><article class=card><video src="m/P05-05-s01.mp4" controls playsinline preload="none"></video><p>P05-05 · 走到NT1是现实路线，不能墙体变形</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-05" >播放候选</button></article><article class=card><video src="m/P05-06-s01.mp4" controls playsinline preload="none"></video><p>P05-06 · 发夹完整取下并落到既定台面</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-06" >播放候选</button></article><article class=card><video src="m/P05-07-s01.mp4" controls playsinline preload="none"></video><p>P05-07 · 女主眼高随坐姿真实降低</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-07" >播放候选</button></article><article class=card><video src="m/P05-08-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-08 · 规则变成双方的暧昧，而非套路借口</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-08" >播放候选</button></article><article class=card><video src="m/P05-09-s01.mp4" controls playsinline preload="none"></video><p>P05-09 · 调情与真实邀请区分开</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-09" >播放候选</button></article><article class=card><video src="m/P05-09a-s01.mp4" controls playsinline preload="none"></video><p>P05-09a · 衣料先抓稳，男主身体才跟随</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-09a" >播放候选</button></article><article class=card><video src="m/P05-09b-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-09b · 摸脖子的反应不能完全复用摸脸</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-09b" >播放候选</button></article><article class=card><video src="m/P05-09c-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-09c · 拥抱给安稳回报，不默认为吻</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-09c" >播放候选</button></article><article class=card><video src="m/P05-09d-s01.mp4" controls playsinline preload="none"></video><p>P05-09d · 不接触也有语言张力</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-09d" >播放候选</button></article><article class=card><video src="m/P05-10-s01.mp4" controls playsinline preload="none"></video><p>P05-10 · 他认真承认喜欢，不拿聪明当免责</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-10" >播放候选</button></article><article class=card><video src="m/P05-11-s01.mp4" controls playsinline preload="none"></video><p>P05-11 · 给亲吻明确主动入口，不另弹确认框</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-11" >播放候选</button></article><article class=card><video src="m/P05-11a-s01.mp4" controls playsinline preload="none"></video><p>P05-11a · 吻在嘴的高度发生，不吻摄像机</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-11a" >播放候选</button></article><article class=card><video src="m/P05-11b-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-11b · 额头吻与嘴唇吻是两个真实动作</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-11b" >播放候选</button></article><article class=card><video src="m/P05-11c-s01.mp4" controls playsinline preload="none"></video><p>P05-11c · 握手的亲密不是低好感失败版</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-11c" >播放候选</button></article><article class=card><video src="m/P05-12-s01.mp4" controls playsinline preload="none"></video><p>P05-12 · 记忆反馈只来自实际发生的互动</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-12" >播放候选</button></article><article class=card><video src="m/P05-13-s01.mp4" controls playsinline preload="none"></video><p>P05-13 · 身份问题不藏到分数门槛</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-13" >播放候选</button></article><article class=card><video src="m/P05-13a-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-13a · 人形偏好可表达，终局仍可改主意</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-13a" >播放候选</button></article><article class=card><video src="m/P05-13b-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-13b · 承认两种身份，不把他当宠物</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-13b" >播放候选</button></article><article class=card><video src="m/P05-13c-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-13c · 个人自由也是恋爱爽点</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-13c" >播放候选</button></article><article class=card><video src="m/P05-14-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-14 · 轻松收束和黎明变化有完整预备</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-14" >播放候选</button></article><article class=card><video src="m/P05-15-s01.mp4" controls playsinline preload="none"></video><p>P05-15 · 不把挽留做惩罚倒计时</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-15" >播放候选</button></article><article class=card><video src="m/P05-15a-s01.mp4" controls playsinline preload="none"></video><p>P05-15a · 挽留不是阻止安全变身</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-15a" >播放候选</button></article><article class=card><video src="m/P05-15b-s01.mp4" controls playsinline preload="none"></video><p>P05-15b · 非接触同样表达想他回来</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-15b" >播放候选</button></article><article class=card><video src="m/P05-16-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-16 · 同一猫、同一屏风、衣物留在现实落点</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-16" >播放候选</button></article><article class=card><video src="m/P05-17-r7-s01.mp4" controls playsinline preload="none"></video><p>P05-17 · 两只猫落地与上床过程合理</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-17" >播放候选</button></article><article class=card><video src="m/P05-18-s01.mp4" controls playsinline preload="none"></video><p>P05-18 · 把甜夜推向最后行动</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P05-18" >播放候选</button></article></div></section><section id="ep6"><h2>06 · 把王冠放下</h2><div class=cards><article class=card><video src="m/P06-01-s01.mp4" controls playsinline preload="none"></video><p>P06-01 · 用自己的袖口交代女主礼装</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-01" >播放候选</button></article><article class=card><video src="m/P06-02-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-02 · Rhys礼装相见，只从女主看他</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-02" >播放候选</button></article><article class=card><video src="m/P06-03-s01.mp4" controls playsinline preload="none"></video><p>P06-03 · 牵手去面对，而非被拖向门户</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-03" >播放候选</button></article><article class=card><video src="m/P06-03a-s01.mp4" controls playsinline preload="none"></video><p>P06-03a · 普通牵手而非强迫传送</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-03a" >播放候选</button></article><article class=card><video src="m/P06-03b-s01.mp4" controls playsinline preload="none"></video><p>P06-03b · 自主同行也能收到他的目光</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-03b" >播放候选</button></article><article class=card><video src="m/P06-04-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-04 · 门户打开之前先让观众确认实体门框</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-04" >播放候选</button></article><article class=card><video src="m/P06-05-s01.mp4" controls playsinline preload="none"></video><p>P06-05 · Selene出场不是最后一分钟发明解法</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-05" >播放候选</button></article><article class=card><video src="m/P06-06-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-06 · 女主是完整见证者，不是魔力电池</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-06" >播放候选</button></article><article class=card><video src="m/P06-07-s01.mp4" controls playsinline preload="none"></video><p>P06-07 · Rhys先付代价，证明没有利用见证者</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-07" >播放候选</button></article><article class=card><video src="m/P06-08-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-08 · 三个合法出口已经在第四集交代</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-08" >播放候选</button></article><article class=card><video src="m/P06-09-spatial-r3-s01.mp4" controls playsinline preload="none"></video><p>P06-09 · 对手承认女主的判断，而非只夸男主</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-09" >播放候选</button></article><article class=card><video src="m/P06-10-s01.mp4" controls playsinline preload="none"></video><p>P06-10 · 最终选择是愿望表达，不命令他的人生</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-10" >播放候选</button></article><article class=card><video src="m/P06-A01-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-A01 · 固定人形是主动选择，代价写清</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-A01" >播放候选</button></article><article class=card><video src="m/P06-A02-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-A02 · 离开门槛有脚步，关门不再开</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-A02" >播放候选</button></article><article class=card><video src="m/P06-A03-r2-s01.mp4" controls playsinline preload="none"></video><p>P06-A03 · 爱情回报仍由女主主动决定</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-A03" >播放候选</button></article><article class=card><video src="m/P06-A03a-r2-s01.mp4" controls playsinline preload="none"></video><p>P06-A03a · 终局吻从女主眼睛发生</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-A03a" >播放候选</button></article><article class=card><video src="m/P06-A03b-r2-s01.mp4" controls playsinline preload="none"></video><p>P06-A03b · 终局拥抱不需要隐藏女主脸的外拍</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-A03b" >播放候选</button></article><article class=card><video src="m/P06-A03c-s01.mp4" controls playsinline preload="none"></video><p>P06-A03c · 不亲也有愉快完整收束</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-A03c" >播放候选</button></article><article class=card><video src="m/P06-A04-s01.mp4" controls playsinline preload="none"></video><p>P06-A04 · 早晨人形明确验证，不能靠字幕说解除</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-A04" >播放候选</button></article><article class=card><video src="m/P06-A05-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-A05 · 首尾回应租约，具体日常结束</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-A05" >播放候选</button></article><article class=card><video src="m/P06-B01-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-B01 · 双形不是高好感奖励，权利与代价透明</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-B01" >播放候选</button></article><article class=card><video src="m/P06-B02-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-B02 · 闭门与正常夜晚完结</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-B02" >播放候选</button></article><article class=card><video src="m/P06-B03-s01.mp4" controls playsinline preload="none"></video><p>P06-B03 · 亲密回报沿用真正发生过的记忆</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-B03" >播放候选</button></article><article class=card><video src="m/P06-B03a-s01.mp4" controls playsinline preload="none"></video><p>P06-B03a · 双形路线同样有吻的实际回报</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-B03a" >播放候选</button></article><article class=card><video src="m/P06-B03b-s01.mp4" controls playsinline preload="none"></video><p>P06-B03b · 摸耳后手要真的移到掌心</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-B03b" >播放候选</button></article><article class=card><video src="m/P06-B03c-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-B03c · 日常调情是完整回应，不是空白支线</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-B03c" >播放候选</button></article><article class=card><video src="m/P06-B04-s01.mp4" controls playsinline preload="none"></video><p>P06-B04 · 先证实日出不强制，随后才能自愿变猫</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-B04" >播放候选</button></article><article class=card><video src="m/P06-B05-s01.mp4" controls playsinline preload="none"></video><p>P06-B05 · 自由变形照样遵守物理遮挡</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-B05" >播放候选</button></article><article class=card><video src="m/P06-B06-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-B06 · 猫与人都能得到同一个普通家</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-B06" >播放候选</button></article><article class=card><video src="m/P06-C01-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-C01 · 暂别来自他的责任，不惩罚玩家</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-C01" >播放候选</button></article><article class=card><video src="m/P06-C02-r2-s01.mp4" controls playsinline preload="none"></video><p>P06-C02 · 最后接触不限时，不用倒计时罚别离</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-C02" >播放候选</button></article><article class=card><video src="m/P06-C02a-s01.mp4" controls playsinline preload="none"></video><p>P06-C02a · 吻后松手由女主自己完成</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-C02a" >播放候选</button></article><article class=card><video src="m/P06-C02b-r2-s01.mp4" controls playsinline preload="none"></video><p>P06-C02b · 拥抱后不强留，动作首尾完整</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-C02b" >播放候选</button></article><article class=card><video src="m/P06-C02c-s01.mp4" controls playsinline preload="none"></video><p>P06-C02c · 没有最后亲吻也不被贬成坏结局</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-C02c" >播放候选</button></article><article class=card><video src="m/P06-C03-r8-s01.mp4" controls playsinline preload="none"></video><p>P06-C03 · 跨门与闭合只发生一次</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-C03" >播放候选</button></article><article class=card><video src="m/P06-C04-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-C04 · 后果落到生活，不停在等待截图</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-C04" >播放候选</button></article><article class=card><video src="m/P06-C05-s01.mp4" controls playsinline preload="none"></video><p>P06-C05 · 责任真的完成，结局有明确闭环</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-C05" >播放候选</button></article><article class=card><video src="m/P06-B03x-s01.mp4" controls playsinline preload="none"></video><p>P06-B03x · 提前拍出次日定时便笺，不能让猫凭空发短信</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-B03x" >播放候选</button></article><article class=card><video src="m/P06-01x-r7-s01.mp4" controls playsinline preload="none"></video><p>P06-01x · 礼服更衣有前衣、袋子与屏风起点</p><p class=pill>已生成视频候选 · 待动态及声线验收</p><button data-play="P06-01x" >播放候选</button></article></div></section></main>
-<div class=viewer id=viewer><div class=stage id=stage><video id=film playsinline preload=auto></video><div class=hud><span class=series-title>ONE NIGHT, NINE LIVES</span><button id=chapterToggle class=chapter-trigger aria-label="选择章节" aria-expanded="false"><span id=epTitle>01 / 06</span><small>▾</small></button><button id=language aria-label="切换语言">EN</button><button id=close>×</button></div><section id=chapterMenu class="chapter-menu hide" aria-label="章节选择"><header><span>章节 · Chapters</span><button id=chapterDismiss class=menu-close aria-label="关闭章节菜单">×</button></header><div id=chapterList></div><a href="episodes.html">完整视频 · 播放与下载</a><a href="?view=production">制作进度</a></section><div class="subtitle dialogue-subtitles" id=sub></div><div class=choices id=choices></div><div class="notice hide" id=notice></div><button class="pause hide" id=resume aria-label="继续播放"><svg viewBox="0 0 24 24" aria-hidden=true><path fill="currentColor" d="M6 3 L22 12 L6 21 Z" transform="translate(-2 0)"/></svg></button><div class=bottom><div class=transport><button id=pause>暂停</button><span id=clock></span><button id=captionToggle class=cc aria-label="切换字幕">中英</button><select id=speed aria-label=播放速度><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></div><input id=progress class=progress type=range min=0 max=100 value=0 aria-label=当前章节进度><div id=chapterCaption class=chapter-caption></div></div></div></div><script src="player-preferences.js"></script><script>
-let data,current,history=[],memory=new Set(),lang=initialLanguage(),waiting=false,standalone=false;const $=s=>document.querySelector(s),v=$('#film');let seq=0,partIndex=0;const preload=document.createElement('video');preload.preload='auto';
-function txt(zh,en){return lang==='zh'?zh:en}function time(x){return Math.floor(x/60)+':'+String(Math.floor(x%60)).padStart(2,'0')}function clearOverlays(){$('#choices').replaceChildren();$('#notice').classList.add('hide');$('#resume').classList.add('hide')}
-function message(t){$('#notice').textContent=t;$('#notice').classList.remove('hide')}
-function prepareMemory(id){
- let n=data.nodes[id],m=data.media[id];
- if(!m||!n.conditional_dialogue?.length)return;
- m.originalClips??=[...(m.clips||[m.src])];m.originalDurations??=[...(m.durations||[])];
- let selected=n.conditional_dialogue.find(x=>x.if&&memory.has(x.if))||n.conditional_dialogue.find(x=>x.else);
- let key=id+'-memory-'+(selected?.if||'default'),variant=data.media[key];
- if(variant){m.clips=[variant.src];m.durations=[variant.duration];m.src=variant.src;}
- else{m.clips=[...m.originalClips];m.durations=[...m.originalDurations];m.src=m.clips[0];}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ONE NIGHT, NINE LIVES</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Figtree:wght@400;500;600&family=Noto+Sans+SC:wght@400;500&display=swap">
+<style>
+:root{
+  --night:#07090c; --concrete:#c9cdd2; --mute:#8a9099;
+  --gold:#e7b350; --gold-deep:#a8792a;
+  --glass:rgba(10,12,16,.62); --line:rgba(231,179,80,.38);
+  --display:"Marcellus","Cormorant Garamond",Georgia,serif;
+  --body:"Figtree","Helvetica Neue",Arial,"Noto Sans SC","PingFang SC",sans-serif;
+  --zh:"Noto Sans SC","PingFang SC","Hiragino Sans GB",sans-serif;
+  color-scheme:dark;
 }
-function episodeEnd(n){
- let ep=Number(n.id.slice(1,3)),chat=data.chats.find(c=>c.episode===ep);
- if(chat?.routes)chat=chat.routes[n.id.match(/^P06-([ABC])/)[1]];
- clearOverlays();v.pause();$('#pause').textContent='▶';
- const box=$('#notice');box.replaceChildren();box.classList.remove('hide');
- let title=document.createElement('strong');title.textContent=txt('Rhys · 章末消息','Rhys · Messages');box.append(title);
- let log=document.createElement('div');log.className='chat';box.append(log);
- function bubble(label,content){let p=document.createElement('p');p.textContent=label+' · '+txt(content.zh,content.en);log.append(p);}
- let opening=chat?.opening||chat?.opening_if?.find(x=>x.flag&&memory.has(x.flag))||chat?.opening_if?.find(x=>x.else);
- function finish(){let b=document.createElement('button');b.textContent=ep<6?txt('继续第 '+(ep+1)+' 集','Continue episode '+(ep+1)):txt('本结局完成 · 返回章节','Ending complete · Chapters');b.onclick=()=>{if(ep<6){standalone=false;playClip(data.episodes.find(e=>e.id===ep+1).start)}else{$('#viewer').classList.remove('open');document.querySelector('main').inert=false;}};box.append(b);}
- if(!chat||!opening){finish();return;}
- bubble('Rhys',opening);let choices=document.createElement('div');choices.className='bar';box.append(choices);
- chat.options.forEach(o=>{let b=document.createElement('button');b.textContent=txt(o.zh,o.en);b.onclick=()=>{choices.remove();bubble(txt('你','You'),o);bubble('Rhys',o.reply);finish();};choices.append(b);});
+[hidden]{display:none!important}
+html,body{height:100%;margin:0;background:var(--night);color:var(--concrete);font-family:var(--body);overflow:hidden}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+button{font:inherit;color:inherit}
+#stage{position:relative;height:100%;max-width:calc(100dvh * 9 / 16);margin:0 auto;overflow:hidden;background:#000;isolation:isolate}
+video.v{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .18s linear;background:#000}
+video.v.on{opacity:1}
+.shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(to bottom,rgba(0,0,0,.55),transparent 18%,transparent 52%,rgba(0,0,0,.78));z-index:2}
+body.choosing .shade{background:linear-gradient(to bottom,rgba(0,0,0,.55),transparent 18%,transparent 30%,rgba(0,0,0,.92))}
+#top{position:absolute;left:0;right:0;top:0;z-index:6;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:calc(12px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px))}
+.brand{font-family:var(--display);letter-spacing:.16em;font-size:12.5px;text-transform:uppercase;display:flex;gap:9px;align-items:baseline;min-width:0}
+.brand b{color:var(--gold);font-weight:400}
+.brand span{font-family:var(--body);letter-spacing:.08em;font-size:11px;color:var(--mute);white-space:nowrap}
+.icon{width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.18);background:rgba(0,0,0,.35);display:grid;place-items:center;cursor:pointer;flex:none}
+.icon svg{width:18px;height:18px;display:block}
+.icon:focus-visible,.opt:focus-visible,.cta:focus-visible,#say button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+#subs{position:absolute;left:0;right:0;z-index:4;bottom:calc(64px + env(safe-area-inset-bottom,0px));padding:0 max(20px,env(safe-area-inset-left,0px));text-align:center;pointer-events:none;display:flex;flex-direction:column;gap:3px;transition:bottom .25s ease}
+#subs .en{font-size:17px;line-height:1.35;color:#fff;font-weight:500;text-shadow:0 1px 3px rgba(0,0,0,.9),0 0 14px rgba(0,0,0,.6);text-wrap:balance}
+#subs .zh{font-family:var(--zh);font-size:14px;color:#e9e3d6;text-shadow:0 1px 3px rgba(0,0,0,.9)}
+#subs .who{font-size:10px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase}
+#subs.you .en{color:var(--gold);font-style:italic}
+body.choosing #subs{bottom:calc(252px + env(safe-area-inset-bottom,0px))}
+#bar{position:absolute;left:0;right:0;bottom:0;z-index:5;padding:0 max(16px,env(safe-area-inset-right,0px)) calc(14px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:12px}
+#track{flex:1;height:22px;display:flex;align-items:center;cursor:pointer;touch-action:none}
+#track i{display:block;height:2px;width:100%;background:rgba(255,255,255,.22);position:relative;border-radius:2px}
+#track i b{position:absolute;left:0;top:0;bottom:0;background:var(--gold);width:0;border-radius:2px}
+#chap{font-size:11px;letter-spacing:.12em;color:var(--mute);white-space:nowrap;text-transform:uppercase;font-variant-numeric:tabular-nums}
+body.choosing #bar,body.ended #bar,body.start #bar,body.chatting #bar{display:none}
+#paused{position:absolute;inset:0;z-index:3;display:grid;place-items:center;pointer-events:none}
+#paused div{width:66px;height:66px;border-radius:50%;background:rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.25);display:grid;place-items:center}
+#sheet{position:absolute;left:0;right:0;bottom:0;z-index:7;padding:0 max(16px,env(safe-area-inset-right,0px)) calc(18px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:9px;transform:translateY(12px);opacity:0;transition:opacity .35s ease,transform .35s ease;pointer-events:none}
+#sheet.show{opacity:1;transform:none;pointer-events:auto}
+#sayLog{display:flex;flex-direction:column;gap:6px;max-height:34vh;overflow:auto}
+#sayLog .msg{max-width:88%;padding:9px 12px;border-radius:14px;font-size:14px;line-height:1.38}
+#sayLog .msg.me{align-self:flex-end;background:var(--gold);color:#1b1307;border-bottom-right-radius:5px}
+#sayLog .msg.him{align-self:flex-start;background:rgba(18,21,26,.92);border:1px solid rgba(255,255,255,.1);border-bottom-left-radius:5px}
+#sayLog .msg .zh{font-family:var(--zh);font-size:12.5px;color:#b9bdc4;display:block;margin-top:3px}
+#sayLog .msg.me .zh{color:#53411c}
+.cue{font-size:12px;letter-spacing:.06em;color:var(--mute);text-align:center;font-style:italic;padding-bottom:2px}
+.cue .zh{font-family:var(--zh);font-style:normal;display:block;margin-top:2px}
+.opt{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:3px;min-height:52px;padding:10px 16px;border-radius:14px;border:1px solid var(--line);background:var(--glass);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);cursor:pointer;transition:border-color .2s,background .2s,transform .12s}
+.opt:hover{border-color:var(--gold)}
+.opt:active{transform:scale(.985)}
+.opt .en{font-size:15px;font-weight:500;color:#f4efe4;line-height:1.3}
+.opt .zh{font-family:var(--zh);font-size:12.5px;color:#cfc6b4}
+.opt.hint{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold),0 0 22px rgba(231,179,80,.28)}
+#say{display:flex;gap:8px;align-items:center;border-radius:14px;border:1px solid rgba(255,255,255,.16);background:rgba(0,0,0,.5);padding:5px 5px 5px 14px}
+#say input{flex:1;min-width:0;background:transparent;border:0;outline:0;color:#fff;font:inherit;font-size:15px;padding:8px 0}
+#say input::placeholder{color:#8f949c}
+#say button{width:40px;height:40px;border-radius:10px;border:0;background:var(--gold);color:#1a1206;display:grid;place-items:center;cursor:pointer;flex:none}
+#say button:disabled{background:#3a3d42;color:#777}
+#say button svg{width:18px;height:18px}
+.saynote{font-size:11px;color:#7d838c;text-align:center}
+.card{position:absolute;inset:0;z-index:8;display:flex;flex-direction:column;justify-content:flex-end;gap:14px;padding:calc(40px + env(safe-area-inset-top,0px)) max(22px,env(safe-area-inset-right,0px)) calc(30px + env(safe-area-inset-bottom,0px)) max(22px,env(safe-area-inset-left,0px));background:linear-gradient(to bottom,rgba(4,5,7,.15),rgba(4,5,7,.25) 35%,rgba(4,5,7,.92) 72%)}
+#endCard{background:linear-gradient(to bottom,rgba(4,5,7,.55),rgba(4,5,7,.88) 30%,rgba(4,5,7,.96));backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);justify-content:center}
+.kicker{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
+.card h1{font-family:var(--display);font-weight:400;font-size:clamp(32px,9.5vw,44px);line-height:1.04;margin:0;color:#f6f1e6;letter-spacing:.02em;text-wrap:balance}
+.card h1 em{font-style:normal;color:var(--gold)}
+.card p{margin:0;font-size:15px;line-height:1.5;color:#d4d7dc;max-width:34ch}
+.card p.zh{font-family:var(--zh);font-size:13.5px;color:#b9bdc4;margin-top:-8px}
+.cta{align-self:stretch;min-height:52px;border-radius:14px;border:0;background:var(--gold);color:#1b1307;font-weight:600;font-size:16px;letter-spacing:.04em;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px}
+.cta.ghost{flex-direction:column;gap:1px;font-size:14px;line-height:1.25;background:transparent;border:1px solid rgba(255,255,255,.25);color:#e8e8e8;font-weight:500}
+.cta.ghost .zh{font-size:12px;color:#aab0b8}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.meta{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--mute);letter-spacing:.04em}
+.meta span::before{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--gold-deep);margin-right:7px;vertical-align:middle}
+.path{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:13px;color:#cfd2d7;max-height:30vh;overflow:auto}
+.path li{display:flex;gap:10px;align-items:baseline}
+.path li b{font-weight:500;color:var(--gold);font-size:11px;letter-spacing:.14em;min-width:30px}
+.path li .zh{font-family:var(--zh);color:#9ea3ab;font-size:12px}
+#menu{position:absolute;z-index:9;top:calc(58px + env(safe-area-inset-top,0px));right:max(16px,env(safe-area-inset-right,0px));min-width:218px;max-height:70vh;overflow:auto;background:rgba(14,16,20,.96);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:6px;display:flex;flex-direction:column}
+#menu button{background:none;border:0;text-align:left;padding:10px 12px;border-radius:9px;font-size:14px;cursor:pointer;display:flex;justify-content:space-between;gap:12px}
+#menu button:hover{background:rgba(255,255,255,.06)}
+#menu button small{color:var(--mute)}
+#menu hr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:5px 8px}
+#menu .head{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);padding:8px 12px 4px}
+#toast{position:absolute;z-index:10;left:50%;top:calc(64px + env(safe-area-inset-top,0px));transform:translateX(-50%);background:rgba(0,0,0,.75);border:1px solid rgba(255,255,255,.14);padding:8px 14px;border-radius:999px;font-size:12.5px;max-width:84%;text-align:center}
+#chat{position:absolute;inset:0;z-index:8;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:calc(56px + env(safe-area-inset-top,0px)) max(18px,env(safe-area-inset-right,0px)) calc(22px + env(safe-area-inset-bottom,0px)) max(18px,env(safe-area-inset-left,0px));background:linear-gradient(to bottom,rgba(4,5,7,.5),rgba(4,5,7,.9) 40%,rgba(4,5,7,.96))}
+#chatLog{display:flex;flex-direction:column;gap:9px;overflow:auto}
+.msg{max-width:80%;padding:10px 13px;border-radius:15px;font-size:14.5px;line-height:1.4}
+.msg .zh{font-family:var(--zh);font-size:12.5px;color:#b9bdc4;display:block;margin-top:3px}
+.msg.him{align-self:flex-start;background:rgba(30,34,40,.92);border:1px solid rgba(255,255,255,.08);border-bottom-left-radius:5px}
+.msg.me{align-self:flex-end;background:var(--gold);color:#1b1307;border-bottom-right-radius:5px}
+.msg.me .zh{color:#53411c}
+.chatname{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.dots{display:inline-flex;gap:4px}.dots i{width:5px;height:5px;border-radius:50%;background:var(--gold);animation:d 1s infinite}.dots i:nth-child(2){animation-delay:.15s}.dots i:nth-child(3){animation-delay:.3s}
+@keyframes d{0%,100%{opacity:.25}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+body.lang-en .zh{display:none!important}
+</style>
+
+<div id="stage">
+  <video class="v" id="va" playsinline webkit-playsinline preload="auto"></video>
+  <video class="v" id="vb" playsinline webkit-playsinline preload="auto"></video>
+  <div class="shade"></div>
+  <div id="paused" hidden><div><svg viewBox="0 0 24 24" width="26" height="26" fill="#fff"><path d="M8 5.5v13l10.5-6.5z"/></svg></div></div>
+
+  <header id="top">
+    <div class="brand"><b>Nine Lives</b> <span id="epLabel"></span></div>
+    <button class="icon" id="menuBtn" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="#e8e8e8" stroke-width="1.8" stroke-linecap="round"><path d="M5 7h14M5 12h14M5 17h14"/></svg></button>
+  </header>
+  <nav id="menu" hidden>
+    <button id="mLang"><span>Subtitles <span class="zh">· 字幕</span></span><small id="mLangV"></small></button>
+    <button id="mSpeed"><span>Speed <span class="zh">· 倍速</span></span><small id="mSpeedV">1×</small></button>
+    <button id="mBack"><span>Back to last choice <span class="zh">· 回到上一个选择</span></span></button>
+    <button id="mRestart"><span>Restart episode <span class="zh">· 本集重来</span></span></button>
+    <hr>
+    <div class="head">Episodes · 剧集</div>
+    <div id="epList"></div>
+  </nav>
+
+  <div id="subs" aria-live="polite"></div>
+
+  <div id="bar">
+    <button class="icon" id="playBtn" aria-label="Pause"><svg viewBox="0 0 24 24" fill="#eee" id="playIco"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button>
+    <div id="track" role="slider" aria-label="Episode progress" aria-valuemin="0" aria-valuemax="100" tabindex="0"><i><b id="fill"></b></i></div>
+    <div id="chap"></div>
+  </div>
+
+  <section id="sheet" aria-label="Your choice">
+    <div id="sayLog"></div>
+    <div class="cue" id="cue"></div>
+    <div id="opts"></div>
+    <form id="say" autocomplete="off">
+      <input id="sayIn" maxlength="90" placeholder="Or say it your way…" aria-label="Say something to Rhys">
+      <button id="sayBtn" type="submit" aria-label="Send"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg></button>
+    </form>
+    <div class="saynote" id="sayNote"></div>
+  </section>
+
+  <section class="card" id="startCard">
+    <div class="kicker">Interactive Series <span class="zh">· 互动剧集</span></div>
+    <h1>One night. <em>Nine lives.</em></h1>
+    <p>A black cat nobody wanted, a shelter form that only covers tonight — and by sunrise there is a man in your kitchen wearing your towel.</p>
+    <p class="zh">一只没人要的黑猫，一份只管今晚的收留条款。天亮之前，你的厨房里站着一个男人，围着你的浴巾。</p>
+    <div class="meta"><span>6 episodes <span class="zh">6 集</span></span><span>20 choices <span class="zh">20 个选择</span></span><span>3 endings <span class="zh">3 个结局</span></span><span>Sound on <span class="zh">请开声音</span></span></div>
+    <button class="cta" id="startBtn"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg>Start <span class="zh">开始</span></button>
+  </section>
+
+  <section class="card" id="endCard" hidden>
+    <div class="kicker" id="endKicker"></div>
+    <h1 id="endTitle"></h1>
+    <p id="endLine"></p>
+    <p class="zh" id="endLineZh"></p>
+    <ul class="path" id="endPath"></ul>
+    <div class="row">
+      <button class="cta ghost" id="endBack">Change last choice <span class="zh">换个选择</span></button>
+      <button class="cta ghost" id="endReplay">Replay ending <span class="zh">重看结局</span></button>
+    </div>
+    <button class="cta" id="endRestart">Play from the start <span class="zh">从头再来</span></button>
+  </section>
+
+  <section id="chat" hidden>
+    <div class="chatname" id="chatName">Rhys</div>
+    <div id="chatLog"></div>
+    <div id="chatOpts" style="display:flex;flex-direction:column;gap:9px"></div>
+  </section>
+
+  <div id="toast" hidden></div>
+</div>
+
+<script>
+(() => {
+const $ = id => document.getElementById(id);
+const va = $('va'), vb = $('vb');
+let front = va, back = vb;
+let DATA = null, CAPS = {};
+let lang = 'zh';                 // 'zh' = bilingual, 'en' = English only
+let speed = 1, subsOn = true;
+let state = { node:null, part:0, memory:new Set(), path:[], checkpoint:null, waiting:false, ep:1 };
+
+try { const s = localStorage.getItem('nl-lang'); lang = s || ((navigator.language||'').toLowerCase().startsWith('zh') ? 'zh' : 'en'); } catch(e){}
+const txt = (zh,en) => lang==='en' ? en : zh;
+function applyLang(){ document.body.classList.toggle('lang-en', lang==='en'); $('mLangV').textContent = !subsOn ? txt('关闭','Off') : (lang==='en' ? 'English' : 'English + 中文'); }
+
+function setMode(m){ document.body.classList.remove('start','choosing','ended','playing','chatting'); document.body.classList.add(m); }
+setMode('start');
+function toast(msg, ms=2200){ const t=$('toast'); t.textContent=msg; t.hidden=false; clearTimeout(t._t); t._t=setTimeout(()=>t.hidden=true, ms); }
+
+// ---------- data ----------
+Promise.all([
+  fetch('player-data.json').then(r=>r.json()),
+  fetch('captions/clips.json').then(r=>r.json()).catch(()=>({clips:{}}))
+]).then(([d,c]) => {
+  DATA = d; CAPS = c.clips || {};
+  buildEpisodeMenu();
+  applyLang();
+  const q = new URLSearchParams(location.search);
+  if (q.get('shot') && DATA.nodes[q.get('shot')]) { $('startCard').hidden = true; play(q.get('shot')); }
+});
+
+const base = p => (p||'').split('/').pop();
+const cuesFor = src => CAPS['media/' + base(src)]?.cues || [];
+
+// ---------- episode helpers ----------
+const epOf = id => Number(String(id).slice(1,3));
+function episodeTitle(ep){ const e = DATA.episodes.find(x=>x.id===ep); return e ? e.title : ''; }
+function buildEpisodeMenu(){
+  const box = $('epList'); box.replaceChildren();
+  DATA.episodes.forEach(e => {
+    const b = document.createElement('button');
+    b.innerHTML = '<span>' + String(e.id).padStart(2,'0') + ' · ' + e.title + '</span>';
+    b.onclick = () => { $('menu').hidden = true; state.memory = new Set(); state.path = []; $('startCard').hidden = true; $('endCard').hidden = true; play(e.start); };
+    box.append(b);
+  });
 }
 
-function updateTransport(){
- $('#pause').textContent=v.paused?'▶':'Ⅱ';$('#pause').setAttribute('aria-label',v.paused?txt('播放','Play'):txt('暂停','Pause'));
- $('#progress').style.setProperty('--played',$('#progress').value+'%');
- if(current&&data){let ep=data.episodes.find(e=>Number(current.slice(1,3))===e.id);$('#chapterCaption').textContent=txt('第 '+ep.id+' 集 · '+ep.title,'EP '+String(ep.id).padStart(2,'0')+' · '+episodeTitle(ep,lang));}
-}
-function initPlayerLayout(){
- const trigger=$('#chapterToggle'),menu=$('#chapterMenu');
- function closeMenu(){menu.classList.add('hide');trigger.setAttribute('aria-expanded','false');}
- trigger.onclick=()=>{const hidden=menu.classList.contains('hide');menu.classList.toggle('hide',!hidden);trigger.setAttribute('aria-expanded',String(hidden));if(hidden){v.pause();updateTransport();menu.querySelectorAll('[data-jump]').forEach(b=>b.classList.toggle('active',Number(b.dataset.jump)===Number(current?.slice(1,3))));}};
- $('#chapterDismiss').onclick=closeMenu;
- const list=$('#chapterList');list.replaceChildren();data.episodes.forEach(ep=>{let b=document.createElement('button');b.dataset.jump=ep.id;b.textContent=String(ep.id).padStart(2,'0')+' · '+episodeTitle(ep,lang);b.onclick=()=>{closeMenu();standalone=false;playClip(ep.start,true);updateTransport()};list.append(b)});
- v.addEventListener('play',updateTransport);v.addEventListener('pause',updateTransport);v.addEventListener('timeupdate',updateTransport);v.addEventListener('ended',updateTransport);v.addEventListener('loadedmetadata',updateTransport);
- $('#language').classList.remove('hide');const prior=$('#language').onclick;$('#language').onclick=()=>{prior();saveLanguage(lang);localizeInteractive();updateTransport()};localizeInteractive();updateTransport();
+// ---------- conditional dialogue (memory variants) ----------
+function resolveMedia(id){
+  const n = DATA.nodes[id], m = DATA.media[id];
+  if (!m) return null;
+  const cond = n && n.conditional_dialogue;
+  if (cond && cond.length){
+    const pick = cond.find(x=>x.if && state.memory.has(x.if)) || cond.find(x=>x.else);
+    const variant = pick && DATA.media[id + '-memory-' + (pick.if || 'default')];
+    if (variant) return { clips:[variant.src], durations:[variant.duration || 0] };
+  }
+  return { clips: m.clips || [m.src], durations: m.durations || [m.duration || 0] };
 }
 
-function localizeInteractive(){
- document.documentElement.lang=lang;document.title=lang==='en'?'ONE NIGHT, NINE LIVES · Interactive Story':'ONE NIGHT, NINE LIVES · 互动剧';$('#language').textContent=lang==='en'?'ZH':'EN';
- $('#chapterMenu header span').textContent=txt('章节','Episodes');
- $('#chapterMenu a[href="episodes.html"]').textContent=txt('完整视频 · 播放与下载','Videos and downloads');
- $('#chapterMenu a[href="?view=production"]').textContent=txt('制作进度','Production progress');
- $('#chapterList').querySelectorAll('[data-jump]').forEach(b=>{const ep=data.episodes.find(e=>e.id===Number(b.dataset.jump));b.textContent=String(ep.id).padStart(2,'0')+' · '+episodeTitle(ep,lang)});
- for(const [id,zh,en] of [['chapterToggle','选择章节','Select episode'],['chapterDismiss','关闭章节菜单','Close episodes'],['language','切换语言','Change language'],['resume','继续播放','Resume'],['speed','播放速度','Playback speed'],['progress','当前章节进度','Episode progress']])$('#'+id).setAttribute('aria-label',txt(zh,en));
- if(waiting){$('#choices').querySelectorAll('button').forEach((b,i)=>{const o=data.nodes[current].interaction.options[i];b.textContent=txt(o.zh,o.en)})}
- window.dispatchEvent(new Event('playerlanguagechange'));
+// ---------- playback ----------
+let media = null, idleLoop = false;
+function play(id, opts={}){
+  const n = DATA.nodes[id]; if (!n) return;
+  state.node = id; state.part = 0; state.waiting = false; idleLoop = false;
+  state.ep = epOf(id);
+  if (n.memory) state.memory.add(n.memory);
+  media = resolveMedia(id);
+  if (!media){ toast(txt('这个镜头还没有生成。','This shot is not generated yet.')); return; }
+  $('epLabel').textContent = String(state.ep).padStart(2,'0') + ' / 06';
+  $('chap').textContent = 'EP ' + String(state.ep).padStart(2,'0') + ' · ' + episodeTitle(state.ep);
+  $('sheet').classList.remove('show'); $('chat').hidden = true;
+  setMode('playing');
+  startPart(0, opts.at || 0);
+}
+function startPart(i, at=0){
+  state.part = i;
+  const el = back;                       // the element that will play this part
+  el.src = media.clips[i];
+  el.playbackRate = speed;
+  el.ontimeupdate = () => tick(el);
+  el.onended = () => partEnded(el);
+  el.onplaying = () => {
+    if (front !== el) { front.classList.remove('on'); front.pause(); el.classList.add('on'); back = front; front = el; }
+    el.onplaying = null;
+    preloadNext();
+  };
+  const go = () => { try { if (at) el.currentTime = at; } catch(e){} el.play().catch(() => { el.classList.add('on'); front = el; setPaused(true); }); };
+  if (el.readyState >= 1) go(); else el.onloadedmetadata = go;
+}
+function partEnded(el){
+  if (el !== front) return;
+  if (idleLoop) { el.currentTime = 0; el.play().catch(()=>{}); return; }
+  if (state.part + 1 < media.clips.length) { startPart(state.part + 1); return; }
+  nodeDone();
+}
+function preloadNext(){
+  const nxt = media.clips[state.part + 1];
+  if (nxt && back && back !== front) { back.src = nxt; }
+}
+function tick(el){
+  el = el || front;
+  const d = el.duration || 0, c = el.currentTime || 0;
+  const before = media ? media.durations.slice(0, state.part).reduce((a,b)=>a+(b||0),0) : 0;
+  const total = media ? media.durations.reduce((a,b)=>a+(b||0),0) || d : d;
+  $('fill').style.width = total ? Math.min(100, 100*(before+c)/total) + '%' : '0%';
+  renderCue(c, el);
+}
+function renderCue(t, vid){
+  vid = vid || front;
+  const el = $('subs');
+  if (state.waiting) return;            // keep the free-text reply on screen
+  if (!subsOn) { el.replaceChildren(); return; }
+  const cues = cuesFor(vid.currentSrc || vid.src);
+  const cur = cues.find(q => t*1000 >= q.startMs && t*1000 <= q.endMs);
+  if (!cur) { el.replaceChildren(); return; }
+  if (el._k === cur.startMs + (cur.en||'')) return;
+  el._k = cur.startMs + (cur.en||'');
+  el.replaceChildren();
+  const who = document.createElement('div'); who.className='who'; who.textContent = cur.speaker || '';
+  const en = document.createElement('div'); en.className='en'; en.textContent = cur.en || '';
+  const zh = document.createElement('div'); zh.className='zh'; zh.textContent = cur.zh || '';
+  el.classList.toggle('you', (cur.speaker||'') === 'June');
+  if (cur.speaker) el.append(who);
+  el.append(en); if (cur.zh) el.append(zh);
 }
 
-function episodeTimeline(){
- const ep=Number(current?.slice(1,3)),past=history.filter(h=>Number(h.id.slice(1,3))===ep),flags=new Set(memory);
- const duration=id=>{const n=data.nodes[id],m=data.media[id];let c=n?.conditional_dialogue?.find(x=>x.if&&flags.has(x.if))||n?.conditional_dialogue?.find(x=>x.else);let variant=c&&data.media[id+'-memory-'+(c.if||'default')];return variant?.duration||(m?.durations||[]).reduce((a,b)=>a+b,0)||n?.seconds||0;};
- const entries=past.map(h=>({id:h.id,duration:duration(h.id)}));let next=data.nodes[current]?.next||[],seen=new Set(past.map(h=>h.id)),estimated=false;
- while(next.length){if(next.length>1)estimated=true;const id=next[0];if(seen.has(id)||Number(id.slice(1,3))!==ep)break;seen.add(id);entries.push({id,duration:duration(id)});if(!data.media[id])estimated=true;let n=data.nodes[id];if(n.memory)flags.add(n.memory);next=n.next;}
- const ds=data.media[current]?.durations||[v.duration||0],elapsed=entries.slice(0,Math.max(0,past.length-1)).reduce((a,h)=>a+h.duration,0),part=ds.slice(0,partIndex).reduce((a,b)=>a+b,0);
- return {entries,past,elapsed,position:elapsed+part+(waiting?ds.reduce((a,b)=>a+b,0):(v.currentTime||0)),total:entries.reduce((a,h)=>a+h.duration,0),estimated};
-}
-function updateEpisodeClock(){
- if(!current||!data.nodes[current])return;const t=episodeTimeline();$('#clock').textContent=time(t.position/NORMAL_PACE)+' / '+(t.estimated?'≈ ':'')+time(t.total/NORMAL_PACE);$('#progress').value=t.total?100*t.position/t.total:0;
-}
-function seekEpisode(){
- const t=episodeTimeline(),at=t.total*Number($('#progress').value)/100;let acc=0;
- for(const h of t.past){if(at<acc+h.duration){let target=at-acc;// Node ids are unique in this acyclic story graph.
- const index=history.findIndex(x=>x.id===h.id);history=history.slice(0,index);memory.clear();history.forEach(x=>{if(data.nodes[x.id].memory)memory.add(data.nodes[x.id].memory)});playClip(h.id);
- const ds=data.media[h.id].durations;let idx=0;while(idx<ds.length-1&&target>=ds[idx])target-=ds[idx++];partIndex=idx;v.src=data.media[h.id].clips[idx];v.addEventListener('loadedmetadata',()=>{v.currentTime=target;v.play().catch(()=>{})},{once:true});return;}acc+=h.duration;}
- // Future branch choices must be made by the player, not silently selected by seeking.
- updateEpisodeClock();
+function nodeDone(){
+  const n = DATA.nodes[state.node];
+  if (n.interaction) return showChoice(n);
+  if (n.next && n.next.length) return play(n.next[0]);
+  endOfEpisode(n);
 }
 
-function playClip(id,reset=false){if(!data.nodes[id])return;seq++;waiting=false;clearOverlays();if(reset){history=[];memory.clear()}current=id;partIndex=0;prepareMemory(id);let n=data.nodes[id],e=data.episodes.find(e=>id.startsWith('P'+String(e.id).padStart(2,'0')));$('#epTitle').textContent=String(e.id).padStart(2,'0')+' / 06';$('#viewer').classList.add('open');document.querySelector('main').inert=true;if(!data.media[id]){v.pause();v.removeAttribute('src');v.load();message(txt('这个镜头尚未生成。完整剧集制作未完成，不能跳过镜头继续冒充完整播放。','This shot is not generated yet. Full production is incomplete.'));return}v.loop=false;v.src=data.media[id].src;preload.src=data.media[id].clips?.[1]||'';setPlaybackPace(v,$('#speed').value);v.play().catch(()=>{$('#resume').classList.remove('hide');updateTransport()});history.push({id,duration:0});$('#pause').textContent='Ⅱ'}
-function choiceScreen(){let n=data.nodes[current];waiting=true;$('#sub').replaceChildren();let w=data.media[current+'-wait'];if(w){v.src=w.src;v.loop=true;v.play().catch(()=>{})}else{message(txt('互动等待视频尚未完成，当前仅供分支接线审阅，不作为正式等待画面。','The idle animation is not ready. Branch wiring preview only.'))}n.interaction.options.forEach(o=>{let b=document.createElement('button');b.textContent=lang==='zh'?o.zh:o.en;b.onclick=()=>{if(!waiting)return;waiting=false;playClip(o.target)};$('#choices').append(b)})}
-v.onended=()=>{if(waiting)return;let clips=data.media[current]?.clips||[];if(partIndex+1<clips.length){partIndex++;v.src=clips[partIndex];preload.src=clips[partIndex+1]||'';v.play().catch(()=>{$('#resume').classList.remove('hide');updateTransport()});return;}let n=data.nodes[current];if(n.memory)memory.add(n.memory);if(n.interaction)return choiceScreen();if(standalone&&n.next.length){message(txt('本段候选播放结束。','Candidate clip ended.'));return}if(n.next.length===1){playClip(n.next[0]);return}episodeEnd(n)};
-v.ontimeupdate=updateEpisodeClock;
-function toggle(){if(!v.src)return;if(v.paused){v.play().catch(()=>{});$('#resume').classList.add('hide');$('#pause').textContent='Ⅱ'}else{v.pause();$('#resume').classList.remove('hide');$('#pause').textContent='▶'}}v.onclick=toggle;$('#pause').onclick=toggle;$('#resume').onclick=toggle;$('#close').onclick=()=>{v.pause();$('#viewer').classList.remove('open')};$('#speed').onchange=()=>setPlaybackPace(v,$('#speed').value);$('#language').onclick=()=>{lang=lang==='zh'?'en':'zh';$('#language').textContent=lang==='zh'?'EN':'ZH'};if(lang==='en')$('#language').classList.add('hide');
-$('#progress').onchange=seekEpisode;
-fetch('player-data.json').then(r=>r.json()).then(j=>{data=j;initPlayerLayout();let requested=new URLSearchParams(location.search).get('shot');if(requested&&data.nodes[requested]){standalone=true;playClip(requested,true)}else if(new URLSearchParams(location.search).get('view')!=='production'){standalone=false;playClip(data.episodes[0].start,true)}document.querySelectorAll('[data-play]').forEach(b=>b.onclick=()=>{standalone=true;playClip(b.dataset.play,true)});document.querySelectorAll('[data-episode]').forEach(b=>b.onclick=()=>{standalone=false;playClip(data.episodes.find(e=>e.id===Number(b.dataset.episode)).start,true)})});
-</script><script src="caption-runtime.js"></script><script>
-attachDialogueCaptions({video:v,element:document.querySelector('#sub'),button:document.querySelector('#captionToggle'),source:()=>({url:'captions/clips.json',clip:'media/'+decodeURIComponent((v.currentSrc||v.src).split('/').pop().split('?')[0]),silent:waiting})});
-</script></html>
+// ---------- pause / seek ----------
+function setPaused(p){
+  $('paused').hidden = !p;
+  $('playIco').innerHTML = p ? '<path d="M8 5.5v13l10.5-6.5z"/>' : '<path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/>';
+  if (p) front.pause(); else front.play().catch(()=>{});
+}
+$('playBtn').onclick = () => setPaused(!front.paused ? true : false);
+$('stage').addEventListener('click', e => {
+  if (e.target.closest('#bar,#sheet,#menu,#top,.card,#chat')) return;
+  if (document.body.classList.contains('playing')) setPaused(!front.paused ? true : false);
+});
+$('track').onclick = e => {
+  if (!media) return;
+  const r = e.currentTarget.getBoundingClientRect();
+  const p = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width));
+  const total = media.durations.reduce((a,b)=>a+(b||0),0);
+  let want = p * total, i = 0;
+  while (i < media.durations.length - 1 && want > media.durations[i]) { want -= media.durations[i]; i++; }
+  if (i === state.part) front.currentTime = want; else startPart(i, want);
+};
+
+// ---------- choice ----------
+function showChoice(n){
+  state.waiting = true; idleLoop = false;
+  state.checkpoint = state.node;
+  const idle = DATA.media[n.id + '-wait'];
+  if (idle) { media = { clips:[idle.src], durations:[idle.duration || 4] }; idleLoop = true; startPart(0); }
+  else { front.pause(); }
+  setMode('choosing');
+  const q = n.interaction;
+  $('cue').innerHTML = q.question ? ('<span>' + esc(q.question) + '</span>') : '';
+  const box = $('opts'); box.replaceChildren();
+  box.style.display = 'flex'; box.style.flexDirection = 'column'; box.style.gap = '9px';
+  (q.options || []).forEach(o => {
+    const b = document.createElement('button'); b.className = 'opt'; b.dataset.target = o.target;
+    b.innerHTML = '<span class="en">' + esc(o.en) + '</span><span class="zh">' + esc(o.zh) + '</span>';
+    b.onclick = () => choose(o);
+    box.append(b);
+  });
+  $('sayLog').replaceChildren();
+  $('sayIn').value = '';
+  $('sayNote').textContent = txt('也可以直接打字跟他说话。', 'Or type your own line.');
+  $('sheet').classList.add('show');
+  $('subs').replaceChildren();
+}
+function choose(o){
+  state.path.push({ ep: state.ep, en: o.en, zh: o.zh });
+  $('sheet').classList.remove('show');
+  state.waiting = false;
+  play(o.target);
+}
+const esc = s => String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+// ---------- free text: local intents now, realtime model later ----------
+// Set window.NINE_LIVES_REALTIME = { url:"https://…" } to hand free text to a live model.
+// It receives {node, text, lang, memory, options} and may answer {reply:{en,zh}, target:"<node id>"}.
+window.NINE_LIVES_REALTIME = window.NINE_LIVES_REALTIME || { url: null };
+const LOCAL = [
+  { kw:['name','who are you','你是谁','名字','你叫'], en:"Rhys. The rest of the title takes longer.", zh:"Rhys。剩下那串头衔说起来比较久。" },
+  { kw:['cat','ears','tail','猫','耳朵','尾巴'], en:"Yes. Ears at sunrise, this at sunset. I didn't design it.", zh:"对。日出是耳朵，日落是这个。规矩不是我定的。" },
+  { kw:['leave','go','get out','滚','走','离开','出去'], en:"Say it once more and I will. I'd rather you didn't.", zh:"你再说一次我就走。不过我希望你别说。" },
+  { kw:['stay','留下','别走'], en:"Then say it like you mean it. I'm listening.", zh:"那就说得认真一点。我听着。" },
+  { kw:['kiss','love','like you','喜欢','吻','亲'], en:"Careful. I remember everything said in this kitchen.", zh:"小心点。在这间厨房里说过的话，我都记得。" },
+  { kw:['afraid','scared','怕','害怕'], en:"You're allowed to be. I'll keep the table between us.", zh:"你可以害怕。我会让这张桌子一直隔在中间。" },
+  { kw:['rule','rules','规矩','条款'], en:"Three rules. I've read them. Twice.", zh:"三条规矩。我读过了，两遍。" },
+  { kw:['court','prince','王庭','王子','殿下'], en:"A court that still thinks I belong to it. We'll get to that.", zh:"一个还觉得我属于它的王庭。这事以后再说。" }
+];
+const FALLBACK = [
+  { en:"That isn't on the list. Pick one, or say it plainer.", zh:"这不在选项里。挑一个，或者说得再直白些。" },
+  { en:"I heard you. The kitchen is still cold. Choose.", zh:"我听见了。厨房还是很冷。做个决定吧。" }
+];
+function matchOption(text){
+  const n = DATA.nodes[state.node]; const t = text.toLowerCase();
+  let best = null, score = 0;
+  (n.interaction.options || []).forEach(o => {
+    const words = (o.en + ' ' + o.zh).toLowerCase().split(/[^a-z一-龥]+/).filter(w => w.length > 2);
+    const hit = words.filter(w => t.includes(w)).length;
+    if (hit > score) { score = hit; best = o; }
+  });
+  return score ? best : null;
+}
+$('say').addEventListener('submit', async e => {
+  e.preventDefault();
+  const text = $('sayIn').value.trim(); if (!text) return;
+  $('sayIn').value = '';
+  showSaid(text);
+  const cfg = window.NINE_LIVES_REALTIME;
+  if (cfg && cfg.url) {
+    $('sayNote').innerHTML = '<span class="dots"><i></i><i></i><i></i></span>';
+    try {
+      const n = DATA.nodes[state.node];
+      const r = await fetch(cfg.url, { method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ node: state.node, text, lang, memory:[...state.memory], options:(n.interaction.options||[]) }) });
+      const j = await r.json();
+      if (j.reply) sayReply(j.reply);
+      if (j.target && DATA.nodes[j.target]) { setTimeout(()=>{ state.path.push({ep:state.ep, en:text, zh:text}); $('sheet').classList.remove('show'); state.waiting=false; play(j.target); }, 1400); return; }
+      $('sayNote').textContent = txt('他在等你从上面选一个。','He is still waiting for one of the options above.');
+      return;
+    } catch (err) { $('sayNote').textContent = txt('实时模型没有连上，先用本地回应。','Realtime model unreachable — local reply.'); }
+  }
+  const t = text.toLowerCase();
+  const hit = LOCAL.find(x => x.kw.some(k => t.includes(k)));
+  const sug = matchOption(text);
+  sayReply(hit || FALLBACK[Math.floor(Math.random()*FALLBACK.length)]);
+  if (sug) {
+    [...$('opts').children].forEach(b => b.classList.toggle('hint', b.dataset.target === sug.target));
+    $('sayNote').textContent = txt('这句话最接近高亮的那个选项。','That is closest to the highlighted option.');
+  } else {
+    $('sayNote').textContent = txt('也可以直接打字跟他说话。','Or type your own line.');
+  }
+});
+function sayBubble(cls, en, zh){
+  const log = $('sayLog');
+  const d = document.createElement('div'); d.className = 'msg ' + cls;
+  d.innerHTML = esc(en || '') + (zh ? '<span class="zh">' + esc(zh) + '</span>' : '');
+  log.append(d);
+  while (log.children.length > 6) log.firstChild.remove();
+  log.scrollTop = 1e9;
+}
+function showSaid(text){ sayBubble('me', text, ''); }
+function sayReply(r){ sayBubble('him', r.en || '', r.zh || ''); }
+
+// ---------- end of episode: chat, then next episode or ending ----------
+const ENDINGS = {
+  'P06-A05': { kicker:{zh:'结局 1 / 3',en:'Ending 1 of 3'}, title:'An Ordinary <em>Morning</em>',
+    line:{en:"He stayed, and the morning is unremarkable on purpose. Two mugs, one cat, no court.",zh:'他留下了，而这个早晨刻意地普通。两只杯子，一只猫，没有王庭。'} },
+  'P06-B06': { kicker:{zh:'结局 2 / 3',en:'Ending 2 of 3'}, title:'Both Forms <em>Free</em>',
+    line:{en:"No more sunrise curfew. He comes and goes as himself — whichever self that is.",zh:'再没有日出的期限。他以自己的样子来去，不管那是哪一种形态。'} },
+  'P06-C05': { kicker:{zh:'结局 3 / 3',en:'Ending 3 of 3'}, title:'What He <em>Took With Him</em>',
+    line:{en:"He went back and paid for it himself. A letter arrives, and the handwriting is his.",zh:'他回去了，并且自己承担了代价。后来一封信寄到，笔迹是他的。'} }
+};
+function endOfEpisode(n){
+  const ep = epOf(n.id);
+  let chat = (DATA.chats || []).find(c => c.episode === ep);
+  if (chat && chat.routes) { const m = n.id.match(/^P06-([ABC])/); chat = m ? chat.routes[m[1]] : null; }
+  const ending = ENDINGS[n.id];
+  front.pause();
+  if (!chat) return ending ? showEnding(n) : nextEpisode(ep);
+  setMode('chatting');
+  $('chat').hidden = false;
+  const log = $('chatLog'), opts = $('chatOpts');
+  log.replaceChildren(); opts.replaceChildren();
+  const opening = chat.opening || (chat.opening_if || []).find(x => x.flag && state.memory.has(x.flag)) || (chat.opening_if || []).find(x => x.else);
+  bubble(log, 'him', opening);
+  (chat.options || []).forEach(o => {
+    const b = document.createElement('button'); b.className = 'opt';
+    b.innerHTML = '<span class="en">' + esc(o.en) + '</span><span class="zh">' + esc(o.zh) + '</span>';
+    b.onclick = () => {
+      opts.replaceChildren();
+      bubble(log, 'me', o);
+      setTimeout(() => { bubble(log, 'him', o.reply); setTimeout(() => finishChat(ep, n), 700); }, 650);
+    };
+    opts.append(b);
+  });
+}
+function bubble(log, cls, content){
+  if (!content) return;
+  const d = document.createElement('div'); d.className = 'msg ' + cls;
+  d.innerHTML = esc(content.en || '') + (content.zh ? '<span class="zh">' + esc(content.zh) + '</span>' : '');
+  log.append(d); log.scrollTop = 1e9;
+}
+function finishChat(ep, n){
+  const opts = $('chatOpts'); opts.replaceChildren();
+  const b = document.createElement('button'); b.className = 'cta';
+  if (ENDINGS[n.id]) { b.textContent = txt('看结局','See the ending'); b.onclick = () => { $('chat').hidden = true; showEnding(n); }; }
+  else { b.textContent = txt('继续第 ' + (ep+1) + ' 集', 'Continue to episode ' + (ep+1)); b.onclick = () => { $('chat').hidden = true; nextEpisode(ep); }; }
+  opts.append(b);
+}
+function nextEpisode(ep){
+  const next = DATA.episodes.find(e => e.id === ep + 1);
+  if (next) play(next.start); else { setMode('ended'); $('endCard').hidden = false; }
+}
+function showEnding(n){
+  const e = ENDINGS[n.id] || { kicker:{zh:'完',en:'The End'}, title:'The <em>End</em>', line:{en:'',zh:''} };
+  setMode('ended');
+  $('endKicker').textContent = txt(e.kicker.zh, e.kicker.en);
+  $('endTitle').innerHTML = e.title;
+  $('endLine').textContent = e.line.en || '';
+  $('endLineZh').textContent = e.line.zh || '';
+  const path = $('endPath'); path.replaceChildren();
+  state.path.forEach(p => {
+    const li = document.createElement('li');
+    li.innerHTML = '<b>EP' + String(p.ep).padStart(2,'0') + '</b><span>' + esc(p.en) + '<span class="zh">' + esc(p.zh) + '</span></span>';
+    path.append(li);
+  });
+  $('endCard').hidden = false;
+}
+$('endBack').onclick = () => { $('endCard').hidden = true; if (state.checkpoint) { state.path.pop(); play(state.checkpoint, {at: 1e9}); setTimeout(()=>{ const nn=DATA.nodes[state.checkpoint]; if(nn&&nn.interaction) showChoice(nn); }, 300); } };
+$('endReplay').onclick = () => { $('endCard').hidden = true; play(state.node); };
+$('endRestart').onclick = () => { $('endCard').hidden = true; state.memory = new Set(); state.path = []; play(DATA.episodes[0].start); };
+
+// ---------- menu ----------
+$('menuBtn').onclick = () => { const m = $('menu'); m.hidden = !m.hidden; $('menuBtn').setAttribute('aria-expanded', String(!m.hidden)); };
+$('mLang').onclick = () => {
+  if (subsOn && lang === 'zh') lang = 'en';
+  else if (subsOn && lang === 'en') subsOn = false;
+  else { subsOn = true; lang = 'zh'; }
+  try { localStorage.setItem('nl-lang', lang); } catch(e){}
+  applyLang(); $('subs')._k = null;
+};
+$('mSpeed').onclick = () => {
+  const steps = [1, 1.25, 1.5, 0.75];
+  speed = steps[(steps.indexOf(speed) + 1) % steps.length];
+  front.playbackRate = speed; back.playbackRate = speed;
+  $('mSpeedV').textContent = speed + '×';
+};
+$('mBack').onclick = () => { $('menu').hidden = true; if (state.checkpoint) { state.path.pop(); const nn = DATA.nodes[state.checkpoint]; play(state.checkpoint); setTimeout(()=>{ if (nn.interaction) showChoice(nn); }, 400); } else toast(txt('还没有做过选择。','No choice made yet.')); };
+$('mRestart').onclick = () => { $('menu').hidden = true; const e = DATA.episodes.find(x => x.id === state.ep); if (e) play(e.start); };
+$('startBtn').onclick = () => { $('startCard').hidden = true; play(DATA.episodes[0].start); };
+document.addEventListener('keydown', e => { if (e.key === ' ' && document.body.classList.contains('playing')) { e.preventDefault(); setPaused(!front.paused); } });
+})();
+</script>
