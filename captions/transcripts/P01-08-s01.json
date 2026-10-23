@@ -1,0 +1,21 @@
+{
+  "source": "media/P01-08-s01.mp4",
+  "sha256": "3f655ca743854568937cf7eab0a3f7e44cddf8cc1a9831eeae4ef4e495d85351",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.72,
+      "end": 4.12,
+      "text": " .",
+      "no_speech_prob": 0.6061496734619141,
+      "words": [
+        {
+          "word": " .",
+          "start": 2.72,
+          "end": 4.12,
+          "probability": 0.020263804122805595
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "source": "media/P06-A03-r2-s01.mp4",
+  "sha256": "53d92e7f288502d21f4c317aaf6bda49f9a21d9899d793c05644f0e556185e2f",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.26,
+      "text": " My only title now might be Your Roommate.",
+      "no_speech_prob": 0.16257250308990479,
+      "words": [
+        {
+          "word": " My",
+          "start": 0.0,
+          "end": 1.32,
+          "probability": 0.817244827747345
+        },
+        {
+          "word": " only",
+          "start": 1.32,
+          "end": 1.54,
+          "probability": 0.990221381187439
+        },
+        {
+          "word": " title",
+          "start": 1.54,
+          "end": 1.86,
+          "probability": 0.9942635893821716
+        },
+        {
+          "word": " now",
+          "start": 1.86,
+          "end": 2.16,
+          "probability": 0.9824270009994507
+        },
+        {
+          "word": " might",
+          "start": 2.16,
+          "end": 2.38,
+          "probability": 0.9894899725914001
+        },
+        {
+          "word": " be",
+          "start": 2.38,
+          "end": 3.12,
+          "probability": 0.9984630346298218
+        },
+        {
+          "word": " Your",
+          "start": 3.12,
+          "end": 3.72,
+          "probability": 0.26477760076522827
+        },
+        {
+          "word": " Roommate.",
+          "start": 3.72,
+          "end": 4.26,
+          "probability": 0.8152734835942587
+        }
+      ]
+    }
+  ]
+}

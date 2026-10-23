@@ -1,0 +1,45 @@
+{
+  "source": "media/P01-12b-s02.mp4",
+  "sha256": "634d9578fd256bd3cc28c54f540b2f86bafb8f901490fb8e895a25e0d494cc0f",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.620000000000001,
+      "end": 5.72,
+      "text": " That would ruin my references.",
+      "no_speech_prob": 0.07254836708307266,
+      "words": [
+        {
+          "word": " That",
+          "start": 3.620000000000001,
+          "end": 4.300000000000001,
+          "probability": 0.5925654768943787
+        },
+        {
+          "word": " would",
+          "start": 4.300000000000001,
+          "end": 4.98,
+          "probability": 0.9888855218887329
+        },
+        {
+          "word": " ruin",
+          "start": 4.98,
+          "end": 5.16,
+          "probability": 0.9903271794319153
+        },
+        {
+          "word": " my",
+          "start": 5.16,
+          "end": 5.34,
+          "probability": 0.9983464479446411
+        },
+        {
+          "word": " references.",
+          "start": 5.34,
+          "end": 5.72,
+          "probability": 0.9942850470542908
+        }
+      ]
+    }
+  ]
+}

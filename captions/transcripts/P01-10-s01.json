@@ -1,0 +1,39 @@
+{
+  "source": "media/P01-10-s01.mp4",
+  "sha256": "20b1242e397966dfcbb04d6dac9f610c800b959a8f1a3825c9ddedc07d10b56f",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.1800000000000004,
+      "end": 2.54,
+      "text": " You said one night.",
+      "no_speech_prob": 0.2231425642967224,
+      "words": [
+        {
+          "word": " You",
+          "start": 1.1800000000000004,
+          "end": 1.78,
+          "probability": 0.643916130065918
+        },
+        {
+          "word": " said",
+          "start": 1.78,
+          "end": 2.0,
+          "probability": 0.8634896874427795
+        },
+        {
+          "word": " one",
+          "start": 2.0,
+          "end": 2.24,
+          "probability": 0.9139462113380432
+        },
+        {
+          "word": " night.",
+          "start": 2.24,
+          "end": 2.54,
+          "probability": 0.9863588213920593
+        }
+      ]
+    }
+  ]
+}

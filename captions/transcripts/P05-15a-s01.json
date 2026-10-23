@@ -1,0 +1,51 @@
+{
+  "source": "media/P05-15a-s01.mp4",
+  "sha256": "06a07ce223ddc2466fa73c59a5c98fedbc30eacc9cf5b0290fe2035e41dba6ea",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.34,
+      "text": " Stay, but protect the pillows first.",
+      "no_speech_prob": 0.1963382065296173,
+      "words": [
+        {
+          "word": " Stay,",
+          "start": 0.0,
+          "end": 0.94,
+          "probability": 0.8521695733070374
+        },
+        {
+          "word": " but",
+          "start": 1.74,
+          "end": 2.14,
+          "probability": 0.978282630443573
+        },
+        {
+          "word": " protect",
+          "start": 2.14,
+          "end": 2.42,
+          "probability": 0.9981173276901245
+        },
+        {
+          "word": " the",
+          "start": 2.42,
+          "end": 2.58,
+          "probability": 0.997170627117157
+        },
+        {
+          "word": " pillows",
+          "start": 2.58,
+          "end": 2.9,
+          "probability": 0.9319256842136383
+        },
+        {
+          "word": " first.",
+          "start": 2.9,
+          "end": 3.34,
+          "probability": 0.9982652068138123
+        }
+      ]
+    }
+  ]
+}

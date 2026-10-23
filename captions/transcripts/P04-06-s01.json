@@ -1,0 +1,39 @@
+{
+  "source": "media/P04-06-s01.mp4",
+  "sha256": "2f1ad3c61c819113832f21ccf0990d53674f166fb7525e88d0ee6e4be38c98aa",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.22,
+      "text": " Tell Selena I'll attend.",
+      "no_speech_prob": 0.1701350212097168,
+      "words": [
+        {
+          "word": " Tell",
+          "start": 0.0,
+          "end": 1.32,
+          "probability": 0.6568940281867981
+        },
+        {
+          "word": " Selena",
+          "start": 1.32,
+          "end": 1.74,
+          "probability": 0.7799095213413239
+        },
+        {
+          "word": " I'll",
+          "start": 1.74,
+          "end": 1.96,
+          "probability": 0.9867955148220062
+        },
+        {
+          "word": " attend.",
+          "start": 1.96,
+          "end": 2.22,
+          "probability": 0.9968780279159546
+        }
+      ]
+    }
+  ]
+}

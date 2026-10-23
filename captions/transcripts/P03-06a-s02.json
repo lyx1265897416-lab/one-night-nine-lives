@@ -1,0 +1,57 @@
+{
+  "source": "media/P03-06a-s02.mp4",
+  "sha256": "a66f1ad1b24f3d2e69521587fc8e1f913a4d84e50ec155e313b6ad5e47df7841",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 5.279999999999999,
+      "end": 6.82,
+      "text": " I may need to review the accounts",
+      "no_speech_prob": 0.07893509417772293,
+      "words": [
+        {
+          "word": " I",
+          "start": 5.279999999999999,
+          "end": 5.68,
+          "probability": 0.69890958070755
+        },
+        {
+          "word": " may",
+          "start": 5.68,
+          "end": 5.8,
+          "probability": 0.9421424865722656
+        },
+        {
+          "word": " need",
+          "start": 5.8,
+          "end": 5.98,
+          "probability": 0.9971574544906616
+        },
+        {
+          "word": " to",
+          "start": 5.98,
+          "end": 6.1,
+          "probability": 0.9982976317405701
+        },
+        {
+          "word": " review",
+          "start": 6.1,
+          "end": 6.3,
+          "probability": 0.9962893724441528
+        },
+        {
+          "word": " the",
+          "start": 6.3,
+          "end": 6.5,
+          "probability": 0.9973446726799011
+        },
+        {
+          "word": " accounts",
+          "start": 6.5,
+          "end": 6.82,
+          "probability": 0.9410144090652466
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "source": "media/P02-05b-r7-s02.mp4",
+  "sha256": "1c7451ebfdd3ceb6d428f28f74aeb442af4750e49fac5c5b19dc24bc16c879b8",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.8199999999999998,
+      "end": 3.72,
+      "text": " I love your administrative power.",
+      "no_speech_prob": 0.10601143538951874,
+      "words": [
+        {
+          "word": " I",
+          "start": 1.8199999999999998,
+          "end": 2.56,
+          "probability": 0.7975645661354065
+        },
+        {
+          "word": " love",
+          "start": 2.56,
+          "end": 2.72,
+          "probability": 0.9714810848236084
+        },
+        {
+          "word": " your",
+          "start": 2.72,
+          "end": 2.86,
+          "probability": 0.996457040309906
+        },
+        {
+          "word": " administrative",
+          "start": 2.86,
+          "end": 3.3,
+          "probability": 0.9784489870071411
+        },
+        {
+          "word": " power.",
+          "start": 3.3,
+          "end": 3.72,
+          "probability": 0.9984538555145264
+        }
+      ]
+    }
+  ]
+}

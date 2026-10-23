@@ -1,0 +1,57 @@
+{
+  "source": "media/P02-06-r7-s01.mp4",
+  "sha256": "2b080600aeeaa4e448d16b79db0437faccd764052e68cd8b538c474f72ca1776",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.54,
+      "text": " Before the eclipse, make him answer you.",
+      "no_speech_prob": 0.36251503229141235,
+      "words": [
+        {
+          "word": " Before",
+          "start": 0.0,
+          "end": 1.24,
+          "probability": 0.6908779740333557
+        },
+        {
+          "word": " the",
+          "start": 1.24,
+          "end": 1.42,
+          "probability": 0.976936399936676
+        },
+        {
+          "word": " eclipse,",
+          "start": 1.42,
+          "end": 1.76,
+          "probability": 0.6499277949333191
+        },
+        {
+          "word": " make",
+          "start": 2.5,
+          "end": 2.58,
+          "probability": 0.9767433404922485
+        },
+        {
+          "word": " him",
+          "start": 2.58,
+          "end": 2.72,
+          "probability": 0.9967856407165527
+        },
+        {
+          "word": " answer",
+          "start": 2.72,
+          "end": 2.98,
+          "probability": 0.9987897276878357
+        },
+        {
+          "word": " you.",
+          "start": 2.98,
+          "end": 3.54,
+          "probability": 0.9987785220146179
+        }
+      ]
+    }
+  ]
+}

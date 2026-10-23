@@ -1,0 +1,69 @@
+{
+  "source": "media/P04-08-s01.mp4",
+  "sha256": "f85831169f481f6492da903c1a8a004a7e2bd565172e83d2f2a2de52576862b6",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.5399999999999996,
+      "end": 5.12,
+      "text": " You can take off the jacket. Not the question.",
+      "no_speech_prob": 0.08082322776317596,
+      "words": [
+        {
+          "word": " You",
+          "start": 1.5399999999999996,
+          "end": 2.18,
+          "probability": 0.8574620485305786
+        },
+        {
+          "word": " can",
+          "start": 2.18,
+          "end": 2.32,
+          "probability": 0.997492790222168
+        },
+        {
+          "word": " take",
+          "start": 2.32,
+          "end": 2.48,
+          "probability": 0.9981404542922974
+        },
+        {
+          "word": " off",
+          "start": 2.48,
+          "end": 2.66,
+          "probability": 0.9875427484512329
+        },
+        {
+          "word": " the",
+          "start": 2.66,
+          "end": 2.8,
+          "probability": 0.9975647926330566
+        },
+        {
+          "word": " jacket.",
+          "start": 2.8,
+          "end": 3.12,
+          "probability": 0.9983264803886414
+        },
+        {
+          "word": " Not",
+          "start": 4.24,
+          "end": 4.58,
+          "probability": 0.9912376403808594
+        },
+        {
+          "word": " the",
+          "start": 4.58,
+          "end": 4.74,
+          "probability": 0.9974735379219055
+        },
+        {
+          "word": " question.",
+          "start": 4.74,
+          "end": 5.12,
+          "probability": 0.9868316650390625
+        }
+      ]
+    }
+  ]
+}

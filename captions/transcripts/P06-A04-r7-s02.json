@@ -1,0 +1,69 @@
+{
+  "source": "media/P06-A04-r7-s02.mp4",
+  "sha256": "dcf319cb83058fa86ba65aac641cc83d98a97275caa49f808e9208c03fd24242",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.6600000000000006,
+      "end": 4.78,
+      "text": " I can only promise one is a good thing",
+      "no_speech_prob": 0.16994117200374603,
+      "words": [
+        {
+          "word": " I",
+          "start": 2.6600000000000006,
+          "end": 3.1,
+          "probability": 0.726039707660675
+        },
+        {
+          "word": " can",
+          "start": 3.1,
+          "end": 3.22,
+          "probability": 0.9609116911888123
+        },
+        {
+          "word": " only",
+          "start": 3.22,
+          "end": 3.44,
+          "probability": 0.9966999888420105
+        },
+        {
+          "word": " promise",
+          "start": 3.44,
+          "end": 3.76,
+          "probability": 0.9969907999038696
+        },
+        {
+          "word": " one",
+          "start": 3.76,
+          "end": 4.04,
+          "probability": 0.9807754755020142
+        },
+        {
+          "word": " is",
+          "start": 4.04,
+          "end": 4.16,
+          "probability": 0.9907953143119812
+        },
+        {
+          "word": " a",
+          "start": 4.16,
+          "end": 4.3,
+          "probability": 0.9955750703811646
+        },
+        {
+          "word": " good",
+          "start": 4.3,
+          "end": 4.4,
+          "probability": 0.9994186162948608
+        },
+        {
+          "word": " thing",
+          "start": 4.4,
+          "end": 4.78,
+          "probability": 0.9989894032478333
+        }
+      ]
+    }
+  ]
+}

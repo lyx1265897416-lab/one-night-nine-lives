@@ -1,0 +1,69 @@
+{
+  "source": "media/P06-B05-s01.mp4",
+  "sha256": "f004c4aa653060431b426529ded225347c0815cf69c05a56cc9e3a1d9ba31aed",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 7.9,
+      "end": 10.02,
+      "text": " Oh my god, I'm so sorry, I'm so sorry.",
+      "no_speech_prob": 0.49765264987945557,
+      "words": [
+        {
+          "word": " Oh",
+          "start": 7.9,
+          "end": 9.3,
+          "probability": 0.03294707089662552
+        },
+        {
+          "word": " my",
+          "start": 9.3,
+          "end": 10.02,
+          "probability": 0.012432454153895378
+        },
+        {
+          "word": " god,",
+          "start": 10.02,
+          "end": 10.02,
+          "probability": 0.48858433961868286
+        },
+        {
+          "word": " I'm",
+          "start": 10.02,
+          "end": 10.02,
+          "probability": 0.2397761419415474
+        },
+        {
+          "word": " so",
+          "start": 10.02,
+          "end": 10.02,
+          "probability": 0.17367327213287354
+        },
+        {
+          "word": " sorry,",
+          "start": 10.02,
+          "end": 10.02,
+          "probability": 0.22396178543567657
+        },
+        {
+          "word": " I'm",
+          "start": 10.02,
+          "end": 10.02,
+          "probability": 0.34389421343803406
+        },
+        {
+          "word": " so",
+          "start": 10.02,
+          "end": 10.02,
+          "probability": 0.5584476590156555
+        },
+        {
+          "word": " sorry.",
+          "start": 10.02,
+          "end": 10.02,
+          "probability": 0.7277897596359253
+        }
+      ]
+    }
+  ]
+}

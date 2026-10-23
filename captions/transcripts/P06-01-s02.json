@@ -1,0 +1,27 @@
+{
+  "source": "media/P06-01-s02.mp4",
+  "sha256": "4c3955eedf772672b0c5b987fe0e0ee5e880118f078be9abdaa17a697c059e60",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.8000000000000003,
+      "end": 4.54,
+      "text": " Thank you.",
+      "no_speech_prob": 0.5863309502601624,
+      "words": [
+        {
+          "word": " Thank",
+          "start": 1.8000000000000003,
+          "end": 3.2,
+          "probability": 0.0023085426073521376
+        },
+        {
+          "word": " you.",
+          "start": 3.2,
+          "end": 4.54,
+          "probability": 0.9437182545661926
+        }
+      ]
+    }
+  ]
+}

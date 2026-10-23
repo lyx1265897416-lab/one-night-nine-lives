@@ -1,0 +1,57 @@
+{
+  "source": "media/P05-14-r7-s01.mp4",
+  "sha256": "aed35573d6ec32d656a082e502a654d1c4065990352754106c9648f4b454bbbc",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.6799999999999997,
+      "end": 5.4,
+      "text": " I should leave the bed before sunrise.",
+      "no_speech_prob": 0.08301439881324768,
+      "words": [
+        {
+          "word": " I",
+          "start": 3.6799999999999997,
+          "end": 4.12,
+          "probability": 0.8741682171821594
+        },
+        {
+          "word": " should",
+          "start": 4.12,
+          "end": 4.24,
+          "probability": 0.9904728531837463
+        },
+        {
+          "word": " leave",
+          "start": 4.24,
+          "end": 4.4,
+          "probability": 0.9979296922683716
+        },
+        {
+          "word": " the",
+          "start": 4.4,
+          "end": 4.54,
+          "probability": 0.9966832995414734
+        },
+        {
+          "word": " bed",
+          "start": 4.54,
+          "end": 4.7,
+          "probability": 0.9974072575569153
+        },
+        {
+          "word": " before",
+          "start": 4.7,
+          "end": 4.98,
+          "probability": 0.997806966304779
+        },
+        {
+          "word": " sunrise.",
+          "start": 4.98,
+          "end": 5.4,
+          "probability": 0.9897671341896057
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source": "media/P03-02-s02.mp4",
+  "sha256": "74fe813bedf548a5a607632e748dba2982a418b45696ebe927932b1de80800c4",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.2800000000000002,
+      "end": 3.46,
+      "text": " It was finding someone who would wait.",
+      "no_speech_prob": 0.09063193202018738,
+      "words": [
+        {
+          "word": " It",
+          "start": 1.2800000000000002,
+          "end": 1.94,
+          "probability": 0.8705591559410095
+        },
+        {
+          "word": " was",
+          "start": 1.94,
+          "end": 2.06,
+          "probability": 0.9977317452430725
+        },
+        {
+          "word": " finding",
+          "start": 2.06,
+          "end": 2.4,
+          "probability": 0.9902634620666504
+        },
+        {
+          "word": " someone",
+          "start": 2.4,
+          "end": 2.82,
+          "probability": 0.995822548866272
+        },
+        {
+          "word": " who",
+          "start": 2.82,
+          "end": 3.02,
+          "probability": 0.9967300891876221
+        },
+        {
+          "word": " would",
+          "start": 3.02,
+          "end": 3.14,
+          "probability": 0.9939501285552979
+        },
+        {
+          "word": " wait.",
+          "start": 3.14,
+          "end": 3.46,
+          "probability": 0.9991181492805481
+        }
+      ]
+    }
+  ]
+}

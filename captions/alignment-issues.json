@@ -1,0 +1,38 @@
+[
+  {
+    "file": "media/P06-06-r7-s01.mp4",
+    "kind": "line_mismatch",
+    "expected": {
+      "speaker": "June",
+      "mode": "OFF",
+      "zh": "我收留的是一只猫。后来喜欢上了一个人。两件事，都不是你们替我决定的。",
+      "en": "I welcomed a cat."
+    },
+    "score": 0.5,
+    "heard": " I welcome to cat"
+  },
+  {
+    "file": "media/P06-06-r7-s01.mp4",
+    "kind": "unmatched_speech",
+    "heard": "i welcome to cat",
+    "full": " I welcome to cat"
+  },
+  {
+    "file": "media/P04-04-s02.mp4",
+    "kind": "unmatched_speech",
+    "heard": "veil a dub form i knew would fill witness why wary",
+    "full": " Veil a dub form I knew would fill witness.  Why, Wary?  Of course.  You're not their tool for keeping a gate open."
+  },
+  {
+    "file": "media/P02-05b-r7-s01.mp4",
+    "kind": "unmatched_speech",
+    "heard": "deb could you get vale to stop",
+    "full": " Deb, could you get Vale to stop, looking for someone?  Start with a form.  We have three."
+  },
+  {
+    "file": "media/P04-13-r7-s02.mp4",
+    "kind": "unmatched_speech",
+    "heard": "you don t have to promise the ritual will work with love",
+    "full": " Then you decide whether to witness anything.  You don't have to promise the ritual will work with love."
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "source": "media/P05-11c-s02.mp4",
+  "sha256": "550c3390740ef18bf3b58d8dcb5c52a75020890c4a4d54e2c73eb9d9c0f6ab18",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.7800000000000007,
+      "end": 4.62,
+      "text": " You're good at making me amend the rules.",
+      "no_speech_prob": 0.09574688225984573,
+      "words": [
+        {
+          "word": " You're",
+          "start": 2.7800000000000007,
+          "end": 3.18,
+          "probability": 0.9184857308864594
+        },
+        {
+          "word": " good",
+          "start": 3.18,
+          "end": 3.38,
+          "probability": 0.9970537424087524
+        },
+        {
+          "word": " at",
+          "start": 3.38,
+          "end": 3.56,
+          "probability": 0.9953025579452515
+        },
+        {
+          "word": " making",
+          "start": 3.56,
+          "end": 3.72,
+          "probability": 0.9932994842529297
+        },
+        {
+          "word": " me",
+          "start": 3.72,
+          "end": 3.98,
+          "probability": 0.9987643957138062
+        },
+        {
+          "word": " amend",
+          "start": 3.98,
+          "end": 4.16,
+          "probability": 0.9701382517814636
+        },
+        {
+          "word": " the",
+          "start": 4.16,
+          "end": 4.34,
+          "probability": 0.997384250164032
+        },
+        {
+          "word": " rules.",
+          "start": 4.34,
+          "end": 4.62,
+          "probability": 0.9925304055213928
+        }
+      ]
+    }
+  ]
+}

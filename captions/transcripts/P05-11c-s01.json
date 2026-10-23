@@ -1,0 +1,51 @@
+{
+  "source": "media/P05-11c-s01.mp4",
+  "sha256": "b91ce5ff045bf11b328dc9f4b269ae79ce648b64cb751766a241cbd14cd54cf3",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.7200000000000006,
+      "end": 4.2,
+      "text": " You're good at making me wait.",
+      "no_speech_prob": 0.04569844529032707,
+      "words": [
+        {
+          "word": " You're",
+          "start": 2.7200000000000006,
+          "end": 3.24,
+          "probability": 0.8786139190196991
+        },
+        {
+          "word": " good",
+          "start": 3.24,
+          "end": 3.34,
+          "probability": 0.9976219534873962
+        },
+        {
+          "word": " at",
+          "start": 3.34,
+          "end": 3.52,
+          "probability": 0.9960557222366333
+        },
+        {
+          "word": " making",
+          "start": 3.52,
+          "end": 3.68,
+          "probability": 0.9941983222961426
+        },
+        {
+          "word": " me",
+          "start": 3.68,
+          "end": 3.94,
+          "probability": 0.9972535967826843
+        },
+        {
+          "word": " wait.",
+          "start": 3.94,
+          "end": 4.2,
+          "probability": 0.9961121678352356
+        }
+      ]
+    }
+  ]
+}

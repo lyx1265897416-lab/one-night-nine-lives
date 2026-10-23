@@ -1,0 +1,39 @@
+{
+  "source": "media/P04-14a-s01.mp4",
+  "sha256": "c0170f31dcb3da46c4116feb75dc7a9cc79c635565d4e276d45a482d000a7309",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.2400000000000002,
+      "end": 2.82,
+      "text": " No more thrones tonight.",
+      "no_speech_prob": 0.07215379923582077,
+      "words": [
+        {
+          "word": " No",
+          "start": 1.2400000000000002,
+          "end": 1.96,
+          "probability": 0.9306277632713318
+        },
+        {
+          "word": " more",
+          "start": 1.96,
+          "end": 2.14,
+          "probability": 0.9943962097167969
+        },
+        {
+          "word": " thrones",
+          "start": 2.14,
+          "end": 2.46,
+          "probability": 0.8520652949810028
+        },
+        {
+          "word": " tonight.",
+          "start": 2.46,
+          "end": 2.82,
+          "probability": 0.9797865152359009
+        }
+      ]
+    }
+  ]
+}

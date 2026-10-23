@@ -1,0 +1,57 @@
+{
+  "source": "media/P04-11-s01.mp4",
+  "sha256": "89216778cdf90a7a1aa3176feff81314cf25390165a6bd0c690d419f973cc12c",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.1399999999999995,
+      "end": 4.32,
+      "text": " Later, I wanted to stay, not hide.",
+      "no_speech_prob": 0.11609300225973129,
+      "words": [
+        {
+          "word": " Later,",
+          "start": 1.1399999999999995,
+          "end": 1.76,
+          "probability": 0.8693705797195435
+        },
+        {
+          "word": " I",
+          "start": 1.94,
+          "end": 2.02,
+          "probability": 0.9822866320610046
+        },
+        {
+          "word": " wanted",
+          "start": 2.02,
+          "end": 2.2,
+          "probability": 0.9869911074638367
+        },
+        {
+          "word": " to",
+          "start": 2.2,
+          "end": 2.44,
+          "probability": 0.9981021285057068
+        },
+        {
+          "word": " stay,",
+          "start": 2.44,
+          "end": 2.72,
+          "probability": 0.9961603879928589
+        },
+        {
+          "word": " not",
+          "start": 3.56,
+          "end": 3.98,
+          "probability": 0.986480176448822
+        },
+        {
+          "word": " hide.",
+          "start": 3.98,
+          "end": 4.32,
+          "probability": 0.9914979338645935
+        }
+      ]
+    }
+  ]
+}

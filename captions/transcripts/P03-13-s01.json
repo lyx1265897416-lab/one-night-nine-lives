@@ -1,0 +1,45 @@
+{
+  "source": "media/P03-13-s01.mp4",
+  "sha256": "2c479e1492abc3dc8133f83d13e24803e4d87afedee9475f59ab95a9bf1a8ab1",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 4.119999999999999,
+      "end": 8.92,
+      "text": " I'll see you next time.",
+      "no_speech_prob": 0.5669554471969604,
+      "words": [
+        {
+          "word": " I'll",
+          "start": 4.119999999999999,
+          "end": 5.52,
+          "probability": 0.04066097270697355
+        },
+        {
+          "word": " see",
+          "start": 5.52,
+          "end": 5.52,
+          "probability": 0.15837155282497406
+        },
+        {
+          "word": " you",
+          "start": 5.52,
+          "end": 8.88,
+          "probability": 0.8887602686882019
+        },
+        {
+          "word": " next",
+          "start": 8.88,
+          "end": 8.92,
+          "probability": 0.2553108334541321
+        },
+        {
+          "word": " time.",
+          "start": 8.92,
+          "end": 8.92,
+          "probability": 0.7966585159301758
+        }
+      ]
+    }
+  ]
+}

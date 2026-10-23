@@ -1,0 +1,71 @@
+{
+  "source": "media/P01-12a-s01.mp4",
+  "sha256": "c2dd85e5503c52b5dcbdf02d9f872a86f61df6e8fd5ed545708083d5863fb55a",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.98,
+      "text": " Right there don't romanticize the invitation",
+      "no_speech_prob": 0.04578455537557602,
+      "words": [
+        {
+          "word": " Right",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.8218106031417847
+        },
+        {
+          "word": " there",
+          "start": 0.52,
+          "end": 0.86,
+          "probability": 0.9947584271430969
+        },
+        {
+          "word": " don't",
+          "start": 0.86,
+          "end": 1.76,
+          "probability": 0.6184467673301697
+        },
+        {
+          "word": " romanticize",
+          "start": 1.76,
+          "end": 2.34,
+          "probability": 0.9846214652061462
+        },
+        {
+          "word": " the",
+          "start": 2.34,
+          "end": 2.48,
+          "probability": 0.9989005327224731
+        },
+        {
+          "word": " invitation",
+          "start": 2.48,
+          "end": 2.98,
+          "probability": 0.994831919670105
+        }
+      ]
+    },
+    {
+      "start": 5.5600000000000005,
+      "end": 6.84,
+      "text": " I'll try",
+      "no_speech_prob": 0.04578455537557602,
+      "words": [
+        {
+          "word": " I'll",
+          "start": 5.5600000000000005,
+          "end": 6.58,
+          "probability": 0.917763352394104
+        },
+        {
+          "word": " try",
+          "start": 6.58,
+          "end": 6.84,
+          "probability": 0.9939601421356201
+        }
+      ]
+    }
+  ]
+}

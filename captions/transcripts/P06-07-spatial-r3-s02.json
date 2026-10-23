@@ -1,0 +1,51 @@
+{
+  "source": "media/P06-07-spatial-r3-s02.mp4",
+  "sha256": "7030b933d7c0da29e943f5b4abbf24715970e0bf1d7db00382c62feef1e472d2",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 4.159999999999999,
+      "end": 5.4,
+      "text": " Don't renew it in her name.",
+      "no_speech_prob": 0.1436321884393692,
+      "words": [
+        {
+          "word": " Don't",
+          "start": 4.159999999999999,
+          "end": 4.56,
+          "probability": 0.8488051891326904
+        },
+        {
+          "word": " renew",
+          "start": 4.56,
+          "end": 4.76,
+          "probability": 0.9962772727012634
+        },
+        {
+          "word": " it",
+          "start": 4.76,
+          "end": 4.92,
+          "probability": 0.9951556921005249
+        },
+        {
+          "word": " in",
+          "start": 4.92,
+          "end": 5.02,
+          "probability": 0.9977368116378784
+        },
+        {
+          "word": " her",
+          "start": 5.02,
+          "end": 5.16,
+          "probability": 0.996657133102417
+        },
+        {
+          "word": " name.",
+          "start": 5.16,
+          "end": 5.4,
+          "probability": 0.9993112087249756
+        }
+      ]
+    }
+  ]
+}

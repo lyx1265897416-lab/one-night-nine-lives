@@ -1,0 +1,51 @@
+{
+  "source": "media/P02-11-s01.mp4",
+  "sha256": "ad135ac94042933f32c9628adb0389c7ff65a767fa7347ccc135a8a4d90c0a13",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.7399999999999993,
+      "end": 4.6,
+      "text": " This probably needs to come off.",
+      "no_speech_prob": 0.2480175644159317,
+      "words": [
+        {
+          "word": " This",
+          "start": 2.7399999999999993,
+          "end": 3.34,
+          "probability": 0.8210769295692444
+        },
+        {
+          "word": " probably",
+          "start": 3.34,
+          "end": 3.64,
+          "probability": 0.98621666431427
+        },
+        {
+          "word": " needs",
+          "start": 3.64,
+          "end": 3.96,
+          "probability": 0.9962395429611206
+        },
+        {
+          "word": " to",
+          "start": 3.96,
+          "end": 4.14,
+          "probability": 0.9994431138038635
+        },
+        {
+          "word": " come",
+          "start": 4.14,
+          "end": 4.3,
+          "probability": 0.9990214109420776
+        },
+        {
+          "word": " off.",
+          "start": 4.3,
+          "end": 4.6,
+          "probability": 0.9977424144744873
+        }
+      ]
+    }
+  ]
+}

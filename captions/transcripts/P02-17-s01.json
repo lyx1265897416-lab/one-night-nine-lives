@@ -1,0 +1,93 @@
+{
+  "source": "media/P02-17-s01.mp4",
+  "sha256": "cd47bc3d97ef8383c6cf0532e152ce918fc48c09d989440ed01e80418de8071f",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.7800000000000002,
+      "end": 9.84,
+      "text": " your keys again also who's the man practicing very bad posture new roommate",
+      "no_speech_prob": 0.032915640622377396,
+      "words": [
+        {
+          "word": " your",
+          "start": 2.7800000000000002,
+          "end": 3.54,
+          "probability": 0.016217654570937157
+        },
+        {
+          "word": " keys",
+          "start": 3.54,
+          "end": 3.84,
+          "probability": 0.9859506487846375
+        },
+        {
+          "word": " again",
+          "start": 3.84,
+          "end": 5.66,
+          "probability": 0.48840880393981934
+        },
+        {
+          "word": " also",
+          "start": 5.66,
+          "end": 6.78,
+          "probability": 0.7854101061820984
+        },
+        {
+          "word": " who's",
+          "start": 6.78,
+          "end": 7.22,
+          "probability": 0.9511946737766266
+        },
+        {
+          "word": " the",
+          "start": 7.22,
+          "end": 7.3,
+          "probability": 0.9993497729301453
+        },
+        {
+          "word": " man",
+          "start": 7.3,
+          "end": 7.48,
+          "probability": 0.9982313513755798
+        },
+        {
+          "word": " practicing",
+          "start": 7.48,
+          "end": 7.86,
+          "probability": 0.9943062663078308
+        },
+        {
+          "word": " very",
+          "start": 7.86,
+          "end": 8.2,
+          "probability": 0.9932956099510193
+        },
+        {
+          "word": " bad",
+          "start": 8.2,
+          "end": 8.44,
+          "probability": 0.9989443421363831
+        },
+        {
+          "word": " posture",
+          "start": 8.44,
+          "end": 8.88,
+          "probability": 0.9988968372344971
+        },
+        {
+          "word": " new",
+          "start": 8.88,
+          "end": 9.52,
+          "probability": 0.8231850266456604
+        },
+        {
+          "word": " roommate",
+          "start": 9.52,
+          "end": 9.84,
+          "probability": 0.9925999641418457
+        }
+      ]
+    }
+  ]
+}

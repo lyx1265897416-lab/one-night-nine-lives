@@ -1,0 +1,83 @@
+{
+  "source": "media/P01-06-s01.mp4",
+  "sha256": "0def4241743e4dd3f901f1cc6044a0556539645efff2dea19ba773bdd88f0087",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.78,
+      "text": " ...",
+      "no_speech_prob": 0.6040395498275757,
+      "words": [
+        {
+          "word": " ...",
+          "start": 0.0,
+          "end": 2.78,
+          "probability": 0.004118633456528187
+        }
+      ]
+    },
+    {
+      "start": 2.78,
+      "end": 2.94,
+      "text": " ...",
+      "no_speech_prob": 0.6040395498275757,
+      "words": [
+        {
+          "word": " ...",
+          "start": 2.78,
+          "end": 2.94,
+          "probability": 0.19217288494110107
+        }
+      ]
+    },
+    {
+      "start": 2.94,
+      "end": 5.02,
+      "text": " ...",
+      "no_speech_prob": 0.6040395498275757,
+      "words": [
+        {
+          "word": " ...",
+          "start": 2.94,
+          "end": 5.02,
+          "probability": 0.8567597270011902
+        }
+      ]
+    },
+    {
+      "start": 5.02,
+      "end": 6.04,
+      "text": " ...",
+      "no_speech_prob": 0.6040395498275757,
+      "words": [
+        {
+          "word": " ...",
+          "start": 5.02,
+          "end": 6.04,
+          "probability": 0.9243541359901428
+        }
+      ]
+    },
+    {
+      "start": 6.04,
+      "end": 6.08,
+      "text": " Thank you.",
+      "no_speech_prob": 0.7989077568054199,
+      "words": [
+        {
+          "word": " Thank",
+          "start": 6.04,
+          "end": 6.04,
+          "probability": 0.013492957688868046
+        },
+        {
+          "word": " you.",
+          "start": 6.04,
+          "end": 6.08,
+          "probability": 0.9660132527351379
+        }
+      ]
+    }
+  ]
+}

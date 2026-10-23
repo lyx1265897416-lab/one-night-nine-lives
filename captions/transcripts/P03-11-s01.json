@@ -1,0 +1,145 @@
+{
+  "source": "media/P03-11-s01.mp4",
+  "sha256": "9d86a3d2cdaa104a25eb8a58ed2d50a1565aad92e05be1765c9e7da82cbee39f",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.12,
+      "text": " Do you want out of the wedding or out of every responsibility?",
+      "no_speech_prob": 0.03519492968916893,
+      "words": [
+        {
+          "word": " Do",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.9241540431976318
+        },
+        {
+          "word": " you",
+          "start": 0.54,
+          "end": 0.64,
+          "probability": 0.9985392093658447
+        },
+        {
+          "word": " want",
+          "start": 0.64,
+          "end": 0.74,
+          "probability": 0.9984983205795288
+        },
+        {
+          "word": " out",
+          "start": 0.74,
+          "end": 0.9,
+          "probability": 0.9951977133750916
+        },
+        {
+          "word": " of",
+          "start": 0.9,
+          "end": 1.0,
+          "probability": 0.997538685798645
+        },
+        {
+          "word": " the",
+          "start": 1.0,
+          "end": 1.08,
+          "probability": 0.9981826543807983
+        },
+        {
+          "word": " wedding",
+          "start": 1.08,
+          "end": 1.38,
+          "probability": 0.9974424839019775
+        },
+        {
+          "word": " or",
+          "start": 1.38,
+          "end": 1.98,
+          "probability": 0.8191505074501038
+        },
+        {
+          "word": " out",
+          "start": 1.98,
+          "end": 2.14,
+          "probability": 0.9981676340103149
+        },
+        {
+          "word": " of",
+          "start": 2.14,
+          "end": 2.26,
+          "probability": 0.9995976090431213
+        },
+        {
+          "word": " every",
+          "start": 2.26,
+          "end": 2.52,
+          "probability": 0.9989343285560608
+        },
+        {
+          "word": " responsibility?",
+          "start": 2.52,
+          "end": 3.12,
+          "probability": 0.9948977828025818
+        }
+      ]
+    },
+    {
+      "start": 5.74,
+      "end": 6.22,
+      "text": " I...",
+      "no_speech_prob": 0.03519492968916893,
+      "words": [
+        {
+          "word": " I...",
+          "start": 5.74,
+          "end": 6.22,
+          "probability": 0.6408186256885529
+        }
+      ]
+    },
+    {
+      "start": 6.22,
+      "end": 7.72,
+      "text": " I haven't figured that out yet.",
+      "no_speech_prob": 0.03519492968916893,
+      "words": [
+        {
+          "word": " I",
+          "start": 6.22,
+          "end": 6.74,
+          "probability": 0.871217668056488
+        },
+        {
+          "word": " haven't",
+          "start": 6.74,
+          "end": 7.02,
+          "probability": 0.995915949344635
+        },
+        {
+          "word": " figured",
+          "start": 7.02,
+          "end": 7.12,
+          "probability": 0.9957168698310852
+        },
+        {
+          "word": " that",
+          "start": 7.12,
+          "end": 7.36,
+          "probability": 0.9976905584335327
+        },
+        {
+          "word": " out",
+          "start": 7.36,
+          "end": 7.52,
+          "probability": 0.9997363686561584
+        },
+        {
+          "word": " yet.",
+          "start": 7.52,
+          "end": 7.72,
+          "probability": 0.9859822988510132
+        }
+      ]
+    }
+  ]
+}

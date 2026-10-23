@@ -1,0 +1,105 @@
+{
+  "source": "media/P02-11c-s01.mp4",
+  "sha256": "d2ba053cf806342a98c982ae7a79da4aa82205170ce96cf2682241e36ee0b271",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.58,
+      "text": " You just wanted to see if I'd blush guilty, but where's the fun in that?",
+      "no_speech_prob": 0.01010866742581129,
+      "words": [
+        {
+          "word": " You",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.7208244800567627
+        },
+        {
+          "word": " just",
+          "start": 0.46,
+          "end": 0.62,
+          "probability": 0.9899961948394775
+        },
+        {
+          "word": " wanted",
+          "start": 0.62,
+          "end": 0.86,
+          "probability": 0.9956054091453552
+        },
+        {
+          "word": " to",
+          "start": 0.86,
+          "end": 1.02,
+          "probability": 0.998363196849823
+        },
+        {
+          "word": " see",
+          "start": 1.02,
+          "end": 1.14,
+          "probability": 0.9982531666755676
+        },
+        {
+          "word": " if",
+          "start": 1.14,
+          "end": 1.26,
+          "probability": 0.9941484928131104
+        },
+        {
+          "word": " I'd",
+          "start": 1.26,
+          "end": 1.42,
+          "probability": 0.9662331938743591
+        },
+        {
+          "word": " blush",
+          "start": 1.42,
+          "end": 1.74,
+          "probability": 0.988501787185669
+        },
+        {
+          "word": " guilty,",
+          "start": 1.74,
+          "end": 3.46,
+          "probability": 0.11490839719772339
+        },
+        {
+          "word": " but",
+          "start": 3.5,
+          "end": 4.7,
+          "probability": 0.9984538555145264
+        },
+        {
+          "word": " where's",
+          "start": 4.7,
+          "end": 4.92,
+          "probability": 0.9953517913818359
+        },
+        {
+          "word": " the",
+          "start": 4.92,
+          "end": 5.02,
+          "probability": 0.9998156428337097
+        },
+        {
+          "word": " fun",
+          "start": 5.02,
+          "end": 5.2,
+          "probability": 0.9986639022827148
+        },
+        {
+          "word": " in",
+          "start": 5.2,
+          "end": 5.32,
+          "probability": 0.9931274652481079
+        },
+        {
+          "word": " that?",
+          "start": 5.32,
+          "end": 5.58,
+          "probability": 0.9990720748901367
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source": "media/P06-A01-r7-s01.mp4",
+  "sha256": "958a28c4a147868be2784c5f455312852de906d013436686965ea1ed1957fbdc",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.06,
+      "text": " Stay. The crown isn't essential luggage.",
+      "no_speech_prob": 0.04234900325536728,
+      "words": [
+        {
+          "word": " Stay.",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.6184340715408325
+        },
+        {
+          "word": " The",
+          "start": 1.64,
+          "end": 1.76,
+          "probability": 0.9595708847045898
+        },
+        {
+          "word": " crown",
+          "start": 1.76,
+          "end": 1.98,
+          "probability": 0.8953405022621155
+        },
+        {
+          "word": " isn't",
+          "start": 1.98,
+          "end": 2.3,
+          "probability": 0.989938884973526
+        },
+        {
+          "word": " essential",
+          "start": 2.3,
+          "end": 2.72,
+          "probability": 0.9887067079544067
+        },
+        {
+          "word": " luggage.",
+          "start": 2.72,
+          "end": 3.06,
+          "probability": 0.9966895580291748
+        }
+      ]
+    }
+  ]
+}

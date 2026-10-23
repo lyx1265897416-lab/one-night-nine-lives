@@ -1,0 +1,39 @@
+{
+  "source": "media/P04-05-r7-s01.mp4",
+  "sha256": "1d3e89135af9dc305663afc77da56cacc7061fc49eb81ba91a6bbefa3f5e4245",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.5000000000000004,
+      "end": 3.04,
+      "text": " She hasn't finished reading.",
+      "no_speech_prob": 0.1332356482744217,
+      "words": [
+        {
+          "word": " She",
+          "start": 1.5000000000000004,
+          "end": 2.18,
+          "probability": 0.8490878939628601
+        },
+        {
+          "word": " hasn't",
+          "start": 2.18,
+          "end": 2.5,
+          "probability": 0.994087815284729
+        },
+        {
+          "word": " finished",
+          "start": 2.5,
+          "end": 2.7,
+          "probability": 0.9952630996704102
+        },
+        {
+          "word": " reading.",
+          "start": 2.7,
+          "end": 3.04,
+          "probability": 0.9985262155532837
+        }
+      ]
+    }
+  ]
+}

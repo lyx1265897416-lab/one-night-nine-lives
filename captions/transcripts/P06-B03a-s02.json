@@ -1,0 +1,85 @@
+{
+  "source": "media/P06-B03a-s02.mp4",
+  "sha256": "15a384fe173193ef37fd6b383f02bf4007902a0611032e8352eca35c171f7733",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.3800000000000003,
+      "end": 3.4,
+      "text": " A new clause?",
+      "no_speech_prob": 0.015194806270301342,
+      "words": [
+        {
+          "word": " A",
+          "start": 2.3800000000000003,
+          "end": 2.98,
+          "probability": 0.7144036889076233
+        },
+        {
+          "word": " new",
+          "start": 2.98,
+          "end": 3.1,
+          "probability": 0.991077184677124
+        },
+        {
+          "word": " clause?",
+          "start": 3.1,
+          "end": 3.4,
+          "probability": 0.6863616704940796
+        }
+      ]
+    },
+    {
+      "start": 4.22,
+      "end": 4.62,
+      "text": " No.",
+      "no_speech_prob": 0.015194806270301342,
+      "words": [
+        {
+          "word": " No.",
+          "start": 4.22,
+          "end": 4.62,
+          "probability": 0.9678136706352234
+        }
+      ]
+    },
+    {
+      "start": 5.42,
+      "end": 6.6,
+      "text": " No fine print this time.",
+      "no_speech_prob": 0.015194806270301342,
+      "words": [
+        {
+          "word": " No",
+          "start": 5.42,
+          "end": 5.66,
+          "probability": 0.9827051758766174
+        },
+        {
+          "word": " fine",
+          "start": 5.66,
+          "end": 5.88,
+          "probability": 0.9918393492698669
+        },
+        {
+          "word": " print",
+          "start": 5.88,
+          "end": 6.08,
+          "probability": 0.9271430969238281
+        },
+        {
+          "word": " this",
+          "start": 6.08,
+          "end": 6.3,
+          "probability": 0.9845739006996155
+        },
+        {
+          "word": " time.",
+          "start": 6.3,
+          "end": 6.6,
+          "probability": 0.9997532963752747
+        }
+      ]
+    }
+  ]
+}

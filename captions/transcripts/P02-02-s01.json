@@ -1,0 +1,79 @@
+{
+  "source": "media/P02-02-s01.mp4",
+  "sha256": "630724bdd9bd9f0326700a9eb496ce682bf87605d999676330525d4689d767b7",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.8600000000000003,
+      "end": 4.02,
+      "text": " Does he have a name?",
+      "no_speech_prob": 0.10103722661733627,
+      "words": [
+        {
+          "word": " Does",
+          "start": 2.8600000000000003,
+          "end": 3.46,
+          "probability": 0.7032315135002136
+        },
+        {
+          "word": " he",
+          "start": 3.46,
+          "end": 3.58,
+          "probability": 0.9970285296440125
+        },
+        {
+          "word": " have",
+          "start": 3.58,
+          "end": 3.68,
+          "probability": 0.9896279573440552
+        },
+        {
+          "word": " a",
+          "start": 3.68,
+          "end": 3.8,
+          "probability": 0.998369038105011
+        },
+        {
+          "word": " name?",
+          "start": 3.8,
+          "end": 4.02,
+          "probability": 0.9990755319595337
+        }
+      ]
+    },
+    {
+      "start": 4.84,
+      "end": 4.94,
+      "text": " Ris.",
+      "no_speech_prob": 0.10103722661733627,
+      "words": [
+        {
+          "word": " Ris.",
+          "start": 4.84,
+          "end": 4.94,
+          "probability": 0.498785138130188
+        }
+      ]
+    },
+    {
+      "start": 5.76,
+      "end": 6.6,
+      "text": " Complicated resume.",
+      "no_speech_prob": 0.10103722661733627,
+      "words": [
+        {
+          "word": " Complicated",
+          "start": 5.76,
+          "end": 6.3,
+          "probability": 0.9657054841518402
+        },
+        {
+          "word": " resume.",
+          "start": 6.3,
+          "end": 6.6,
+          "probability": 0.8580345511436462
+        }
+      ]
+    }
+  ]
+}

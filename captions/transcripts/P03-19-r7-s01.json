@@ -1,0 +1,75 @@
+{
+  "source": "media/P03-19-r7-s01.mp4",
+  "sha256": "a5fa8f7b8dfbc9c789cd1d7f65192379f8d6161bb89fa9f8467fdad4efc84607",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.66,
+      "text": " You knew about the Witness Clause, from the first night?",
+      "no_speech_prob": 0.08801072835922241,
+      "words": [
+        {
+          "word": " You",
+          "start": 0.0,
+          "end": 0.98,
+          "probability": 0.869565486907959
+        },
+        {
+          "word": " knew",
+          "start": 0.98,
+          "end": 1.12,
+          "probability": 0.9761234521865845
+        },
+        {
+          "word": " about",
+          "start": 1.12,
+          "end": 1.36,
+          "probability": 0.9968889355659485
+        },
+        {
+          "word": " the",
+          "start": 1.36,
+          "end": 1.52,
+          "probability": 0.8926637768745422
+        },
+        {
+          "word": " Witness",
+          "start": 1.52,
+          "end": 1.8,
+          "probability": 0.6903629302978516
+        },
+        {
+          "word": " Clause,",
+          "start": 1.8,
+          "end": 2.12,
+          "probability": 0.4300388693809509
+        },
+        {
+          "word": " from",
+          "start": 2.82,
+          "end": 2.98,
+          "probability": 0.989689826965332
+        },
+        {
+          "word": " the",
+          "start": 2.98,
+          "end": 3.14,
+          "probability": 0.9925097227096558
+        },
+        {
+          "word": " first",
+          "start": 3.14,
+          "end": 3.34,
+          "probability": 0.9631974697113037
+        },
+        {
+          "word": " night?",
+          "start": 3.34,
+          "end": 3.66,
+          "probability": 0.8875195980072021
+        }
+      ]
+    }
+  ]
+}

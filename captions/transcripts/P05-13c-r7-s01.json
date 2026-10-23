@@ -1,0 +1,75 @@
+{
+  "source": "media/P05-13c-r7-s01.mp4",
+  "sha256": "f72d62e36186ba4dd3e59afa8e7fb52d3eeff230c77a28a79fb5a9393c5c3ebb",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.36,
+      "text": " the version you choose, no more paper choosing for you.",
+      "no_speech_prob": 0.19973626732826233,
+      "words": [
+        {
+          "word": " the",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.3543977737426758
+        },
+        {
+          "word": " version",
+          "start": 0.14,
+          "end": 0.38,
+          "probability": 0.9838107824325562
+        },
+        {
+          "word": " you",
+          "start": 0.38,
+          "end": 0.58,
+          "probability": 0.9957181811332703
+        },
+        {
+          "word": " choose,",
+          "start": 0.58,
+          "end": 0.96,
+          "probability": 0.98399817943573
+        },
+        {
+          "word": " no",
+          "start": 1.52,
+          "end": 2.98,
+          "probability": 0.9633952379226685
+        },
+        {
+          "word": " more",
+          "start": 2.98,
+          "end": 3.2,
+          "probability": 0.9951292276382446
+        },
+        {
+          "word": " paper",
+          "start": 3.2,
+          "end": 3.46,
+          "probability": 0.9968504309654236
+        },
+        {
+          "word": " choosing",
+          "start": 3.46,
+          "end": 3.74,
+          "probability": 0.8116365671157837
+        },
+        {
+          "word": " for",
+          "start": 3.74,
+          "end": 4.06,
+          "probability": 0.9976108074188232
+        },
+        {
+          "word": " you.",
+          "start": 4.06,
+          "end": 4.36,
+          "probability": 0.9996047616004944
+        }
+      ]
+    }
+  ]
+}

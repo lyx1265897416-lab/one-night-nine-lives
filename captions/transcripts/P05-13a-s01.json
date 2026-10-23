@@ -1,0 +1,51 @@
+{
+  "source": "media/P05-13a-s01.mp4",
+  "sha256": "11ca28b19d51a0ec7750b9508bf0b6bc7662a79c1c02a84b06f01f9a14720487",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.18,
+      "text": " I like you. Not your resumess.",
+      "no_speech_prob": 0.025021705776453018,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.86,
+          "probability": 0.8644207119941711
+        },
+        {
+          "word": " like",
+          "start": 0.86,
+          "end": 1.04,
+          "probability": 0.9875317215919495
+        },
+        {
+          "word": " you.",
+          "start": 1.04,
+          "end": 1.72,
+          "probability": 0.9988608360290527
+        },
+        {
+          "word": " Not",
+          "start": 3.1,
+          "end": 3.42,
+          "probability": 0.9306273460388184
+        },
+        {
+          "word": " your",
+          "start": 3.42,
+          "end": 3.62,
+          "probability": 0.9973968267440796
+        },
+        {
+          "word": " resumess.",
+          "start": 3.62,
+          "end": 4.18,
+          "probability": 0.37330063184102374
+        }
+      ]
+    }
+  ]
+}

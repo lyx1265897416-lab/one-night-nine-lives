@@ -1,0 +1,57 @@
+{
+  "source": "media/P04-14b-s01.mp4",
+  "sha256": "8e5e87532670c72ef42dbd8b2c1c28ac9e6ba7daa19def7ccfde5854298bc0d6",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.9199999999999995,
+      "end": 4.24,
+      "text": " Next time I ask, the whole answer.",
+      "no_speech_prob": 0.09121689945459366,
+      "words": [
+        {
+          "word": " Next",
+          "start": 1.9199999999999995,
+          "end": 2.52,
+          "probability": 0.7713468670845032
+        },
+        {
+          "word": " time",
+          "start": 2.52,
+          "end": 2.74,
+          "probability": 0.9946006536483765
+        },
+        {
+          "word": " I",
+          "start": 2.74,
+          "end": 2.9,
+          "probability": 0.9158191084861755
+        },
+        {
+          "word": " ask,",
+          "start": 2.9,
+          "end": 3.26,
+          "probability": 0.9819290637969971
+        },
+        {
+          "word": " the",
+          "start": 3.56,
+          "end": 3.66,
+          "probability": 0.9868658185005188
+        },
+        {
+          "word": " whole",
+          "start": 3.66,
+          "end": 3.86,
+          "probability": 0.9963919520378113
+        },
+        {
+          "word": " answer.",
+          "start": 3.86,
+          "end": 4.24,
+          "probability": 0.9983047246932983
+        }
+      ]
+    }
+  ]
+}

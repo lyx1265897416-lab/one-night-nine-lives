@@ -1,0 +1,63 @@
+{
+  "source": "media/P06-B06-s01.mp4",
+  "sha256": "8154fb39438c406a7957bf9d9e96cd9d42a79eef8acc0de7f8aed7a7b778fd44",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 7.2,
+      "end": 9.72,
+      "text": " A free roommate, still on the chore rotation.",
+      "no_speech_prob": 0.039233382791280746,
+      "words": [
+        {
+          "word": " A",
+          "start": 7.2,
+          "end": 7.72,
+          "probability": 0.6708478927612305
+        },
+        {
+          "word": " free",
+          "start": 7.72,
+          "end": 7.94,
+          "probability": 0.9744901657104492
+        },
+        {
+          "word": " roommate,",
+          "start": 7.94,
+          "end": 8.34,
+          "probability": 0.9937191009521484
+        },
+        {
+          "word": " still",
+          "start": 8.86,
+          "end": 8.94,
+          "probability": 0.9964906573295593
+        },
+        {
+          "word": " on",
+          "start": 8.94,
+          "end": 9.08,
+          "probability": 0.9965810179710388
+        },
+        {
+          "word": " the",
+          "start": 9.08,
+          "end": 9.2,
+          "probability": 0.9960858821868896
+        },
+        {
+          "word": " chore",
+          "start": 9.2,
+          "end": 9.34,
+          "probability": 0.9861854910850525
+        },
+        {
+          "word": " rotation.",
+          "start": 9.34,
+          "end": 9.72,
+          "probability": 0.9750449657440186
+        }
+      ]
+    }
+  ]
+}

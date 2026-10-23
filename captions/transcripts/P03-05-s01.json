@@ -1,0 +1,83 @@
+{
+  "source": "media/P03-05-s01.mp4",
+  "sha256": "53426d5564d67b72e46323616edc29dd493674d0491f50ed753089a7ae7e70f8",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.8799999999999994,
+      "end": 3.58,
+      "text": " Poke me and I might bite.",
+      "no_speech_prob": 0.10996928066015244,
+      "words": [
+        {
+          "word": " Poke",
+          "start": 1.8799999999999994,
+          "end": 2.46,
+          "probability": 0.6945414543151855
+        },
+        {
+          "word": " me",
+          "start": 2.46,
+          "end": 2.74,
+          "probability": 0.9921365976333618
+        },
+        {
+          "word": " and",
+          "start": 2.74,
+          "end": 2.96,
+          "probability": 0.7793399095535278
+        },
+        {
+          "word": " I",
+          "start": 2.96,
+          "end": 3.1,
+          "probability": 0.9676227569580078
+        },
+        {
+          "word": " might",
+          "start": 3.1,
+          "end": 3.28,
+          "probability": 0.9963157773017883
+        },
+        {
+          "word": " bite.",
+          "start": 3.28,
+          "end": 3.58,
+          "probability": 0.9943167567253113
+        }
+      ]
+    },
+    {
+      "start": 5.1,
+      "end": 6.26,
+      "text": " The very gentle kind.",
+      "no_speech_prob": 0.10996928066015244,
+      "words": [
+        {
+          "word": " The",
+          "start": 5.1,
+          "end": 5.36,
+          "probability": 0.976292610168457
+        },
+        {
+          "word": " very",
+          "start": 5.36,
+          "end": 5.6,
+          "probability": 0.9513611793518066
+        },
+        {
+          "word": " gentle",
+          "start": 5.6,
+          "end": 5.9,
+          "probability": 0.9848935008049011
+        },
+        {
+          "word": " kind.",
+          "start": 5.9,
+          "end": 6.26,
+          "probability": 0.949253499507904
+        }
+      ]
+    }
+  ]
+}

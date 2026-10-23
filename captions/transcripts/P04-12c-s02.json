@@ -1,0 +1,69 @@
+{
+  "source": "media/P04-12c-s02.mp4",
+  "sha256": "0a9e2c7ac11ddcd379d3a4fe2eeb8af85ebebe24431c780d4a3d6100f4608ab7",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.0599999999999987,
+      "end": 7.78,
+      "text": " I know, I'll still be careful with this hand.",
+      "no_speech_prob": 0.06495635956525803,
+      "words": [
+        {
+          "word": " I",
+          "start": 3.0599999999999987,
+          "end": 3.5,
+          "probability": 0.7828037738800049
+        },
+        {
+          "word": " know,",
+          "start": 3.5,
+          "end": 3.7,
+          "probability": 0.965973436832428
+        },
+        {
+          "word": " I'll",
+          "start": 4.46,
+          "end": 6.64,
+          "probability": 0.9649592339992523
+        },
+        {
+          "word": " still",
+          "start": 6.64,
+          "end": 6.82,
+          "probability": 0.995567262172699
+        },
+        {
+          "word": " be",
+          "start": 6.82,
+          "end": 6.96,
+          "probability": 0.9987314343452454
+        },
+        {
+          "word": " careful",
+          "start": 6.96,
+          "end": 7.18,
+          "probability": 0.9985648989677429
+        },
+        {
+          "word": " with",
+          "start": 7.18,
+          "end": 7.4,
+          "probability": 0.9983274340629578
+        },
+        {
+          "word": " this",
+          "start": 7.4,
+          "end": 7.56,
+          "probability": 0.9801218509674072
+        },
+        {
+          "word": " hand.",
+          "start": 7.56,
+          "end": 7.78,
+          "probability": 0.9986311793327332
+        }
+      ]
+    }
+  ]
+}

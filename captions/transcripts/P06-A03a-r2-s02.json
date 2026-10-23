@@ -1,0 +1,101 @@
+{
+  "source": "media/P06-A03a-r2-s02.mp4",
+  "sha256": "a9fd45adf15c4f97f7ac728a9f54b27885a96c0a9c17be70d364837c391d4604",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.8199999999999994,
+      "end": 2.4,
+      "text": " Not an ordinary roommate.",
+      "no_speech_prob": 0.12172187119722366,
+      "words": [
+        {
+          "word": " Not",
+          "start": 0.8199999999999994,
+          "end": 1.42,
+          "probability": 0.5587674379348755
+        },
+        {
+          "word": " an",
+          "start": 1.42,
+          "end": 1.58,
+          "probability": 0.9945111274719238
+        },
+        {
+          "word": " ordinary",
+          "start": 1.58,
+          "end": 1.94,
+          "probability": 0.9985437393188477
+        },
+        {
+          "word": " roommate.",
+          "start": 1.94,
+          "end": 2.4,
+          "probability": 0.9940913319587708
+        }
+      ]
+    },
+    {
+      "start": 3.84,
+      "end": 6.72,
+      "text": " Thanks for clarifying. I was about to discuss rent.",
+      "no_speech_prob": 0.12172187119722366,
+      "words": [
+        {
+          "word": " Thanks",
+          "start": 3.84,
+          "end": 4.28,
+          "probability": 0.9524663090705872
+        },
+        {
+          "word": " for",
+          "start": 4.28,
+          "end": 4.46,
+          "probability": 0.9979022741317749
+        },
+        {
+          "word": " clarifying.",
+          "start": 4.46,
+          "end": 4.94,
+          "probability": 0.9965917766094208
+        },
+        {
+          "word": " I",
+          "start": 5.64,
+          "end": 5.8,
+          "probability": 0.9934950470924377
+        },
+        {
+          "word": " was",
+          "start": 5.8,
+          "end": 5.9,
+          "probability": 0.9987610578536987
+        },
+        {
+          "word": " about",
+          "start": 5.9,
+          "end": 6.06,
+          "probability": 0.9987789988517761
+        },
+        {
+          "word": " to",
+          "start": 6.06,
+          "end": 6.2,
+          "probability": 0.9958880543708801
+        },
+        {
+          "word": " discuss",
+          "start": 6.2,
+          "end": 6.48,
+          "probability": 0.9921342134475708
+        },
+        {
+          "word": " rent.",
+          "start": 6.48,
+          "end": 6.72,
+          "probability": 0.9164710640907288
+        }
+      ]
+    }
+  ]
+}

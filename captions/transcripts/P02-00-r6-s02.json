@@ -1,0 +1,51 @@
+{
+  "source": "media/P02-00-r6-s02.mp4",
+  "sha256": "9d7b18e829dd593673793fb5354281ee19c7fa99496e171714c8852adc891756",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.52,
+      "text": " Your role is observing, not directing.",
+      "no_speech_prob": 0.18441197276115417,
+      "words": [
+        {
+          "word": " Your",
+          "start": 0.0,
+          "end": 1.06,
+          "probability": 0.8915135264396667
+        },
+        {
+          "word": " role",
+          "start": 1.06,
+          "end": 1.42,
+          "probability": 0.9811212420463562
+        },
+        {
+          "word": " is",
+          "start": 1.42,
+          "end": 1.78,
+          "probability": 0.9973256587982178
+        },
+        {
+          "word": " observing,",
+          "start": 1.78,
+          "end": 2.36,
+          "probability": 0.9890622496604919
+        },
+        {
+          "word": " not",
+          "start": 3.62,
+          "end": 5.0,
+          "probability": 0.9770287871360779
+        },
+        {
+          "word": " directing.",
+          "start": 5.0,
+          "end": 5.52,
+          "probability": 0.995763897895813
+        }
+      ]
+    }
+  ]
+}

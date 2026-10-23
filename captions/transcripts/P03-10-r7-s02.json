@@ -1,0 +1,63 @@
+{
+  "source": "media/P03-10-r7-s02.mp4",
+  "sha256": "042da15ce81f9cc398fa5bc6b63eb2a78b24752fe8e580487c301398c494f395",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 4.1,
+      "end": 6.34,
+      "text": " They turned their runaway prince into a cat.",
+      "no_speech_prob": 0.08436507731676102,
+      "words": [
+        {
+          "word": " They",
+          "start": 4.1,
+          "end": 4.66,
+          "probability": 0.8582854270935059
+        },
+        {
+          "word": " turned",
+          "start": 4.66,
+          "end": 4.88,
+          "probability": 0.5033217668533325
+        },
+        {
+          "word": " their",
+          "start": 4.88,
+          "end": 5.04,
+          "probability": 0.9865503311157227
+        },
+        {
+          "word": " runaway",
+          "start": 5.04,
+          "end": 5.36,
+          "probability": 0.9634959101676941
+        },
+        {
+          "word": " prince",
+          "start": 5.36,
+          "end": 5.68,
+          "probability": 0.7293667793273926
+        },
+        {
+          "word": " into",
+          "start": 5.68,
+          "end": 5.96,
+          "probability": 0.996429979801178
+        },
+        {
+          "word": " a",
+          "start": 5.96,
+          "end": 6.1,
+          "probability": 0.9980200529098511
+        },
+        {
+          "word": " cat.",
+          "start": 6.1,
+          "end": 6.34,
+          "probability": 0.9849870800971985
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source": "media/P05-13b-r7-s02.mp4",
+  "sha256": "ee151360df7b2d586800833300b85239b57e63ed22719f7cfa4b422e40182396",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.7600000000000007,
+      "end": 4.82,
+      "text": " I'll resist charging you for two roommates.",
+      "no_speech_prob": 0.20587871968746185,
+      "words": [
+        {
+          "word": " I'll",
+          "start": 2.7600000000000007,
+          "end": 3.2,
+          "probability": 0.8683237135410309
+        },
+        {
+          "word": " resist",
+          "start": 3.2,
+          "end": 3.44,
+          "probability": 0.991719126701355
+        },
+        {
+          "word": " charging",
+          "start": 3.44,
+          "end": 3.82,
+          "probability": 0.9978870749473572
+        },
+        {
+          "word": " you",
+          "start": 3.82,
+          "end": 4.02,
+          "probability": 0.9964654445648193
+        },
+        {
+          "word": " for",
+          "start": 4.02,
+          "end": 4.16,
+          "probability": 0.9932491779327393
+        },
+        {
+          "word": " two",
+          "start": 4.16,
+          "end": 4.32,
+          "probability": 0.9584431648254395
+        },
+        {
+          "word": " roommates.",
+          "start": 4.32,
+          "end": 4.82,
+          "probability": 0.9913722276687622
+        }
+      ]
+    }
+  ]
+}

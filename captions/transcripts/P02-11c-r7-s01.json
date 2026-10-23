@@ -1,0 +1,63 @@
+{
+  "source": "media/P02-11c-r7-s01.mp4",
+  "sha256": "3487a5db49e4542133d28354d349ccb0695a8432a5c9f0a5bf2ea3d23ac2bbe6",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.38,
+      "text": " You just wanted to see if I'd blush.",
+      "no_speech_prob": 0.0037289822939783335,
+      "words": [
+        {
+          "word": " You",
+          "start": 0.0,
+          "end": 0.1,
+          "probability": 0.7434579133987427
+        },
+        {
+          "word": " just",
+          "start": 0.1,
+          "end": 0.26,
+          "probability": 0.9962570667266846
+        },
+        {
+          "word": " wanted",
+          "start": 0.26,
+          "end": 0.48,
+          "probability": 0.9959533214569092
+        },
+        {
+          "word": " to",
+          "start": 0.48,
+          "end": 0.64,
+          "probability": 0.9991750121116638
+        },
+        {
+          "word": " see",
+          "start": 0.64,
+          "end": 0.78,
+          "probability": 0.999129593372345
+        },
+        {
+          "word": " if",
+          "start": 0.78,
+          "end": 0.92,
+          "probability": 0.9966909885406494
+        },
+        {
+          "word": " I'd",
+          "start": 0.92,
+          "end": 1.1,
+          "probability": 0.9879597127437592
+        },
+        {
+          "word": " blush.",
+          "start": 1.1,
+          "end": 1.38,
+          "probability": 0.993743360042572
+        }
+      ]
+    }
+  ]
+}

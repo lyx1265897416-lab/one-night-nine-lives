@@ -1,0 +1,83 @@
+{
+  "source": "media/P01-11-s01.mp4",
+  "sha256": "53196d8948992ce51a7bd0c3c77fc0eabae860da971d5db930dbab6cf85f5a86",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.540000000000001,
+      "end": 2.9,
+      "text": " Then change back.",
+      "no_speech_prob": 0.13666093349456787,
+      "words": [
+        {
+          "word": " Then",
+          "start": 1.540000000000001,
+          "end": 2.26,
+          "probability": 0.6429557800292969
+        },
+        {
+          "word": " change",
+          "start": 2.26,
+          "end": 2.52,
+          "probability": 0.9790687561035156
+        },
+        {
+          "word": " back.",
+          "start": 2.52,
+          "end": 2.9,
+          "probability": 0.9973235726356506
+        }
+      ]
+    },
+    {
+      "start": 4.78,
+      "end": 7.68,
+      "text": " At sunrise, I can't choose the time.",
+      "no_speech_prob": 0.13666093349456787,
+      "words": [
+        {
+          "word": " At",
+          "start": 4.78,
+          "end": 5.14,
+          "probability": 0.8992103934288025
+        },
+        {
+          "word": " sunrise,",
+          "start": 5.14,
+          "end": 5.44,
+          "probability": 0.9878514409065247
+        },
+        {
+          "word": " I",
+          "start": 6.5,
+          "end": 6.9,
+          "probability": 0.9877133369445801
+        },
+        {
+          "word": " can't",
+          "start": 6.9,
+          "end": 7.18,
+          "probability": 0.9960058927536011
+        },
+        {
+          "word": " choose",
+          "start": 7.18,
+          "end": 7.28,
+          "probability": 0.9840699434280396
+        },
+        {
+          "word": " the",
+          "start": 7.28,
+          "end": 7.46,
+          "probability": 0.9983236193656921
+        },
+        {
+          "word": " time.",
+          "start": 7.46,
+          "end": 7.68,
+          "probability": 0.9995331764221191
+        }
+      ]
+    }
+  ]
+}

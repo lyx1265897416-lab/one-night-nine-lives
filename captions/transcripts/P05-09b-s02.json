@@ -1,0 +1,45 @@
+{
+  "source": "media/P05-09b-s02.mp4",
+  "sha256": "53451510cd576b744975beaf3fc4ae75aa0db77df8a70989e1a567b4fbaea6a2",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.84,
+      "text": " Temporarily, temporarily don't underestimate me.",
+      "no_speech_prob": 0.020682375878095627,
+      "words": [
+        {
+          "word": " Temporarily,",
+          "start": 0.0,
+          "end": 0.8,
+          "probability": 0.8191606203715006
+        },
+        {
+          "word": " temporarily",
+          "start": 2.84,
+          "end": 3.7,
+          "probability": 0.7342026829719543
+        },
+        {
+          "word": " don't",
+          "start": 3.7,
+          "end": 6.06,
+          "probability": 0.6236532777547836
+        },
+        {
+          "word": " underestimate",
+          "start": 6.06,
+          "end": 6.5,
+          "probability": 0.995895504951477
+        },
+        {
+          "word": " me.",
+          "start": 6.5,
+          "end": 6.84,
+          "probability": 0.9986763596534729
+        }
+      ]
+    }
+  ]
+}

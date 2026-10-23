@@ -1,0 +1,77 @@
+{
+  "source": "media/P06-A05-s02.mp4",
+  "sha256": "9f9e09a9d4d1ca13192a1afbcf6bf83cee7c9f000d62f899decf685ead4b2200",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.0,
+      "end": 2.86,
+      "text": " Then we'll negotiate daily.",
+      "no_speech_prob": 0.03435881435871124,
+      "words": [
+        {
+          "word": " Then",
+          "start": 0.8999999999999997,
+          "end": 1.34,
+          "probability": 0.6651674509048462
+        },
+        {
+          "word": " we'll",
+          "start": 1.34,
+          "end": 1.5,
+          "probability": 0.9704638719558716
+        },
+        {
+          "word": " negotiate",
+          "start": 1.5,
+          "end": 1.98,
+          "probability": 0.9972956776618958
+        },
+        {
+          "word": " daily.",
+          "start": 1.98,
+          "end": 2.86,
+          "probability": 0.9979268312454224
+        }
+      ]
+    },
+    {
+      "start": 5.46,
+      "end": 6.9,
+      "text": " Preferably before I burn breakfast.",
+      "no_speech_prob": 0.03435881435871124,
+      "words": [
+        {
+          "word": " Preferably",
+          "start": 5.46,
+          "end": 5.84,
+          "probability": 0.9873992999394735
+        },
+        {
+          "word": " before",
+          "start": 5.84,
+          "end": 6.12,
+          "probability": 0.9280675649642944
+        },
+        {
+          "word": " I",
+          "start": 6.12,
+          "end": 6.28,
+          "probability": 0.9932116270065308
+        },
+        {
+          "word": " burn",
+          "start": 6.28,
+          "end": 6.46,
+          "probability": 0.9853646159172058
+        },
+        {
+          "word": " breakfast.",
+          "start": 6.46,
+          "end": 6.9,
+          "probability": 0.9988584518432617
+        }
+      ]
+    }
+  ]
+}

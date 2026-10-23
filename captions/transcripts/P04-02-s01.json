@@ -1,0 +1,91 @@
+{
+  "source": "media/P04-02-s01.mp4",
+  "sha256": "2793c8585fcfaad652644bd58f3189a43fb7668a5ddfe6c751959a119605e22c",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.54,
+      "text": " The eclipse is tomorrow.",
+      "no_speech_prob": 0.04390811175107956,
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.7916371822357178
+        },
+        {
+          "word": " eclipse",
+          "start": 0.72,
+          "end": 0.98,
+          "probability": 0.9168323278427124
+        },
+        {
+          "word": " is",
+          "start": 0.98,
+          "end": 1.2,
+          "probability": 0.9973093271255493
+        },
+        {
+          "word": " tomorrow.",
+          "start": 1.2,
+          "end": 1.54,
+          "probability": 0.9964105486869812
+        }
+      ]
+    },
+    {
+      "start": 2.82,
+      "end": 3.84,
+      "text": " You cannot keep hiding.",
+      "no_speech_prob": 0.04390811175107956,
+      "words": [
+        {
+          "word": " You",
+          "start": 2.82,
+          "end": 2.98,
+          "probability": 0.9938404560089111
+        },
+        {
+          "word": " cannot",
+          "start": 2.98,
+          "end": 3.22,
+          "probability": 0.9523882269859314
+        },
+        {
+          "word": " keep",
+          "start": 3.22,
+          "end": 3.46,
+          "probability": 0.9990597367286682
+        },
+        {
+          "word": " hiding.",
+          "start": 3.46,
+          "end": 3.84,
+          "probability": 0.99937903881073
+        }
+      ]
+    },
+    {
+      "start": 6.44,
+      "end": 7.36,
+      "text": " I'm residing.",
+      "no_speech_prob": 0.04390811175107956,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 6.44,
+          "end": 7.02,
+          "probability": 0.9827097356319427
+        },
+        {
+          "word": " residing.",
+          "start": 7.02,
+          "end": 7.36,
+          "probability": 0.9927219748497009
+        }
+      ]
+    }
+  ]
+}

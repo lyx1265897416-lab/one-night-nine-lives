@@ -1,0 +1,63 @@
+{
+  "source": "media/P04-12-s02.mp4",
+  "sha256": "d069ec1f8fcb2995f1e95624bd0bb655038666f852d28be51ee03bab5f838935",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.4599999999999995,
+      "end": 3.62,
+      "text": " I can't live with you deciding for me.",
+      "no_speech_prob": 0.06196485459804535,
+      "words": [
+        {
+          "word": " I",
+          "start": 1.4599999999999995,
+          "end": 2.02,
+          "probability": 0.9185399413108826
+        },
+        {
+          "word": " can't",
+          "start": 2.02,
+          "end": 2.3,
+          "probability": 0.9939373135566711
+        },
+        {
+          "word": " live",
+          "start": 2.3,
+          "end": 2.42,
+          "probability": 0.997142493724823
+        },
+        {
+          "word": " with",
+          "start": 2.42,
+          "end": 2.58,
+          "probability": 0.9970057606697083
+        },
+        {
+          "word": " you",
+          "start": 2.58,
+          "end": 2.7,
+          "probability": 0.998174786567688
+        },
+        {
+          "word": " deciding",
+          "start": 2.7,
+          "end": 3.04,
+          "probability": 0.9891371130943298
+        },
+        {
+          "word": " for",
+          "start": 3.04,
+          "end": 3.34,
+          "probability": 0.9952090382575989
+        },
+        {
+          "word": " me.",
+          "start": 3.34,
+          "end": 3.62,
+          "probability": 0.9990123510360718
+        }
+      ]
+    }
+  ]
+}

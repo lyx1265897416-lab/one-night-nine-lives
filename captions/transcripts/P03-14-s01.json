@@ -1,0 +1,91 @@
+{
+  "source": "media/P03-14-s01.mp4",
+  "sha256": "52c95175ae6d9599beb0c688d02f8a5aa3dda5bb44ec574647b3aef854bc953e",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.2,
+      "end": 3.68,
+      "text": " May I try yours?",
+      "no_speech_prob": 0.06556578725576401,
+      "words": [
+        {
+          "word": " May",
+          "start": 2.2,
+          "end": 2.96,
+          "probability": 0.8586462140083313
+        },
+        {
+          "word": " I",
+          "start": 2.96,
+          "end": 3.08,
+          "probability": 0.9655516147613525
+        },
+        {
+          "word": " try",
+          "start": 3.08,
+          "end": 3.3,
+          "probability": 0.9975916147232056
+        },
+        {
+          "word": " yours?",
+          "start": 3.3,
+          "end": 3.68,
+          "probability": 0.9923537969589233
+        }
+      ]
+    },
+    {
+      "start": 6.8,
+      "end": 7.5,
+      "text": " One sip.",
+      "no_speech_prob": 0.06556578725576401,
+      "words": [
+        {
+          "word": " One",
+          "start": 6.8,
+          "end": 7.18,
+          "probability": 0.9222004413604736
+        },
+        {
+          "word": " sip.",
+          "start": 7.18,
+          "end": 7.5,
+          "probability": 0.9864418506622314
+        }
+      ]
+    },
+    {
+      "start": 8.08,
+      "end": 9.24,
+      "text": " A human sized sip.",
+      "no_speech_prob": 0.06556578725576401,
+      "words": [
+        {
+          "word": " A",
+          "start": 8.08,
+          "end": 8.26,
+          "probability": 0.9875577688217163
+        },
+        {
+          "word": " human",
+          "start": 8.26,
+          "end": 8.5,
+          "probability": 0.9934717416763306
+        },
+        {
+          "word": " sized",
+          "start": 8.5,
+          "end": 8.86,
+          "probability": 0.4930155873298645
+        },
+        {
+          "word": " sip.",
+          "start": 8.86,
+          "end": 9.24,
+          "probability": 0.9989240765571594
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "source": "media/P06-B04-s02.mp4",
+  "sha256": "99ca3cd05df60f11291e59cde61d1f4ec48ea0ed4982250ee5953813e04bdd77",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.9000000000000004,
+      "end": 7.12,
+      "text": " After breakfast, for example, a legally defensible nap.",
+      "no_speech_prob": 0.08424875140190125,
+      "words": [
+        {
+          "word": " After",
+          "start": 2.9000000000000004,
+          "end": 3.66,
+          "probability": 0.8644804358482361
+        },
+        {
+          "word": " breakfast,",
+          "start": 3.66,
+          "end": 4.04,
+          "probability": 0.9891687631607056
+        },
+        {
+          "word": " for",
+          "start": 4.4,
+          "end": 4.5,
+          "probability": 0.9934824109077454
+        },
+        {
+          "word": " example,",
+          "start": 4.5,
+          "end": 4.92,
+          "probability": 0.9993177652359009
+        },
+        {
+          "word": " a",
+          "start": 5.9,
+          "end": 5.98,
+          "probability": 0.9361683130264282
+        },
+        {
+          "word": " legally",
+          "start": 5.98,
+          "end": 6.26,
+          "probability": 0.9831846356391907
+        },
+        {
+          "word": " defensible",
+          "start": 6.26,
+          "end": 6.8,
+          "probability": 0.9964784681797028
+        },
+        {
+          "word": " nap.",
+          "start": 6.8,
+          "end": 7.12,
+          "probability": 0.9831010699272156
+        }
+      ]
+    }
+  ]
+}

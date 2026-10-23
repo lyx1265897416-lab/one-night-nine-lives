@@ -1,0 +1,69 @@
+{
+  "source": "media/P01-17-s01.mp4",
+  "sha256": "245f8b6f1975c74ab834649e12c1edf317239412372b9eaf8e2340717e777cac",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.540000000000001,
+      "end": 7.58,
+      "text": " Okay, you are the cat. The rules still apply.",
+      "no_speech_prob": 0.08970461785793304,
+      "words": [
+        {
+          "word": " Okay,",
+          "start": 3.540000000000001,
+          "end": 4.2,
+          "probability": 0.6090170741081238
+        },
+        {
+          "word": " you",
+          "start": 4.56,
+          "end": 5.1,
+          "probability": 0.9846434593200684
+        },
+        {
+          "word": " are",
+          "start": 5.1,
+          "end": 5.26,
+          "probability": 0.9945685863494873
+        },
+        {
+          "word": " the",
+          "start": 5.26,
+          "end": 5.4,
+          "probability": 0.995766282081604
+        },
+        {
+          "word": " cat.",
+          "start": 5.4,
+          "end": 5.64,
+          "probability": 0.8892126679420471
+        },
+        {
+          "word": " The",
+          "start": 6.66,
+          "end": 6.68,
+          "probability": 0.9911242723464966
+        },
+        {
+          "word": " rules",
+          "start": 6.68,
+          "end": 6.9,
+          "probability": 0.9988817572593689
+        },
+        {
+          "word": " still",
+          "start": 6.9,
+          "end": 7.2,
+          "probability": 0.9945407509803772
+        },
+        {
+          "word": " apply.",
+          "start": 7.2,
+          "end": 7.58,
+          "probability": 0.9994968175888062
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "source": "media/P04-06-s02.mp4",
+  "sha256": "bd04df7b09d890369dd884e48d821caee96649eca72461196967230cfb78e59c",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.6600000000000006,
+      "end": 3.72,
+      "text": " I'm bringing someone who reads the fine print.",
+      "no_speech_prob": 0.09921151399612427,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 1.6600000000000006,
+          "end": 2.1,
+          "probability": 0.946161687374115
+        },
+        {
+          "word": " bringing",
+          "start": 2.1,
+          "end": 2.24,
+          "probability": 0.9717541933059692
+        },
+        {
+          "word": " someone",
+          "start": 2.24,
+          "end": 2.56,
+          "probability": 0.9960075616836548
+        },
+        {
+          "word": " who",
+          "start": 2.56,
+          "end": 2.76,
+          "probability": 0.9938653111457825
+        },
+        {
+          "word": " reads",
+          "start": 2.76,
+          "end": 2.94,
+          "probability": 0.9955015778541565
+        },
+        {
+          "word": " the",
+          "start": 2.94,
+          "end": 3.12,
+          "probability": 0.9934324026107788
+        },
+        {
+          "word": " fine",
+          "start": 3.12,
+          "end": 3.34,
+          "probability": 0.9943467974662781
+        },
+        {
+          "word": " print.",
+          "start": 3.34,
+          "end": 3.72,
+          "probability": 0.9976939558982849
+        }
+      ]
+    }
+  ]
+}

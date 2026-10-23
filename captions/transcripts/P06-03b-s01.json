@@ -1,0 +1,39 @@
+{
+  "source": "media/P06-03b-s01.mp4",
+  "sha256": "0b311745f0fa1b334f0231f5fedfad34c0478f15b66c953ba1b440d76d8ecf2c",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 7.179999999999998,
+      "end": 8.3,
+      "text": " Beside me is enough.",
+      "no_speech_prob": 0.0621366910636425,
+      "words": [
+        {
+          "word": " Beside",
+          "start": 7.179999999999998,
+          "end": 7.74,
+          "probability": 0.8187065422534943
+        },
+        {
+          "word": " me",
+          "start": 7.74,
+          "end": 7.88,
+          "probability": 0.991134524345398
+        },
+        {
+          "word": " is",
+          "start": 7.88,
+          "end": 8.02,
+          "probability": 0.9873555302619934
+        },
+        {
+          "word": " enough.",
+          "start": 8.02,
+          "end": 8.3,
+          "probability": 0.9990623593330383
+        }
+      ]
+    }
+  ]
+}

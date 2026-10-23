@@ -1,0 +1,51 @@
+{
+  "source": "media/P04-05-r7-s02.mp4",
+  "sha256": "4b7c1ebde8ac6288e43cb4ae938660b639ba39eb9041f508f2a6c60ce8f82e97",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.560000000000001,
+      "end": 5.06,
+      "text": " Your hurry suggests some fascinating omissions.",
+      "no_speech_prob": 0.10188265889883041,
+      "words": [
+        {
+          "word": " Your",
+          "start": 1.560000000000001,
+          "end": 2.68,
+          "probability": 0.8778077960014343
+        },
+        {
+          "word": " hurry",
+          "start": 2.68,
+          "end": 2.98,
+          "probability": 0.977119505405426
+        },
+        {
+          "word": " suggests",
+          "start": 2.98,
+          "end": 3.46,
+          "probability": 0.9786851406097412
+        },
+        {
+          "word": " some",
+          "start": 3.46,
+          "end": 3.9,
+          "probability": 0.9939053654670715
+        },
+        {
+          "word": " fascinating",
+          "start": 3.9,
+          "end": 4.5,
+          "probability": 0.9977814555168152
+        },
+        {
+          "word": " omissions.",
+          "start": 4.5,
+          "end": 5.06,
+          "probability": 0.9868267178535461
+        }
+      ]
+    }
+  ]
+}

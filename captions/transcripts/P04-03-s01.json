@@ -1,0 +1,51 @@
+{
+  "source": "media/P04-03-s01.mp4",
+  "sha256": "ca6495b4747e9919cc9bee33523c94d77c60d87d6e58c69cd6f10375b1e0c9ef",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.4000000000000004,
+      "end": 3.68,
+      "text": " Release is not an unpaid bill.",
+      "no_speech_prob": 0.157750204205513,
+      "words": [
+        {
+          "word": " Release",
+          "start": 1.4000000000000004,
+          "end": 2.12,
+          "probability": 0.7745913863182068
+        },
+        {
+          "word": " is",
+          "start": 2.12,
+          "end": 2.5,
+          "probability": 0.976377546787262
+        },
+        {
+          "word": " not",
+          "start": 2.5,
+          "end": 2.78,
+          "probability": 0.9788033366203308
+        },
+        {
+          "word": " an",
+          "start": 2.78,
+          "end": 2.98,
+          "probability": 0.9923313856124878
+        },
+        {
+          "word": " unpaid",
+          "start": 2.98,
+          "end": 3.34,
+          "probability": 0.9984714388847351
+        },
+        {
+          "word": " bill.",
+          "start": 3.34,
+          "end": 3.68,
+          "probability": 0.987738847732544
+        }
+      ]
+    }
+  ]
+}

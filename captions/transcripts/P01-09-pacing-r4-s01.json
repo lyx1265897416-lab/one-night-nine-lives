@@ -1,0 +1,101 @@
+{
+  "source": "media/P01-09-pacing-r4-s01.mp4",
+  "sha256": "8502d420899203fc2f9faf904a06e6155a05c47e62fa38a19344a4128a311494",
+  "method": "local faster-whisper large-v3-turbo",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.32,
+      "text": " Who are you?",
+      "no_speech_prob": 1.8340710894459988e-11,
+      "words": [
+        {
+          "word": " Who",
+          "start": 0.0,
+          "end": 0.94,
+          "probability": 0.7778697609901428
+        },
+        {
+          "word": " are",
+          "start": 0.94,
+          "end": 1.1,
+          "probability": 0.997376561164856
+        },
+        {
+          "word": " you?",
+          "start": 1.1,
+          "end": 1.32,
+          "probability": 0.9993707537651062
+        }
+      ]
+    },
+    {
+      "start": 1.64,
+      "end": 4.72,
+      "text": " Please don't swing. I'm the black cat you brought home.",
+      "no_speech_prob": 1.8340710894459988e-11,
+      "words": [
+        {
+          "word": " Please",
+          "start": 1.64,
+          "end": 2.14,
+          "probability": 0.9827537536621094
+        },
+        {
+          "word": " don't",
+          "start": 2.14,
+          "end": 2.38,
+          "probability": 0.9898078739643097
+        },
+        {
+          "word": " swing.",
+          "start": 2.38,
+          "end": 2.66,
+          "probability": 0.999064028263092
+        },
+        {
+          "word": " I'm",
+          "start": 3.0,
+          "end": 3.54,
+          "probability": 0.9943297207355499
+        },
+        {
+          "word": " the",
+          "start": 3.54,
+          "end": 3.62,
+          "probability": 0.9982200264930725
+        },
+        {
+          "word": " black",
+          "start": 3.62,
+          "end": 3.82,
+          "probability": 0.8486953377723694
+        },
+        {
+          "word": " cat",
+          "start": 3.82,
+          "end": 4.08,
+          "probability": 0.9978381991386414
+        },
+        {
+          "word": " you",
+          "start": 4.08,
+          "end": 4.22,
+          "probability": 0.99835604429245
+        },
+        {
+          "word": " brought",
+          "start": 4.22,
+          "end": 4.42,
+          "probability": 0.9986708164215088
+        },
+        {
+          "word": " home.",
+          "start": 4.42,
+          "end": 4.72,
+          "probability": 0.9993632435798645
+        }
+      ]
+    }
+  ]
+}

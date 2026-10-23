@@ -1,0 +1,51 @@
+{
+  "source": "media/P06-C04-s01.mp4",
+  "sha256": "23a96d73be643aff8c7c30ef8be11ca7f755828bfde494feb8c35f4ca6635471",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.58,
+      "text": " A dispatch with suspiciously little bureaucracy.",
+      "no_speech_prob": 0.07587898522615433,
+      "words": [
+        {
+          "word": " A",
+          "start": 0.0,
+          "end": 1.56,
+          "probability": 0.8133081793785095
+        },
+        {
+          "word": " dispatch",
+          "start": 1.56,
+          "end": 1.92,
+          "probability": 0.9408391118049622
+        },
+        {
+          "word": " with",
+          "start": 1.92,
+          "end": 2.2,
+          "probability": 0.9907370209693909
+        },
+        {
+          "word": " suspiciously",
+          "start": 2.2,
+          "end": 2.84,
+          "probability": 0.9941019713878632
+        },
+        {
+          "word": " little",
+          "start": 2.84,
+          "end": 3.04,
+          "probability": 0.9964005947113037
+        },
+        {
+          "word": " bureaucracy.",
+          "start": 3.04,
+          "end": 3.58,
+          "probability": 0.9970710277557373
+        }
+      ]
+    }
+  ]
+}

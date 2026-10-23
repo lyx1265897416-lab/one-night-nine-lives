@@ -1,0 +1,5201 @@
+{
+  "version": 1,
+  "timing_basis": "actual source media audio; local small.en ASR plus reviewed script alignment",
+  "clips": {
+    "media/P05-08-r7-s01.mp4": {
+      "source_sha256": "b75d0bb0f2dd75fbbd94e03987125351a00e91c695b52f4bb0c187157df69236",
+      "cues": [
+        {
+          "text": "Rule one.",
+          "en": "Rule one.",
+          "zh": "第一条。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 1760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "No stealing your bed.",
+          "en": "No stealing your bed.",
+          "zh": "不许占床。",
+          "speaker": "Rhys",
+          "startMs": 2520,
+          "endMs": 3760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-08-r7-s02.mp4": {
+      "source_sha256": "b65fe8382a81dabd172cfcf5024b9ad09b70da6874e8833fcad93864e8cd921f",
+      "cues": [
+        {
+          "text": "I’m amending it.",
+          "en": "I’m amending it.",
+          "zh": "我在修改条款。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Stop looking so suspiciously cooperative.",
+          "en": "Stop looking so suspiciously cooperative.",
+          "zh": "别装得这么配合。",
+          "speaker": "June",
+          "startMs": 2220,
+          "endMs": 4300,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-15b-s01.mp4": {
+      "source_sha256": "0c049b5f23329f80a57b9a21ff1a811791abbc768c324d3bbf549b334d48cb5c",
+      "cues": [
+        {
+          "text": "Come back after changing.",
+          "en": "Come back after changing.",
+          "zh": "变完回来。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1080,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "You still owe me half a coffee.",
+          "en": "You still owe me half a coffee.",
+          "zh": "你还欠半杯咖啡。",
+          "speaker": "June",
+          "startMs": 4100,
+          "endMs": 5860,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-15b-s02.mp4": {
+      "source_sha256": "60f9a1a6dcdb3e11572f807647948139c7eeabf6644cb0e9d83546bb61a6f0e0",
+      "cues": [
+        {
+          "text": "Your interest rates could bankrupt a court.",
+          "en": "Your interest rates could bankrupt a court.",
+          "zh": "你这套利息会拖垮王庭。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 2600,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-08-s01.mp4": {
+      "source_sha256": "16ac0c1af7896a61c1457a7a392e01b7836ec2254f6b97fbfb7878bb8801354d",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P05-09b-r7-s01.mp4": {
+      "source_sha256": "4299a2d849740413f87226fa73dfd00ace666f20d5eadb73f010579ec7dff130",
+      "cues": [
+        {
+          "text": "Finally.",
+          "en": "Finally.",
+          "zh": "终于。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1020,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Quiet.",
+          "en": "Quiet.",
+          "zh": "安静了。",
+          "speaker": "June",
+          "startMs": 1640,
+          "endMs": 2120,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-09b-r7-s02.mp4": {
+      "source_sha256": "69e357280e1671ba2858db461e7ab353355c5aa19c5bd33625d5b238766de0cc",
+      "cues": [
+        {
+          "text": "Temporarily.",
+          "en": "Temporarily.",
+          "zh": "暂时。",
+          "speaker": "Rhys",
+          "startMs": 3740,
+          "endMs": 4920,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Don’t underestimate me.",
+          "en": "Don’t underestimate me.",
+          "zh": "别低估我。",
+          "speaker": "Rhys",
+          "startMs": 5200,
+          "endMs": 7060,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B03x-s01.mp4": {
+      "source_sha256": "75373cc0d69a0aeb2b206f5f91877d4ba7118f471023a8e65679b4c3b9e731e7",
+      "cues": [
+        {
+          "text": "The daytime version needs something in writing.",
+          "en": "The daytime version needs something in writing.",
+          "zh": "白天的我需要一份书面说明。",
+          "speaker": "Rhys",
+          "startMs": 1280,
+          "endMs": 3980,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B03x-s02.mp4": {
+      "source_sha256": "214f9ca7cdd16ed06031b985280268aabd6b4af5d1bf17c08505b92c6ac08bf6",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P04-14c-s01.mp4": {
+      "source_sha256": "ef2633964715d5a53bf0df7ba51a7d8df4962dd49f011e78274a3634156a37a5",
+      "cues": [
+        {
+          "text": "All right.",
+          "en": "All right.",
+          "zh": "好。",
+          "speaker": "Rhys",
+          "startMs": 2240,
+          "endMs": 3200,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I’ll be here tomorrow.",
+          "en": "I’ll be here tomorrow.",
+          "zh": "我明天还在。",
+          "speaker": "Rhys",
+          "startMs": 3200,
+          "endMs": 4940,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-14c-s02.mp4": {
+      "source_sha256": "ac03efe35026950ceecb73e2cd2dae2ebf207c475e6d10513b98f1976666538a",
+      "cues": [
+        {
+          "text": "A kiss isn’t keeping me alive.",
+          "en": "A kiss isn’t keeping me alive.",
+          "zh": "不靠今晚的一个吻续命。",
+          "speaker": "Rhys",
+          "startMs": 2880,
+          "endMs": 5020,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-05-s01.mp4": {
+      "source_sha256": "26d506fb99970fcdc361968a62ebfb548f245e538087c4807fc5d7552ec482e3",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-06-r7-s01.mp4": {
+      "source_sha256": "3f7da45f86109e1ffc6d6b083dd7f93cc36d90ab4be121323390113fb0e7e3a2",
+      "cues": []
+    },
+    "media/P06-06-r7-s02.mp4": {
+      "source_sha256": "3b7a31cc1dec2abcb0d1cf23210366f7a8784a03f30a41c345ebac7790447e2e",
+      "cues": [
+        {
+          "text": "Later, I fell for a man.",
+          "en": "Later, I fell for a man.",
+          "zh": "后来喜欢上了一个人。",
+          "speaker": "June",
+          "startMs": 620,
+          "endMs": 3080,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Neither decision belonged to you.",
+          "en": "Neither decision belonged to you.",
+          "zh": "两件事，都不是你们替我决定的。",
+          "speaker": "June",
+          "startMs": 5020,
+          "endMs": 6640,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-03-r7-s01.mp4": {
+      "source_sha256": "dc59994de5b721d01988444b278d40d88169567bd5949fc1ca76a5f534a0cae9",
+      "cues": [
+        {
+          "text": "Release is not an unpaid bill.",
+          "en": "Release is not an unpaid bill.",
+          "zh": "退誓不是逃掉账单。",
+          "speaker": "Vael",
+          "startMs": 2420,
+          "endMs": 4540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-03-r7-s02.mp4": {
+      "source_sha256": "a8f1c78d043e23abf3fb1c24a5b39e186213eb45e1caa362b4569200d562c0e1",
+      "cues": [
+        {
+          "text": "Human, both forms, or a return to court.",
+          "en": "Human, both forms, or a return to court.",
+          "zh": "人形、双形，或者回庭。",
+          "speaker": "Vael",
+          "startMs": 0,
+          "endMs": 4060,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "He signs the choice.",
+          "en": "He signs the choice.",
+          "zh": "每一条都由他签。",
+          "speaker": "Vael",
+          "startMs": 5740,
+          "endMs": 7160,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-C04-r7-s01.mp4": {
+      "source_sha256": "975442b16850b174fb229ba93fd19170ed8e41fd5d00921d16f14315b276ac1c",
+      "cues": [
+        {
+          "text": "A dispatch with suspiciously little bureaucracy.",
+          "en": "A dispatch with suspiciously little bureaucracy.",
+          "zh": "一份不像公文的公文。",
+          "speaker": "Vael",
+          "startMs": 0,
+          "endMs": 3440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-05-r8-s01.mp4": {
+      "source_sha256": "77363a48583d388019ca1f0e7b5c649a83f837150c1f624b733eb264e7e5ac1d",
+      "cues": [
+        {
+          "text": "He doesn’t belong here.",
+          "en": "He doesn’t belong here.",
+          "zh": "他不该在这里。",
+          "speaker": "Vael",
+          "startMs": 0,
+          "endMs": 1880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "That doesn’t mean he belongs to you.",
+          "en": "That doesn’t mean he belongs to you.",
+          "zh": "那也不代表他属于你。",
+          "speaker": "June",
+          "startMs": 5240,
+          "endMs": 7260,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-03-r7-s01.mp4": {
+      "source_sha256": "218efd3dc908140f89c1018dc85e8b289a6dc2206e061f586d858abf0cd779ba",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P01-06-s01.mp4": {
+      "source_sha256": "0def4241743e4dd3f901f1cc6044a0556539645efff2dea19ba773bdd88f0087",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-A03c-s01.mp4": {
+      "source_sha256": "2de81c2769903bc237a459f2134aeba22cf1f0c848ebc5a0dae9012655256bea",
+      "cues": [
+        {
+          "text": "Kitchen’s over there.",
+          "en": "Kitchen’s over there.",
+          "zh": "厨房在那边。",
+          "speaker": "June",
+          "startMs": 1140,
+          "endMs": 3100,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Princes take turns too.",
+          "en": "Princes take turns too.",
+          "zh": "王子也得轮值。",
+          "speaker": "June",
+          "startMs": 4260,
+          "endMs": 5540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Former prince now.",
+          "en": "Former prince now.",
+          "zh": "现在是前王子。",
+          "speaker": "Rhys",
+          "startMs": 6580,
+          "endMs": 7760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-A03c-s02.mp4": {
+      "source_sha256": "98f0011e7f03104d0c33431d273e75aadc93c5b5d1c49c9caa75f5bd2d2ffa2c",
+      "cues": [
+        {
+          "text": "My rates may be lower.",
+          "en": "My rates may be lower.",
+          "zh": "收费可能更便宜。",
+          "speaker": "Rhys",
+          "startMs": 2000,
+          "endMs": 3560,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-C02b-r2-s01.mp4": {
+      "source_sha256": "217a5c83ef472713fb2832d4b02f833c06829fdcd4c6ed3ca3314241b26f5945",
+      "cues": [
+        {
+          "text": "I’ll miss you.",
+          "en": "I’ll miss you.",
+          "zh": "我会想你。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "You still have to do it properly.",
+          "en": "You still have to do it properly.",
+          "zh": "你还是得把事做好。",
+          "speaker": "June",
+          "startMs": 3200,
+          "endMs": 4880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I know.",
+          "en": "I know.",
+          "zh": "我知道。",
+          "speaker": "Rhys",
+          "startMs": 6900,
+          "endMs": 7700,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-C02b-r4-s02.mp4": {
+      "source_sha256": "a1fbbb016a1a07bce81250e594b502d753d94feaf925a8ff70ffc9c038a0570f",
+      "cues": [
+        {
+          "text": "You’ve always been good at making me mean it.",
+          "en": "You’ve always been good at making me mean it.",
+          "zh": "你一直很会让人认真。",
+          "speaker": "Rhys",
+          "startMs": 3720,
+          "endMs": 5940,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-12-continuity-r5-s01.mp4": {
+      "source_sha256": "a5e87f0ef3f57bb70a3c8b5674df1a21f9f93767d8dc86a23591562b6754bd4f",
+      "cues": [
+        {
+          "text": "Rhys. Nice to meet you. Less charming with the frying pan, admittedly.",
+          "en": "Rhys. Nice to meet you. Less charming with the frying pan, admittedly.",
+          "zh": "Rhys。很高兴认识你。对平底锅来说，这大概不是个好开场。",
+          "speaker": "Rhys",
+          "startMs": 800,
+          "endMs": 6360,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-17-s01.mp4": {
+      "source_sha256": "a79ff2f1f3b43e453db3683ff6dd524b761b391bd53175028e7b0a80434ca9a0",
+      "cues": [
+        {
+          "text": "Rule four: back before sunrise.",
+          "en": "Rule four: back before sunrise.",
+          "zh": "第四条：天亮前回来。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 2660,
+          "timestampMs": null,
+          "confidence": 0.8,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-17-s02.mp4": {
+      "source_sha256": "313e3c9533a1965eb6fb749abc399ed9395f10c915347fb76fe88b85bbbbc42c",
+      "cues": [
+        {
+          "text": "A reminder for me.",
+          "en": "A reminder for me.",
+          "zh": "说给我自己。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 2540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Not an order for you.",
+          "en": "Not an order for you.",
+          "zh": "不是命令你。",
+          "speaker": "Rhys",
+          "startMs": 5680,
+          "endMs": 7160,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-11-s01.mp4": {
+      "source_sha256": "ad135ac94042933f32c9628adb0389c7ff65a767fa7347ccc135a8a4d90c0a13",
+      "cues": [
+        {
+          "text": "This probably needs to come off.",
+          "en": "This probably needs to come off.",
+          "zh": "这件大概要脱。",
+          "speaker": "Rhys",
+          "startMs": 2660,
+          "endMs": 4760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-11-s02.mp4": {
+      "source_sha256": "dac7f6b02f13496315d96192b24b234b7533f694ca3923a606271c9ae21de5b4",
+      "cues": [
+        {
+          "text": "You could spill on a napkin.",
+          "en": "You could spill on a napkin.",
+          "zh": "你可以把咖啡溅在餐巾上。",
+          "speaker": "June",
+          "startMs": 1320,
+          "endMs": 3440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Very traditional.",
+          "en": "Very traditional.",
+          "zh": "更传统。",
+          "speaker": "June",
+          "startMs": 4320,
+          "endMs": 5320,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-13a-r7-s01.mp4": {
+      "source_sha256": "71650b62604cad32a51971ffaffbce125b1d09c6325fed38d9fa0e6fc99ddd6c",
+      "cues": [
+        {
+          "text": "I like you.",
+          "en": "I like you.",
+          "zh": "我喜欢你。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1700,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Not your résumé.",
+          "en": "Not your résumé.",
+          "zh": "不是你的履历。",
+          "speaker": "June",
+          "startMs": 2080,
+          "endMs": 2760,
+          "timestampMs": null,
+          "confidence": 0.8,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-13a-r7-s02.mp4": {
+      "source_sha256": "cbb0d5343c4e2b600df1dd33e0175039a3a6f6a09dc894d5f287d19dc3aaec26",
+      "cues": [
+        {
+          "text": "Good.",
+          "en": "Good.",
+          "zh": "好。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 1060,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I’ll shorten the résumé.",
+          "en": "I’ll shorten the résumé.",
+          "zh": "我会把履历写得短一些。",
+          "speaker": "Rhys",
+          "startMs": 1760,
+          "endMs": 3220,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-17-s01.mp4": {
+      "source_sha256": "28caa4ae916ff52e4b483ba5b024b7657afdb1bffe567b5893d53ddc7a2ad44f",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P05-11-s01.mp4": {
+      "source_sha256": "e3ee43ad491a656435ee819d77c4c5cb7ea7a93829aaf3171c2dff1e75f38368",
+      "cues": [
+        {
+          "text": "You can keep watching me pretend to be composed. Or make it harder.",
+          "en": "You can keep watching me pretend to be composed. Or make it harder.",
+          "zh": "你可以继续看我故作镇定。或者让它更难一点。",
+          "speaker": "Rhys",
+          "startMs": 620,
+          "endMs": 5500,
+          "timestampMs": null,
+          "confidence": 0.923,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-11-s02.mp4": {
+      "source_sha256": "8b4795bc4d88cf3ea47e091ee8075790f415269e682002d9d6aa05a3038db35f",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P01-18b-s01.mp4": {
+      "source_sha256": "1237598b334d745d4fc346b4bb056e4d6a05282a3803686c94bb6f7d1d596076",
+      "cues": [
+        {
+          "text": "We don’t need a staff meeting every morning. Go sleep.",
+          "en": "We don’t need a staff meeting every morning. Go sleep.",
+          "zh": "不用每天开员工大会。去睡吧。",
+          "speaker": "June",
+          "startMs": 5020,
+          "endMs": 7920,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-09d-s01.mp4": {
+      "source_sha256": "6790e15ee57622143458688545ee714f422c482ed98a94f659d6a060dec2bfc3",
+      "cues": [
+        {
+          "text": "What was your original plan?",
+          "en": "What was your original plan?",
+          "zh": "你原来的计划是什么？",
+          "speaker": "June",
+          "startMs": 1400,
+          "endMs": 3360,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Leave court.",
+          "en": "Leave court.",
+          "zh": "离开王庭。",
+          "speaker": "Rhys",
+          "startMs": 4580,
+          "endMs": 5440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-09d-s02.mp4": {
+      "source_sha256": "40830e68b1f5374a18c37e99719e69881dd5ebab7943aa01918c2a77857b7849",
+      "cues": [
+        {
+          "text": "Don’t fall for my host.",
+          "en": "Don’t fall for my host.",
+          "zh": "别爱上收留我的人。",
+          "speaker": "Rhys",
+          "startMs": 1200,
+          "endMs": 2900,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Apparently, I managed half.",
+          "en": "Apparently, I managed half.",
+          "zh": "显然只完成了一半。",
+          "speaker": "Rhys",
+          "startMs": 4320,
+          "endMs": 6160,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B06-r7-s01.mp4": {
+      "source_sha256": "85e7b98f60da012b369e3ea7abdbce9d5f47990bfd6f0d3c4ea0012d44a697f2",
+      "cues": [
+        {
+          "text": "A free roommate. Still on the chore rotation.",
+          "en": "A free roommate. Still on the chore rotation.",
+          "zh": "自由的室友。照样轮值。",
+          "speaker": "June",
+          "startMs": 6400,
+          "endMs": 9880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-08-r7-s01.mp4": {
+      "source_sha256": "10c1b8c71eff367c5da4d8e3998afe644fd210a8862810a363ee2bfacc72e47b",
+      "cues": [
+        {
+          "text": "Royal junk mail, or the kind that ruins dinner?",
+          "en": "Royal junk mail, or the kind that ruins dinner?",
+          "zh": "皇家垃圾邮件，还是会毁掉晚餐的那种？",
+          "speaker": "June",
+          "startMs": 920,
+          "endMs": 5040,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-05c-s01.mp4": {
+      "source_sha256": "3b5f0c7ed4d5fdc2515286333737e619d53228c72ae71233ccbe2ec7d778c5af",
+      "cues": [
+        {
+          "text": "You just wanted me to make the first move.",
+          "en": "You just wanted me to make the first move.",
+          "zh": "你只是想让我先动手。",
+          "speaker": "June",
+          "startMs": 760,
+          "endMs": 3160,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Finally. Someone who understands the strategy.",
+          "en": "Finally. Someone who understands the strategy.",
+          "zh": "终于遇到一位能读懂计划的人。",
+          "speaker": "Rhys",
+          "startMs": 4980,
+          "endMs": 8220,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-08-s01.mp4": {
+      "source_sha256": "f85831169f481f6492da903c1a8a004a7e2bd565172e83d2f2a2de52576862b6",
+      "cues": [
+        {
+          "text": "You can take off the jacket.",
+          "en": "You can take off the jacket.",
+          "zh": "脱外套可以。",
+          "speaker": "June",
+          "startMs": 1460,
+          "endMs": 3280,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Not the question.",
+          "en": "Not the question.",
+          "zh": "脱掉问题不行。",
+          "speaker": "June",
+          "startMs": 4160,
+          "endMs": 5280,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-08-s02.mp4": {
+      "source_sha256": "72781e05eb1b6c643d59f00d968714bfdb925a328e8e32c39d4398ae5dac65ee",
+      "cues": [
+        {
+          "text": "This evening may be harder than I’d planned.",
+          "en": "This evening may be harder than I’d planned.",
+          "zh": "那今晚会比我想的难一点。",
+          "speaker": "Rhys",
+          "startMs": 2460,
+          "endMs": 4880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-19-s01.mp4": {
+      "source_sha256": "e4e97a2b77a057771aa5e7ac0fbe869488876e7e66ab014dba7a31959ed1da3d",
+      "cues": [
+        {
+          "text": "He even leaves notes.",
+          "en": "He even leaves notes.",
+          "zh": "居然还会留便条。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1480,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-A01-r7-s01.mp4": {
+      "source_sha256": "958a28c4a147868be2784c5f455312852de906d013436686965ea1ed1957fbdc",
+      "cues": [
+        {
+          "text": "Stay.",
+          "en": "Stay.",
+          "zh": "留下。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 560,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "The crown isn’t essential luggage.",
+          "en": "The crown isn’t essential luggage.",
+          "zh": "王冠不算必要行李。",
+          "speaker": "June",
+          "startMs": 1560,
+          "endMs": 3220,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-A01-r7-s02.mp4": {
+      "source_sha256": "1eca342e794e93d3b61d7a4eab5b60c62e621dfa051b76301d4a1085d07dd9e1",
+      "cues": [
+        {
+          "text": "I choose this life.",
+          "en": "I choose this life.",
+          "zh": "我选人间。",
+          "speaker": "Rhys",
+          "startMs": 1720,
+          "endMs": 3420,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "No magic.",
+          "en": "No magic.",
+          "zh": "没有魔力。",
+          "speaker": "Rhys",
+          "startMs": 4440,
+          "endMs": 5440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I’ll learn to wash the cups.",
+          "en": "I’ll learn to wash the cups.",
+          "zh": "但会学会洗杯子。",
+          "speaker": "Rhys",
+          "startMs": 7160,
+          "endMs": 8860,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-12c-r7-s01.mp4": {
+      "source_sha256": "2ce301cc27e776692e9fa1854268ec17bd74eaa2da81cfcbcf90803dddd6966d",
+      "cues": [
+        {
+          "text": "You’re good at interrogations.",
+          "en": "You’re good at interrogations.",
+          "zh": "你很会审讯。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 3120,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-12c-r7-s02.mp4": {
+      "source_sha256": "e710d2610fd120ac673a2083f13b2458683000ef56d7271d75682e0b6fcf6fa4",
+      "cues": [
+        {
+          "text": "I haven’t even made coffee yet.",
+          "en": "I haven’t even made coffee yet.",
+          "zh": "我只是还没煮咖啡。",
+          "speaker": "June",
+          "startMs": 2120,
+          "endMs": 4040,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-03-r6-s01.mp4": {
+      "source_sha256": "f6da86ae0cca200d7dd443f274a707400f180306e14035419c71142ce1e61b08",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P03-05-s01.mp4": {
+      "source_sha256": "53426d5564d67b72e46323616edc29dd493674d0491f50ed753089a7ae7e70f8",
+      "cues": [
+        {
+          "text": "Poke me and I might bite. The very gentle kind.",
+          "en": "Poke me and I might bite. The very gentle kind.",
+          "zh": "你要是戳我，我可能会咬。很轻的那种。",
+          "speaker": "Rhys",
+          "startMs": 1800,
+          "endMs": 6420,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-03-r9-s01.mp4": {
+      "source_sha256": "601e4d1ecdce7a516bec8e4409060ed2873864c2ab0abe16f0cccf9fa42218db",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P03-16b-s01.mp4": {
+      "source_sha256": "29ad4d7d92f599a1a46d7c3e62b169ae46e79bc42aff1d48bf47dfd633f8433f",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P03-16b-s02.mp4": {
+      "source_sha256": "3fa4e8da5ac7ba0d80f6f5a225f3c484702d799bf69ff14870cd5157d59d81e9",
+      "cues": [
+        {
+          "text": "Was that an answer or another question?",
+          "en": "Was that an answer or another question?",
+          "zh": "这次是答案，还是追问？",
+          "speaker": "Rhys",
+          "startMs": 1860,
+          "endMs": 4320,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Depends on your next sentence.",
+          "en": "Depends on your next sentence.",
+          "zh": "看你下一句。",
+          "speaker": "June",
+          "startMs": 5440,
+          "endMs": 6640,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-C02-r2-s01.mp4": {
+      "source_sha256": "8465ab016e8050a8fed7f98ecead73badadb9a1c421b512b99d9bf74b3e3bd68",
+      "cues": [
+        {
+          "text": "I have to go. Not because I want to leave you.",
+          "en": "I have to go. Not because I want to leave you.",
+          "zh": "我得去。但不是因为想离开你。",
+          "speaker": "Rhys",
+          "startMs": 1600,
+          "endMs": 6960,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-05-r7-s01.mp4": {
+      "source_sha256": "1d3e89135af9dc305663afc77da56cacc7061fc49eb81ba91a6bbefa3f5e4245",
+      "cues": [
+        {
+          "text": "She hasn’t finished reading.",
+          "en": "She hasn’t finished reading.",
+          "zh": "她还没读完。",
+          "speaker": "Rhys",
+          "startMs": 1420,
+          "endMs": 3200,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-05-r7-s02.mp4": {
+      "source_sha256": "4b7c1ebde8ac6288e43cb4ae938660b639ba39eb9041f508f2a6c60ce8f82e97",
+      "cues": [
+        {
+          "text": "Your hurry suggests some fascinating omissions.",
+          "en": "Your hurry suggests some fascinating omissions.",
+          "zh": "你这么急，条款里一定有很有趣的空白。",
+          "speaker": "Rhys",
+          "startMs": 1480,
+          "endMs": 5220,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-11-s01.mp4": {
+      "source_sha256": "89216778cdf90a7a1aa3176feff81314cf25390165a6bd0c690d419f973cc12c",
+      "cues": [
+        {
+          "text": "Later, I wanted to stay.",
+          "en": "Later, I wanted to stay.",
+          "zh": "后来，我想留下。",
+          "speaker": "Rhys",
+          "startMs": 1060,
+          "endMs": 2880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Not hide.",
+          "en": "Not hide.",
+          "zh": "不只是躲起来。",
+          "speaker": "Rhys",
+          "startMs": 3480,
+          "endMs": 4480,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-11-r7-s02.mp4": {
+      "source_sha256": "55a0381dba4d76dd10cd816de2ea057465219b735bba3553ee9ba8f8b9959951",
+      "cues": [
+        {
+          "text": "I confused the two and kept you in the dark.",
+          "en": "I confused the two and kept you in the dark.",
+          "zh": "我把两件事混在一起，还瞒着你。",
+          "speaker": "Rhys",
+          "startMs": 4700,
+          "endMs": 7120,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "That was my fault.",
+          "en": "That was my fault.",
+          "zh": "那是我的错。",
+          "speaker": "Rhys",
+          "startMs": 8440,
+          "endMs": 9760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-17-r7-s01.mp4": {
+      "source_sha256": "139555b5b6241af387ea53c85ab56f21f46610a54cb46e8be1e7dd185436109a",
+      "cues": [
+        {
+          "text": "All right.",
+          "en": "All right.",
+          "zh": "好。",
+          "speaker": "June",
+          "startMs": 3360,
+          "endMs": 4620,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Both of you.",
+          "en": "Both of you.",
+          "zh": "你们两个。",
+          "speaker": "June",
+          "startMs": 4840,
+          "endMs": 5880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-17-r7-s02.mp4": {
+      "source_sha256": "71ee8e35effd86e5478e65517c731920ff4f29edade5c42e8902931ca7549025",
+      "cues": [
+        {
+          "text": "Nobody’s applying for my pillow.",
+          "en": "Nobody’s applying for my pillow.",
+          "zh": "谁都别申请我的枕头。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1940,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-11-s01.mp4": {
+      "source_sha256": "9d86a3d2cdaa104a25eb8a58ed2d50a1565aad92e05be1765c9e7da82cbee39f",
+      "cues": [
+        {
+          "text": "Do you want out of the wedding, or out of every responsibility?",
+          "en": "Do you want out of the wedding, or out of every responsibility?",
+          "zh": "你想摆脱婚礼，还是摆脱所有责任？",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 3280,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I… I haven't figured that out yet.",
+          "en": "I… I haven't figured that out yet.",
+          "zh": "我……我还没想清楚。",
+          "startMs": 5740,
+          "endMs": 7820,
+          "timestampMs": null,
+          "confidence": null,
+          "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+        }
+      ]
+    },
+    "media/P03-11-s02.mp4": {
+      "source_sha256": "fcd111c529d4f5ad90c763b78453b6407a2115c21897ef7cd69673520a271697",
+      "cues": [
+        {
+          "text": "Freedom, or are you just running from responsibility?",
+          "en": "Freedom, or are you just running from responsibility?",
+          "zh": "是要自由，还是只想逃避责任？",
+          "startMs": 1200,
+          "endMs": 3180,
+          "timestampMs": null,
+          "confidence": null,
+          "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+        }
+      ]
+    },
+    "media/P01-14-r7-s01.mp4": {
+      "source_sha256": "627f7efe4f8f32fd993ed1a5a1d3210ca9120ec35a2d28da10e9bd0cf78d84ff",
+      "cues": [
+        {
+          "text": "Someone is looking for me. I needed somewhere they hadn’t chosen for me.",
+          "en": "Someone is looking for me. I needed somewhere they hadn’t chosen for me.",
+          "zh": "有人在找我。我需要一个他们没替我选好的地方。",
+          "speaker": "Rhys",
+          "startMs": 1080,
+          "endMs": 5440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-17-r7-s01.mp4": {
+      "source_sha256": "35eb83076203f6016eeab42cc5b935d9167a7342ebd67617387ad78c19ead8a8",
+      "cues": [
+        {
+          "text": "Your keys.",
+          "en": "Your keys.",
+          "zh": "你的钥匙。",
+          "speaker": "Deb",
+          "startMs": 0,
+          "endMs": 1060,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Again.",
+          "en": "Again.",
+          "zh": "又忘了。",
+          "speaker": "Deb",
+          "startMs": 3580,
+          "endMs": 4440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Also, who’s the man practicing very bad posture?",
+          "en": "Also, who’s the man practicing very bad posture?",
+          "zh": "顺便问，那个低头的人是谁？",
+          "speaker": "Deb",
+          "startMs": 5300,
+          "endMs": 7480,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "New roommate.",
+          "en": "New roommate.",
+          "zh": "新室友。",
+          "speaker": "June",
+          "startMs": 8100,
+          "endMs": 8760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-17-r7-s02.mp4": {
+      "source_sha256": "da99c060f58f0bc17b0818f5715c0642efd7b886b0e37d3a7bdcc514aaa5df3a",
+      "cues": [
+        {
+          "text": "Explaining him requires a chair.",
+          "en": "Explaining him requires a chair.",
+          "zh": "解释起来需要一把椅子。",
+          "speaker": "June",
+          "startMs": 2080,
+          "endMs": 3920,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-09-s01.mp4": {
+      "source_sha256": "829cdee453bd2bb4ff3f90dd00cd914624e508ed8fb228e16a2b8b570c00efe3",
+      "cues": [
+        {
+          "text": "I’m good at loopholes. This one is yours to explain.",
+          "en": "I’m good at loopholes. This one is yours to explain.",
+          "zh": "我很擅长钻空子。不过这一条，你来解释。",
+          "speaker": "Rhys",
+          "startMs": 2480,
+          "endMs": 5940,
+          "timestampMs": null,
+          "confidence": 0.87,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-09-s01.mp4": {
+      "source_sha256": "df6c9b9e050db2686fae057478c9391a2b58be8dde32a663c6b060ae7cb75542",
+      "cues": [
+        {
+          "text": "The clothes fit. Privacy is complimentary.",
+          "en": "The clothes fit. Privacy is complimentary.",
+          "zh": "衣服合身。隐私服务免费。",
+          "speaker": "June",
+          "startMs": 3120,
+          "endMs": 6480,
+          "timestampMs": null,
+          "confidence": 0.909,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-14b-s01.mp4": {
+      "source_sha256": "8e5e87532670c72ef42dbd8b2c1c28ac9e6ba7daa19def7ccfde5854298bc0d6",
+      "cues": [
+        {
+          "text": "Next time I ask, the whole answer.",
+          "en": "Next time I ask, the whole answer.",
+          "zh": "下次我问，你要答全。",
+          "speaker": "June",
+          "startMs": 1840,
+          "endMs": 4400,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-14b-s02.mp4": {
+      "source_sha256": "fc74612e67bfa47804fc0398a902ed6faa782bc2b7b4da2b8274852e5aa2bb06",
+      "cues": [
+        {
+          "text": "The whole answer.",
+          "en": "The whole answer.",
+          "zh": "答全。",
+          "speaker": "Rhys",
+          "startMs": 1480,
+          "endMs": 2920,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Even the uncharming parts.",
+          "en": "Even the uncharming parts.",
+          "zh": "即使显得不够迷人。",
+          "speaker": "Rhys",
+          "startMs": 3540,
+          "endMs": 4900,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-09c-r7-s01.mp4": {
+      "source_sha256": "4eab02a19821bcb4e06686a18c37cd9b039c49c71c66c0a1a4a5aa1228117d80",
+      "cues": [
+        {
+          "text": "Like this?",
+          "en": "Like this?",
+          "zh": "这样？",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 1960,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-09c-r8-s02.mp4": {
+      "source_sha256": "640e4a40cc3fc19c54c95bb7cc2cbbf1b9f5cd538d5c8a03c9f4b84440617b64",
+      "cues": [
+        {
+          "text": "Skip the victory speech.",
+          "en": "Skip the victory speech.",
+          "zh": "先别附带演讲。",
+          "speaker": "June",
+          "startMs": 5200,
+          "endMs": 6860,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-19-memory-touched_neck.mp4": {
+      "source_sha256": "d213f54769a06484a60c604b2b6b3f331a6d96a3238f93d38725a699a55d732b",
+      "cues": [
+        {
+          "text": "Apparently my neck fears you more than the court.",
+          "en": "Apparently my neck fears you more than the court.",
+          "zh": "我的脖子看来比王庭更怕你。",
+          "speaker": "Rhys",
+          "startMs": 1560,
+          "endMs": 3800,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B01-r7-s01.mp4": {
+      "source_sha256": "b2394c993eaee3dddf530e4e5aa1c02ad2836b47964404bfbf484d1f1131e902",
+      "cues": [
+        {
+          "text": "Stay.",
+          "en": "Stay.",
+          "zh": "留下。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 940,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Don’t discard the part of yourself you like.",
+          "en": "Don’t discard the part of yourself you like.",
+          "zh": "也别把你喜欢的那部分丢掉。",
+          "speaker": "June",
+          "startMs": 1840,
+          "endMs": 4100,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B01-r7-s02.mp4": {
+      "source_sha256": "b3791489f67e2fca1399534309aa0e81de947dd2857051d94a6098da5ac26f3c",
+      "cues": [
+        {
+          "text": "Then I choose both.",
+          "en": "Then I choose both.",
+          "zh": "那我选两种。",
+          "speaker": "Rhys",
+          "startMs": 1120,
+          "endMs": 2640,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Neither chosen for me.",
+          "en": "Neither chosen for me.",
+          "zh": "都不是他们替我选的。",
+          "speaker": "Rhys",
+          "startMs": 3460,
+          "endMs": 4720,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-06a-r7-s01.mp4": {
+      "source_sha256": "9913bc80834c0992838b0b2720a7d774ba5e2c6e0dfb280aa3574dddfb1e2fe2",
+      "cues": [
+        {
+          "text": "Are we even now?",
+          "en": "Are we even now?",
+          "zh": "这样算扯平了吗？",
+          "speaker": "June",
+          "startMs": 3480,
+          "endMs": 5780,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-06a-r7-s02.mp4": {
+      "source_sha256": "c9ca93a3a2bf77240e47c1ae2b80bce028968f0e129a6d6757879c400c0b9971",
+      "cues": [
+        {
+          "text": "I may need to review the accounts.",
+          "en": "I may need to review the accounts.",
+          "zh": "我得重新检查账目。",
+          "speaker": "Rhys",
+          "startMs": 3020,
+          "endMs": 4780,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-05a-r7-s01.mp4": {
+      "source_sha256": "f96b70e1a357877eeea1d3055c99842b7dea7ac8f33e06bf84e07f79f280bbbd",
+      "cues": [
+        {
+          "text": "The patient comes with me. Sir, make an appointment.",
+          "en": "The patient comes with me. Sir, make an appointment.",
+          "zh": "病人跟我走。先生，请预约。",
+          "speaker": "June",
+          "startMs": 5340,
+          "endMs": 9600,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-13-r7-s01.mp4": {
+      "source_sha256": "bcba6260e6758b1a9627c1261eba34663cbb4efe3e05aedbf9954256b097a49b",
+      "cues": [
+        {
+          "text": "I’m from the Night Court. I was a prince.",
+          "en": "I’m from the Night Court. I was a prince.",
+          "zh": "我来自夜之王庭。曾经是王子。",
+          "speaker": "Rhys",
+          "startMs": 740,
+          "endMs": 3220,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "“Was” sounds more interesting than “prince.”",
+          "en": "“Was” sounds more interesting than “prince.”",
+          "zh": "曾经这个词听起来比王子有意思。",
+          "speaker": "June",
+          "startMs": 3820,
+          "endMs": 5640,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-16-r7-s01.mp4": {
+      "source_sha256": "98e8585d94dec863848103fe3fbd246d754ed0004a9229cce9c0474524c1d997",
+      "cues": [
+        {
+          "text": "You’re looking at my mouth.",
+          "en": "You’re looking at my mouth.",
+          "zh": "你在看我的嘴。",
+          "speaker": "Rhys",
+          "startMs": 3480,
+          "endMs": 4880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-16-r7-s02.mp4": {
+      "source_sha256": "76a5d63d2833c899c65666bf14e0b658a993e7e2c4fdd7e13de7f578868d960a",
+      "cues": [
+        {
+          "text": "That’s where your explanation ended.",
+          "en": "That’s where your explanation ended.",
+          "zh": "你的解释刚刚在那里结束。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1840,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-03b-s01.mp4": {
+      "source_sha256": "0b311745f0fa1b334f0231f5fedfad34c0478f15b66c953ba1b440d76d8ecf2c",
+      "cues": [
+        {
+          "text": "Beside me is enough.",
+          "en": "Beside me is enough.",
+          "zh": "你走在旁边，就够了。",
+          "speaker": "Rhys",
+          "startMs": 7100,
+          "endMs": 8460,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-14a-r7-s01.mp4": {
+      "source_sha256": "4546d6a1dffb5555af06b8d4d2105a36ad0c8a8c2e875852d396156f0f0d758e",
+      "cues": [
+        {
+          "text": "All right. Now we’re even.",
+          "en": "All right. Now we’re even.",
+          "zh": "行。现在公平了。",
+          "speaker": "Rhys",
+          "startMs": 2800,
+          "endMs": 5500,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Did you forget to breathe?",
+          "en": "Did you forget to breathe?",
+          "zh": "你刚才是不是忘了呼吸？",
+          "speaker": "June",
+          "startMs": 6260,
+          "endMs": 7540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-C02c-s01.mp4": {
+      "source_sha256": "db2757698940693f829ba9bb8d2cff1b1df48b7f31d1fb4af3095211c46bb276",
+      "cues": [
+        {
+          "text": "I’ll be here.",
+          "en": "I’ll be here.",
+          "zh": "我会在。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1120,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Not waiting for a prince.",
+          "en": "Not waiting for a prince.",
+          "zh": "不是等一位王子。",
+          "speaker": "June",
+          "startMs": 1120,
+          "endMs": 3400,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-C02c-r7-s02.mp4": {
+      "source_sha256": "8bca847f5ddd421eb00a383e83b472731655c13f43ed61ef3d4bfcf0fee4c619",
+      "cues": [
+        {
+          "text": "Waiting for you to mean what you say.",
+          "en": "Waiting for you to mean what you say.",
+          "zh": "是等你说到做到。",
+          "speaker": "June",
+          "startMs": 880,
+          "endMs": 2920,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Then I shouldn’t make you wait for nothing.",
+          "en": "Then I shouldn’t make you wait for nothing.",
+          "zh": "那我就不该让你白等。",
+          "speaker": "Rhys",
+          "startMs": 5580,
+          "endMs": 7800,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-10-s01.mp4": {
+      "source_sha256": "369337533be77acb49497f24986a2658fcea2f5a5e6659f3bbe667a297990d52",
+      "cues": [
+        {
+          "text": "At court, someone usually follows an order.",
+          "en": "At court, someone usually follows an order.",
+          "zh": "王庭只需要下命令。",
+          "speaker": "Rhys",
+          "startMs": 3060,
+          "endMs": 5940,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "That works here too.",
+          "en": "That works here too.",
+          "zh": "这里也行。",
+          "speaker": "June",
+          "startMs": 6720,
+          "endMs": 7660,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-10-s02.mp4": {
+      "source_sha256": "0e67bb9898c1c6e6632672df7767b06d97cc665e22deb8da1c69fbc9cf8706b2",
+      "cues": [
+        {
+          "text": "My order: read the instructions.",
+          "en": "My order: read the instructions.",
+          "zh": "命令是：先读说明书。",
+          "speaker": "June",
+          "startMs": 1180,
+          "endMs": 3660,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-16-r7-s01.mp4": {
+      "source_sha256": "9baf24947071cf16ae74416dcf516e6d13c27792c13acf1425b79e48948e2f8d",
+      "cues": [
+        {
+          "text": "Come with me.",
+          "en": "Come with me.",
+          "zh": "跟我来。",
+          "speaker": "June",
+          "startMs": 1740,
+          "endMs": 3360,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "The door actually closes.",
+          "en": "The door actually closes.",
+          "zh": "门确实能关上。",
+          "speaker": "June",
+          "startMs": 4020,
+          "endMs": 5920,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-16-r7-s02.mp4": {
+      "source_sha256": "56e31718434f6ed77930c4bf5bbcb739ba7ec7de204c9e949aecb0fe3547857e",
+      "cues": [
+        {
+          "text": "At last.",
+          "en": "At last.",
+          "zh": "终于。",
+          "speaker": "Rhys",
+          "startMs": 3320,
+          "endMs": 4600,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "A household feature that disappoints the cats.",
+          "en": "A household feature that disappoints the cats.",
+          "zh": "你家有一项会让猫失望的设施了。",
+          "speaker": "Rhys",
+          "startMs": 5560,
+          "endMs": 7820,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-10-s01.mp4": {
+      "source_sha256": "90f4196720ae35cef728aab959d638a2cc13aab24a3a020eb6814111bef0a9d0",
+      "cues": [
+        {
+          "text": "What if I don’t sign that paper?",
+          "en": "What if I don’t sign that paper?",
+          "zh": "如果我不签那张纸呢？",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1920,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I’d still want to stay.",
+          "en": "I’d still want to stay.",
+          "zh": "那我也想留下。",
+          "speaker": "Rhys",
+          "startMs": 4480,
+          "endMs": 5960,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-10-s02.mp4": {
+      "source_sha256": "4a70dc7b901ec239a8e15cc8b0f5fe0beb61d77b5276fd41edc0df7c40fcaeb1",
+      "cues": [
+        {
+          "text": "If it wasn't for being a witness, would you still want to stay?",
+          "en": "If it wasn't for being a witness, would you still want to stay?",
+          "zh": "如果不是为了见证，你还想留下吗？",
+          "startMs": 0,
+          "endMs": 2620,
+          "timestampMs": null,
+          "confidence": null,
+          "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+        },
+        {
+          "text": "By my own means.",
+          "en": "By my own means.",
+          "zh": "只是要用我自己的办法。",
+          "speaker": "Rhys",
+          "startMs": 3100,
+          "endMs": 4120,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Not by spending your kindness.",
+          "en": "Not by spending your kindness.",
+          "zh": "不是消耗你的善良。",
+          "speaker": "Rhys",
+          "startMs": 4660,
+          "endMs": 5940,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-05b-r7-s01.mp4": {
+      "source_sha256": "cc76d2e67ccd40e613c31a3b1bba349aebc32de3d7410eb92eb1e350cf3e1e1d",
+      "cues": [
+        {
+          "text": "I’m not signing a single word you can’t explain.",
+          "en": "I’m not signing a single word you can’t explain.",
+          "zh": "解释不清的地方，我一个字也不签。",
+          "speaker": "June",
+          "startMs": 5120,
+          "endMs": 7820,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-04-r7-s01.mp4": {
+      "source_sha256": "840f72280fd891f6db5b353e2dd0dbb86468113d38b469e6bd05c391d45eed06",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-C05-s01.mp4": {
+      "source_sha256": "4480666215670be68903704c9bf57184efffa74a2548ece955366c0024ea1b09",
+      "cues": [
+        {
+          "text": "Bring better coffee when you return.",
+          "en": "Bring better coffee when you return.",
+          "zh": "带好一点的咖啡回来。",
+          "speaker": "June",
+          "startMs": 2420,
+          "endMs": 4640,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-C05-s02.mp4": {
+      "source_sha256": "d1c795ac1ba95d0ab129b17aadc5b3ca2c1cc0f9e377824400a0cedb4ad735c2",
+      "cues": [
+        {
+          "text": "I’ve already read the achievements.",
+          "en": "I’ve already read the achievements.",
+          "zh": "政绩我已经看过了。",
+          "speaker": "June",
+          "startMs": 920,
+          "endMs": 3000,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-07-s01.mp4": {
+      "source_sha256": "adda24acffe0a7d3c3c6ea2c36a2a997bf740deaff96b32906a8a46feb00f043",
+      "cues": [
+        {
+          "text": "Take back my throne first.",
+          "en": "Take back my throne first.",
+          "zh": "先收回我的王位。",
+          "speaker": "Rhys",
+          "startMs": 3160,
+          "endMs": 4920,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-07-spatial-r3-s02.mp4": {
+      "source_sha256": "7030b933d7c0da29e943f5b4abbf24715970e0bf1d7db00382c62feef1e472d2",
+      "cues": [
+        {
+          "text": "Don’t renew it in her name.",
+          "en": "Don’t renew it in her name.",
+          "zh": "别用她的名字给它续费。",
+          "speaker": "Rhys",
+          "startMs": 4080,
+          "endMs": 5560,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-02-s01.mp4": {
+      "source_sha256": "2793c8585fcfaad652644bd58f3189a43fb7668a5ddfe6c751959a119605e22c",
+      "cues": [
+        {
+          "text": "The eclipse is tomorrow.",
+          "en": "The eclipse is tomorrow.",
+          "zh": "明晚月食。",
+          "speaker": "Vael",
+          "startMs": 0,
+          "endMs": 1700,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "You cannot keep hiding.",
+          "en": "You cannot keep hiding.",
+          "zh": "您不能再躲了。",
+          "speaker": "Vael",
+          "startMs": 2740,
+          "endMs": 4000,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I’m residing.",
+          "en": "I’m residing.",
+          "zh": "我在居住。",
+          "speaker": "Rhys",
+          "startMs": 6360,
+          "endMs": 7520,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-02-document-cutaway-s02.mp4": {
+      "source_sha256": "c1763522eedaf7504b17745763cd619e0a70e61bd6d30f45965f674da0020ea9",
+      "cues": [
+        {
+          "text": "You might learn the distinction.",
+          "en": "You might learn the distinction.",
+          "zh": "你可以先学会区分。",
+          "speaker": "Rhys",
+          "startMs": 1520,
+          "endMs": 3160,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-04-r7-s01.mp4": {
+      "source_sha256": "ac73d58b4f468d96a6ece5860d81fb6163cec1c74b318020bdb52d610fe7c562",
+      "cues": [
+        {
+          "text": "I’m looking for a black cat.",
+          "en": "I’m looking for a black cat.",
+          "zh": "我在找一只黑猫。",
+          "speaker": "Vael",
+          "startMs": 1800,
+          "endMs": 3640,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "A notch in the right ear.",
+          "en": "A notch in the right ear.",
+          "zh": "右耳有一道小缺口。",
+          "speaker": "Vael",
+          "startMs": 4220,
+          "endMs": 6680,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-04-r7-s02.mp4": {
+      "source_sha256": "019f6c387f541ffa704448973d34984bad53c52df9632126cfccc16d736d5b7a",
+      "cues": [
+        {
+          "text": "This is a clinic.",
+          "en": "This is a clinic.",
+          "zh": "这里是诊所。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1340,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Not a lost-property auction.",
+          "en": "Not a lost-property auction.",
+          "zh": "不是失物拍卖。",
+          "speaker": "June",
+          "startMs": 1740,
+          "endMs": 3560,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B03a-s01.mp4": {
+      "source_sha256": "21b1d95c7823f117a38ea748e14e63555d24076bfba922388c41eb6c7aa61739",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-B03a-s02.mp4": {
+      "source_sha256": "15a384fe173193ef37fd6b383f02bf4007902a0611032e8352eca35c171f7733",
+      "cues": [
+        {
+          "text": "A new clause?",
+          "en": "A new clause?",
+          "zh": "这算是新条款？",
+          "speaker": "Rhys",
+          "startMs": 2300,
+          "endMs": 3560,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "No. No fine print this time.",
+          "en": "No. No fine print this time.",
+          "zh": "不。这次不需要小字。",
+          "speaker": "June",
+          "startMs": 4140,
+          "endMs": 6760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-A03b-r2-s01.mp4": {
+      "source_sha256": "757e77c3d864dc008786bf6cf702078e773f54adb841dca37e5ffb13fd15673e",
+      "cues": [
+        {
+          "text": "I’ll get used to this.",
+          "en": "I’ll get used to this.",
+          "zh": "我会习惯这里。",
+          "speaker": "Rhys",
+          "startMs": 2540,
+          "endMs": 3960,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-A03b-reaction-r7-s02.mp4": {
+      "source_sha256": "e4a963432831cc251bcba8e53333a8015e05bc50060d5f330a1b32800c92c112",
+      "cues": [
+        {
+          "text": "Including me holding you?",
+          "en": "Including me holding you?",
+          "zh": "包括我把你抱住？",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1560,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-02-s01.mp4": {
+      "source_sha256": "f8cf202497d27545ff53cc392ca4b732f184718fce1847b60a62b3c6d9046c7b",
+      "cues": [
+        {
+          "text": "My grandmother fostered cats.",
+          "en": "My grandmother fostered cats.",
+          "zh": "我外婆养过很多猫。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "The difficult part wasn’t the cats.",
+          "en": "The difficult part wasn’t the cats.",
+          "zh": "她最怕的不是猫难养。",
+          "speaker": "June",
+          "startMs": 3180,
+          "endMs": 4900,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-02-r7-s02.mp4": {
+      "source_sha256": "25541641728cbbd7b6c894540c5732a1ee7f582643d99646141269c03cb6e727",
+      "cues": [
+        {
+          "text": "It was finding someone who would wait.",
+          "en": "It was finding someone who would wait.",
+          "zh": "是没人肯等。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 4100,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-07-r7-s01.mp4": {
+      "source_sha256": "39596b7717ab36421a9fcba469a8235b9b0900bfea71431712f0d33a0b323314",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-B03-memory-default.mp4": {
+      "source_sha256": "9ba6944f40163b77c77dfbd9a3b7dd7dee46c538bf2a22156d71b29f1a2c1529",
+      "cues": [
+        {
+          "text": "You gave a cat a home and a man a choice. Now I’d like to stay.",
+          "en": "You gave a cat a home and a man a choice. Now I’d like to stay.",
+          "zh": "你让猫有家，也让人有选择。现在我想亲自留下。",
+          "speaker": "Rhys",
+          "startMs": 1120,
+          "endMs": 5840,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-11a-s01.mp4": {
+      "source_sha256": "57c72e957cd2c4b7268e0b27c94deeaf9a96b9e59586f939b0ded1277800f8ab",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P05-11a-s02.mp4": {
+      "source_sha256": "580837e235914f5b86b94d5470fb6d7c84e8c8fc380857fafc6a6731780a4ee9",
+      "cues": [
+        {
+          "text": "I had a very clever answer ready. I don’t have it anymore.",
+          "en": "I had a very clever answer ready. I don’t have it anymore.",
+          "zh": "我刚才准备了一个非常聪明的回答。现在没有了。",
+          "speaker": "Rhys",
+          "startMs": 2780,
+          "endMs": 6700,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-12a-r7-s01.mp4": {
+      "source_sha256": "86abba1ed7568067e7ef88f26c7a710d46904bf74cd75a7fc3ece5603c44f373",
+      "cues": [
+        {
+          "text": "I’m here.",
+          "en": "I’m here.",
+          "zh": "我在这儿。",
+          "speaker": "Rhys",
+          "startMs": 2180,
+          "endMs": 3680,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-12a-r7-s02.mp4": {
+      "source_sha256": "922dca3878c1cca19ca9c36d53c3cb1e380508336a8f4e40a849d4909fbd3265",
+      "cues": [
+        {
+          "text": "You don’t owe me forgiveness to get some quiet.",
+          "en": "You don’t owe me forgiveness to get some quiet.",
+          "zh": "你不需要用原谅换安静。",
+          "speaker": "Rhys",
+          "startMs": 4040,
+          "endMs": 6500,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-08t-s01.mp4": {
+      "source_sha256": "ccd76241cbc18c7819aac36f832ef5955be287aa71a58684a8419399a39d00f6",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-B03-memory-bed_neck.mp4": {
+      "source_sha256": "af1b10c04d0ef5cadf9eac5b5f3a61a7bbaffd0d2a5610180e3306b1a58d2730",
+      "cues": [
+        {
+          "text": "One part of me still fears you more than the court. You know which.",
+          "en": "One part of me still fears you more than the court. You know which.",
+          "zh": "还有一处比王庭怕你。你知道是哪儿。",
+          "speaker": "Rhys",
+          "startMs": 540,
+          "endMs": 5080,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-11a-s01.mp4": {
+      "source_sha256": "7a89c5551d752ce289d91592a85a1c3a6918b170f172f80d5332d079e266d386",
+      "cues": [
+        {
+          "text": "So you prefer a hands-on approach.",
+          "en": "So you prefer a hands-on approach.",
+          "zh": "原来你喜欢亲自处理。",
+          "speaker": "Rhys",
+          "startMs": 3700,
+          "endMs": 5820,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-11a-s02.mp4": {
+      "source_sha256": "1a2da145103c5245b77a36884d55e5dae973eef1d36240f3850e1bf7a9994a3c",
+      "cues": [
+        {
+          "text": "I prefer functional buttons.",
+          "en": "I prefer functional buttons.",
+          "zh": "我喜欢衣服扣得上。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2720,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Don’t flatter yourself.",
+          "en": "Don’t flatter yourself.",
+          "zh": "别自我感动。",
+          "speaker": "June",
+          "startMs": 2720,
+          "endMs": 5820,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-18-s01.mp4": {
+      "source_sha256": "6b348d2d68bdf2b20f4683a70e2de6dd45c44199b0e3b1df978d2477a5fd3505",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P03-05b-s01.mp4": {
+      "source_sha256": "2208ad887302c9d24cdfd284dd37d4dea6778a7daaa5495cda6d950860f0179f",
+      "cues": [
+        {
+          "text": "You’re using a prince’s nose as a doorbell.",
+          "en": "You’re using a prince’s nose as a doorbell.",
+          "zh": "你把王子的鼻子当门铃。",
+          "speaker": "Rhys",
+          "startMs": 5340,
+          "endMs": 7780,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Good response time.",
+          "en": "Good response time.",
+          "zh": "效果不错。",
+          "speaker": "June",
+          "startMs": 8280,
+          "endMs": 9480,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-09-r7-s01.mp4": {
+      "source_sha256": "8546da6f5897e1781927723beeb55d59639f3ba7a6ec59a3560178f40a17abf7",
+      "cues": [
+        {
+          "text": "Even their threats come on excellent stationery.",
+          "en": "Even their threats come on excellent stationery.",
+          "zh": "他们连威胁都用好纸。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 2140,
+          "timestampMs": null,
+          "confidence": 0.923,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-09-r7b-s02.mp4": {
+      "source_sha256": "a89dd4a175da11f74e0ef9aa83c146feec29730b747ea17d1369dc52954a71a4",
+      "cues": [
+        {
+          "text": "Keep the paper.",
+          "en": "Keep the paper.",
+          "zh": "纸留着。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1460,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Give me the explanation.",
+          "en": "Give me the explanation.",
+          "zh": "解释给我。",
+          "speaker": "June",
+          "startMs": 3060,
+          "endMs": 4340,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-09-r7-s01.mp4": {
+      "source_sha256": "3d7c60bc2ef1e5435ba3bf5fbedfed5efd83972397bf57482122a9c530691db8",
+      "cues": [
+        {
+          "text": "I can outmaneuver their rules.",
+          "en": "I can outmaneuver their rules.",
+          "zh": "我能对付他们的规则。",
+          "speaker": "Rhys",
+          "startMs": 2800,
+          "endMs": 4800,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-09-r7-s02.mp4": {
+      "source_sha256": "a2ef7feaa2d1f6c4c705fc7556eaf389986a93a34e4f3033fb7c81262fe8a7cf",
+      "cues": [
+        {
+          "text": "I shouldn’t choose how much you get to know.",
+          "en": "I shouldn’t choose how much you get to know.",
+          "zh": "但我不该替你选择知道多少。",
+          "speaker": "Rhys",
+          "startMs": 5820,
+          "endMs": 8020,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-12b-s01.mp4": {
+      "source_sha256": "14380f8fc63235ce6a691339190b2ccf8238e2f7f5bb3c9ab332ad36a1f55ae0",
+      "cues": [
+        {
+          "text": "I’ll wait.",
+          "en": "I’ll wait.",
+          "zh": "我等你。",
+          "speaker": "Rhys",
+          "startMs": 2240,
+          "endMs": 3520,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "No lurking.",
+          "en": "No lurking.",
+          "zh": "不会躲在门后。",
+          "speaker": "Rhys",
+          "startMs": 3860,
+          "endMs": 4820,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-12b-s02.mp4": {
+      "source_sha256": "634d9578fd256bd3cc28c54f540b2f86bafb8f901490fb8e895a25e0d494cc0f",
+      "cues": [
+        {
+          "text": "That would ruin my references.",
+          "en": "That would ruin my references.",
+          "zh": "那会毁了我的口碑。",
+          "speaker": "Rhys",
+          "startMs": 3540,
+          "endMs": 5880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-10-r7-s01.mp4": {
+      "source_sha256": "24c7e9f9424b2f4f2210ed46365c712bba0f45aa829081836ab5c2abceb1b751",
+      "cues": [
+        {
+          "text": "Did you choose my home because of the release clause?",
+          "en": "Did you choose my home because of the release clause?",
+          "zh": "你选我的家，是因为那条退誓条款？",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2680,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-10-r7-s02.mp4": {
+      "source_sha256": "47998effabd391ee6e6010348799e0747375cbfef2a35f9a43ada8fe5518e1aa",
+      "cues": [
+        {
+          "text": "I knew an unnamed welcome might give me a way out.",
+          "en": "I knew an unnamed welcome might give me a way out.",
+          "zh": "我知道无名收留可能给我一条路。",
+          "speaker": "Rhys",
+          "startMs": 2320,
+          "endMs": 5380,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Yes.",
+          "en": "Yes.",
+          "zh": "是。",
+          "speaker": "Rhys",
+          "startMs": 6420,
+          "endMs": 7200,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-16-r7-s01.mp4": {
+      "source_sha256": "b78fc48959b98c7e41d7fe19e3baad7af66bb5d27fc3a598e7a7d5d1700b2d68",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P03-10-s01.mp4": {
+      "source_sha256": "e52f2bba8c78ed3b1d91fd0feaf332e9798ae82c48afc8b38b54235e66bfc009",
+      "cues": [
+        {
+          "text": "The marriage renews an old gate oath.",
+          "en": "The marriage renews an old gate oath.",
+          "zh": "婚盟是续门的旧办法。",
+          "speaker": "Rhys",
+          "startMs": 940,
+          "endMs": 3880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I refused.",
+          "en": "I refused.",
+          "zh": "我拒绝了。",
+          "speaker": "Rhys",
+          "startMs": 5880,
+          "endMs": 7240,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-10-r7-s02.mp4": {
+      "source_sha256": "042da15ce81f9cc398fa5bc6b63eb2a78b24752fe8e580487c301398c494f395",
+      "cues": [
+        {
+          "text": "They turned their runaway prince into a cat.",
+          "en": "They turned their runaway prince into a cat.",
+          "zh": "于是他们把逃走的王子变成了猫。",
+          "speaker": "Rhys",
+          "startMs": 4020,
+          "endMs": 6500,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-15-r7-s01.mp4": {
+      "source_sha256": "ef73bee60e7e72feb417e2de50ad88e2c2732597c145987d9e703f34cffa8633",
+      "cues": [
+        {
+          "text": "Rule one: no stealing my bed.",
+          "en": "Rule one: no stealing my bed.",
+          "zh": "第一条，不许占床。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2500,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I’m seeking asylum, not a mattress upgrade.",
+          "en": "I’m seeking asylum, not a mattress upgrade.",
+          "zh": "我在寻找庇护，不是在申请床位升级。",
+          "speaker": "Rhys",
+          "startMs": 3100,
+          "endMs": 5380,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-16-s01.mp4": {
+      "source_sha256": "cc20ffc196534cce0a01802dbcfe669ca3883e836a4234f1501cb66dac7cd944",
+      "cues": [
+        {
+          "text": "Head down.",
+          "en": "Head down.",
+          "zh": "低头。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 940,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Your hairstyle violates the lease.",
+          "en": "Your hairstyle violates the lease.",
+          "zh": "你这套发型违反租约。",
+          "speaker": "June",
+          "startMs": 1380,
+          "endMs": 5000,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-16-spatial-r3-s02.mp4": {
+      "source_sha256": "1fa4836c51f8852d6d51741900a25d459a80e5e296ed86623864ad06c0f23263",
+      "cues": [
+        {
+          "text": "My hair has never faced legal action before.",
+          "en": "My hair has never faced legal action before.",
+          "zh": "这是发型第一次被法律针对。",
+          "speaker": "Rhys",
+          "startMs": 3060,
+          "endMs": 5720,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-02-s01.mp4": {
+      "source_sha256": "630724bdd9bd9f0326700a9eb496ce682bf87605d999676330525d4689d767b7",
+      "cues": [
+        {
+          "text": "Does he have a name?",
+          "en": "Does he have a name?",
+          "zh": "他有名字？",
+          "speaker": "Deb",
+          "startMs": 2780,
+          "endMs": 4180,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Rhys.",
+          "en": "Rhys.",
+          "zh": "Rhys。",
+          "speaker": "June",
+          "startMs": 4760,
+          "endMs": 5100,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Complicated résumé.",
+          "en": "Complicated résumé.",
+          "zh": "履历复杂。",
+          "speaker": "June",
+          "startMs": 5680,
+          "endMs": 6760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-02-r7-s02.mp4": {
+      "source_sha256": "d8b615463d3add729b44d8d1a01850775199a5509cd98456ddda0c5ef2202075",
+      "cues": [
+        {
+          "text": "No outstanding balance yet.",
+          "en": "No outstanding balance yet.",
+          "zh": "暂时没有欠款。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2900,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-01-s01.mp4": {
+      "source_sha256": "b1ef705b269c836596f8b87602e5b951ec2cfa24e98b9ea88838d9b81888ac58",
+      "cues": [
+        {
+          "text": "They say black cats are hard to place.",
+          "en": "They say black cats are hard to place.",
+          "zh": "大家都说黑猫不好找领养。",
+          "speaker": "June",
+          "startMs": 4360,
+          "endMs": 6660,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-01-r2-s02.mp4": {
+      "source_sha256": "f837a3e5c23dde2ddc1a891893092c7f5a5a517e71631c380a70767e37859158",
+      "cues": [
+        {
+          "text": "I can be difficult too.",
+          "en": "I can be difficult too.",
+          "zh": "我也不是特别好相处。",
+          "speaker": "June",
+          "startMs": 1860,
+          "endMs": 3680,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-04-s01.mp4": {
+      "source_sha256": "ea50628075b2ee2ed8f7193b72f04b3f7eaad3e830409719947c35323daf07c5",
+      "cues": [
+        {
+          "text": "Being waited for takes more getting used to than a throne.",
+          "en": "Being waited for takes more getting used to than a throne.",
+          "zh": "有人等人的感觉，比王位难习惯。",
+          "speaker": "Rhys",
+          "startMs": 3600,
+          "endMs": 6540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-04-s02.mp4": {
+      "source_sha256": "a64a7ed71ec7686263395f3dea9dd2021acb2c838869463a2d6806fb40d89621",
+      "cues": [
+        {
+          "text": "So you’ve finally decided to wash a cup?",
+          "en": "So you’ve finally decided to wash a cup?",
+          "zh": "所以你终于决定洗杯子了？",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2160,
+          "timestampMs": null,
+          "confidence": 0.941,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Only if you promise not to sneak a sip of my tea again.",
+          "en": "Only if you promise not to sneak a sip of my tea again.",
+          "zh": "那你得保证不再偷喝我的茶。",
+          "startMs": 2820,
+          "endMs": 4920,
+          "timestampMs": null,
+          "confidence": null,
+          "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+        }
+      ]
+    },
+    "media/P05-02-r7-s01.mp4": {
+      "source_sha256": "775a5a1f051cc95dab82b390636688f86c35ea67da4f836bdd78f594cbf12ad5",
+      "cues": [
+        {
+          "text": "May I come in, or does this room require a membership upgrade?",
+          "en": "May I come in, or does this room require a membership upgrade?",
+          "zh": "我可以进来，还是这里要升级会员？",
+          "speaker": "Rhys",
+          "startMs": 1780,
+          "endMs": 5760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Come in.",
+          "en": "Come in.",
+          "zh": "进来。",
+          "speaker": "June",
+          "startMs": 6400,
+          "endMs": 7000,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-02-r7-s02.mp4": {
+      "source_sha256": "f6bff324f1e3c96288c27e1eec1f69bf2001007eac81ff5123b5e7c5ccdc41a9",
+      "cues": [
+        {
+          "text": "Don’t issue yourself a card yet.",
+          "en": "Don’t issue yourself a card yet.",
+          "zh": "别急着给自己发卡。",
+          "speaker": "June",
+          "startMs": 1340,
+          "endMs": 3340,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-04-s01.mp4": {
+      "source_sha256": "22db2c1d57463b849974ac61f2dc862a03a2a3cc19f97b53ef659ef4d99b254f",
+      "cues": [
+        {
+          "text": "So I can say no.",
+          "en": "So I can say no.",
+          "zh": "所以我能说不。",
+          "speaker": "June",
+          "startMs": 2380,
+          "endMs": 3800,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Even now.",
+          "en": "Even now.",
+          "zh": "现在也能。",
+          "speaker": "June",
+          "startMs": 4000,
+          "endMs": 4740,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-04-s02.mp4": {
+      "source_sha256": "ae97bcce249459f62ab351c11cfde81d574ed1e7e2c5a3b141c8a9678a1f1bda",
+      "cues": [
+        {
+          "text": "Of course.",
+          "en": "Of course.",
+          "zh": "当然。",
+          "speaker": "Rhys",
+          "startMs": 3800,
+          "endMs": 4860,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "You’re not their tool for keeping a gate open.",
+          "en": "You’re not their tool for keeping a gate open.",
+          "zh": "你不是他们拿来续门的工具。",
+          "speaker": "Rhys",
+          "startMs": 5480,
+          "endMs": 7780,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-01-s01.mp4": {
+      "source_sha256": "28c8c2453a2bcb49d88f2a0f450eee11ab9752567f4e8899c066bf2c65151799",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-01-r7-s02.mp4": {
+      "source_sha256": "17065da15bc38e00c4bdb8716e6cb76bb9d9e0086edf6f60393212b11db2834d",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P03-16c-s01.mp4": {
+      "source_sha256": "66b0649a927e46f0955e7a6dbd87715658abb2bbccb995223ad2db23311016d4",
+      "cues": [
+        {
+          "text": "After you’ve told me the whole story.",
+          "en": "After you’ve told me the whole story.",
+          "zh": "等你把事情说完整。",
+          "speaker": "June",
+          "startMs": 520,
+          "endMs": 2300,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-16c-r7-s02.mp4": {
+      "source_sha256": "3f5b70b67b3af8c38c91fe162e8a74f7755b49657563fa38bbd78918515ef372",
+      "cues": [
+        {
+          "text": "All right.",
+          "en": "All right.",
+          "zh": "好。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 1500,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Tomorrow night.",
+          "en": "Tomorrow night.",
+          "zh": "明晚。",
+          "speaker": "Rhys",
+          "startMs": 2540,
+          "endMs": 3220,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "No evasions.",
+          "en": "No evasions.",
+          "zh": "不再绕弯。",
+          "speaker": "Rhys",
+          "startMs": 3920,
+          "endMs": 4720,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-C03-r8-s01.mp4": {
+      "source_sha256": "4c069b504b21e5de44332ffa95586befa536f3a53ffceff5b520005f1b9a21f3",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-B02-r7-s01.mp4": {
+      "source_sha256": "97fb4dbf24a121b80de339b0c59191f888e50fcef61715dd9716b6845fa898d6",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P03-06b-s01.mp4": {
+      "source_sha256": "40650de7f0b9da85a8ccf23de1e44689816b614b02260c93fa5c10b18139b444",
+      "cues": [
+        {
+          "text": "I’ll save it. Interest is extra.",
+          "en": "I’ll save it. Interest is extra.",
+          "zh": "先留着。利息另算。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2820,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "You bargain better than I do.",
+          "en": "You bargain better than I do.",
+          "zh": "你比我会谈条件。",
+          "speaker": "Rhys",
+          "startMs": 8160,
+          "endMs": 9960,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-05b-r7-s01.mp4": {
+      "source_sha256": "a8a8cb8bee08f3d37db65955234e480baed9fc3efc0f6d6b1e5c3f00e100ea2e",
+      "cues": [
+        {
+          "text": "Looking for someone?",
+          "en": "Looking for someone?",
+          "zh": "想找人？",
+          "speaker": "Deb",
+          "startMs": 1980,
+          "endMs": 2840,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Start with a form.",
+          "en": "Start with a form.",
+          "zh": "先填表。",
+          "speaker": "Deb",
+          "startMs": 3080,
+          "endMs": 4020,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "We have three.",
+          "en": "We have three.",
+          "zh": "我们有三种表。",
+          "speaker": "Deb",
+          "startMs": 4020,
+          "endMs": 4840,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-05b-r7-s02.mp4": {
+      "source_sha256": "1c7451ebfdd3ceb6d428f28f74aeb442af4750e49fac5c5b19dc24bc16c879b8",
+      "cues": [
+        {
+          "text": "I love your administrative power.",
+          "en": "I love your administrative power.",
+          "zh": "我爱死你的行政权力了。",
+          "speaker": "June",
+          "startMs": 1740,
+          "endMs": 3880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-14a-s01.mp4": {
+      "source_sha256": "c0170f31dcb3da46c4116feb75dc7a9cc79c635565d4e276d45a482d000a7309",
+      "cues": [
+        {
+          "text": "No more thrones tonight.",
+          "en": "No more thrones tonight.",
+          "zh": "今晚先不谈王位。",
+          "speaker": "June",
+          "startMs": 1160,
+          "endMs": 2980,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-14a-s02.mp4": {
+      "source_sha256": "91a9a4b85d9ecf57155d38e833817eecbe61cc737949bc4aa67203dc3c18cd5a",
+      "cues": [
+        {
+          "text": "All right.",
+          "en": "All right.",
+          "zh": "好。",
+          "speaker": "Rhys",
+          "startMs": 3380,
+          "endMs": 4500,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "This is important enough.",
+          "en": "This is important enough.",
+          "zh": "这里已经够重要了。",
+          "speaker": "Rhys",
+          "startMs": 4500,
+          "endMs": 6640,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-09-spatial-r3-s01.mp4": {
+      "source_sha256": "199316e9df646c027fd0f491af8aced496696d0da67e0ed2d10ce084fcf9723b",
+      "cues": [
+        {
+          "text": "I treated a person like property to return. I was wrong.",
+          "en": "I treated a person like property to return. I was wrong.",
+          "zh": "我把人当成了归还物。是我错了。",
+          "speaker": "Vael",
+          "startMs": 620,
+          "endMs": 4760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "At last. A document that needs no fine print.",
+          "en": "At last. A document that needs no fine print.",
+          "zh": "总算找到一份不需要小字的公文。",
+          "speaker": "Rhys",
+          "startMs": 5960,
+          "endMs": 9860,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-01x-r7-s01.mp4": {
+      "source_sha256": "a93d11aee7ec6e3ab565ca05b1ab8604e9b32c9814d432755d6fabf7d27fab25",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P01-09-r7-s01.mp4": {
+      "source_sha256": "070b6ddf732c0f8ade673537028aa4eaa861331e3a0f3de7a04ace94616a8bd9",
+      "cues": [
+        {
+          "text": "Who are you?",
+          "en": "Who are you?",
+          "zh": "你是谁？",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1360,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Please don’t swing. I’m the black cat you brought home.",
+          "en": "Please don’t swing. I’m the black cat you brought home.",
+          "zh": "别挥。我是你带回来的黑猫。",
+          "speaker": "Rhys",
+          "startMs": 1640,
+          "endMs": 4620,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-18-s01.mp4": {
+      "source_sha256": "161d7331f5b76ef0606b2a9cf12ce1d6567d59e8301b15e0686f7a17bbea2a59",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P05-12-memory-forehead_kiss.mp4": {
+      "source_sha256": "51671b59d88c0eb1e6540779a1e6d45017c1aca113f86062b15e4e9becfe4a3d",
+      "cues": [
+        {
+          "text": "I’ve remembered. No need to explain it again next time.",
+          "en": "I’ve remembered. No need to explain it again next time.",
+          "zh": "我记住了。下次不用重新解释。",
+          "speaker": "Rhys",
+          "startMs": 640,
+          "endMs": 4680,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-11b-r7-s01.mp4": {
+      "source_sha256": "e0530cabfbac43c3627e0b5ed61573df6e3fb2219056c86f8576bd0e66b28b45",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P05-11b-r7-s02.mp4": {
+      "source_sha256": "6b37b9c1ad8386c085087cd0de6286f39bcaafee50588dbb9b94c4466ee96b51",
+      "cues": [
+        {
+          "text": "Princes forget their lines too?",
+          "en": "Princes forget their lines too?",
+          "zh": "王子也会忘词？",
+          "speaker": "June",
+          "startMs": 2460,
+          "endMs": 3820,
+          "timestampMs": null,
+          "confidence": 0.889,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Only with exceptionally difficult company.",
+          "en": "Only with exceptionally difficult company.",
+          "zh": "只对特别难应付的人。",
+          "speaker": "Rhys",
+          "startMs": 5060,
+          "endMs": 6860,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-12b-s01.mp4": {
+      "source_sha256": "3d3d4d21e1ec8e2ced03701567b4814c7bf182d835110efa2a57f90f361ed105",
+      "cues": [
+        {
+          "text": "So what's the catch for each one?",
+          "en": "So what's the catch for each one?",
+          "zh": "那每一种要付出什么代价？",
+          "startMs": 0,
+          "endMs": 2260,
+          "timestampMs": null,
+          "confidence": null,
+          "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+        },
+        {
+          "text": "Human means no magic.",
+          "en": "Human means no magic.",
+          "zh": "固定人形，没有魔力。",
+          "speaker": "Rhys",
+          "startMs": 2260,
+          "endMs": 4640,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Both forms means no throne.",
+          "en": "Both forms means no throne.",
+          "zh": "双形自由，没有王位。",
+          "speaker": "Rhys",
+          "startMs": 4640,
+          "endMs": 7520,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-12b-s02.mp4": {
+      "source_sha256": "826c8a6fb034b20b9d00fc624161c71cc2dd705d2b6528a4204d8ada51f8c5c5",
+      "cues": [
+        {
+          "text": "Returning means facing what I owe.",
+          "en": "Returning means facing what I owe.",
+          "zh": "回去，就得真的承担我欠下的事。",
+          "speaker": "Rhys",
+          "startMs": 380,
+          "endMs": 3440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-A05-r7-s01.mp4": {
+      "source_sha256": "41528102739dafddce52fc82350b764e3520019cdd31705183db9dd28d28f4a5",
+      "cues": [
+        {
+          "text": "I said one night.",
+          "en": "I said one night.",
+          "zh": "我说过只收留一晚。",
+          "speaker": "June",
+          "startMs": 1780,
+          "endMs": 3400,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-A05-r7-s02.mp4": {
+      "source_sha256": "d4956a501187b1da1ca95146a7ecfc00dc3b58567d9b9b0690ee52e536a078e0",
+      "cues": [
+        {
+          "text": "Then we’ll negotiate daily.",
+          "en": "Then we’ll negotiate daily.",
+          "zh": "那我们每天重新谈。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 2540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Preferably before I burn breakfast.",
+          "en": "Preferably before I burn breakfast.",
+          "zh": "最好赶在我把早餐烧了之前。",
+          "speaker": "Rhys",
+          "startMs": 4260,
+          "endMs": 5960,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-01-s01.mp4": {
+      "source_sha256": "0698de458244124841b83af0d3b879a4f6c0a72379da1c16c9488db5e9eac3b3",
+      "cues": [
+        {
+          "text": "Temporary fostering approved.",
+          "en": "Temporary fostering approved.",
+          "zh": "临时安置批了。",
+          "speaker": "Deb",
+          "startMs": 0,
+          "endMs": 1640,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "The cats, at least, are legal.",
+          "en": "The cats, at least, are legal.",
+          "zh": "至少猫暂时合法。",
+          "speaker": "Deb",
+          "startMs": 2400,
+          "endMs": 4100,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-01-s02.mp4": {
+      "source_sha256": "7e63af292af676f53efd40d8f2c211c4c15d1b0ddd614644892c9d20ee98d74b",
+      "cues": [
+        {
+          "text": "Shame there’s no box for my personal life.",
+          "en": "Shame there’s no box for my personal life.",
+          "zh": "感情生活没有这一栏，真遗憾。",
+          "speaker": "June",
+          "startMs": 940,
+          "endMs": 3440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-04-r7-s01.mp4": {
+      "source_sha256": "d4583c9b04d1580ec149b42ec3a46a8d412a4b7b1d742e14afd948ca88a7c717",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P01-15x-r7-s01.mp4": {
+      "source_sha256": "9dcda1d6ad4ee4708d523ccd3f8e21168a8f08f1f18f83d25965cfd6876533d6",
+      "cues": [
+        {
+          "text": "Just your name. No proof of succession.",
+          "en": "Just your name. No proof of succession.",
+          "zh": "只写名字。不要附王位继承证明。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2580,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Just Rhys. A note for the daytime version.",
+          "en": "Just Rhys. A note for the daytime version.",
+          "zh": "只写Rhys。给白天的版本留句话。",
+          "speaker": "Rhys",
+          "startMs": 3900,
+          "endMs": 6460,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-07-s01.mp4": {
+      "source_sha256": "3c4f46cf872ea58132e6a2562fc28a85b8d579449cda9c3c43e9ca39ea6473dd",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P04-05a-r7-s01.mp4": {
+      "source_sha256": "03ad4a4dd15eb79f1d8a6feb063f2152b012122df0e7fb99aad8e539856ca8f5",
+      "cues": [
+        {
+          "text": "We’ll read it together. Don’t answer for him. Or for me.",
+          "en": "We’ll read it together. Don’t answer for him. Or for me.",
+          "zh": "我们一起看。别替他回答，也别替我回答。",
+          "speaker": "June",
+          "startMs": 3200,
+          "endMs": 6800,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-04-r7-s01.mp4": {
+      "source_sha256": "4c32f80ad28241df69ba163aba935423bd39a9c49b5f221f87bb5700239c45d7",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P03-01-s01.mp4": {
+      "source_sha256": "90310fd7acd36803e73fad676016cb900546c44cc726c45afc9cae5d29afc929",
+      "cues": [
+        {
+          "text": "Rule two: no snooping. Including my search for “high-maintenance princes.”",
+          "en": "Rule two: no snooping. Including my search for “high-maintenance princes.”",
+          "zh": "第二条，不偷看。包括我搜索的“王子一般有多麻烦”。",
+          "speaker": "June",
+          "startMs": 4460,
+          "endMs": 9620,
+          "timestampMs": null,
+          "confidence": 0.909,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-A03a-r2-s01.mp4": {
+      "source_sha256": "90db36ce3c00fd756615ae14f0e2fdbb2be2373a89e99b8859b8a05aee95e1c9",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-A03a-r3-s02.mp4": {
+      "source_sha256": "22ea70474523d903f37dbe6c70d20a3cb8fdacafccc52abeb93089b7a15d574e",
+      "cues": [
+        {
+          "text": "Not an ordinary roommate.",
+          "en": "Not an ordinary roommate.",
+          "zh": "不是普通室友。",
+          "speaker": "June",
+          "startMs": 1240,
+          "endMs": 3100,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Thanks for clarifying. I was about to discuss rent.",
+          "en": "Thanks for clarifying. I was about to discuss rent.",
+          "zh": "谢谢你澄清。我正准备认真收房租。",
+          "speaker": "Rhys",
+          "startMs": 3540,
+          "endMs": 6620,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B03b-s01.mp4": {
+      "source_sha256": "aafe98d6b2881039e8bd1e5f7a0348dfdd85e538d2b1332d8ae1a89b8a565181",
+      "cues": [
+        {
+          "text": "Two forms.",
+          "en": "Two forms.",
+          "zh": "两个身份。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2420,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "One chore list.",
+          "en": "One chore list.",
+          "zh": "一份家务。",
+          "speaker": "June",
+          "startMs": 3620,
+          "endMs": 4900,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B03b-s02.mp4": {
+      "source_sha256": "91b80a0686be1536f7ed058535a6542ac403c2979ac2e074196148906c8e684e",
+      "cues": [
+        {
+          "text": "This system is clearly designed against me.",
+          "en": "This system is clearly designed against me.",
+          "zh": "这个制度明显针对我。",
+          "speaker": "Rhys",
+          "startMs": 2160,
+          "endMs": 5380,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-07-s01.mp4": {
+      "source_sha256": "928827d832bb956e76ee582feaf3b31c66b35cd1c307926f7f5d77971e3db206",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P02-13-s01.mp4": {
+      "source_sha256": "ca4ee857c39ba2ddcd9d57610911540d701e8b7c525c5cb6690a94c8aabbaff9",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P05-13c-r7-s01.mp4": {
+      "source_sha256": "f72d62e36186ba4dd3e59afa8e7fb52d3eeff230c77a28a79fb5a9393c5c3ebb",
+      "cues": [
+        {
+          "text": "The version you choose.",
+          "en": "The version you choose.",
+          "zh": "你自己选的样子。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1120,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "No more paper choosing for you.",
+          "en": "No more paper choosing for you.",
+          "zh": "我不想再有一张纸替你选。",
+          "speaker": "June",
+          "startMs": 1440,
+          "endMs": 4520,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-13c-r7-s02.mp4": {
+      "source_sha256": "03a0dfde88fb9497bee46f4dfe5892d540173f5a1c278ad8b9398bc834c49d75",
+      "cues": [
+        {
+          "text": "Then I’d better take this seriously.",
+          "en": "Then I’d better take this seriously.",
+          "zh": "那我得认真一点。",
+          "speaker": "Rhys",
+          "startMs": 2260,
+          "endMs": 4400,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Not just tease you.",
+          "en": "Not just tease you.",
+          "zh": "不能只会逗你。",
+          "speaker": "Rhys",
+          "startMs": 4500,
+          "endMs": 6700,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-14b-s01.mp4": {
+      "source_sha256": "60f1ef5ec147c075d884f713ded2fc125467388d87a3f17e22f0e6497dfc9aa4",
+      "cues": [
+        {
+          "text": "Do all your difficult patients get this?",
+          "en": "Do all your difficult patients get this?",
+          "zh": "你对每个难搞的病人都这样？",
+          "speaker": "Rhys",
+          "startMs": 3240,
+          "endMs": 5600,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-14b-s02.mp4": {
+      "source_sha256": "e229ae83996d26deda4244c107c3f9adeff87bd4249725cfc6bc3f443826d75e",
+      "cues": [
+        {
+          "text": "Only the ones who skip rent.",
+          "en": "Only the ones who skip rent.",
+          "zh": "只有不肯交房租的。",
+          "speaker": "June",
+          "startMs": 1740,
+          "endMs": 3600,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-15-r6-s01.mp4": {
+      "source_sha256": "c2328566a9805365f2560219c5e00caf3a8f8ba3b7a30594c4d31488c0a62ed4",
+      "cues": [
+        {
+          "text": "Bitter.",
+          "en": "Bitter.",
+          "zh": "苦。",
+          "speaker": "Rhys",
+          "startMs": 3040,
+          "endMs": 4080,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "You do this voluntarily every day.",
+          "en": "You do this voluntarily every day.",
+          "zh": "你居然每天主动喝。",
+          "speaker": "Rhys",
+          "startMs": 4840,
+          "endMs": 6640,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-15-r6-s02.mp4": {
+      "source_sha256": "b66d0f7bfcb6f36e4b3e6b6436442e2db715ec709ae47426e2776f101497e2db",
+      "cues": [
+        {
+          "text": "I’m a complicated woman.",
+          "en": "I’m a complicated woman.",
+          "zh": "我是个复杂的人。",
+          "speaker": "June",
+          "startMs": 1820,
+          "endMs": 3720,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-03a-s01.mp4": {
+      "source_sha256": "5052200e3029558a1f4ec59b23405f7145baffe0f27f765c2ec4fad39fc290d7",
+      "cues": [
+        {
+          "text": "This time, nobody chooses the route for us.",
+          "en": "This time, nobody chooses the route for us.",
+          "zh": "这次没有人替我们领路。",
+          "speaker": "Rhys",
+          "startMs": 6800,
+          "endMs": 9940,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-10-r7-s01.mp4": {
+      "source_sha256": "db6c1383940466bdacd60a0511623ab6796e9a1828f1297d1a4ab3bdd3ef13c3",
+      "cues": [
+        {
+          "text": "You said one night. I slept by the radiator. The carrier latch jammed twice.",
+          "en": "You said one night. I slept by the radiator. The carrier latch jammed twice.",
+          "zh": "你说只收留一晚。我睡在暖气旁。猫包的扣子卡了两次。",
+          "speaker": "Rhys",
+          "startMs": 840,
+          "endMs": 5840,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-13-s01.mp4": {
+      "source_sha256": "6f13dc2958b06c718c6208f014c0f1528f6e32d21aab70c9a9f5839be792cdd9",
+      "cues": [
+        {
+          "text": "If I’m just a man, no crown and no shortcut,",
+          "en": "If I’m just a man, no crown and no shortcut,",
+          "zh": "如果我只是个男人，没有王冠，没有捷径，",
+          "speaker": "Rhys",
+          "startMs": 3020,
+          "endMs": 7580,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-13-r7-s02.mp4": {
+      "source_sha256": "d0feec918826a94d3c88dbe2c2e3643bfdde6f25e63512c023800812ba73c771",
+      "cues": [
+        {
+          "text": "would you still want me here?",
+          "en": "would you still want me here?",
+          "zh": "你还想我在这里吗？",
+          "speaker": "Rhys",
+          "startMs": 480,
+          "endMs": 2400,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-10-s01.mp4": {
+      "source_sha256": "2f997aeaaf5a27f8e2564b7c379414941526b66efcf83d3d60dfe9b181743be3",
+      "cues": [
+        {
+          "text": "I want ordinary days with you.",
+          "en": "I want ordinary days with you.",
+          "zh": "我想和你过普通日子。",
+          "speaker": "Rhys",
+          "startMs": 2160,
+          "endMs": 4440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "And to settle what I owe.",
+          "en": "And to settle what I owe.",
+          "zh": "也得把欠下的事处理干净。",
+          "speaker": "Rhys",
+          "startMs": 4440,
+          "endMs": 8000,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-10-s02.mp4": {
+      "source_sha256": "8b973f5d417f8b67afc1c41066d3d3f949e7d7b6345064c3e6242052ae66f18e",
+      "cues": [
+        {
+          "text": "Tell me what you want.",
+          "en": "Tell me what you want.",
+          "zh": "说说你想要的。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 1620,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I’ll choose for myself.",
+          "en": "I’ll choose for myself.",
+          "zh": "我会自己选。",
+          "speaker": "Rhys",
+          "startMs": 2960,
+          "endMs": 4360,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-15-s01.mp4": {
+      "source_sha256": "3855494aee5c04258c453e10f56de8190464f1062ff6f7b62e0988a58c45f2c3",
+      "cues": [
+        {
+          "text": "She thinks that was a mediocre apology.",
+          "en": "She thinks that was a mediocre apology.",
+          "zh": "她觉得我道歉不够好。",
+          "speaker": "Rhys",
+          "startMs": 3000,
+          "endMs": 5420,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "She expects complimentary tuna.",
+          "en": "She expects complimentary tuna.",
+          "zh": "她要求附赠罐头。",
+          "speaker": "June",
+          "startMs": 6020,
+          "endMs": 7680,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-12-memory-bed_kiss.mp4": {
+      "source_sha256": "2d40e62dc0add28ba24b719b2724914c8f4dd4cac77335184fdcd44fe079b7cb",
+      "cues": [
+        {
+          "text": "That wasn’t a loophole. That was you.",
+          "en": "That wasn’t a loophole. That was you.",
+          "zh": "刚才不是漏洞。是你。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 3280,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-05a-r7-s01.mp4": {
+      "source_sha256": "a4bb5a8ee227ff74b6358d2adf9784127a4c975ea6ba90f2fb01fe0c12d080fb",
+      "cues": [
+        {
+          "text": "That’s your idea of restraint?",
+          "en": "That’s your idea of restraint?",
+          "zh": "这就是你说的克制？",
+          "speaker": "June",
+          "startMs": 1880,
+          "endMs": 3620,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-05a-r7-s02.mp4": {
+      "source_sha256": "3b3793e8d7ad00f753bfb23b3412056e7f1e63fc6d2d3a9072b2e2678d1ef530",
+      "cues": [
+        {
+          "text": "I could have looked considerably smugger.",
+          "en": "I could have looked considerably smugger.",
+          "zh": "我本来可以更得意。",
+          "speaker": "Rhys",
+          "startMs": 1300,
+          "endMs": 3980,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-19-memory-default.mp4": {
+      "source_sha256": "1ad854080ca9b7d257492d63d75abcfe20234a0d3159190e93e9c8354ccd5f24",
+      "cues": [
+        {
+          "text": "You asked for the truth first. Tomorrow, I’ll finish it.",
+          "en": "You asked for the truth first. Tomorrow, I’ll finish it.",
+          "zh": "你先问了真话。明晚，我把剩下的也说完。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 4560,
+          "timestampMs": null,
+          "confidence": 0.909,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-18-s01.mp4": {
+      "source_sha256": "de7075390ca44aedd969b574cf3454a54a500e59f44a0b673eb3a50db2b8ad2b",
+      "cues": [
+        {
+          "text": "Tonight I’m not helping you run. I’m going with you to finish this.",
+          "en": "Tonight I’m not helping you run. I’m going with you to finish this.",
+          "zh": "今晚我不帮你逃。我陪你把话说完。",
+          "speaker": "June",
+          "startMs": 5460,
+          "endMs": 9540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-18-s01.mp4": {
+      "source_sha256": "7a1587432d8e4211724012a89db785acc5be6043af7f92ce5ba6122bf1d07f13",
+      "cues": [
+        {
+          "text": "You saved me twice tonight.",
+          "en": "You saved me twice tonight.",
+          "zh": "你今晚救了我两次。",
+          "speaker": "Rhys",
+          "startMs": 1840,
+          "endMs": 3820,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Don’t get ideas.",
+          "en": "Don’t get ideas.",
+          "zh": "别误会。",
+          "speaker": "June",
+          "startMs": 4540,
+          "endMs": 5660,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-18-spatial-r4-s02.mp4": {
+      "source_sha256": "ecf21364967fc67a87df5716d559b7147346cc19cf1ef97852aa0a84160f9f30",
+      "cues": [
+        {
+          "text": "The second time was mostly for my lease.",
+          "en": "The second time was mostly for my lease.",
+          "zh": "第二次主要是在救我的租约。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 3180,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-11b-s01.mp4": {
+      "source_sha256": "430727461484f5c6f6e477de55abac7ffcf6bd59e99a064457cac15a8baa55c2",
+      "cues": [
+        {
+          "text": "A cold treatment. Very professional.",
+          "en": "A cold treatment. Very professional.",
+          "zh": "冷处理。非常专业。",
+          "speaker": "Rhys",
+          "startMs": 2720,
+          "endMs": 5320,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I haven’t billed you yet.",
+          "en": "I haven’t billed you yet.",
+          "zh": "还没收诊费。",
+          "speaker": "June",
+          "startMs": 5800,
+          "endMs": 6880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B04-s01.mp4": {
+      "source_sha256": "ce99f1084b4121ffc47c1f3a29d7887a05f5bc3b9712434f44124ba28372f88b",
+      "cues": [
+        {
+          "text": "I can choose now.",
+          "en": "I can choose now.",
+          "zh": "现在可以自己选。",
+          "speaker": "Rhys",
+          "startMs": 1420,
+          "endMs": 2920,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B04-s02.mp4": {
+      "source_sha256": "99ca3cd05df60f11291e59cde61d1f4ec48ea0ed4982250ee5953813e04bdd77",
+      "cues": [
+        {
+          "text": "After breakfast, for example.",
+          "en": "After breakfast, for example.",
+          "zh": "比如早餐之后。",
+          "speaker": "Rhys",
+          "startMs": 2820,
+          "endMs": 5080,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "A legally defensible nap.",
+          "en": "A legally defensible nap.",
+          "zh": "合法睡回笼觉。",
+          "speaker": "Rhys",
+          "startMs": 5820,
+          "endMs": 7280,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-07-s01.mp4": {
+      "source_sha256": "e12df8ac2646aeff6c1da4bc38ba2095ac5b27d23aabc81da9fe1e0423201202",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P01-02-spatial-r3-s01.mp4": {
+      "source_sha256": "ce42f3b72dfd48b492c3b41ffad7febab96bd71b825a592ff672ff70ac0e1580",
+      "cues": [
+        {
+          "text": "His hold ends tomorrow.",
+          "en": "His hold ends tomorrow.",
+          "zh": "他的留置期明天结束。",
+          "speaker": "Volunteer",
+          "startMs": 4740,
+          "endMs": 6480,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "One night, then. Try not to turn this into a lease.",
+          "en": "One night, then. Try not to turn this into a lease.",
+          "zh": "那就今晚。别把这变成长期租约。",
+          "speaker": "June",
+          "startMs": 7220,
+          "endMs": 9780,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-01-r7-s01.mp4": {
+      "source_sha256": "bdf9744bb8d70f409a0ea75fde638be7dea43ce842fcd42cac7c14c5b777d42e",
+      "cues": [
+        {
+          "text": "I’ll work a shift.",
+          "en": "I’ll work a shift.",
+          "zh": "我上一班。",
+          "speaker": "June",
+          "startMs": 2700,
+          "endMs": 3960,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-01-r7-s02.mp4": {
+      "source_sha256": "57fc7f6295356803839cc009071db0d2c6f2364792408c8038652383a9fd8115",
+      "cues": [
+        {
+          "text": "You’ll act like a normal cat.",
+          "en": "You’ll act like a normal cat.",
+          "zh": "你假装是一只普通猫。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2020,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Ambitious plans.",
+          "en": "Ambitious plans.",
+          "zh": "两件事都挺难。",
+          "speaker": "June",
+          "startMs": 2900,
+          "endMs": 4000,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-02-r7-s01.mp4": {
+      "source_sha256": "2cf7cd9fe068f584114c556529a1cf30efe3213d0cc76127fdb8b73df8a822f9",
+      "cues": [
+        {
+          "text": "You look like a wedding I don’t want to attend.",
+          "en": "You look like a wedding I don’t want to attend.",
+          "zh": "你看起来很像一场我不想参加的婚礼。",
+          "speaker": "June",
+          "startMs": 1400,
+          "endMs": 3720,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-02-r7-s02.mp4": {
+      "source_sha256": "7c735d2397af1a55a96a6196c51dfe9db55533431c985efab5da5f01c0d078d5",
+      "cues": [
+        {
+          "text": "Then let’s not make it a wedding.",
+          "en": "Then let’s not make it a wedding.",
+          "zh": "那今晚就别让它成为婚礼。",
+          "speaker": "Rhys",
+          "startMs": 1080,
+          "endMs": 2700,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-07-s01.mp4": {
+      "source_sha256": "d55b7e53e64a0d64ed37149f143d0d538b7a5e681664b2c47abbc72b6135fe29",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P05-01-s01.mp4": {
+      "source_sha256": "4202459d8a895674abb80923fee2fa7b2013ef0bfecd899e115c87fafd4c2341",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P05-15-s01.mp4": {
+      "source_sha256": "9b5255fd3d3f90c364349ecacc2cb0be816177203063f0cceef2e6f481d85e3a",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P04-13-s01.mp4": {
+      "source_sha256": "a8adee58367cf2092a61f5d60613b369d8ff3c3927a462e2728774e471427cbd",
+      "cues": [
+        {
+          "text": "Tomorrow, I sign away the throne first.",
+          "en": "Tomorrow, I sign away the throne first.",
+          "zh": "明晚，我先签放弃王位。",
+          "speaker": "Rhys",
+          "startMs": 2920,
+          "endMs": 5760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-13-r7-s02.mp4": {
+      "source_sha256": "4ad495ba8c99a9e3be9cb6c4dd96588ec1ea1e636385246f550b66d79aedfdf9",
+      "cues": [
+        {
+          "text": "Then you decide whether to witness anything.",
+          "en": "Then you decide whether to witness anything.",
+          "zh": "然后你再决定要不要做见证。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 2460,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-15-s01.mp4": {
+      "source_sha256": "f1b05daf0a5f97181d29a12b376d21ddcd8fbecd96c33461d753378a5acb1c3a",
+      "cues": [
+        {
+          "text": "I left a wedding. It’s more complicated than a bad date.",
+          "en": "I left a wedding. It’s more complicated than a bad date.",
+          "zh": "我逃离了一场婚礼。事情比坏约会复杂。",
+          "speaker": "Rhys",
+          "startMs": 1240,
+          "endMs": 6980,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-16-r7-s01.mp4": {
+      "source_sha256": "4204cfbae5873ea71aedf6c470f54881ab89eb5bad520bd21c21a24515cffc32",
+      "cues": [
+        {
+          "text": "Give me a second. The daytime version isn’t much of a conversationalist.",
+          "en": "Give me a second. The daytime version isn’t much of a conversationalist.",
+          "zh": "给我一秒。这个版本白天的口才不太好。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 4160,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-13-r7-s01.mp4": {
+      "source_sha256": "b36622442ea0940429c90cae705464d6db13e2de09a233262b625a11ea371f38",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-A03-r2-s01.mp4": {
+      "source_sha256": "53d92e7f288502d21f4c317aaf6bda49f9a21d9899d793c05644f0e556185e2f",
+      "cues": [
+        {
+          "text": "My only title now might be your roommate.",
+          "en": "My only title now might be your roommate.",
+          "zh": "我现在唯一的头衔，大概是你的室友。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 4420,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-12a-r7-s01.mp4": {
+      "source_sha256": "d6339e6d8f1d5909f2a7214c0177818f167268be804ffc0444028636922d74f0",
+      "cues": [
+        {
+          "text": "Right there. Don’t romanticize the invitation.",
+          "en": "Right there. Don’t romanticize the invitation.",
+          "zh": "就在那儿。别把邀请理解得太浪漫。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I’ll try. The chair is very persuasive.",
+          "en": "I’ll try. The chair is very persuasive.",
+          "zh": "我会尽量克制。椅子很有吸引力。",
+          "speaker": "Rhys",
+          "startMs": 4320,
+          "endMs": 6860,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-02x-r7-s01.mp4": {
+      "source_sha256": "2f57bae844f63c4a302e08916a785e53a2a60d733a5f540f454a25aeb54a5f59",
+      "cues": [
+        {
+          "text": "Excellent packing.",
+          "en": "Excellent packing.",
+          "zh": "衣服包得不错。",
+          "speaker": "Rhys",
+          "startMs": 2020,
+          "endMs": 3560,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-02x-r7-s02.mp4": {
+      "source_sha256": "849fc7ff637e15ff2b58f509871a892e79ac1643a3c63d9e2f08e05a3629eb18",
+      "cues": [
+        {
+          "text": "I don’t remember accepting the invitation.",
+          "en": "I don’t remember accepting the invitation.",
+          "zh": "我不记得答应过赴约。",
+          "speaker": "Rhys",
+          "startMs": 4040,
+          "endMs": 6540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B03-memory-bit_back.mp4": {
+      "source_sha256": "7c5275c0af2e7612ca2432e14a21a4cef8b9c41e1dac84c58c9ddb4d823f542e",
+      "cues": [
+        {
+          "text": "You can still bite back. I still won’t dodge.",
+          "en": "You can still bite back. I still won’t dodge.",
+          "zh": "以后也可以咬回来。我还是不躲。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 3740,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B03-s01.mp4": {
+      "source_sha256": "23d2f39f16d77f72476cb8f21af0e77883a1aa3cf86b5f8a5d4c6835f0cd94fd",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P05-09a-s01.mp4": {
+      "source_sha256": "5c34c657b91f4a7b79ae97537993235d84a4f96f200171812f6488fdcb6754dd",
+      "cues": [
+        {
+          "text": "Do that and I might misunderstand the dress code.",
+          "en": "Do that and I might misunderstand the dress code.",
+          "zh": "你这样，我会误以为你想脱掉它。",
+          "speaker": "Rhys",
+          "startMs": 2860,
+          "endMs": 5480,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-09a-s02.mp4": {
+      "source_sha256": "5932ad565a9bff0b4207a98acbd39b901a1bd015de1b315485d55a8925ef9385",
+      "cues": [
+        {
+          "text": "I’m trying to remove one sentence.",
+          "en": "I’m trying to remove one sentence.",
+          "zh": "我想让你少说一句。",
+          "speaker": "June",
+          "startMs": 2760,
+          "endMs": 4760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-19-r7-s01.mp4": {
+      "source_sha256": "a5fa8f7b8dfbc9c789cd1d7f65192379f8d6161bb89fa9f8467fdad4efc84607",
+      "cues": [
+        {
+          "text": "You knew about the witness clause. From the first night?",
+          "en": "You knew about the witness clause. From the first night?",
+          "zh": "你知道“收留者”这条。第一晚就知道？",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 3820,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-15a-s01.mp4": {
+      "source_sha256": "06a07ce223ddc2466fa73c59a5c98fedbc30eacc9cf5b0290fe2035e41dba6ea",
+      "cues": [
+        {
+          "text": "Stay.",
+          "en": "Stay.",
+          "zh": "留下。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1100,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "But protect the pillows first.",
+          "en": "But protect the pillows first.",
+          "zh": "但先保护一下我的枕头。",
+          "speaker": "June",
+          "startMs": 1660,
+          "endMs": 3500,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-15a-s02.mp4": {
+      "source_sha256": "f00ac39c261eeb1f9ba220be8715bd516f1d71a67ee4211fbdd2878558aca6f7",
+      "cues": [
+        {
+          "text": "An entirely reasonable order.",
+          "en": "An entirely reasonable order.",
+          "zh": "这条命令很合理。",
+          "speaker": "Rhys",
+          "startMs": 3200,
+          "endMs": 4960,
+          "timestampMs": null,
+          "confidence": 0.857,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-08-r7-s01.mp4": {
+      "source_sha256": "59bad5e5e2f43027a60581b036c76a8ff3e34dd2fb99128ec383e6d4f8b86dcd",
+      "cues": [
+        {
+          "text": "The release terms stand.",
+          "en": "The release terms stand.",
+          "zh": "退誓条款有效。",
+          "speaker": "Selene",
+          "startMs": 1060,
+          "endMs": 3220,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-08-s02.mp4": {
+      "source_sha256": "a1b48990be6e4a008a76042798146cfd2834939a3b2c3212d0a6c9fc315452bc",
+      "cues": [
+        {
+          "text": "The court bears the gate’s cost.",
+          "en": "The court bears the gate’s cost.",
+          "zh": "王庭承担门的代价。",
+          "speaker": "Selene",
+          "startMs": 3780,
+          "endMs": 5880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "You owe no wedding.",
+          "en": "You owe no wedding.",
+          "zh": "你们不欠一场婚礼。",
+          "speaker": "Selene",
+          "startMs": 6440,
+          "endMs": 7440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-18a-s01.mp4": {
+      "source_sha256": "b9d281c99579663caa426271915c75912380fe1a74bd675917db22b3996ea85b",
+      "cues": [
+        {
+          "text": "Don’t get smug. This benefit is cats only.",
+          "en": "Don’t get smug. This benefit is cats only.",
+          "zh": "别得意。这个福利只对猫开放。",
+          "speaker": "June",
+          "startMs": 2120,
+          "endMs": 5580,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-11c-s01.mp4": {
+      "source_sha256": "b91ce5ff045bf11b328dc9f4b269ae79ce648b64cb751766a241cbd14cd54cf3",
+      "cues": [
+        {
+          "text": "You’re good at making me wait.",
+          "en": "You’re good at making me wait.",
+          "zh": "你很会让我等。",
+          "speaker": "Rhys",
+          "startMs": 2640,
+          "endMs": 4360,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-11c-s02.mp4": {
+      "source_sha256": "550c3390740ef18bf3b58d8dcb5c52a75020890c4a4d54e2c73eb9d9c0f6ab18",
+      "cues": [
+        {
+          "text": "You’re good at making me amend the rules.",
+          "en": "You’re good at making me amend the rules.",
+          "zh": "你很会让我把规矩改了。",
+          "speaker": "June",
+          "startMs": 2700,
+          "endMs": 4780,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-12c-s01.mp4": {
+      "source_sha256": "6e2a5293daeaf141205a943532226da44bcd365cd8d6480af1d73cdaa435af91",
+      "cues": [
+        {
+          "text": "Holding hands isn’t forgiveness.",
+          "en": "Holding hands isn’t forgiveness.",
+          "zh": "握手，不等于原谅。",
+          "speaker": "June",
+          "startMs": 1400,
+          "endMs": 3400,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-12c-s02.mp4": {
+      "source_sha256": "0a9e2c7ac11ddcd379d3a4fe2eeb8af85ebebe24431c780d4a3d6100f4608ab7",
+      "cues": [
+        {
+          "text": "I know.",
+          "en": "I know.",
+          "zh": "我知道。",
+          "speaker": "Rhys",
+          "startMs": 2980,
+          "endMs": 3860,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I’ll still be careful with this hand.",
+          "en": "I’ll still be careful with this hand.",
+          "zh": "但这只手，我会认真接住。",
+          "speaker": "Rhys",
+          "startMs": 4380,
+          "endMs": 7940,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-A04-s01.mp4": {
+      "source_sha256": "88a59b962291410cb71b21081a3aff6b489e51a7f70320d93303d9ffb251d5d6",
+      "cues": [
+        {
+          "text": "You’re still here.",
+          "en": "You’re still here.",
+          "zh": "你还在。",
+          "speaker": "June",
+          "startMs": 1860,
+          "endMs": 3220,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Yes.",
+          "en": "Yes.",
+          "zh": "是。",
+          "speaker": "Rhys",
+          "startMs": 3840,
+          "endMs": 4400,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "So is the coffee.",
+          "en": "So is the coffee.",
+          "zh": "咖啡也在。",
+          "speaker": "Rhys",
+          "startMs": 5060,
+          "endMs": 5880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-A04-r7-s02.mp4": {
+      "source_sha256": "dcf319cb83058fa86ba65aac641cc83d98a97275caa49f808e9208c03fd24242",
+      "cues": [
+        {
+          "text": "I can only promise one is a good thing.",
+          "en": "I can only promise one is a good thing.",
+          "zh": "我只能保证其中一件是好事。",
+          "speaker": "Rhys",
+          "startMs": 2580,
+          "endMs": 4940,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-13b-r7-s01.mp4": {
+      "source_sha256": "ac917c771d291259cb8a086f0ff4ca161cdd9972488e02201bd9b58d1d82d18c",
+      "cues": [
+        {
+          "text": "I’d miss the cat.",
+          "en": "I’d miss the cat.",
+          "zh": "猫我会想念。",
+          "speaker": "June",
+          "startMs": 2580,
+          "endMs": 3860,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I want you here too.",
+          "en": "I want you here too.",
+          "zh": "你我也想留下。",
+          "speaker": "June",
+          "startMs": 4840,
+          "endMs": 6180,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-13b-r7-s02.mp4": {
+      "source_sha256": "ee151360df7b2d586800833300b85239b57e63ed22719f7cfa4b422e40182396",
+      "cues": [
+        {
+          "text": "I’ll resist charging you for two roommates.",
+          "en": "I’ll resist charging you for two roommates.",
+          "zh": "这次我就不收两份房租了。",
+          "speaker": "Rhys",
+          "startMs": 2680,
+          "endMs": 4980,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-12-s01.mp4": {
+      "source_sha256": "0e711aebcf4b8b715a65fe87407f21023de2a80c9cc33e31afec0cc7cbe516a9",
+      "cues": [
+        {
+          "text": "You could have let him take me. You stood in his way.",
+          "en": "You could have let him take me. You stood in his way.",
+          "zh": "你可以让他带走我。你却挡在了前面。",
+          "speaker": "Rhys",
+          "startMs": 2400,
+          "endMs": 6220,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-14-r7-s01.mp4": {
+      "source_sha256": "b8b4f3d05a896ba84506ece5939fdae0889377a82c94e33acd6cdb03421f1910",
+      "cues": [
+        {
+          "text": "May I try yours?",
+          "en": "May I try yours?",
+          "zh": "能尝一口你的？",
+          "speaker": "Rhys",
+          "startMs": 720,
+          "endMs": 2200,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "One sip. A human-sized sip.",
+          "en": "One sip. A human-sized sip.",
+          "zh": "一口。人类标准的一口。",
+          "speaker": "June",
+          "startMs": 3640,
+          "endMs": 6080,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-11-continuity-r5-s01.mp4": {
+      "source_sha256": "55b181a2b79f28d742c862e9d1dda363a02bc4785ce5665cdc2bb41e575f4c2b",
+      "cues": [
+        {
+          "text": "Then change back.",
+          "en": "Then change back.",
+          "zh": "那现在变回去。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1260,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "At sunrise. I can’t choose the time. I can choose to stay back.",
+          "en": "At sunrise. I can’t choose the time. I can choose to stay back.",
+          "zh": "日出的时候。我不能选时间，但能选站远一点。",
+          "speaker": "Rhys",
+          "startMs": 2260,
+          "endMs": 7800,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-14c-s01.mp4": {
+      "source_sha256": "92bf8912b3f1abf613decf2c6e8d9fd9f7f14fd1b4698aca072557c67737a0cb",
+      "cues": [
+        {
+          "text": "Who was the man looking for the cat?",
+          "en": "Who was the man looking for the cat?",
+          "zh": "那个找猫的人是谁？",
+          "speaker": "June",
+          "startMs": 360,
+          "endMs": 2200,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-14c-s02.mp4": {
+      "source_sha256": "507519a05e0f1fda145672a30ff19f7e4a72155ad2c8944c0d65984714d3c14a",
+      "cues": [
+        {
+          "text": "Vael.",
+          "en": "Vael.",
+          "zh": "Vael。",
+          "speaker": "Rhys",
+          "startMs": 1760,
+          "endMs": 2440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "The court’s steward.",
+          "en": "The court’s steward.",
+          "zh": "王庭执事。",
+          "speaker": "Rhys",
+          "startMs": 3460,
+          "endMs": 4620,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "He’s never just looking for a cat.",
+          "en": "He’s never just looking for a cat.",
+          "zh": "他从不只找猫。",
+          "speaker": "Rhys",
+          "startMs": 5420,
+          "endMs": 7000,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-C02a-s01.mp4": {
+      "source_sha256": "85a82d93b9ec228f25fcd1b415ac9334ce86c6f1bbe5bb5a2e9888c82782076c",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-C02a-r7-s02.mp4": {
+      "source_sha256": "f1d303d404e4df79fa974ee7a1457eb3eee044e8266de1164e0419ae8a5667db",
+      "cues": [
+        {
+          "text": "Knock when you come back.",
+          "en": "Knock when you come back.",
+          "zh": "回来要先敲门。",
+          "speaker": "June",
+          "startMs": 1780,
+          "endMs": 3340,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I’ll bring coffee. Not an excuse.",
+          "en": "I’ll bring coffee. Not an excuse.",
+          "zh": "我会带咖啡，不带借口。",
+          "speaker": "Rhys",
+          "startMs": 4160,
+          "endMs": 6520,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-12-s01.mp4": {
+      "source_sha256": "adb0afeac0ffb006a9d8738c6da5c7822af1d5f52a50c5695041eb03493a41ce",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P04-14-r7-s01.mp4": {
+      "source_sha256": "d9533367275693ac3b03959faf2cc705ac852cff42c8ede7d0bc62b7c7783ad4",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P06-05-s01.mp4": {
+      "source_sha256": "01a41429dd07a2f5822442b29f0a84a05f79831db5e4270e7d334fdb817a0ce9",
+      "cues": [
+        {
+          "text": "First, tell me what you know. Then we discuss a choice.",
+          "en": "First, tell me what you know. Then we discuss a choice.",
+          "zh": "先说清楚你知道什么。然后才谈选择。",
+          "speaker": "Selene",
+          "startMs": 4140,
+          "endMs": 9460,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-06-s01.mp4": {
+      "source_sha256": "d2b35be51347134c6dad3a1364dafbf51276f380640a4786460f315a575b59e3",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P01-05-s01.mp4": {
+      "source_sha256": "e7488a98592f9ace6f80cb710aec9cbb06a598bcf5b9b87c423452d980618ac8",
+      "cues": [
+        {
+          "text": "This is Mochi.",
+          "en": "This is Mochi.",
+          "zh": "这是 Mochi。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1780,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "She supervises.",
+          "en": "She supervises.",
+          "zh": "她负责监督。",
+          "speaker": "June",
+          "startMs": 3880,
+          "endMs": 4420,
+          "timestampMs": null,
+          "confidence": 0.667,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-05-s02.mp4": {
+      "source_sha256": "20517c50676dce8feeae199ce6ba80c028aded7ace337445fb32944c99bfbdd6",
+      "cues": [
+        {
+          "text": "Mostly my rent payments.",
+          "en": "Mostly my rent payments.",
+          "zh": "主要监督我付房租。",
+          "speaker": "June",
+          "startMs": 2440,
+          "endMs": 4300,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-06-r7-s01.mp4": {
+      "source_sha256": "2b080600aeeaa4e448d16b79db0437faccd764052e68cd8b538c474f72ca1776",
+      "cues": [
+        {
+          "text": "Before the eclipse, make him answer you.",
+          "en": "Before the eclipse, make him answer you.",
+          "zh": "月食之前，让他回答你。",
+          "speaker": "Vael",
+          "startMs": 0,
+          "endMs": 3700,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B03c-r7-s01.mp4": {
+      "source_sha256": "d5dd7b78e3fa992c7b1d651470f8f31f33f16396912b5dd7b792c7691d534ff4",
+      "cues": [
+        {
+          "text": "Make the coffee drinkable first.",
+          "en": "Make the coffee drinkable first.",
+          "zh": "先把咖啡做得能喝。",
+          "speaker": "June",
+          "startMs": 3640,
+          "endMs": 6480,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "You set harder challenges than the court.",
+          "en": "You set harder challenges than the court.",
+          "zh": "你给的挑战比王庭狠。",
+          "speaker": "Rhys",
+          "startMs": 7280,
+          "endMs": 9340,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-19-r7-s01.mp4": {
+      "source_sha256": "ef403a8d386f4a543929e7079fd80fd6bb5f15d5ac05a30179e46a09bdf85296",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P02-11c-r7-s01.mp4": {
+      "source_sha256": "3487a5db49e4542133d28354d349ccb0695a8432a5c9f0a5bf2ea3d23ac2bbe6",
+      "cues": [
+        {
+          "text": "You just wanted to see if I’d blush.",
+          "en": "You just wanted to see if I’d blush.",
+          "zh": "你就是想看我会不会脸红。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-11c-r7-s02.mp4": {
+      "source_sha256": "38dab02d1cc0254896325525bea8eeac4b7b987ae67e124910b467a2d5887c6a",
+      "cues": [
+        {
+          "text": "Yes.",
+          "en": "Yes.",
+          "zh": "是。",
+          "speaker": "Rhys",
+          "startMs": 1760,
+          "endMs": 2440,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "More interesting results than the coffee.",
+          "en": "More interesting results than the coffee.",
+          "zh": "结果比咖啡值得研究。",
+          "speaker": "Rhys",
+          "startMs": 2440,
+          "endMs": 4700,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-B05-s01.mp4": {
+      "source_sha256": "f004c4aa653060431b426529ded225347c0815cf69c05a56cc9e3a1d9ba31aed",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P05-14-r7-s01.mp4": {
+      "source_sha256": "aed35573d6ec32d656a082e502a654d1c4065990352754106c9648f4b454bbbc",
+      "cues": [
+        {
+          "text": "I should leave the bed before sunrise.",
+          "en": "I should leave the bed before sunrise.",
+          "zh": "我该在太阳前离开床。",
+          "speaker": "Rhys",
+          "startMs": 3600,
+          "endMs": 5560,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-14-r7-s02.mp4": {
+      "source_sha256": "c6f3f53b9e4cd631f16a4d6a93b5915e4e7e41a2155b732ccb182176353ac7df",
+      "cues": [
+        {
+          "text": "Your pillows have endured enough.",
+          "en": "Your pillows have endured enough.",
+          "zh": "你的枕头已经承担很多。",
+          "speaker": "Rhys",
+          "startMs": 2620,
+          "endMs": 4760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-12-r7-s01.mp4": {
+      "source_sha256": "d1e9f4b8dc91c3f1e80feeed1b8928d33af467fc788e63c848108349c086c929",
+      "cues": [
+        {
+          "text": "I can live with clever.",
+          "en": "I can live with clever.",
+          "zh": "我可以接受你聪明。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1800,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-12-r7-s02.mp4": {
+      "source_sha256": "a3a9d4ab95a2400fac8242ec84fda81ec92691f54982783e23d372e3472d9555",
+      "cues": [
+        {
+          "text": "I can’t live with you deciding for me.",
+          "en": "I can’t live with you deciding for me.",
+          "zh": "不能接受你替我做决定。",
+          "speaker": "June",
+          "startMs": 940,
+          "endMs": 3520,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-14-s01.mp4": {
+      "source_sha256": "41ae4e9b1f8697bd16c1cd1c53d0fc8f19e5662e4aae981b293333b2886ea65e",
+      "cues": [
+        {
+          "text": "Your heart is doing enough for both of us.",
+          "en": "Your heart is doing enough for both of us.",
+          "zh": "你的心跳已经替我们两个紧张了。",
+          "speaker": "Rhys",
+          "startMs": 4140,
+          "endMs": 6540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-14-r7-s02.mp4": {
+      "source_sha256": "b6a3fef64543d8cae517a0feeaaaa3dfc7061f6d27ae37f23f2cd54fb1912185",
+      "cues": [
+        {
+          "text": "Then at least cover the coffee.",
+          "en": "Then at least cover the coffee.",
+          "zh": "那你至少负担一下咖啡。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1400,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-17-s01.mp4": {
+      "source_sha256": "245f8b6f1975c74ab834649e12c1edf317239412372b9eaf8e2340717e777cac",
+      "cues": [
+        {
+          "text": "Okay. You are the cat. The rules still apply.",
+          "en": "Okay. You are the cat. The rules still apply.",
+          "zh": "好。你确实是猫。规则照算。",
+          "speaker": "June",
+          "startMs": 3460,
+          "endMs": 7740,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-12-r7-s01.mp4": {
+      "source_sha256": "747e97e2e37ac9cfd5183fc7336a8f8d194a6005bb9f3dd5464aefd52034d43c",
+      "cues": [
+        {
+          "text": "Roof. I need air that hasn’t heard this conversation.",
+          "en": "Roof. I need air that hasn’t heard this conversation.",
+          "zh": "去屋顶。我需要一些没听过这段对话的空气。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 3080,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-06-s01.mp4": {
+      "source_sha256": "3591328381ef9559cb20a30140c2f413ee56ad00c230cb5633795465c9c1969d",
+      "cues": [
+        {
+          "text": "You can bite back. Fair’s fair. I won’t dodge.",
+          "en": "You can bite back. Fair’s fair. I won’t dodge.",
+          "zh": "你可以咬回来。公平一点，我不躲。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 4220,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-03-door-r5-s01.mp4": {
+      "source_sha256": "001be4c8e55d44a027bde0d45a6333790bc03b139395d4837934d1bd4721f198",
+      "cues": [
+        {
+          "text": "Going in yourself? Good. One roommate who skips negotiations.",
+          "en": "Going in yourself? Good. One roommate who skips negotiations.",
+          "zh": "自己进去？好。至少有一个室友不需要谈判。",
+          "speaker": "June",
+          "startMs": 3680,
+          "endMs": 7820,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P05-12-memory-default.mp4": {
+      "source_sha256": "d218b43fbf830e637533d532e04104df3e3d9d0a2f8f6a46b978a56b3da62b27",
+      "cues": [
+        {
+          "text": "I like this rule too. Slower. Still real.",
+          "en": "I like this rule too. Slower. Still real.",
+          "zh": "这一条我也喜欢。慢一点，但是真的。",
+          "speaker": "Rhys",
+          "startMs": 600,
+          "endMs": 4380,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-00-r6-s01.mp4": {
+      "source_sha256": "9f33029ef687b5811c6ebc7f6d8d910d40940ea96d1806a83751bc2f576e44f3",
+      "cues": [
+        {
+          "text": "You’re coming to work.",
+          "en": "You’re coming to work.",
+          "zh": "今天你陪我上班。",
+          "speaker": "June",
+          "startMs": 2580,
+          "endMs": 3900,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-00-r6-s02.mp4": {
+      "source_sha256": "9d7b18e829dd593673793fb5354281ee19c7fa99496e171714c8852adc891756",
+      "cues": [
+        {
+          "text": "Your role is observing.",
+          "en": "Your role is observing.",
+          "zh": "待遇是观察。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 2520,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Not directing.",
+          "en": "Not directing.",
+          "zh": "不是指挥。",
+          "speaker": "June",
+          "startMs": 3540,
+          "endMs": 5680,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-03-s01.mp4": {
+      "source_sha256": "76a4cac860eebdf1b1826183f5b4c881a414f5a814c0f4932507bc17b23980f0",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    },
+    "media/P04-06-s01.mp4": {
+      "source_sha256": "2f1ad3c61c819113832f21ccf0990d53674f166fb7525e88d0ee6e4be38c98aa",
+      "cues": [
+        {
+          "text": "Tell Selene I’ll attend.",
+          "en": "Tell Selene I’ll attend.",
+          "zh": "告诉 Selene：我会来。",
+          "speaker": "Rhys",
+          "startMs": 0,
+          "endMs": 2380,
+          "timestampMs": null,
+          "confidence": 0.8,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P04-06-s02.mp4": {
+      "source_sha256": "bd04df7b09d890369dd884e48d821caee96649eca72461196967230cfb78e59c",
+      "cues": [
+        {
+          "text": "I’m bringing someone who reads the fine print.",
+          "en": "I’m bringing someone who reads the fine print.",
+          "zh": "我带一个会读小字的人。",
+          "speaker": "Rhys",
+          "startMs": 1580,
+          "endMs": 3880,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-16a-s01.mp4": {
+      "source_sha256": "63323a92c79014438c4ffc5a84aee02761e27f15491a6ec525d456720c448592",
+      "cues": [
+        {
+          "text": "You like making your point very clear.",
+          "en": "You like making your point very clear.",
+          "zh": "你喜欢把话说得很具体。",
+          "speaker": "Rhys",
+          "startMs": 3960,
+          "endMs": 5980,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P03-16a-s02.mp4": {
+      "source_sha256": "3c58fd0b13972dfe06e74819dc524d28c99165508b2d5bcabc80b056b4aab661",
+      "cues": [
+        {
+          "text": "You like pretending you didn’t hear it.",
+          "en": "You like pretending you didn’t hear it.",
+          "zh": "你喜欢装听不懂。",
+          "speaker": "June",
+          "startMs": 4040,
+          "endMs": 6120,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-C01-r7-s01.mp4": {
+      "source_sha256": "cee9e8e56761e121dc47ed4df3ac0e4ca132e379282b67153eeb5641f81f7d06",
+      "cues": [
+        {
+          "text": "Go finish what you promised.",
+          "en": "Go finish what you promised.",
+          "zh": "去把答应的事完成。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 1540,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Stop them choosing for everyone else.",
+          "en": "Stop them choosing for everyone else.",
+          "zh": "别让他们继续替别人选。",
+          "speaker": "June",
+          "startMs": 1540,
+          "endMs": 5040,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "I’ll make the release terms public.",
+          "en": "I’ll make the release terms public.",
+          "zh": "我会公开退誓条款。",
+          "speaker": "Rhys",
+          "startMs": 5040,
+          "endMs": 9760,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-C01-r7-s02.mp4": {
+      "source_sha256": "fcd119564ac2263a70e40a75017a1183912142f9b6dd92ccac5c1f03367964db",
+      "cues": [
+        {
+          "text": "So the next cat won’t have to run.",
+          "en": "So the next cat won’t have to run.",
+          "zh": "让下一只猫不用靠逃。",
+          "speaker": "Rhys",
+          "startMs": 2940,
+          "endMs": 4780,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-12b2-r7-s01.mp4": {
+      "source_sha256": "0304fa63081e9e6849bd04bb63cb19a40490d10891b46afa82e99f5841a536fa",
+      "cues": [
+        {
+          "text": "Come in.",
+          "en": "Come in.",
+          "zh": "进来。",
+          "speaker": "June",
+          "startMs": 0,
+          "endMs": 940,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Same chair.",
+          "en": "Same chair.",
+          "zh": "还是坐那把椅子。",
+          "speaker": "June",
+          "startMs": 940,
+          "endMs": 2680,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        },
+        {
+          "text": "Understood.",
+          "en": "Understood.",
+          "zh": "收到。",
+          "speaker": "Rhys",
+          "startMs": 2680,
+          "endMs": 3980,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P01-12b2-r7-s02.mp4": {
+      "source_sha256": "4ba0b170724f46a2f65aa45940e1e2da658257ae5ba81d97b4f3ee4d234de82e",
+      "cues": [
+        {
+          "text": "I’ll make a single, dignified entrance.",
+          "en": "I’ll make a single, dignified entrance.",
+          "zh": "我会体面地进门，就这一次。",
+          "speaker": "Rhys",
+          "startMs": 2460,
+          "endMs": 5660,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P02-19-memory-touched_cheek.mp4": {
+      "source_sha256": "142d19d9496d4040eeb5f3f4710c484078fc76e7f5c38b87096d42c85a5372ef",
+      "cues": [
+        {
+          "text": "That wasn’t an examination. I can tell.",
+          "en": "That wasn’t an examination. I can tell.",
+          "zh": "你刚才不是在检查。我分得出来。",
+          "speaker": "Rhys",
+          "startMs": 360,
+          "endMs": 3820,
+          "timestampMs": null,
+          "confidence": 1.0,
+          "method": "script line aligned to actual ASR word timestamps"
+        }
+      ]
+    },
+    "media/P06-A02-r7-s01.mp4": {
+      "source_sha256": "844bb4e4d753b5ede7e12ffcf59139fd9a4fc1b74ddd3068fb01c60c5c418ded",
+      "cues": [],
+      "note": "scripted silent shot; no automatic hallucinated dialogue"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "source": "media/P01-15-s01.mp4",
+  "sha256": "c6baf3a14de77e819810906dd1db396164851231496100997c78c70514a68529",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.5,
+      "end": 5.72,
+      "text": " Rule one, no stealing my bed.",
+      "no_speech_prob": 0.11334632337093353,
+      "words": [
+        {
+          "word": " Rule",
+          "start": 3.5,
+          "end": 4.08,
+          "probability": 0.7257063984870911
+        },
+        {
+          "word": " one,",
+          "start": 4.08,
+          "end": 4.4,
+          "probability": 0.3815801739692688
+        },
+        {
+          "word": " no",
+          "start": 4.9,
+          "end": 5.0,
+          "probability": 0.9539178013801575
+        },
+        {
+          "word": " stealing",
+          "start": 5.0,
+          "end": 5.28,
+          "probability": 0.9878150224685669
+        },
+        {
+          "word": " my",
+          "start": 5.28,
+          "end": 5.5,
+          "probability": 0.9990923404693604
+        },
+        {
+          "word": " bed.",
+          "start": 5.5,
+          "end": 5.72,
+          "probability": 0.9981914162635803
+        }
+      ]
+    }
+  ]
+}

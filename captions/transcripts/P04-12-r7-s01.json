@@ -1,0 +1,45 @@
+{
+  "source": "media/P04-12-r7-s01.mp4",
+  "sha256": "d1e9f4b8dc91c3f1e80feeed1b8928d33af467fc788e63c848108349c086c929",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.64,
+      "text": " I can live with clever.",
+      "no_speech_prob": 0.08054672926664352,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.8992493748664856
+        },
+        {
+          "word": " can",
+          "start": 0.76,
+          "end": 0.92,
+          "probability": 0.9899397492408752
+        },
+        {
+          "word": " live",
+          "start": 0.92,
+          "end": 1.1,
+          "probability": 0.9977987408638
+        },
+        {
+          "word": " with",
+          "start": 1.1,
+          "end": 1.34,
+          "probability": 0.9981067180633545
+        },
+        {
+          "word": " clever.",
+          "start": 1.34,
+          "end": 1.64,
+          "probability": 0.8570165038108826
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source": "media/P06-C05-s01.mp4",
+  "sha256": "4480666215670be68903704c9bf57184efffa74a2548ece955366c0024ea1b09",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.5000000000000004,
+      "end": 4.48,
+      "text": " Bring better coffee when you return.",
+      "no_speech_prob": 0.08962938189506531,
+      "words": [
+        {
+          "word": " Bring",
+          "start": 2.5000000000000004,
+          "end": 3.18,
+          "probability": 0.9202737212181091
+        },
+        {
+          "word": " better",
+          "start": 3.18,
+          "end": 3.44,
+          "probability": 0.9368945360183716
+        },
+        {
+          "word": " coffee",
+          "start": 3.44,
+          "end": 3.78,
+          "probability": 0.9961828589439392
+        },
+        {
+          "word": " when",
+          "start": 3.78,
+          "end": 3.98,
+          "probability": 0.9942031502723694
+        },
+        {
+          "word": " you",
+          "start": 3.98,
+          "end": 4.1,
+          "probability": 0.9988644123077393
+        },
+        {
+          "word": " return.",
+          "start": 4.1,
+          "end": 4.48,
+          "probability": 0.9983108043670654
+        }
+      ]
+    }
+  ]
+}

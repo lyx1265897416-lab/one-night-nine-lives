@@ -1,0 +1,69 @@
+{
+  "source": "media/P04-01-s01.mp4",
+  "sha256": "0698de458244124841b83af0d3b879a4f6c0a72379da1c16c9488db5e9eac3b3",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.94,
+      "text": " Temporary fostering approved. The cats, at least, are legal.",
+      "no_speech_prob": 0.015045881271362305,
+      "words": [
+        {
+          "word": " Temporary",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.6859327554702759
+        },
+        {
+          "word": " fostering",
+          "start": 0.58,
+          "end": 1.02,
+          "probability": 0.947376549243927
+        },
+        {
+          "word": " approved.",
+          "start": 1.02,
+          "end": 1.48,
+          "probability": 0.9910680651664734
+        },
+        {
+          "word": " The",
+          "start": 2.48,
+          "end": 2.58,
+          "probability": 0.98576420545578
+        },
+        {
+          "word": " cats,",
+          "start": 2.58,
+          "end": 2.86,
+          "probability": 0.937267541885376
+        },
+        {
+          "word": " at",
+          "start": 3.0,
+          "end": 3.1,
+          "probability": 0.9997497200965881
+        },
+        {
+          "word": " least,",
+          "start": 3.1,
+          "end": 3.28,
+          "probability": 0.9993182420730591
+        },
+        {
+          "word": " are",
+          "start": 3.54,
+          "end": 3.68,
+          "probability": 0.9996168613433838
+        },
+        {
+          "word": " legal.",
+          "start": 3.68,
+          "end": 3.94,
+          "probability": 0.9939879179000854
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source": "media/P06-A02-r7-s01.mp4",
+  "sha256": "844bb4e4d753b5ede7e12ffcf59139fd9a4fc1b74ddd3068fb01c60c5c418ded",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 5.4,
+      "end": 8.88,
+      "text": " I'll see you in the next video.",
+      "no_speech_prob": 0.472553551197052,
+      "words": [
+        {
+          "word": " I'll",
+          "start": 5.4,
+          "end": 6.8,
+          "probability": 0.033981568878516555
+        },
+        {
+          "word": " see",
+          "start": 6.8,
+          "end": 6.8,
+          "probability": 0.19516333937644958
+        },
+        {
+          "word": " you",
+          "start": 6.8,
+          "end": 8.88,
+          "probability": 0.9035972356796265
+        },
+        {
+          "word": " in",
+          "start": 8.88,
+          "end": 8.88,
+          "probability": 0.07951640337705612
+        },
+        {
+          "word": " the",
+          "start": 8.88,
+          "end": 8.88,
+          "probability": 0.5896756649017334
+        },
+        {
+          "word": " next",
+          "start": 8.88,
+          "end": 8.88,
+          "probability": 0.8785178661346436
+        },
+        {
+          "word": " video.",
+          "start": 8.88,
+          "end": 8.88,
+          "probability": 0.6268755793571472
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source": "media/P01-11-s02.mp4",
+  "sha256": "2986539e75b9c12c0c2eb7c3009667c656358698c9a6a8ec8b162d3a140bcf13",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.4599999999999986,
+      "end": 4.82,
+      "text": " I can choose to stay back.",
+      "no_speech_prob": 0.1657240092754364,
+      "words": [
+        {
+          "word": " I",
+          "start": 3.4599999999999986,
+          "end": 3.82,
+          "probability": 0.7808881998062134
+        },
+        {
+          "word": " can",
+          "start": 3.82,
+          "end": 3.96,
+          "probability": 0.9660252928733826
+        },
+        {
+          "word": " choose",
+          "start": 3.96,
+          "end": 4.14,
+          "probability": 0.9775788187980652
+        },
+        {
+          "word": " to",
+          "start": 4.14,
+          "end": 4.32,
+          "probability": 0.9967731833457947
+        },
+        {
+          "word": " stay",
+          "start": 4.32,
+          "end": 4.5,
+          "probability": 0.9953332543373108
+        },
+        {
+          "word": " back.",
+          "start": 4.5,
+          "end": 4.82,
+          "probability": 0.9976280331611633
+        }
+      ]
+    }
+  ]
+}

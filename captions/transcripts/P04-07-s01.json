@@ -1,0 +1,87 @@
+{
+  "source": "media/P04-07-s01.mp4",
+  "sha256": "d55b7e53e64a0d64ed37149f143d0d538b7a5e681664b2c47abbc72b6135fe29",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 5.56,
+      "end": 8.98,
+      "text": " You know, you really are the most patient person I've ever met.",
+      "no_speech_prob": 0.04788012057542801,
+      "words": [
+        {
+          "word": " You",
+          "start": 5.56,
+          "end": 6.1,
+          "probability": 0.818155825138092
+        },
+        {
+          "word": " know,",
+          "start": 6.1,
+          "end": 6.24,
+          "probability": 0.9953214526176453
+        },
+        {
+          "word": " you",
+          "start": 6.6,
+          "end": 6.84,
+          "probability": 0.9942759871482849
+        },
+        {
+          "word": " really",
+          "start": 6.84,
+          "end": 7.1,
+          "probability": 0.9913316965103149
+        },
+        {
+          "word": " are",
+          "start": 7.1,
+          "end": 7.38,
+          "probability": 0.9950100183486938
+        },
+        {
+          "word": " the",
+          "start": 7.38,
+          "end": 7.5,
+          "probability": 0.9982925057411194
+        },
+        {
+          "word": " most",
+          "start": 7.5,
+          "end": 7.66,
+          "probability": 0.9984152317047119
+        },
+        {
+          "word": " patient",
+          "start": 7.66,
+          "end": 8.0,
+          "probability": 0.9955649971961975
+        },
+        {
+          "word": " person",
+          "start": 8.0,
+          "end": 8.3,
+          "probability": 0.9972195625305176
+        },
+        {
+          "word": " I've",
+          "start": 8.3,
+          "end": 8.54,
+          "probability": 0.9832735955715179
+        },
+        {
+          "word": " ever",
+          "start": 8.54,
+          "end": 8.7,
+          "probability": 0.9986670017242432
+        },
+        {
+          "word": " met.",
+          "start": 8.7,
+          "end": 8.98,
+          "probability": 0.9993264675140381
+        }
+      ]
+    }
+  ]
+}

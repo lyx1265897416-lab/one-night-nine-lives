@@ -1,0 +1,51 @@
+{
+  "source": "media/P01-15x-s02.mp4",
+  "sha256": "e7f61439581f79ccc36caf36cdabfa6bb122412532b76fb48d43163f16acb697",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.4799999999999995,
+      "end": 2.94,
+      "text": " A note for the daytime version.",
+      "no_speech_prob": 0.06757275760173798,
+      "words": [
+        {
+          "word": " A",
+          "start": 1.4799999999999995,
+          "end": 1.88,
+          "probability": 0.654522180557251
+        },
+        {
+          "word": " note",
+          "start": 1.88,
+          "end": 2.02,
+          "probability": 0.9750173687934875
+        },
+        {
+          "word": " for",
+          "start": 2.02,
+          "end": 2.22,
+          "probability": 0.9903525710105896
+        },
+        {
+          "word": " the",
+          "start": 2.22,
+          "end": 2.32,
+          "probability": 0.9947540760040283
+        },
+        {
+          "word": " daytime",
+          "start": 2.32,
+          "end": 2.52,
+          "probability": 0.9021430611610413
+        },
+        {
+          "word": " version.",
+          "start": 2.52,
+          "end": 2.94,
+          "probability": 0.9959015250205994
+        }
+      ]
+    }
+  ]
+}

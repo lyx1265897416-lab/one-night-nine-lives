@@ -1,0 +1,57 @@
+{
+  "source": "media/P02-14b-s01.mp4",
+  "sha256": "60f1ef5ec147c075d884f713ded2fc125467388d87a3f17e22f0e6497dfc9aa4",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.3199999999999994,
+      "end": 5.44,
+      "text": " Do all your difficult patients get this?",
+      "no_speech_prob": 0.051145609468221664,
+      "words": [
+        {
+          "word": " Do",
+          "start": 3.3199999999999994,
+          "end": 3.88,
+          "probability": 0.8237007260322571
+        },
+        {
+          "word": " all",
+          "start": 3.88,
+          "end": 4.06,
+          "probability": 0.9941799640655518
+        },
+        {
+          "word": " your",
+          "start": 4.06,
+          "end": 4.2,
+          "probability": 0.9822415709495544
+        },
+        {
+          "word": " difficult",
+          "start": 4.2,
+          "end": 4.5,
+          "probability": 0.9868958592414856
+        },
+        {
+          "word": " patients",
+          "start": 4.5,
+          "end": 4.96,
+          "probability": 0.9730923771858215
+        },
+        {
+          "word": " get",
+          "start": 4.96,
+          "end": 5.18,
+          "probability": 0.9985781908035278
+        },
+        {
+          "word": " this?",
+          "start": 5.18,
+          "end": 5.44,
+          "probability": 0.9994065761566162
+        }
+      ]
+    }
+  ]
+}

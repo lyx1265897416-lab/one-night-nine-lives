@@ -1,0 +1,39 @@
+{
+  "source": "media/P01-12c-r7-s01.mp4",
+  "sha256": "2ce301cc27e776692e9fa1854268ec17bd74eaa2da81cfcbcf90803dddd6966d",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.96,
+      "text": " You're good at interrogations.",
+      "no_speech_prob": 0.08581831306219101,
+      "words": [
+        {
+          "word": " You're",
+          "start": 0.0,
+          "end": 1.96,
+          "probability": 0.8918311893939972
+        },
+        {
+          "word": " good",
+          "start": 1.96,
+          "end": 2.06,
+          "probability": 0.99637371301651
+        },
+        {
+          "word": " at",
+          "start": 2.06,
+          "end": 2.2,
+          "probability": 0.9959143996238708
+        },
+        {
+          "word": " interrogations.",
+          "start": 2.2,
+          "end": 2.96,
+          "probability": 0.9981958270072937
+        }
+      ]
+    }
+  ]
+}

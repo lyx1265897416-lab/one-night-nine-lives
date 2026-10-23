@@ -1,0 +1,45 @@
+{
+  "source": "media/P01-05-s01.mp4",
+  "sha256": "e7488a98592f9ace6f80cb710aec9cbb06a598bcf5b9b87c423452d980618ac8",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.96,
+      "text": " This is Mochi. She supervise.",
+      "no_speech_prob": 0.01432601734995842,
+      "words": [
+        {
+          "word": " This",
+          "start": 0.0,
+          "end": 1.06,
+          "probability": 0.862285315990448
+        },
+        {
+          "word": " is",
+          "start": 1.06,
+          "end": 1.22,
+          "probability": 0.997211754322052
+        },
+        {
+          "word": " Mochi.",
+          "start": 1.22,
+          "end": 1.62,
+          "probability": 0.7997593581676483
+        },
+        {
+          "word": " She",
+          "start": 3.96,
+          "end": 4.26,
+          "probability": 0.9916630983352661
+        },
+        {
+          "word": " supervise.",
+          "start": 4.26,
+          "end": 4.96,
+          "probability": 0.9308409094810486
+        }
+      ]
+    }
+  ]
+}

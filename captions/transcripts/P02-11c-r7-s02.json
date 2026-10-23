@@ -1,0 +1,57 @@
+{
+  "source": "media/P02-11c-r7-s02.mp4",
+  "sha256": "38dab02d1cc0254896325525bea8eeac4b7b987ae67e124910b467a2d5887c6a",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.8399999999999999,
+      "end": 4.54,
+      "text": " Yes, more interesting results than the coffee.",
+      "no_speech_prob": 0.07553794980049133,
+      "words": [
+        {
+          "word": " Yes,",
+          "start": 1.8399999999999999,
+          "end": 2.52,
+          "probability": 0.8159448504447937
+        },
+        {
+          "word": " more",
+          "start": 2.52,
+          "end": 3.2,
+          "probability": 0.9808589816093445
+        },
+        {
+          "word": " interesting",
+          "start": 3.2,
+          "end": 3.54,
+          "probability": 0.9985173344612122
+        },
+        {
+          "word": " results",
+          "start": 3.54,
+          "end": 3.9,
+          "probability": 0.9834866523742676
+        },
+        {
+          "word": " than",
+          "start": 3.9,
+          "end": 4.14,
+          "probability": 0.9835211038589478
+        },
+        {
+          "word": " the",
+          "start": 4.14,
+          "end": 4.24,
+          "probability": 0.9879724383354187
+        },
+        {
+          "word": " coffee.",
+          "start": 4.24,
+          "end": 4.54,
+          "probability": 0.9957728981971741
+        }
+      ]
+    }
+  ]
+}

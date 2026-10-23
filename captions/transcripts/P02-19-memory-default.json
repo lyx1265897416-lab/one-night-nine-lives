@@ -1,0 +1,75 @@
+{
+  "source": "media/P02-19-memory-default.mp4",
+  "sha256": "1ad854080ca9b7d257492d63d75abcfe20234a0d3159190e93e9c8354ccd5f24",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.4,
+      "text": " You ask for the truth first, tomorrow I'll finish it.",
+      "no_speech_prob": 0.019219117239117622,
+      "words": [
+        {
+          "word": " You",
+          "start": 0.0,
+          "end": 0.66,
+          "probability": 0.7954561710357666
+        },
+        {
+          "word": " ask",
+          "start": 0.66,
+          "end": 0.84,
+          "probability": 0.42364832758903503
+        },
+        {
+          "word": " for",
+          "start": 0.84,
+          "end": 1.0,
+          "probability": 0.9953917264938354
+        },
+        {
+          "word": " the",
+          "start": 1.0,
+          "end": 1.12,
+          "probability": 0.9965391159057617
+        },
+        {
+          "word": " truth",
+          "start": 1.12,
+          "end": 1.36,
+          "probability": 0.9913517236709595
+        },
+        {
+          "word": " first,",
+          "start": 1.36,
+          "end": 1.78,
+          "probability": 0.9936601519584656
+        },
+        {
+          "word": " tomorrow",
+          "start": 2.54,
+          "end": 2.92,
+          "probability": 0.9661815762519836
+        },
+        {
+          "word": " I'll",
+          "start": 2.92,
+          "end": 3.76,
+          "probability": 0.814628392457962
+        },
+        {
+          "word": " finish",
+          "start": 3.76,
+          "end": 3.96,
+          "probability": 0.9982035160064697
+        },
+        {
+          "word": " it.",
+          "start": 3.96,
+          "end": 4.4,
+          "probability": 0.998699426651001
+        }
+      ]
+    }
+  ]
+}

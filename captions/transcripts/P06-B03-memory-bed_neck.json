@@ -1,0 +1,99 @@
+{
+  "source": "media/P06-B03-memory-bed_neck.mp4",
+  "sha256": "af1b10c04d0ef5cadf9eac5b5f3a61a7bbaffd0d2a5610180e3306b1a58d2730",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.6200000000000001,
+      "end": 4.92,
+      "text": " One part of me still fears you more than the court. You know which.",
+      "no_speech_prob": 0.12200303375720978,
+      "words": [
+        {
+          "word": " One",
+          "start": 0.6200000000000001,
+          "end": 1.12,
+          "probability": 0.733823835849762
+        },
+        {
+          "word": " part",
+          "start": 1.12,
+          "end": 1.38,
+          "probability": 0.9967191815376282
+        },
+        {
+          "word": " of",
+          "start": 1.38,
+          "end": 1.5,
+          "probability": 0.9931427240371704
+        },
+        {
+          "word": " me",
+          "start": 1.5,
+          "end": 1.64,
+          "probability": 0.9963285326957703
+        },
+        {
+          "word": " still",
+          "start": 1.64,
+          "end": 1.9,
+          "probability": 0.9834272861480713
+        },
+        {
+          "word": " fears",
+          "start": 1.9,
+          "end": 2.16,
+          "probability": 0.9897553324699402
+        },
+        {
+          "word": " you",
+          "start": 2.16,
+          "end": 2.36,
+          "probability": 0.9936695694923401
+        },
+        {
+          "word": " more",
+          "start": 2.36,
+          "end": 2.54,
+          "probability": 0.9958788156509399
+        },
+        {
+          "word": " than",
+          "start": 2.54,
+          "end": 2.7,
+          "probability": 0.9920579791069031
+        },
+        {
+          "word": " the",
+          "start": 2.7,
+          "end": 2.82,
+          "probability": 0.9894086122512817
+        },
+        {
+          "word": " court.",
+          "start": 2.82,
+          "end": 3.14,
+          "probability": 0.950014054775238
+        },
+        {
+          "word": " You",
+          "start": 4.14,
+          "end": 4.52,
+          "probability": 0.9851130247116089
+        },
+        {
+          "word": " know",
+          "start": 4.52,
+          "end": 4.68,
+          "probability": 0.9959564805030823
+        },
+        {
+          "word": " which.",
+          "start": 4.68,
+          "end": 4.92,
+          "probability": 0.9377346038818359
+        }
+      ]
+    }
+  ]
+}

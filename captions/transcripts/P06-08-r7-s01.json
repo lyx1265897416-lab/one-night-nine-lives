@@ -1,0 +1,39 @@
+{
+  "source": "media/P06-08-r7-s01.mp4",
+  "sha256": "59bad5e5e2f43027a60581b036c76a8ff3e34dd2fb99128ec383e6d4f8b86dcd",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.1400000000000001,
+      "end": 3.06,
+      "text": " The release terms stand.",
+      "no_speech_prob": 0.30535247921943665,
+      "words": [
+        {
+          "word": " The",
+          "start": 1.1400000000000001,
+          "end": 2.02,
+          "probability": 0.7911772131919861
+        },
+        {
+          "word": " release",
+          "start": 2.02,
+          "end": 2.26,
+          "probability": 0.9906642436981201
+        },
+        {
+          "word": " terms",
+          "start": 2.26,
+          "end": 2.62,
+          "probability": 0.8868055939674377
+        },
+        {
+          "word": " stand.",
+          "start": 2.62,
+          "end": 3.06,
+          "probability": 0.9159197807312012
+        }
+      ]
+    }
+  ]
+}

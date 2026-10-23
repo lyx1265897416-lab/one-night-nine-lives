@@ -1,0 +1,83 @@
+{
+  "source": "media/P01-10-s02.mp4",
+  "sha256": "01acefb270563ad01a4b20de0380e73a308ddf7aeb5db4d3c8864c21119d84e6",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.8599999999999999,
+      "end": 2.56,
+      "text": " I slept by the radiator.",
+      "no_speech_prob": 0.029921874403953552,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.8599999999999999,
+          "end": 1.56,
+          "probability": 0.9728344082832336
+        },
+        {
+          "word": " slept",
+          "start": 1.56,
+          "end": 1.78,
+          "probability": 0.9983826875686646
+        },
+        {
+          "word": " by",
+          "start": 1.78,
+          "end": 2.0,
+          "probability": 0.9986818432807922
+        },
+        {
+          "word": " the",
+          "start": 2.0,
+          "end": 2.08,
+          "probability": 0.9984295964241028
+        },
+        {
+          "word": " radiator.",
+          "start": 2.08,
+          "end": 2.56,
+          "probability": 0.9904294013977051
+        }
+      ]
+    },
+    {
+      "start": 4.12,
+      "end": 5.8,
+      "text": " The carrier latch jammed twice.",
+      "no_speech_prob": 0.029921874403953552,
+      "words": [
+        {
+          "word": " The",
+          "start": 4.12,
+          "end": 4.34,
+          "probability": 0.9954339861869812
+        },
+        {
+          "word": " carrier",
+          "start": 4.34,
+          "end": 4.68,
+          "probability": 0.9966431856155396
+        },
+        {
+          "word": " latch",
+          "start": 4.68,
+          "end": 5.02,
+          "probability": 0.998445451259613
+        },
+        {
+          "word": " jammed",
+          "start": 5.02,
+          "end": 5.38,
+          "probability": 0.9944790601730347
+        },
+        {
+          "word": " twice.",
+          "start": 5.38,
+          "end": 5.8,
+          "probability": 0.9990009665489197
+        }
+      ]
+    }
+  ]
+}

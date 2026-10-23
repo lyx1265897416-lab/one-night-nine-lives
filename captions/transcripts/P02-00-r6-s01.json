@@ -1,0 +1,39 @@
+{
+  "source": "media/P02-00-r6-s01.mp4",
+  "sha256": "9f33029ef687b5811c6ebc7f6d8d910d40940ea96d1806a83751bc2f576e44f3",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.6599999999999997,
+      "end": 3.74,
+      "text": " You're coming to work!",
+      "no_speech_prob": 0.05829108506441116,
+      "words": [
+        {
+          "word": " You're",
+          "start": 2.6599999999999997,
+          "end": 3.14,
+          "probability": 0.8536769449710846
+        },
+        {
+          "word": " coming",
+          "start": 3.14,
+          "end": 3.3,
+          "probability": 0.9939501285552979
+        },
+        {
+          "word": " to",
+          "start": 3.3,
+          "end": 3.5,
+          "probability": 0.9991912245750427
+        },
+        {
+          "word": " work!",
+          "start": 3.5,
+          "end": 3.74,
+          "probability": 0.998570442199707
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "source": "media/P05-13-s01.mp4",
+  "sha256": "6f13dc2958b06c718c6208f014c0f1528f6e32d21aab70c9a9f5839be792cdd9",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.100000000000001,
+      "end": 7.42,
+      "text": " If I'm just a man, no crown and no shortcut.",
+      "no_speech_prob": 0.0992734283208847,
+      "words": [
+        {
+          "word": " If",
+          "start": 3.100000000000001,
+          "end": 3.68,
+          "probability": 0.7531570196151733
+        },
+        {
+          "word": " I'm",
+          "start": 3.68,
+          "end": 3.86,
+          "probability": 0.9455992579460144
+        },
+        {
+          "word": " just",
+          "start": 3.86,
+          "end": 4.0,
+          "probability": 0.9939018487930298
+        },
+        {
+          "word": " a",
+          "start": 4.0,
+          "end": 4.16,
+          "probability": 0.9925328493118286
+        },
+        {
+          "word": " man,",
+          "start": 4.16,
+          "end": 4.46,
+          "probability": 0.9929230213165283
+        },
+        {
+          "word": " no",
+          "start": 5.9,
+          "end": 6.18,
+          "probability": 0.958686888217926
+        },
+        {
+          "word": " crown",
+          "start": 6.18,
+          "end": 6.54,
+          "probability": 0.9933324456214905
+        },
+        {
+          "word": " and",
+          "start": 6.54,
+          "end": 6.76,
+          "probability": 0.9282753467559814
+        },
+        {
+          "word": " no",
+          "start": 6.76,
+          "end": 6.94,
+          "probability": 0.9943314790725708
+        },
+        {
+          "word": " shortcut.",
+          "start": 6.94,
+          "end": 7.42,
+          "probability": 0.8832306861877441
+        }
+      ]
+    }
+  ]
+}

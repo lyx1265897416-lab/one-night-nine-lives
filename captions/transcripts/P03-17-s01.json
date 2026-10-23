@@ -1,0 +1,45 @@
+{
+  "source": "media/P03-17-s01.mp4",
+  "sha256": "a79ff2f1f3b43e453db3683ff6dd524b761b391bd53175028e7b0a80434ca9a0",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.5,
+      "text": " Rule 4. Back before sunrise.",
+      "no_speech_prob": 0.00896398164331913,
+      "words": [
+        {
+          "word": " Rule",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.8698691129684448
+        },
+        {
+          "word": " 4.",
+          "start": 0.44,
+          "end": 0.86,
+          "probability": 0.5029792785644531
+        },
+        {
+          "word": " Back",
+          "start": 1.6,
+          "end": 1.68,
+          "probability": 0.9897734522819519
+        },
+        {
+          "word": " before",
+          "start": 1.68,
+          "end": 2.0,
+          "probability": 0.9510643482208252
+        },
+        {
+          "word": " sunrise.",
+          "start": 2.0,
+          "end": 2.5,
+          "probability": 0.979784369468689
+        }
+      ]
+    }
+  ]
+}

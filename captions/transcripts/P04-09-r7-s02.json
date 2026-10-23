@@ -1,0 +1,69 @@
+{
+  "source": "media/P04-09-r7-s02.mp4",
+  "sha256": "a2ef7feaa2d1f6c4c705fc7556eaf389986a93a34e4f3033fb7c81262fe8a7cf",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 5.9,
+      "end": 7.86,
+      "text": " I shouldn't choose how much you get to know.",
+      "no_speech_prob": 0.23695525527000427,
+      "words": [
+        {
+          "word": " I",
+          "start": 5.9,
+          "end": 6.32,
+          "probability": 0.8011882305145264
+        },
+        {
+          "word": " shouldn't",
+          "start": 6.32,
+          "end": 6.64,
+          "probability": 0.9852691292762756
+        },
+        {
+          "word": " choose",
+          "start": 6.64,
+          "end": 6.84,
+          "probability": 0.9870245456695557
+        },
+        {
+          "word": " how",
+          "start": 6.84,
+          "end": 7.06,
+          "probability": 0.9944306015968323
+        },
+        {
+          "word": " much",
+          "start": 7.06,
+          "end": 7.18,
+          "probability": 0.9974690675735474
+        },
+        {
+          "word": " you",
+          "start": 7.18,
+          "end": 7.32,
+          "probability": 0.9948359727859497
+        },
+        {
+          "word": " get",
+          "start": 7.32,
+          "end": 7.48,
+          "probability": 0.9971843361854553
+        },
+        {
+          "word": " to",
+          "start": 7.48,
+          "end": 7.62,
+          "probability": 0.9991635084152222
+        },
+        {
+          "word": " know.",
+          "start": 7.62,
+          "end": 7.86,
+          "probability": 0.9984896183013916
+        }
+      ]
+    }
+  ]
+}

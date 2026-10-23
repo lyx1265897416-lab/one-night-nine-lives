@@ -1,0 +1,57 @@
+{
+  "source": "media/P01-15-s02.mp4",
+  "sha256": "9a1707841fe1ee5d0ac6a6dc075aa2f581a544136e6fe4736e37c6802e75cb97",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.24,
+      "end": 5.64,
+      "text": " I'm seeking asylum, not a mattress upgrade.",
+      "no_speech_prob": 0.1062297374010086,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 3.24,
+          "end": 3.76,
+          "probability": 0.9009501338005066
+        },
+        {
+          "word": " seeking",
+          "start": 3.76,
+          "end": 4.02,
+          "probability": 0.9939066767692566
+        },
+        {
+          "word": " asylum,",
+          "start": 4.02,
+          "end": 4.46,
+          "probability": 0.7954175472259521
+        },
+        {
+          "word": " not",
+          "start": 4.68,
+          "end": 4.92,
+          "probability": 0.997729480266571
+        },
+        {
+          "word": " a",
+          "start": 4.92,
+          "end": 5.04,
+          "probability": 0.9980595707893372
+        },
+        {
+          "word": " mattress",
+          "start": 5.04,
+          "end": 5.24,
+          "probability": 0.9504566788673401
+        },
+        {
+          "word": " upgrade.",
+          "start": 5.24,
+          "end": 5.64,
+          "probability": 0.9997476935386658
+        }
+      ]
+    }
+  ]
+}

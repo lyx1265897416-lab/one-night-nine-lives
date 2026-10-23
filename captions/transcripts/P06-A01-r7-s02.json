@@ -1,0 +1,103 @@
+{
+  "source": "media/P06-A01-r7-s02.mp4",
+  "sha256": "1eca342e794e93d3b61d7a4eab5b60c62e621dfa051b76301d4a1085d07dd9e1",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.7999999999999994,
+      "end": 3.26,
+      "text": " I choose this life.",
+      "no_speech_prob": 0.1585271656513214,
+      "words": [
+        {
+          "word": " I",
+          "start": 1.7999999999999994,
+          "end": 2.44,
+          "probability": 0.854515790939331
+        },
+        {
+          "word": " choose",
+          "start": 2.44,
+          "end": 2.68,
+          "probability": 0.9373117089271545
+        },
+        {
+          "word": " this",
+          "start": 2.68,
+          "end": 2.92,
+          "probability": 0.997126042842865
+        },
+        {
+          "word": " life.",
+          "start": 2.92,
+          "end": 3.26,
+          "probability": 0.9968357682228088
+        }
+      ]
+    },
+    {
+      "start": 4.52,
+      "end": 5.28,
+      "text": " No magic.",
+      "no_speech_prob": 0.1585271656513214,
+      "words": [
+        {
+          "word": " No",
+          "start": 4.52,
+          "end": 4.9,
+          "probability": 0.9805505275726318
+        },
+        {
+          "word": " magic.",
+          "start": 4.9,
+          "end": 5.28,
+          "probability": 0.9837689995765686
+        }
+      ]
+    },
+    {
+      "start": 7.24,
+      "end": 8.7,
+      "text": " I'll learn to wash the cups.",
+      "no_speech_prob": 0.1585271656513214,
+      "words": [
+        {
+          "word": " I'll",
+          "start": 7.24,
+          "end": 7.88,
+          "probability": 0.9669197797775269
+        },
+        {
+          "word": " learn",
+          "start": 7.88,
+          "end": 8.02,
+          "probability": 0.9985508322715759
+        },
+        {
+          "word": " to",
+          "start": 8.02,
+          "end": 8.16,
+          "probability": 0.9979593753814697
+        },
+        {
+          "word": " wash",
+          "start": 8.16,
+          "end": 8.3,
+          "probability": 0.9967334270477295
+        },
+        {
+          "word": " the",
+          "start": 8.3,
+          "end": 8.5,
+          "probability": 0.9990035891532898
+        },
+        {
+          "word": " cups.",
+          "start": 8.5,
+          "end": 8.7,
+          "probability": 0.9965713024139404
+        }
+      ]
+    }
+  ]
+}

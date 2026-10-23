@@ -1,0 +1,101 @@
+{
+  "source": "media/P01-15-r7-s01.mp4",
+  "sha256": "ef73bee60e7e72feb417e2de50ad88e2c2732597c145987d9e703f34cffa8633",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.34,
+      "text": " Rule 1. No stealing my bed.",
+      "no_speech_prob": 0.038825392723083496,
+      "words": [
+        {
+          "word": " Rule",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.6305126547813416
+        },
+        {
+          "word": " 1.",
+          "start": 0.42,
+          "end": 0.78,
+          "probability": 0.41152846813201904
+        },
+        {
+          "word": " No",
+          "start": 1.24,
+          "end": 1.46,
+          "probability": 0.9751980900764465
+        },
+        {
+          "word": " stealing",
+          "start": 1.46,
+          "end": 1.76,
+          "probability": 0.9301729202270508
+        },
+        {
+          "word": " my",
+          "start": 1.76,
+          "end": 2.04,
+          "probability": 0.9986874461174011
+        },
+        {
+          "word": " bed.",
+          "start": 2.04,
+          "end": 2.34,
+          "probability": 0.9974532723426819
+        }
+      ]
+    },
+    {
+      "start": 3.18,
+      "end": 5.22,
+      "text": " I'm seeking asylum, not a mattress upgrade.",
+      "no_speech_prob": 0.038825392723083496,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 3.18,
+          "end": 3.26,
+          "probability": 0.9740408957004547
+        },
+        {
+          "word": " seeking",
+          "start": 3.26,
+          "end": 3.5,
+          "probability": 0.9975672960281372
+        },
+        {
+          "word": " asylum,",
+          "start": 3.5,
+          "end": 3.96,
+          "probability": 0.9462701082229614
+        },
+        {
+          "word": " not",
+          "start": 4.3,
+          "end": 4.4,
+          "probability": 0.9983200430870056
+        },
+        {
+          "word": " a",
+          "start": 4.4,
+          "end": 4.54,
+          "probability": 0.9988433122634888
+        },
+        {
+          "word": " mattress",
+          "start": 4.54,
+          "end": 4.78,
+          "probability": 0.984850287437439
+        },
+        {
+          "word": " upgrade.",
+          "start": 4.78,
+          "end": 5.22,
+          "probability": 0.9997891783714294
+        }
+      ]
+    }
+  ]
+}

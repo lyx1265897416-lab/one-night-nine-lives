@@ -1,0 +1,75 @@
+{
+  "source": "media/P02-05b-s01.mp4",
+  "sha256": "47b714fd6bae9dc775605b8cb9dead375faa43303a39e6a6c705d16a470dbbef",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.24,
+      "text": " Looking for someone? Start with a form. We have three.",
+      "no_speech_prob": 0.0904238149523735,
+      "words": [
+        {
+          "word": " Looking",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.8598854541778564
+        },
+        {
+          "word": " for",
+          "start": 0.5,
+          "end": 0.7,
+          "probability": 0.9976443648338318
+        },
+        {
+          "word": " someone?",
+          "start": 0.7,
+          "end": 1.0,
+          "probability": 0.9932793974876404
+        },
+        {
+          "word": " Start",
+          "start": 1.6,
+          "end": 1.74,
+          "probability": 0.9908484220504761
+        },
+        {
+          "word": " with",
+          "start": 1.74,
+          "end": 1.88,
+          "probability": 0.9972984194755554
+        },
+        {
+          "word": " a",
+          "start": 1.88,
+          "end": 2.0,
+          "probability": 0.703895092010498
+        },
+        {
+          "word": " form.",
+          "start": 2.0,
+          "end": 2.22,
+          "probability": 0.9874358177185059
+        },
+        {
+          "word": " We",
+          "start": 2.7,
+          "end": 2.82,
+          "probability": 0.9964602589607239
+        },
+        {
+          "word": " have",
+          "start": 2.82,
+          "end": 2.98,
+          "probability": 0.9989588260650635
+        },
+        {
+          "word": " three.",
+          "start": 2.98,
+          "end": 3.24,
+          "probability": 0.9470747709274292
+        }
+      ]
+    }
+  ]
+}

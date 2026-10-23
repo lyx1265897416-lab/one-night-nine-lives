@@ -1,0 +1,69 @@
+{
+  "source": "media/P04-16-r7-s02.mp4",
+  "sha256": "56e31718434f6ed77930c4bf5bbcb739ba7ec7de204c9e949aecb0fe3547857e",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.3999999999999986,
+      "end": 7.66,
+      "text": " At last, a household feature that disappoints the cats.",
+      "no_speech_prob": 0.054236821830272675,
+      "words": [
+        {
+          "word": " At",
+          "start": 3.3999999999999986,
+          "end": 4.08,
+          "probability": 0.9026327133178711
+        },
+        {
+          "word": " last,",
+          "start": 4.08,
+          "end": 4.44,
+          "probability": 0.9917778968811035
+        },
+        {
+          "word": " a",
+          "start": 5.64,
+          "end": 5.8,
+          "probability": 0.9622067809104919
+        },
+        {
+          "word": " household",
+          "start": 5.8,
+          "end": 6.14,
+          "probability": 0.9922118186950684
+        },
+        {
+          "word": " feature",
+          "start": 6.14,
+          "end": 6.48,
+          "probability": 0.9948219060897827
+        },
+        {
+          "word": " that",
+          "start": 6.48,
+          "end": 6.72,
+          "probability": 0.9955798983573914
+        },
+        {
+          "word": " disappoints",
+          "start": 6.72,
+          "end": 7.26,
+          "probability": 0.8675706386566162
+        },
+        {
+          "word": " the",
+          "start": 7.26,
+          "end": 7.4,
+          "probability": 0.9960273504257202
+        },
+        {
+          "word": " cats.",
+          "start": 7.4,
+          "end": 7.66,
+          "probability": 0.9850548505783081
+        }
+      ]
+    }
+  ]
+}

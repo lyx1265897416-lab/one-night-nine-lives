@@ -1,0 +1,75 @@
+{
+  "source": "media/P03-19-s01.mp4",
+  "sha256": "82078fd3991fdd95f0d6ba8bf84fc650cfcbe16f38512450171e12cdf2d26916",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.36,
+      "end": 4.38,
+      "text": " You knew about the Witness Claws. From the first night?",
+      "no_speech_prob": 0.24198636412620544,
+      "words": [
+        {
+          "word": " You",
+          "start": 1.36,
+          "end": 1.86,
+          "probability": 0.8210926055908203
+        },
+        {
+          "word": " knew",
+          "start": 1.86,
+          "end": 2.04,
+          "probability": 0.9802385568618774
+        },
+        {
+          "word": " about",
+          "start": 2.04,
+          "end": 2.28,
+          "probability": 0.9974753260612488
+        },
+        {
+          "word": " the",
+          "start": 2.28,
+          "end": 2.44,
+          "probability": 0.9170023202896118
+        },
+        {
+          "word": " Witness",
+          "start": 2.44,
+          "end": 2.7,
+          "probability": 0.6750738024711609
+        },
+        {
+          "word": " Claws.",
+          "start": 2.7,
+          "end": 3.1,
+          "probability": 0.6369173973798752
+        },
+        {
+          "word": " From",
+          "start": 3.66,
+          "end": 3.74,
+          "probability": 0.9729065895080566
+        },
+        {
+          "word": " the",
+          "start": 3.74,
+          "end": 3.88,
+          "probability": 0.996093213558197
+        },
+        {
+          "word": " first",
+          "start": 3.88,
+          "end": 4.08,
+          "probability": 0.9650471806526184
+        },
+        {
+          "word": " night?",
+          "start": 4.08,
+          "end": 4.38,
+          "probability": 0.9259187579154968
+        }
+      ]
+    }
+  ]
+}

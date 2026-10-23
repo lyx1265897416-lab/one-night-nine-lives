@@ -1,0 +1,57 @@
+{
+  "source": "media/P05-15b-s02.mp4",
+  "sha256": "60f9a1a6dcdb3e11572f807647948139c7eeabf6644cb0e9d83546bb61a6f0e0",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.44,
+      "text": " Your interest rates could bankrupt a court.",
+      "no_speech_prob": 0.006744722370058298,
+      "words": [
+        {
+          "word": " Your",
+          "start": 0.0,
+          "end": 0.96,
+          "probability": 0.7807519435882568
+        },
+        {
+          "word": " interest",
+          "start": 0.96,
+          "end": 1.24,
+          "probability": 0.9955352544784546
+        },
+        {
+          "word": " rates",
+          "start": 1.24,
+          "end": 1.5,
+          "probability": 0.9931766986846924
+        },
+        {
+          "word": " could",
+          "start": 1.5,
+          "end": 1.68,
+          "probability": 0.5674436092376709
+        },
+        {
+          "word": " bankrupt",
+          "start": 1.68,
+          "end": 2.0,
+          "probability": 0.9792343378067017
+        },
+        {
+          "word": " a",
+          "start": 2.0,
+          "end": 2.2,
+          "probability": 0.9820125102996826
+        },
+        {
+          "word": " court.",
+          "start": 2.2,
+          "end": 2.44,
+          "probability": 0.9883396625518799
+        }
+      ]
+    }
+  ]
+}

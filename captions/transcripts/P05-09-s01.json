@@ -1,0 +1,89 @@
+{
+  "source": "media/P05-09-s01.mp4",
+  "sha256": "829cdee453bd2bb4ff3f90dd00cd914624e508ed8fb228e16a2b8b570c00efe3",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.5600000000000005,
+      "end": 3.64,
+      "text": " I'm good at loop hopes.",
+      "no_speech_prob": 0.2997269034385681,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 2.5600000000000005,
+          "end": 3.0,
+          "probability": 0.9123072624206543
+        },
+        {
+          "word": " good",
+          "start": 3.0,
+          "end": 3.1,
+          "probability": 0.9954820871353149
+        },
+        {
+          "word": " at",
+          "start": 3.1,
+          "end": 3.24,
+          "probability": 0.9974114298820496
+        },
+        {
+          "word": " loop",
+          "start": 3.24,
+          "end": 3.38,
+          "probability": 0.42174044251441956
+        },
+        {
+          "word": " hopes.",
+          "start": 3.38,
+          "end": 3.64,
+          "probability": 0.5080646872520447
+        }
+      ]
+    },
+    {
+      "start": 4.5,
+      "end": 5.78,
+      "text": " This one is yours to explain.",
+      "no_speech_prob": 0.2997269034385681,
+      "words": [
+        {
+          "word": " This",
+          "start": 4.5,
+          "end": 4.78,
+          "probability": 0.9878480434417725
+        },
+        {
+          "word": " one",
+          "start": 4.78,
+          "end": 4.94,
+          "probability": 0.9953693747520447
+        },
+        {
+          "word": " is",
+          "start": 4.94,
+          "end": 5.06,
+          "probability": 0.9950762391090393
+        },
+        {
+          "word": " yours",
+          "start": 5.06,
+          "end": 5.2,
+          "probability": 0.9922653436660767
+        },
+        {
+          "word": " to",
+          "start": 5.2,
+          "end": 5.42,
+          "probability": 0.9977431297302246
+        },
+        {
+          "word": " explain.",
+          "start": 5.42,
+          "end": 5.78,
+          "probability": 0.9985178112983704
+        }
+      ]
+    }
+  ]
+}

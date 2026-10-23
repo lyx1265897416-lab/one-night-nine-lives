@@ -1,0 +1,75 @@
+{
+  "source": "media/P06-02-r7-s01.mp4",
+  "sha256": "2cf7cd9fe068f584114c556529a1cf30efe3213d0cc76127fdb8b73df8a822f9",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.4799999999999995,
+      "end": 3.56,
+      "text": " You look like a wedding I don't want to attend.",
+      "no_speech_prob": 0.08710039407014847,
+      "words": [
+        {
+          "word": " You",
+          "start": 1.4799999999999995,
+          "end": 1.88,
+          "probability": 0.8971770405769348
+        },
+        {
+          "word": " look",
+          "start": 1.88,
+          "end": 2.02,
+          "probability": 0.9968534111976624
+        },
+        {
+          "word": " like",
+          "start": 2.02,
+          "end": 2.22,
+          "probability": 0.99909508228302
+        },
+        {
+          "word": " a",
+          "start": 2.22,
+          "end": 2.34,
+          "probability": 0.9958871006965637
+        },
+        {
+          "word": " wedding",
+          "start": 2.34,
+          "end": 2.56,
+          "probability": 0.9953634738922119
+        },
+        {
+          "word": " I",
+          "start": 2.56,
+          "end": 2.78,
+          "probability": 0.8886631727218628
+        },
+        {
+          "word": " don't",
+          "start": 2.78,
+          "end": 2.98,
+          "probability": 0.9981322884559631
+        },
+        {
+          "word": " want",
+          "start": 2.98,
+          "end": 3.1,
+          "probability": 0.9176778793334961
+        },
+        {
+          "word": " to",
+          "start": 3.1,
+          "end": 3.2,
+          "probability": 0.999408483505249
+        },
+        {
+          "word": " attend.",
+          "start": 3.2,
+          "end": 3.56,
+          "probability": 0.998958945274353
+        }
+      ]
+    }
+  ]
+}

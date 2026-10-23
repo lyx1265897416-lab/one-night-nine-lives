@@ -1,0 +1,63 @@
+{
+  "source": "media/P02-01-s02.mp4",
+  "sha256": "cb43f32a568b94b7e83e61017ad386853a8de0678fb70a95f31e5c4bd71a1df9",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.9000000000000004,
+      "end": 6.5,
+      "text": " You'll act like a normal cat, ambitious plans.",
+      "no_speech_prob": 0.20391426980495453,
+      "words": [
+        {
+          "word": " You'll",
+          "start": 2.9000000000000004,
+          "end": 3.66,
+          "probability": 0.8827754557132721
+        },
+        {
+          "word": " act",
+          "start": 3.66,
+          "end": 3.82,
+          "probability": 0.9957250356674194
+        },
+        {
+          "word": " like",
+          "start": 3.82,
+          "end": 4.0,
+          "probability": 0.9992430210113525
+        },
+        {
+          "word": " a",
+          "start": 4.0,
+          "end": 4.16,
+          "probability": 0.9954989552497864
+        },
+        {
+          "word": " normal",
+          "start": 4.16,
+          "end": 4.48,
+          "probability": 0.9986640214920044
+        },
+        {
+          "word": " cat,",
+          "start": 4.48,
+          "end": 4.92,
+          "probability": 0.9912795424461365
+        },
+        {
+          "word": " ambitious",
+          "start": 5.64,
+          "end": 5.9,
+          "probability": 0.9695641398429871
+        },
+        {
+          "word": " plans.",
+          "start": 5.9,
+          "end": 6.5,
+          "probability": 0.989188551902771
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "source": "media/P06-B03a-s01.mp4",
+  "sha256": "21b1d95c7823f117a38ea748e14e63555d24076bfba922388c41eb6c7aa61739",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": " Thank you for watching!",
+      "no_speech_prob": 0.31389302015304565,
+      "words": [
+        {
+          "word": " Thank",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.0027184118516743183
+        },
+        {
+          "word": " you",
+          "start": 0.76,
+          "end": 0.84,
+          "probability": 0.9132519364356995
+        },
+        {
+          "word": " for",
+          "start": 0.84,
+          "end": 0.84,
+          "probability": 0.2631694972515106
+        },
+        {
+          "word": " watching!",
+          "start": 0.84,
+          "end": 2.0,
+          "probability": 0.934520959854126
+        }
+      ]
+    }
+  ]
+}

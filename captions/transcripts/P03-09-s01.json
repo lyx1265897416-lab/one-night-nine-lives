@@ -1,0 +1,63 @@
+{
+  "source": "media/P03-09-s01.mp4",
+  "sha256": "1296c2ced5c8fb63469d468498219951e16b620a8e0454b55e329d845a53b71a",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.58,
+      "end": 4.3,
+      "text": " Even their threats come on excellent station air.",
+      "no_speech_prob": 0.034774038940668106,
+      "words": [
+        {
+          "word": " Even",
+          "start": 1.58,
+          "end": 2.26,
+          "probability": 0.7384874820709229
+        },
+        {
+          "word": " their",
+          "start": 2.26,
+          "end": 2.44,
+          "probability": 0.9890276193618774
+        },
+        {
+          "word": " threats",
+          "start": 2.44,
+          "end": 2.78,
+          "probability": 0.9975383281707764
+        },
+        {
+          "word": " come",
+          "start": 2.78,
+          "end": 3.04,
+          "probability": 0.9920833110809326
+        },
+        {
+          "word": " on",
+          "start": 3.04,
+          "end": 3.22,
+          "probability": 0.9945541620254517
+        },
+        {
+          "word": " excellent",
+          "start": 3.22,
+          "end": 3.64,
+          "probability": 0.9857762455940247
+        },
+        {
+          "word": " station",
+          "start": 3.64,
+          "end": 4.04,
+          "probability": 0.8325474858283997
+        },
+        {
+          "word": " air.",
+          "start": 4.04,
+          "end": 4.3,
+          "probability": 0.7231439352035522
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "source": "media/P01-18b-s01.mp4",
+  "sha256": "1237598b334d745d4fc346b4bb056e4d6a05282a3803686c94bb6f7d1d596076",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 5.100000000000001,
+      "end": 7.76,
+      "text": " We don't need a staff meeting every morning, go sleep.",
+      "no_speech_prob": 0.03971036523580551,
+      "words": [
+        {
+          "word": " We",
+          "start": 5.100000000000001,
+          "end": 5.58,
+          "probability": 0.674582302570343
+        },
+        {
+          "word": " don't",
+          "start": 5.58,
+          "end": 5.72,
+          "probability": 0.9964181780815125
+        },
+        {
+          "word": " need",
+          "start": 5.72,
+          "end": 5.86,
+          "probability": 0.9976492524147034
+        },
+        {
+          "word": " a",
+          "start": 5.86,
+          "end": 5.98,
+          "probability": 0.9332729578018188
+        },
+        {
+          "word": " staff",
+          "start": 5.98,
+          "end": 6.22,
+          "probability": 0.9987258315086365
+        },
+        {
+          "word": " meeting",
+          "start": 6.22,
+          "end": 6.44,
+          "probability": 0.995303750038147
+        },
+        {
+          "word": " every",
+          "start": 6.44,
+          "end": 6.68,
+          "probability": 0.997260570526123
+        },
+        {
+          "word": " morning,",
+          "start": 6.68,
+          "end": 7.0,
+          "probability": 0.9992480874061584
+        },
+        {
+          "word": " go",
+          "start": 7.26,
+          "end": 7.48,
+          "probability": 0.9941943287849426
+        },
+        {
+          "word": " sleep.",
+          "start": 7.48,
+          "end": 7.76,
+          "probability": 0.9936105608940125
+        }
+      ]
+    }
+  ]
+}

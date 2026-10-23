@@ -1,0 +1,51 @@
+{
+  "source": "media/P05-13-s02.mp4",
+  "sha256": "ec61753dd73648e707c45abc944290bd0bec4223a94105a744418266783cd3ca",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.4800000000000004,
+      "end": 3.02,
+      "text": " Would you still want me here?",
+      "no_speech_prob": 0.09111295640468597,
+      "words": [
+        {
+          "word": " Would",
+          "start": 1.4800000000000004,
+          "end": 1.96,
+          "probability": 0.6506735682487488
+        },
+        {
+          "word": " you",
+          "start": 1.96,
+          "end": 2.1,
+          "probability": 0.9920227527618408
+        },
+        {
+          "word": " still",
+          "start": 2.1,
+          "end": 2.34,
+          "probability": 0.9965603947639465
+        },
+        {
+          "word": " want",
+          "start": 2.34,
+          "end": 2.56,
+          "probability": 0.996588945388794
+        },
+        {
+          "word": " me",
+          "start": 2.56,
+          "end": 2.74,
+          "probability": 0.9986275434494019
+        },
+        {
+          "word": " here?",
+          "start": 2.74,
+          "end": 3.02,
+          "probability": 0.9979346990585327
+        }
+      ]
+    }
+  ]
+}

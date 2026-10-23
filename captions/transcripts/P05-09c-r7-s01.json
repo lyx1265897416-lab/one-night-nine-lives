@@ -1,0 +1,27 @@
+{
+  "source": "media/P05-09c-r7-s01.mp4",
+  "sha256": "4eab02a19821bcb4e06686a18c37cd9b039c49c71c66c0a1a4a5aa1228117d80",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.8,
+      "text": " Like this?",
+      "no_speech_prob": 0.04372214153409004,
+      "words": [
+        {
+          "word": " Like",
+          "start": 0.0,
+          "end": 1.54,
+          "probability": 0.6963651776313782
+        },
+        {
+          "word": " this?",
+          "start": 1.54,
+          "end": 1.8,
+          "probability": 0.9916330575942993
+        }
+      ]
+    }
+  ]
+}

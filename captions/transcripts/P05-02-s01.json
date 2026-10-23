@@ -1,0 +1,107 @@
+{
+  "source": "media/P05-02-s01.mp4",
+  "sha256": "768613d6f4c65f759b91e35562636b79837a700173e511ff782064a0a7b576a5",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.039999999999999,
+      "end": 7.0,
+      "text": " May I come in, or does this room require a membership upgrade?",
+      "no_speech_prob": 0.319033145904541,
+      "words": [
+        {
+          "word": " May",
+          "start": 3.039999999999999,
+          "end": 3.5199999999999996,
+          "probability": 0.8031454682350159
+        },
+        {
+          "word": " I",
+          "start": 3.5199999999999996,
+          "end": 4.0,
+          "probability": 0.9764717221260071
+        },
+        {
+          "word": " come",
+          "start": 4.0,
+          "end": 4.18,
+          "probability": 0.9974610805511475
+        },
+        {
+          "word": " in,",
+          "start": 4.18,
+          "end": 4.42,
+          "probability": 0.9990631937980652
+        },
+        {
+          "word": " or",
+          "start": 4.9,
+          "end": 5.06,
+          "probability": 0.9951717257499695
+        },
+        {
+          "word": " does",
+          "start": 5.06,
+          "end": 5.22,
+          "probability": 0.9961227774620056
+        },
+        {
+          "word": " this",
+          "start": 5.22,
+          "end": 5.38,
+          "probability": 0.9926803112030029
+        },
+        {
+          "word": " room",
+          "start": 5.38,
+          "end": 5.6,
+          "probability": 0.9959222078323364
+        },
+        {
+          "word": " require",
+          "start": 5.6,
+          "end": 5.96,
+          "probability": 0.9972478747367859
+        },
+        {
+          "word": " a",
+          "start": 5.96,
+          "end": 6.18,
+          "probability": 0.9977031350135803
+        },
+        {
+          "word": " membership",
+          "start": 6.18,
+          "end": 6.48,
+          "probability": 0.9870160818099976
+        },
+        {
+          "word": " upgrade?",
+          "start": 6.48,
+          "end": 7.0,
+          "probability": 0.9988535642623901
+        }
+      ]
+    },
+    {
+      "start": 8.24,
+      "end": 8.62,
+      "text": " Come in.",
+      "no_speech_prob": 0.319033145904541,
+      "words": [
+        {
+          "word": " Come",
+          "start": 8.24,
+          "end": 8.38,
+          "probability": 0.9275073409080505
+        },
+        {
+          "word": " in.",
+          "start": 8.38,
+          "end": 8.62,
+          "probability": 0.9924772381782532
+        }
+      ]
+    }
+  ]
+}

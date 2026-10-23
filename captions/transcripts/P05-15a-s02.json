@@ -1,0 +1,39 @@
+{
+  "source": "media/P05-15a-s02.mp4",
+  "sha256": "f00ac39c261eeb1f9ba220be8715bd516f1d71a67ee4211fbdd2878558aca6f7",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.3200000000000007,
+      "end": 4.8,
+      "text": " and entirely reasonable order.",
+      "no_speech_prob": 0.022600995376706123,
+      "words": [
+        {
+          "word": " and",
+          "start": 2.3200000000000007,
+          "end": 3.28,
+          "probability": 0.1552729606628418
+        },
+        {
+          "word": " entirely",
+          "start": 3.28,
+          "end": 4.04,
+          "probability": 0.8546798229217529
+        },
+        {
+          "word": " reasonable",
+          "start": 4.04,
+          "end": 4.52,
+          "probability": 0.9890811443328857
+        },
+        {
+          "word": " order.",
+          "start": 4.52,
+          "end": 4.8,
+          "probability": 0.9976510405540466
+        }
+      ]
+    }
+  ]
+}

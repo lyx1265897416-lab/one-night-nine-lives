@@ -1,0 +1,63 @@
+{
+  "source": "media/P02-14c-s01.mp4",
+  "sha256": "92bf8912b3f1abf613decf2c6e8d9fd9f7f14fd1b4698aca072557c67737a0cb",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.44000000000000006,
+      "end": 2.04,
+      "text": " Who was the man looking for the cat?",
+      "no_speech_prob": 0.11994858086109161,
+      "words": [
+        {
+          "word": " Who",
+          "start": 0.44000000000000006,
+          "end": 0.84,
+          "probability": 0.817786693572998
+        },
+        {
+          "word": " was",
+          "start": 0.84,
+          "end": 0.98,
+          "probability": 0.8540987968444824
+        },
+        {
+          "word": " the",
+          "start": 0.98,
+          "end": 1.12,
+          "probability": 0.9895856976509094
+        },
+        {
+          "word": " man",
+          "start": 1.12,
+          "end": 1.3,
+          "probability": 0.9964686632156372
+        },
+        {
+          "word": " looking",
+          "start": 1.3,
+          "end": 1.5,
+          "probability": 0.9961813688278198
+        },
+        {
+          "word": " for",
+          "start": 1.5,
+          "end": 1.72,
+          "probability": 0.9987733960151672
+        },
+        {
+          "word": " the",
+          "start": 1.72,
+          "end": 1.84,
+          "probability": 0.9957870841026306
+        },
+        {
+          "word": " cat?",
+          "start": 1.84,
+          "end": 2.04,
+          "probability": 0.9722139239311218
+        }
+      ]
+    }
+  ]
+}

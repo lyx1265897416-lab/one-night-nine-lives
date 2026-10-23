@@ -1,0 +1,63 @@
+{
+  "source": "media/P02-11a-s01.mp4",
+  "sha256": "7a89c5551d752ce289d91592a85a1c3a6918b170f172f80d5332d079e266d386",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.179999999999999,
+      "end": 5.66,
+      "text": " Hmm, so you prefer a hands-on approach?",
+      "no_speech_prob": 0.02810908854007721,
+      "words": [
+        {
+          "word": " Hmm,",
+          "start": 3.179999999999999,
+          "end": 3.7799999999999994,
+          "probability": 0.21984021365642548
+        },
+        {
+          "word": " so",
+          "start": 3.7799999999999994,
+          "end": 4.38,
+          "probability": 0.9863919019699097
+        },
+        {
+          "word": " you",
+          "start": 4.38,
+          "end": 4.52,
+          "probability": 0.9904166460037231
+        },
+        {
+          "word": " prefer",
+          "start": 4.52,
+          "end": 4.82,
+          "probability": 0.992559552192688
+        },
+        {
+          "word": " a",
+          "start": 4.82,
+          "end": 4.96,
+          "probability": 0.9951190948486328
+        },
+        {
+          "word": " hands",
+          "start": 4.96,
+          "end": 5.2,
+          "probability": 0.9866277575492859
+        },
+        {
+          "word": "-on",
+          "start": 5.2,
+          "end": 5.36,
+          "probability": 0.9621865451335907
+        },
+        {
+          "word": " approach?",
+          "start": 5.36,
+          "end": 5.66,
+          "probability": 0.9992881417274475
+        }
+      ]
+    }
+  ]
+}

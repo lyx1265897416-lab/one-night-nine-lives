@@ -1,0 +1,51 @@
+{
+  "source": "media/P01-12c-r7-s02.mp4",
+  "sha256": "e710d2610fd120ac673a2083f13b2458683000ef56d7271d75682e0b6fcf6fa4",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.2000000000000006,
+      "end": 3.88,
+      "text": " I haven't even made coffee yet.",
+      "no_speech_prob": 0.10458236932754517,
+      "words": [
+        {
+          "word": " I",
+          "start": 2.2000000000000006,
+          "end": 2.68,
+          "probability": 0.8534231185913086
+        },
+        {
+          "word": " haven't",
+          "start": 2.68,
+          "end": 2.92,
+          "probability": 0.9930291175842285
+        },
+        {
+          "word": " even",
+          "start": 2.92,
+          "end": 3.04,
+          "probability": 0.9942286014556885
+        },
+        {
+          "word": " made",
+          "start": 3.04,
+          "end": 3.28,
+          "probability": 0.9988180994987488
+        },
+        {
+          "word": " coffee",
+          "start": 3.28,
+          "end": 3.64,
+          "probability": 0.997560977935791
+        },
+        {
+          "word": " yet.",
+          "start": 3.64,
+          "end": 3.88,
+          "probability": 0.9886593818664551
+        }
+      ]
+    }
+  ]
+}

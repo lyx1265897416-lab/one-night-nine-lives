@@ -1,0 +1,69 @@
+{
+  "source": "media/P04-12a-r7-s02.mp4",
+  "sha256": "922dca3878c1cca19ca9c36d53c3cb1e380508336a8f4e40a849d4909fbd3265",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 4.12,
+      "end": 6.34,
+      "text": " You don't owe me forgiveness to get some quiet.",
+      "no_speech_prob": 0.14131012558937073,
+      "words": [
+        {
+          "word": " You",
+          "start": 4.12,
+          "end": 4.6,
+          "probability": 0.8099004030227661
+        },
+        {
+          "word": " don't",
+          "start": 4.6,
+          "end": 4.76,
+          "probability": 0.9954058229923248
+        },
+        {
+          "word": " owe",
+          "start": 4.76,
+          "end": 4.88,
+          "probability": 0.9991389513015747
+        },
+        {
+          "word": " me",
+          "start": 4.88,
+          "end": 5.04,
+          "probability": 0.9979249238967896
+        },
+        {
+          "word": " forgiveness",
+          "start": 5.04,
+          "end": 5.4,
+          "probability": 0.9951428174972534
+        },
+        {
+          "word": " to",
+          "start": 5.4,
+          "end": 5.68,
+          "probability": 0.9966875910758972
+        },
+        {
+          "word": " get",
+          "start": 5.68,
+          "end": 5.78,
+          "probability": 0.9981489181518555
+        },
+        {
+          "word": " some",
+          "start": 5.78,
+          "end": 5.98,
+          "probability": 0.9938774704933167
+        },
+        {
+          "word": " quiet.",
+          "start": 5.98,
+          "end": 6.34,
+          "probability": 0.9977843165397644
+        }
+      ]
+    }
+  ]
+}

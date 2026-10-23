@@ -1,0 +1,113 @@
+{
+  "source": "media/P01-15x-continuity-r5b-s01.mp4",
+  "sha256": "a0f3342138216149f5ff59fc2c0470dc0fb3844219160ca86b0d6aa1e1b242e5",
+  "method": "local faster-whisper large-v3-turbo",
+  "segments": [
+    {
+      "start": 2.219999999999999,
+      "end": 4.54,
+      "text": " Just your name. No proof of succession.",
+      "no_speech_prob": 1.289874283771919e-11,
+      "words": [
+        {
+          "word": " Just",
+          "start": 2.219999999999999,
+          "end": 2.74,
+          "probability": 0.8587517142295837
+        },
+        {
+          "word": " your",
+          "start": 2.74,
+          "end": 2.9,
+          "probability": 0.9858248233795166
+        },
+        {
+          "word": " name.",
+          "start": 2.9,
+          "end": 3.16,
+          "probability": 0.9970710277557373
+        },
+        {
+          "word": " No",
+          "start": 3.42,
+          "end": 3.76,
+          "probability": 0.9935702085494995
+        },
+        {
+          "word": " proof",
+          "start": 3.76,
+          "end": 4.0,
+          "probability": 0.9956862926483154
+        },
+        {
+          "word": " of",
+          "start": 4.0,
+          "end": 4.14,
+          "probability": 0.998408854007721
+        },
+        {
+          "word": " succession.",
+          "start": 4.14,
+          "end": 4.54,
+          "probability": 0.9918230175971985
+        }
+      ]
+    },
+    {
+      "start": 5.1,
+      "end": 7.72,
+      "text": " Just Rhys. A note for the daytime version.",
+      "no_speech_prob": 1.289874283771919e-11,
+      "words": [
+        {
+          "word": " Just",
+          "start": 5.1,
+          "end": 5.52,
+          "probability": 0.9870529770851135
+        },
+        {
+          "word": " Rhys.",
+          "start": 5.52,
+          "end": 5.84,
+          "probability": 0.8659686148166656
+        },
+        {
+          "word": " A",
+          "start": 6.16,
+          "end": 6.64,
+          "probability": 0.9972127079963684
+        },
+        {
+          "word": " note",
+          "start": 6.64,
+          "end": 6.8,
+          "probability": 0.9918690919876099
+        },
+        {
+          "word": " for",
+          "start": 6.8,
+          "end": 6.94,
+          "probability": 0.9954172372817993
+        },
+        {
+          "word": " the",
+          "start": 6.94,
+          "end": 7.04,
+          "probability": 0.997442364692688
+        },
+        {
+          "word": " daytime",
+          "start": 7.04,
+          "end": 7.28,
+          "probability": 0.8010550141334534
+        },
+        {
+          "word": " version.",
+          "start": 7.28,
+          "end": 7.72,
+          "probability": 0.9988946318626404
+        }
+      ]
+    }
+  ]
+}

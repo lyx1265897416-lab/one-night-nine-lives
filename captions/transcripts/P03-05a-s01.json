@@ -1,0 +1,45 @@
+{
+  "source": "media/P03-05a-s01.mp4",
+  "sha256": "957666079778b2c1cf7db80897d8fc022b23fb9dabeb6d70f7581bcb1cf70ae4",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.2000000000000006,
+      "end": 4.56,
+      "text": " That's your idea of restraint.",
+      "no_speech_prob": 0.05371136963367462,
+      "words": [
+        {
+          "word": " That's",
+          "start": 3.2000000000000006,
+          "end": 3.76,
+          "probability": 0.9226052761077881
+        },
+        {
+          "word": " your",
+          "start": 3.76,
+          "end": 3.86,
+          "probability": 0.9957973957061768
+        },
+        {
+          "word": " idea",
+          "start": 3.86,
+          "end": 4.1,
+          "probability": 0.9906858801841736
+        },
+        {
+          "word": " of",
+          "start": 4.1,
+          "end": 4.24,
+          "probability": 0.9969870448112488
+        },
+        {
+          "word": " restraint.",
+          "start": 4.24,
+          "end": 4.56,
+          "probability": 0.9962550401687622
+        }
+      ]
+    }
+  ]
+}

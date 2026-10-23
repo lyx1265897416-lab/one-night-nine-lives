@@ -1,0 +1,39 @@
+{
+  "source": "media/P04-12c-s01.mp4",
+  "sha256": "6e2a5293daeaf141205a943532226da44bcd365cd8d6480af1d73cdaa435af91",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.4800000000000004,
+      "end": 3.24,
+      "text": " Holding hands isn't forgiveness.",
+      "no_speech_prob": 0.11832202970981598,
+      "words": [
+        {
+          "word": " Holding",
+          "start": 1.4800000000000004,
+          "end": 2.2,
+          "probability": 0.8058942556381226
+        },
+        {
+          "word": " hands",
+          "start": 2.2,
+          "end": 2.56,
+          "probability": 0.8853045105934143
+        },
+        {
+          "word": " isn't",
+          "start": 2.56,
+          "end": 2.9,
+          "probability": 0.9949864447116852
+        },
+        {
+          "word": " forgiveness.",
+          "start": 2.9,
+          "end": 3.24,
+          "probability": 0.9959216117858887
+        }
+      ]
+    }
+  ]
+}

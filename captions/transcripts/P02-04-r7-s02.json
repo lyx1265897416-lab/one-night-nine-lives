@@ -1,0 +1,69 @@
+{
+  "source": "media/P02-04-r7-s02.mp4",
+  "sha256": "019f6c387f541ffa704448973d34984bad53c52df9632126cfccc16d736d5b7a",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.4,
+      "text": " This is a clinic, not a lost property auction.",
+      "no_speech_prob": 0.10714802145957947,
+      "words": [
+        {
+          "word": " This",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.8500168323516846
+        },
+        {
+          "word": " is",
+          "start": 0.64,
+          "end": 0.78,
+          "probability": 0.9944475889205933
+        },
+        {
+          "word": " a",
+          "start": 0.78,
+          "end": 0.92,
+          "probability": 0.9904140830039978
+        },
+        {
+          "word": " clinic,",
+          "start": 0.92,
+          "end": 1.18,
+          "probability": 0.982506513595581
+        },
+        {
+          "word": " not",
+          "start": 1.82,
+          "end": 2.3,
+          "probability": 0.9924671053886414
+        },
+        {
+          "word": " a",
+          "start": 2.3,
+          "end": 2.44,
+          "probability": 0.9976539015769958
+        },
+        {
+          "word": " lost",
+          "start": 2.44,
+          "end": 2.6,
+          "probability": 0.9371867775917053
+        },
+        {
+          "word": " property",
+          "start": 2.6,
+          "end": 3.04,
+          "probability": 0.9455887675285339
+        },
+        {
+          "word": " auction.",
+          "start": 3.04,
+          "end": 3.4,
+          "probability": 0.9990522265434265
+        }
+      ]
+    }
+  ]
+}

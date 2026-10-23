@@ -1,0 +1,45 @@
+{
+  "source": "media/P01-12b2-r7-s01.mp4",
+  "sha256": "0304fa63081e9e6849bd04bb63cb19a40490d10891b46afa82e99f5841a536fa",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.82,
+      "text": " Come in same chair understood",
+      "no_speech_prob": 0.01785937324166298,
+      "words": [
+        {
+          "word": " Come",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.7604868412017822
+        },
+        {
+          "word": " in",
+          "start": 0.46,
+          "end": 1.02,
+          "probability": 0.9948640465736389
+        },
+        {
+          "word": " same",
+          "start": 1.02,
+          "end": 2.26,
+          "probability": 0.13985857367515564
+        },
+        {
+          "word": " chair",
+          "start": 2.26,
+          "end": 2.76,
+          "probability": 0.9720951914787292
+        },
+        {
+          "word": " understood",
+          "start": 2.76,
+          "end": 3.82,
+          "probability": 0.746604323387146
+        }
+      ]
+    }
+  ]
+}

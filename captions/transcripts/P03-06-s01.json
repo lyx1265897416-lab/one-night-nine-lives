@@ -1,0 +1,69 @@
+{
+  "source": "media/P03-06-s01.mp4",
+  "sha256": "3591328381ef9559cb20a30140c2f413ee56ad00c230cb5633795465c9c1969d",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.06,
+      "text": " You can bite back fair's fair. I won't dodge",
+      "no_speech_prob": 0.027246171608567238,
+      "words": [
+        {
+          "word": " You",
+          "start": 0.0,
+          "end": 0.6,
+          "probability": 0.6051284074783325
+        },
+        {
+          "word": " can",
+          "start": 0.6,
+          "end": 0.72,
+          "probability": 0.9954907298088074
+        },
+        {
+          "word": " bite",
+          "start": 0.72,
+          "end": 0.9,
+          "probability": 0.9824314713478088
+        },
+        {
+          "word": " back",
+          "start": 0.9,
+          "end": 1.34,
+          "probability": 0.9980508089065552
+        },
+        {
+          "word": " fair's",
+          "start": 1.34,
+          "end": 2.4,
+          "probability": 0.4027414098381996
+        },
+        {
+          "word": " fair.",
+          "start": 2.4,
+          "end": 2.64,
+          "probability": 0.9902971386909485
+        },
+        {
+          "word": " I",
+          "start": 2.64,
+          "end": 3.48,
+          "probability": 0.9956432580947876
+        },
+        {
+          "word": " won't",
+          "start": 3.48,
+          "end": 4.06,
+          "probability": 0.9978033006191254
+        },
+        {
+          "word": " dodge",
+          "start": 4.06,
+          "end": 4.06,
+          "probability": 0.8222948312759399
+        }
+      ]
+    }
+  ]
+}

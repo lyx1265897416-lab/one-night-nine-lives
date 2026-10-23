@@ -1,0 +1,69 @@
+{
+  "source": "media/P06-B03-memory-bit_back.mp4",
+  "sha256": "7c5275c0af2e7612ca2432e14a21a4cef8b9c41e1dac84c58c9ddb4d823f542e",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.58,
+      "text": " You can still bite back. I still won't dodge.",
+      "no_speech_prob": 0.02108697220683098,
+      "words": [
+        {
+          "word": " You",
+          "start": 0.0,
+          "end": 0.82,
+          "probability": 0.4074333906173706
+        },
+        {
+          "word": " can",
+          "start": 0.82,
+          "end": 0.96,
+          "probability": 0.9797115921974182
+        },
+        {
+          "word": " still",
+          "start": 0.96,
+          "end": 1.2,
+          "probability": 0.9959839582443237
+        },
+        {
+          "word": " bite",
+          "start": 1.2,
+          "end": 1.38,
+          "probability": 0.9865532517433167
+        },
+        {
+          "word": " back.",
+          "start": 1.38,
+          "end": 1.76,
+          "probability": 0.9974268078804016
+        },
+        {
+          "word": " I",
+          "start": 2.66,
+          "end": 2.86,
+          "probability": 0.9895592927932739
+        },
+        {
+          "word": " still",
+          "start": 2.86,
+          "end": 3.06,
+          "probability": 0.9945681095123291
+        },
+        {
+          "word": " won't",
+          "start": 3.06,
+          "end": 3.38,
+          "probability": 0.9856607615947723
+        },
+        {
+          "word": " dodge.",
+          "start": 3.38,
+          "end": 3.58,
+          "probability": 0.9891679286956787
+        }
+      ]
+    }
+  ]
+}

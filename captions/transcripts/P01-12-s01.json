@@ -1,0 +1,45 @@
+{
+  "source": "media/P01-12-s01.mp4",
+  "sha256": "2cad18b2c8f4985c6319201a73c71efac56dd54eae4e4e50a4dfb4ddf91d69d5",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.66,
+      "text": " Riss, nice to meet you.",
+      "no_speech_prob": 0.1270352452993393,
+      "words": [
+        {
+          "word": " Riss,",
+          "start": 0.0,
+          "end": 1.56,
+          "probability": 0.4016854763031006
+        },
+        {
+          "word": " nice",
+          "start": 2.2,
+          "end": 3.1,
+          "probability": 0.9662337899208069
+        },
+        {
+          "word": " to",
+          "start": 3.1,
+          "end": 3.24,
+          "probability": 0.9989736080169678
+        },
+        {
+          "word": " meet",
+          "start": 3.24,
+          "end": 3.34,
+          "probability": 0.9992328882217407
+        },
+        {
+          "word": " you.",
+          "start": 3.34,
+          "end": 3.66,
+          "probability": 0.9921405911445618
+        }
+      ]
+    }
+  ]
+}

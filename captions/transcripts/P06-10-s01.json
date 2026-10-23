@@ -1,0 +1,87 @@
+{
+  "source": "media/P06-10-s01.mp4",
+  "sha256": "2f997aeaaf5a27f8e2564b7c379414941526b66efcf83d3d60dfe9b181743be3",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.2399999999999998,
+      "end": 7.84,
+      "text": " I want ordinary days with you and to settle what I owe.",
+      "no_speech_prob": 0.07514486461877823,
+      "words": [
+        {
+          "word": " I",
+          "start": 2.2399999999999998,
+          "end": 2.72,
+          "probability": 0.7221278548240662
+        },
+        {
+          "word": " want",
+          "start": 2.72,
+          "end": 2.9,
+          "probability": 0.9055635929107666
+        },
+        {
+          "word": " ordinary",
+          "start": 2.9,
+          "end": 3.36,
+          "probability": 0.9971722960472107
+        },
+        {
+          "word": " days",
+          "start": 3.36,
+          "end": 3.66,
+          "probability": 0.9956727027893066
+        },
+        {
+          "word": " with",
+          "start": 3.66,
+          "end": 3.88,
+          "probability": 0.9977160692214966
+        },
+        {
+          "word": " you",
+          "start": 3.88,
+          "end": 4.52,
+          "probability": 0.9986311793327332
+        },
+        {
+          "word": " and",
+          "start": 4.52,
+          "end": 6.88,
+          "probability": 0.2977829575538635
+        },
+        {
+          "word": " to",
+          "start": 6.88,
+          "end": 7.02,
+          "probability": 0.9893097877502441
+        },
+        {
+          "word": " settle",
+          "start": 7.02,
+          "end": 7.26,
+          "probability": 0.9883584380149841
+        },
+        {
+          "word": " what",
+          "start": 7.26,
+          "end": 7.48,
+          "probability": 0.9957274198532104
+        },
+        {
+          "word": " I",
+          "start": 7.48,
+          "end": 7.62,
+          "probability": 0.9686009287834167
+        },
+        {
+          "word": " owe.",
+          "start": 7.62,
+          "end": 7.84,
+          "probability": 0.9971328973770142
+        }
+      ]
+    }
+  ]
+}

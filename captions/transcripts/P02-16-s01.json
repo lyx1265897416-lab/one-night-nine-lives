@@ -1,0 +1,57 @@
+{
+  "source": "media/P02-16-s01.mp4",
+  "sha256": "cc20ffc196534cce0a01802dbcfe669ca3883e836a4234f1501cb66dac7cd944",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.84,
+      "text": " Head down, your hairstyle violates the lease.",
+      "no_speech_prob": 0.004054025746881962,
+      "words": [
+        {
+          "word": " Head",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.8601142168045044
+        },
+        {
+          "word": " down,",
+          "start": 0.38,
+          "end": 0.78,
+          "probability": 0.9878068566322327
+        },
+        {
+          "word": " your",
+          "start": 1.46,
+          "end": 3.2,
+          "probability": 0.9345715045928955
+        },
+        {
+          "word": " hairstyle",
+          "start": 3.2,
+          "end": 3.94,
+          "probability": 0.9527158439159393
+        },
+        {
+          "word": " violates",
+          "start": 3.94,
+          "end": 4.36,
+          "probability": 0.9886605739593506
+        },
+        {
+          "word": " the",
+          "start": 4.36,
+          "end": 4.64,
+          "probability": 0.9982905983924866
+        },
+        {
+          "word": " lease.",
+          "start": 4.64,
+          "end": 4.84,
+          "probability": 0.8113774061203003
+        }
+      ]
+    }
+  ]
+}

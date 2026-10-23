@@ -1,0 +1,81 @@
+{
+  "source": "media/P03-04-s01.mp4",
+  "sha256": "ea50628075b2ee2ed8f7193b72f04b3f7eaad3e830409719947c35323daf07c5",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.6799999999999997,
+      "end": 6.38,
+      "text": " Being waited for takes more getting used to than a throne.",
+      "no_speech_prob": 0.050494857132434845,
+      "words": [
+        {
+          "word": " Being",
+          "start": 3.6799999999999997,
+          "end": 4.18,
+          "probability": 0.6511887907981873
+        },
+        {
+          "word": " waited",
+          "start": 4.18,
+          "end": 4.48,
+          "probability": 0.9644615650177002
+        },
+        {
+          "word": " for",
+          "start": 4.48,
+          "end": 4.74,
+          "probability": 0.9971230626106262
+        },
+        {
+          "word": " takes",
+          "start": 4.74,
+          "end": 4.96,
+          "probability": 0.9895831346511841
+        },
+        {
+          "word": " more",
+          "start": 4.96,
+          "end": 5.22,
+          "probability": 0.9978204965591431
+        },
+        {
+          "word": " getting",
+          "start": 5.22,
+          "end": 5.44,
+          "probability": 0.9968031644821167
+        },
+        {
+          "word": " used",
+          "start": 5.44,
+          "end": 5.7,
+          "probability": 0.9905446767807007
+        },
+        {
+          "word": " to",
+          "start": 5.7,
+          "end": 5.88,
+          "probability": 0.9960476756095886
+        },
+        {
+          "word": " than",
+          "start": 5.88,
+          "end": 6.02,
+          "probability": 0.9457810521125793
+        },
+        {
+          "word": " a",
+          "start": 6.02,
+          "end": 6.14,
+          "probability": 0.994674801826477
+        },
+        {
+          "word": " throne.",
+          "start": 6.14,
+          "end": 6.38,
+          "probability": 0.8977888822555542
+        }
+      ]
+    }
+  ]
+}

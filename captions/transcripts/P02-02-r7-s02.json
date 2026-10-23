@@ -1,0 +1,39 @@
+{
+  "source": "media/P02-02-r7-s02.mp4",
+  "sha256": "d8b615463d3add729b44d8d1a01850775199a5509cd98456ddda0c5ef2202075",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.74,
+      "text": " No outstanding balance yet?",
+      "no_speech_prob": 0.05873597785830498,
+      "words": [
+        {
+          "word": " No",
+          "start": 0.0,
+          "end": 1.68,
+          "probability": 0.8457258939743042
+        },
+        {
+          "word": " outstanding",
+          "start": 1.68,
+          "end": 2.1,
+          "probability": 0.8466975688934326
+        },
+        {
+          "word": " balance",
+          "start": 2.1,
+          "end": 2.44,
+          "probability": 0.9315775632858276
+        },
+        {
+          "word": " yet?",
+          "start": 2.44,
+          "end": 2.74,
+          "probability": 0.9759016036987305
+        }
+      ]
+    }
+  ]
+}

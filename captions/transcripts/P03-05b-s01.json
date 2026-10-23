@@ -1,0 +1,89 @@
+{
+  "source": "media/P03-05b-s01.mp4",
+  "sha256": "2208ad887302c9d24cdfd284dd37d4dea6778a7daaa5495cda6d950860f0179f",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 5.419999999999999,
+      "end": 7.62,
+      "text": " You're using a prince's nose as a doorbell.",
+      "no_speech_prob": 0.14302566647529602,
+      "words": [
+        {
+          "word": " You're",
+          "start": 5.419999999999999,
+          "end": 6.06,
+          "probability": 0.8969953656196594
+        },
+        {
+          "word": " using",
+          "start": 6.06,
+          "end": 6.26,
+          "probability": 0.9988892674446106
+        },
+        {
+          "word": " a",
+          "start": 6.26,
+          "end": 6.42,
+          "probability": 0.9891856908798218
+        },
+        {
+          "word": " prince's",
+          "start": 6.42,
+          "end": 6.74,
+          "probability": 0.9020644128322601
+        },
+        {
+          "word": " nose",
+          "start": 6.74,
+          "end": 6.92,
+          "probability": 0.9967564940452576
+        },
+        {
+          "word": " as",
+          "start": 6.92,
+          "end": 7.12,
+          "probability": 0.9945835471153259
+        },
+        {
+          "word": " a",
+          "start": 7.12,
+          "end": 7.24,
+          "probability": 0.9978258013725281
+        },
+        {
+          "word": " doorbell.",
+          "start": 7.24,
+          "end": 7.62,
+          "probability": 0.9901040494441986
+        }
+      ]
+    },
+    {
+      "start": 8.36,
+      "end": 9.32,
+      "text": " Good response time.",
+      "no_speech_prob": 0.14302566647529602,
+      "words": [
+        {
+          "word": " Good",
+          "start": 8.36,
+          "end": 8.62,
+          "probability": 0.9701830148696899
+        },
+        {
+          "word": " response",
+          "start": 8.62,
+          "end": 8.96,
+          "probability": 0.9977858066558838
+        },
+        {
+          "word": " time.",
+          "start": 8.96,
+          "end": 9.32,
+          "probability": 0.933859646320343
+        }
+      ]
+    }
+  ]
+}

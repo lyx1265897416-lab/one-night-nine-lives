@@ -1,0 +1,65 @@
+{
+  "source": "media/P03-09-r7b-s02.mp4",
+  "sha256": "a89dd4a175da11f74e0ef9aa83c146feec29730b747ea17d1369dc52954a71a4",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.3,
+      "text": " Keep the paper.",
+      "no_speech_prob": 0.11895855516195297,
+      "words": [
+        {
+          "word": " Keep",
+          "start": 0.0,
+          "end": 0.8,
+          "probability": 0.7906755208969116
+        },
+        {
+          "word": " the",
+          "start": 0.8,
+          "end": 0.98,
+          "probability": 0.9969503283500671
+        },
+        {
+          "word": " paper.",
+          "start": 0.98,
+          "end": 1.3,
+          "probability": 0.992077648639679
+        }
+      ]
+    },
+    {
+      "start": 3.14,
+      "end": 4.18,
+      "text": " Give me the explanation.",
+      "no_speech_prob": 0.11895855516195297,
+      "words": [
+        {
+          "word": " Give",
+          "start": 3.14,
+          "end": 3.38,
+          "probability": 0.9847654104232788
+        },
+        {
+          "word": " me",
+          "start": 3.38,
+          "end": 3.52,
+          "probability": 0.9990050196647644
+        },
+        {
+          "word": " the",
+          "start": 3.52,
+          "end": 3.68,
+          "probability": 0.9983419179916382
+        },
+        {
+          "word": " explanation.",
+          "start": 3.68,
+          "end": 4.18,
+          "probability": 0.9911265969276428
+        }
+      ]
+    }
+  ]
+}

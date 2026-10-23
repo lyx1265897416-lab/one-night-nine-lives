@@ -1,0 +1,57 @@
+{
+  "source": "media/P03-15-s01.mp4",
+  "sha256": "62dc4f150de5f7eafe8e942955990040b87c3d0061a3a75493a7ff344b6ac1bb",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.12,
+      "end": 6.66,
+      "text": " Bitter. You do this voluntarily every day.",
+      "no_speech_prob": 0.1336866170167923,
+      "words": [
+        {
+          "word": " Bitter.",
+          "start": 3.12,
+          "end": 3.88,
+          "probability": 0.8401274681091309
+        },
+        {
+          "word": " You",
+          "start": 5.0,
+          "end": 5.2,
+          "probability": 0.9785920977592468
+        },
+        {
+          "word": " do",
+          "start": 5.2,
+          "end": 5.32,
+          "probability": 0.997597873210907
+        },
+        {
+          "word": " this",
+          "start": 5.32,
+          "end": 5.52,
+          "probability": 0.998472273349762
+        },
+        {
+          "word": " voluntarily",
+          "start": 5.52,
+          "end": 5.98,
+          "probability": 0.989824116230011
+        },
+        {
+          "word": " every",
+          "start": 5.98,
+          "end": 6.38,
+          "probability": 0.6967776417732239
+        },
+        {
+          "word": " day.",
+          "start": 6.38,
+          "end": 6.66,
+          "probability": 0.998268723487854
+        }
+      ]
+    }
+  ]
+}

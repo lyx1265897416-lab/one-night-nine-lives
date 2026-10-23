@@ -1,0 +1,57 @@
+{
+  "source": "media/P04-13-s02.mp4",
+  "sha256": "dd3ddd6ca6c507cef72a78b08220f28b94f5953fc1e6e1face238f614d7a5076",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.76,
+      "text": " Then you decide whether to witness anything.",
+      "no_speech_prob": 0.10422157496213913,
+      "words": [
+        {
+          "word": " Then",
+          "start": 0.0,
+          "end": 0.94,
+          "probability": 0.6571360230445862
+        },
+        {
+          "word": " you",
+          "start": 0.94,
+          "end": 1.08,
+          "probability": 0.9751072525978088
+        },
+        {
+          "word": " decide",
+          "start": 1.08,
+          "end": 1.48,
+          "probability": 0.993518054485321
+        },
+        {
+          "word": " whether",
+          "start": 1.48,
+          "end": 1.9,
+          "probability": 0.9623032212257385
+        },
+        {
+          "word": " to",
+          "start": 1.9,
+          "end": 2.12,
+          "probability": 0.9987408518791199
+        },
+        {
+          "word": " witness",
+          "start": 2.12,
+          "end": 2.3,
+          "probability": 0.9940260648727417
+        },
+        {
+          "word": " anything.",
+          "start": 2.3,
+          "end": 2.76,
+          "probability": 0.9974935054779053
+        }
+      ]
+    }
+  ]
+}

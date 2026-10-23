@@ -1,0 +1,51 @@
+{
+  "source": "media/P02-14b-s02.mp4",
+  "sha256": "e229ae83996d26deda4244c107c3f9adeff87bd4249725cfc6bc3f443826d75e",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.8199999999999994,
+      "end": 3.44,
+      "text": " Only the ones who skip rent.",
+      "no_speech_prob": 0.055160388350486755,
+      "words": [
+        {
+          "word": " Only",
+          "start": 1.8199999999999994,
+          "end": 2.3,
+          "probability": 0.6952694058418274
+        },
+        {
+          "word": " the",
+          "start": 2.3,
+          "end": 2.48,
+          "probability": 0.992504358291626
+        },
+        {
+          "word": " ones",
+          "start": 2.48,
+          "end": 2.66,
+          "probability": 0.995895504951477
+        },
+        {
+          "word": " who",
+          "start": 2.66,
+          "end": 2.86,
+          "probability": 0.9964938759803772
+        },
+        {
+          "word": " skip",
+          "start": 2.86,
+          "end": 3.1,
+          "probability": 0.9879510998725891
+        },
+        {
+          "word": " rent.",
+          "start": 3.1,
+          "end": 3.44,
+          "probability": 0.9502681493759155
+        }
+      ]
+    }
+  ]
+}

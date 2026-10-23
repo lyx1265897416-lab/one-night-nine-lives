@@ -1,0 +1,39 @@
+{
+  "source": "media/P03-15-r6-s02.mp4",
+  "sha256": "b66d0f7bfcb6f36e4b3e6b6436442e2db715ec709ae47426e2776f101497e2db",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.9000000000000004,
+      "end": 3.56,
+      "text": " I'm a complicated woman.",
+      "no_speech_prob": 0.057334113866090775,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 1.9000000000000004,
+          "end": 2.7,
+          "probability": 0.8322038352489471
+        },
+        {
+          "word": " a",
+          "start": 2.7,
+          "end": 2.78,
+          "probability": 0.985114336013794
+        },
+        {
+          "word": " complicated",
+          "start": 2.78,
+          "end": 3.16,
+          "probability": 0.9906946420669556
+        },
+        {
+          "word": " woman.",
+          "start": 3.16,
+          "end": 3.56,
+          "probability": 0.9930481314659119
+        }
+      ]
+    }
+  ]
+}

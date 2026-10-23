@@ -1,0 +1,57 @@
+{
+  "source": "media/P04-16-r7-s01.mp4",
+  "sha256": "9baf24947071cf16ae74416dcf516e6d13c27792c13acf1425b79e48948e2f8d",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.8199999999999985,
+      "end": 5.76,
+      "text": " Come with me. The door actually closes.",
+      "no_speech_prob": 0.0317869670689106,
+      "words": [
+        {
+          "word": " Come",
+          "start": 1.8199999999999985,
+          "end": 2.58,
+          "probability": 0.7182285785675049
+        },
+        {
+          "word": " with",
+          "start": 2.58,
+          "end": 2.72,
+          "probability": 0.9990457892417908
+        },
+        {
+          "word": " me.",
+          "start": 2.72,
+          "end": 3.2,
+          "probability": 0.999683141708374
+        },
+        {
+          "word": " The",
+          "start": 4.1,
+          "end": 4.86,
+          "probability": 0.9900171160697937
+        },
+        {
+          "word": " door",
+          "start": 4.86,
+          "end": 5.02,
+          "probability": 0.9993083477020264
+        },
+        {
+          "word": " actually",
+          "start": 5.02,
+          "end": 5.4,
+          "probability": 0.9946801066398621
+        },
+        {
+          "word": " closes.",
+          "start": 5.4,
+          "end": 5.76,
+          "probability": 0.9979403614997864
+        }
+      ]
+    }
+  ]
+}

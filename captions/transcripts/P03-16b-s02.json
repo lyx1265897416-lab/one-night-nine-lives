@@ -1,0 +1,95 @@
+{
+  "source": "media/P03-16b-s02.mp4",
+  "sha256": "3fa4e8da5ac7ba0d80f6f5a225f3c484702d799bf69ff14870cd5157d59d81e9",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.94,
+      "end": 4.16,
+      "text": " Was that an answer or another question?",
+      "no_speech_prob": 0.08917521685361862,
+      "words": [
+        {
+          "word": " Was",
+          "start": 1.94,
+          "end": 2.5,
+          "probability": 0.7391405701637268
+        },
+        {
+          "word": " that",
+          "start": 2.5,
+          "end": 2.68,
+          "probability": 0.9976996779441833
+        },
+        {
+          "word": " an",
+          "start": 2.68,
+          "end": 2.8,
+          "probability": 0.9917004704475403
+        },
+        {
+          "word": " answer",
+          "start": 2.8,
+          "end": 3.12,
+          "probability": 0.9976564645767212
+        },
+        {
+          "word": " or",
+          "start": 3.12,
+          "end": 3.44,
+          "probability": 0.9234055876731873
+        },
+        {
+          "word": " another",
+          "start": 3.44,
+          "end": 3.68,
+          "probability": 0.9946091175079346
+        },
+        {
+          "word": " question?",
+          "start": 3.68,
+          "end": 4.16,
+          "probability": 0.9980409741401672
+        }
+      ]
+    },
+    {
+      "start": 5.52,
+      "end": 6.48,
+      "text": " Depends on your next sentence.",
+      "no_speech_prob": 0.08917521685361862,
+      "words": [
+        {
+          "word": " Depends",
+          "start": 5.52,
+          "end": 5.68,
+          "probability": 0.9740703105926514
+        },
+        {
+          "word": " on",
+          "start": 5.68,
+          "end": 5.82,
+          "probability": 0.9977431297302246
+        },
+        {
+          "word": " your",
+          "start": 5.82,
+          "end": 5.92,
+          "probability": 0.9955392479896545
+        },
+        {
+          "word": " next",
+          "start": 5.92,
+          "end": 6.1,
+          "probability": 0.9987654685974121
+        },
+        {
+          "word": " sentence.",
+          "start": 6.1,
+          "end": 6.48,
+          "probability": 0.9994608759880066
+        }
+      ]
+    }
+  ]
+}

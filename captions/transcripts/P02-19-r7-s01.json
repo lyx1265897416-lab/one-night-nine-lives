@@ -1,0 +1,39 @@
+{
+  "source": "media/P02-19-r7-s01.mp4",
+  "sha256": "ef403a8d386f4a543929e7079fd80fd6bb5f15d5ac05a30179e46a09bdf85296",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 4.5600000000000005,
+      "end": 5.96,
+      "text": " I'm sorry, I'm sorry.",
+      "no_speech_prob": 0.5087880492210388,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 4.5600000000000005,
+          "end": 5.96,
+          "probability": 0.13081445719581097
+        },
+        {
+          "word": " sorry,",
+          "start": 5.96,
+          "end": 5.96,
+          "probability": 0.27402395009994507
+        },
+        {
+          "word": " I'm",
+          "start": 5.96,
+          "end": 5.96,
+          "probability": 0.2800416201353073
+        },
+        {
+          "word": " sorry.",
+          "start": 5.96,
+          "end": 5.96,
+          "probability": 0.42535775899887085
+        }
+      ]
+    }
+  ]
+}

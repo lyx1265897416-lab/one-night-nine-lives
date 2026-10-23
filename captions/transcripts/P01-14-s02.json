@@ -1,0 +1,63 @@
+{
+  "source": "media/P01-14-s02.mp4",
+  "sha256": "d7b1fd4acaf436eee0bec94782ce1791e349230a286966c0ed33d79ba4d1695c",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.3800000000000003,
+      "end": 3.86,
+      "text": " I needed somewhere they hadn't chosen for me",
+      "no_speech_prob": 0.2615845501422882,
+      "words": [
+        {
+          "word": " I",
+          "start": 1.3800000000000003,
+          "end": 1.96,
+          "probability": 0.8484801650047302
+        },
+        {
+          "word": " needed",
+          "start": 1.96,
+          "end": 2.1,
+          "probability": 0.9392759799957275
+        },
+        {
+          "word": " somewhere",
+          "start": 2.1,
+          "end": 2.48,
+          "probability": 0.9629818201065063
+        },
+        {
+          "word": " they",
+          "start": 2.48,
+          "end": 2.68,
+          "probability": 0.9653040170669556
+        },
+        {
+          "word": " hadn't",
+          "start": 2.68,
+          "end": 2.96,
+          "probability": 0.9958620369434357
+        },
+        {
+          "word": " chosen",
+          "start": 2.96,
+          "end": 3.14,
+          "probability": 0.997649610042572
+        },
+        {
+          "word": " for",
+          "start": 3.14,
+          "end": 3.44,
+          "probability": 0.9570742845535278
+        },
+        {
+          "word": " me",
+          "start": 3.44,
+          "end": 3.86,
+          "probability": 0.9996033310890198
+        }
+      ]
+    }
+  ]
+}

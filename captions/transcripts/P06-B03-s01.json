@@ -1,0 +1,147 @@
+{
+  "source": "media/P06-B03-s01.mp4",
+  "sha256": "23d2f39f16d77f72476cb8f21af0e77883a1aa3cf86b5f8a5d4c6835f0cd94fd",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.94,
+      "text": " I have no idea what happened, I have no idea what happened to me, I have no idea what happened to me.",
+      "no_speech_prob": 0.5260681509971619,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 1.1,
+          "probability": 0.011990669183433056
+        },
+        {
+          "word": " have",
+          "start": 1.1,
+          "end": 3.98,
+          "probability": 0.023865362629294395
+        },
+        {
+          "word": " no",
+          "start": 3.98,
+          "end": 3.98,
+          "probability": 0.24228309094905853
+        },
+        {
+          "word": " idea",
+          "start": 3.98,
+          "end": 3.98,
+          "probability": 0.5587447285652161
+        },
+        {
+          "word": " what",
+          "start": 3.98,
+          "end": 7.94,
+          "probability": 0.3010205030441284
+        },
+        {
+          "word": " happened,",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.25833526253700256
+        },
+        {
+          "word": " I",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.14567653834819794
+        },
+        {
+          "word": " have",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.07254552096128464
+        },
+        {
+          "word": " no",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.6563326716423035
+        },
+        {
+          "word": " idea",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.8383300304412842
+        },
+        {
+          "word": " what",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.5237656831741333
+        },
+        {
+          "word": " happened",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.8288134932518005
+        },
+        {
+          "word": " to",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.0742316022515297
+        },
+        {
+          "word": " me,",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.2538861930370331
+        },
+        {
+          "word": " I",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.3474979102611542
+        },
+        {
+          "word": " have",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.2517293095588684
+        },
+        {
+          "word": " no",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.8494298458099365
+        },
+        {
+          "word": " idea",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.8896288871765137
+        },
+        {
+          "word": " what",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.8022698163986206
+        },
+        {
+          "word": " happened",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.9354917407035828
+        },
+        {
+          "word": " to",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.5249409079551697
+        },
+        {
+          "word": " me.",
+          "start": 7.94,
+          "end": 7.94,
+          "probability": 0.7231300473213196
+        }
+      ]
+    }
+  ]
+}

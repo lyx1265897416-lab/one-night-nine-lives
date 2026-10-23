@@ -1,0 +1,63 @@
+{
+  "source": "media/P02-19-s01.mp4",
+  "sha256": "f3157a98a2ff4beb9cf3986ba4dc519870efe52218436c4b46008e154dfa9923",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.86,
+      "text": " No, no, no, no, no, no, no, no.",
+      "no_speech_prob": 0.5249367952346802,
+      "words": [
+        {
+          "word": " No,",
+          "start": 0.0,
+          "end": 1.98,
+          "probability": 0.007530478294938803
+        },
+        {
+          "word": " no,",
+          "start": 2.02,
+          "end": 2.5,
+          "probability": 0.40692809224128723
+        },
+        {
+          "word": " no,",
+          "start": 4.34,
+          "end": 4.34,
+          "probability": 0.827211856842041
+        },
+        {
+          "word": " no,",
+          "start": 4.34,
+          "end": 4.4,
+          "probability": 0.8621373176574707
+        },
+        {
+          "word": " no,",
+          "start": 4.54,
+          "end": 5.1,
+          "probability": 0.8770784139633179
+        },
+        {
+          "word": " no,",
+          "start": 5.1,
+          "end": 6.06,
+          "probability": 0.8968889117240906
+        },
+        {
+          "word": " no,",
+          "start": 7.86,
+          "end": 7.86,
+          "probability": 0.9055454134941101
+        },
+        {
+          "word": " no.",
+          "start": 7.86,
+          "end": 7.86,
+          "probability": 0.9165433645248413
+        }
+      ]
+    }
+  ]
+}

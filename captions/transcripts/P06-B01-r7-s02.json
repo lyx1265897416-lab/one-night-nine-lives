@@ -1,0 +1,63 @@
+{
+  "source": "media/P06-B01-r7-s02.mp4",
+  "sha256": "b3791489f67e2fca1399534309aa0e81de947dd2857051d94a6098da5ac26f3c",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.2000000000000013,
+      "end": 4.56,
+      "text": " Then I choose both, neither chosen for me.",
+      "no_speech_prob": 0.09618458151817322,
+      "words": [
+        {
+          "word": " Then",
+          "start": 1.2000000000000013,
+          "end": 1.8,
+          "probability": 0.7584551572799683
+        },
+        {
+          "word": " I",
+          "start": 1.8,
+          "end": 1.94,
+          "probability": 0.9339141249656677
+        },
+        {
+          "word": " choose",
+          "start": 1.94,
+          "end": 2.14,
+          "probability": 0.8798804879188538
+        },
+        {
+          "word": " both,",
+          "start": 2.14,
+          "end": 2.48,
+          "probability": 0.9927952885627747
+        },
+        {
+          "word": " neither",
+          "start": 3.54,
+          "end": 3.7,
+          "probability": 0.9928886294364929
+        },
+        {
+          "word": " chosen",
+          "start": 3.7,
+          "end": 4.02,
+          "probability": 0.9943354725837708
+        },
+        {
+          "word": " for",
+          "start": 4.02,
+          "end": 4.28,
+          "probability": 0.9007944464683533
+        },
+        {
+          "word": " me.",
+          "start": 4.28,
+          "end": 4.56,
+          "probability": 0.9991843104362488
+        }
+      ]
+    }
+  ]
+}

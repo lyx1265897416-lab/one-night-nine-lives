@@ -1,0 +1,81 @@
+{
+  "source": "media/P04-05a-spatial-r3-s01.mp4",
+  "sha256": "76b4bea52025d128077611f46657a5a68a3f178733c63f47775741fe2499cb6c",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.6800000000000002,
+      "end": 4.06,
+      "text": " We'll read it together. Don't answer for him, or for me.",
+      "no_speech_prob": 0.18402184545993805,
+      "words": [
+        {
+          "word": " We'll",
+          "start": 0.6800000000000002,
+          "end": 1.08,
+          "probability": 0.8899896144866943
+        },
+        {
+          "word": " read",
+          "start": 1.08,
+          "end": 1.22,
+          "probability": 0.9938544034957886
+        },
+        {
+          "word": " it",
+          "start": 1.22,
+          "end": 1.34,
+          "probability": 0.9968358874320984
+        },
+        {
+          "word": " together.",
+          "start": 1.34,
+          "end": 1.64,
+          "probability": 0.9976122379302979
+        },
+        {
+          "word": " Don't",
+          "start": 2.3,
+          "end": 2.42,
+          "probability": 0.9949909448623657
+        },
+        {
+          "word": " answer",
+          "start": 2.42,
+          "end": 2.68,
+          "probability": 0.9974828362464905
+        },
+        {
+          "word": " for",
+          "start": 2.68,
+          "end": 2.86,
+          "probability": 0.9907399415969849
+        },
+        {
+          "word": " him,",
+          "start": 2.86,
+          "end": 3.06,
+          "probability": 0.9942548871040344
+        },
+        {
+          "word": " or",
+          "start": 3.54,
+          "end": 3.7,
+          "probability": 0.9952917098999023
+        },
+        {
+          "word": " for",
+          "start": 3.7,
+          "end": 3.86,
+          "probability": 0.9749491810798645
+        },
+        {
+          "word": " me.",
+          "start": 3.86,
+          "end": 4.06,
+          "probability": 0.9993415474891663
+        }
+      ]
+    }
+  ]
+}

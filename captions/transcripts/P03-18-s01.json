@@ -1,0 +1,33 @@
+{
+  "source": "media/P03-18-s01.mp4",
+  "sha256": "161d7331f5b76ef0606b2a9cf12ce1d6567d59e8301b15e0686f7a17bbea2a59",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 6.719999999999999,
+      "end": 9.66,
+      "text": " Thanks for watching!",
+      "no_speech_prob": 0.5071537494659424,
+      "words": [
+        {
+          "word": " Thanks",
+          "start": 6.719999999999999,
+          "end": 8.12,
+          "probability": 0.0029184501618146896
+        },
+        {
+          "word": " for",
+          "start": 8.12,
+          "end": 9.52,
+          "probability": 0.883241593837738
+        },
+        {
+          "word": " watching!",
+          "start": 9.52,
+          "end": 9.66,
+          "probability": 0.9677574634552002
+        }
+      ]
+    }
+  ]
+}

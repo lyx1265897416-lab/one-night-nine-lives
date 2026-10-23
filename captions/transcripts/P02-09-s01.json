@@ -1,0 +1,59 @@
+{
+  "source": "media/P02-09-s01.mp4",
+  "sha256": "df6c9b9e050db2686fae057478c9391a2b58be8dde32a663c6b060ae7cb75542",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.2,
+      "end": 4.76,
+      "text": " The clothes fit.",
+      "no_speech_prob": 0.06279275566339493,
+      "words": [
+        {
+          "word": " The",
+          "start": 3.2,
+          "end": 4.12,
+          "probability": 0.8892096281051636
+        },
+        {
+          "word": " clothes",
+          "start": 4.12,
+          "end": 4.36,
+          "probability": 0.9907445311546326
+        },
+        {
+          "word": " fit.",
+          "start": 4.36,
+          "end": 4.76,
+          "probability": 0.9987196922302246
+        }
+      ]
+    },
+    {
+      "start": 6.06,
+      "end": 6.78,
+      "text": " Privacy is complementary.",
+      "no_speech_prob": 0.06279275566339493,
+      "words": [
+        {
+          "word": " Privacy",
+          "start": 6.06,
+          "end": 6.06,
+          "probability": 0.9620994925498962
+        },
+        {
+          "word": " is",
+          "start": 6.06,
+          "end": 6.32,
+          "probability": 0.9976625442504883
+        },
+        {
+          "word": " complementary.",
+          "start": 6.32,
+          "end": 6.78,
+          "probability": 0.6524860262870789
+        }
+      ]
+    }
+  ]
+}

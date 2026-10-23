@@ -1,0 +1,51 @@
+{
+  "source": "media/P05-02-r7-s02.mp4",
+  "sha256": "f6bff324f1e3c96288c27e1eec1f69bf2001007eac81ff5123b5e7c5ccdc41a9",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.4199999999999995,
+      "end": 3.18,
+      "text": " Don't issue yourself a card yet.",
+      "no_speech_prob": 0.23669730126857758,
+      "words": [
+        {
+          "word": " Don't",
+          "start": 1.4199999999999995,
+          "end": 1.98,
+          "probability": 0.9160270094871521
+        },
+        {
+          "word": " issue",
+          "start": 1.98,
+          "end": 2.18,
+          "probability": 0.995253324508667
+        },
+        {
+          "word": " yourself",
+          "start": 2.18,
+          "end": 2.5,
+          "probability": 0.9945247173309326
+        },
+        {
+          "word": " a",
+          "start": 2.5,
+          "end": 2.7,
+          "probability": 0.9977521300315857
+        },
+        {
+          "word": " card",
+          "start": 2.7,
+          "end": 2.9,
+          "probability": 0.9985561966896057
+        },
+        {
+          "word": " yet.",
+          "start": 2.9,
+          "end": 3.18,
+          "probability": 0.9385899305343628
+        }
+      ]
+    }
+  ]
+}

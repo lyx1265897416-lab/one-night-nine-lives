@@ -1,0 +1,45 @@
+{
+  "source": "media/P01-13-s02.mp4",
+  "sha256": "b8ebd537666ea65395661b301f9e1f8449366594f1022836c9801b3495748e6c",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.86,
+      "text": " Sounds more interesting than Prince?",
+      "no_speech_prob": 0.10181640088558197,
+      "words": [
+        {
+          "word": " Sounds",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.36878666281700134
+        },
+        {
+          "word": " more",
+          "start": 0.72,
+          "end": 0.98,
+          "probability": 0.9873083233833313
+        },
+        {
+          "word": " interesting",
+          "start": 0.98,
+          "end": 1.3,
+          "probability": 0.9943526983261108
+        },
+        {
+          "word": " than",
+          "start": 1.3,
+          "end": 1.6,
+          "probability": 0.9826830625534058
+        },
+        {
+          "word": " Prince?",
+          "start": 1.6,
+          "end": 1.86,
+          "probability": 0.7938685417175293
+        }
+      ]
+    }
+  ]
+}

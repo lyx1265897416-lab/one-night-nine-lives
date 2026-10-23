@@ -1,0 +1,101 @@
+{
+  "source": "media/P01-14-continuity-r5-s01.mp4",
+  "sha256": "e1bf656456abd5b1c32dbc0174791669630c2690038a06cc5d1aa80552abc026",
+  "method": "local faster-whisper large-v3-turbo",
+  "segments": [
+    {
+      "start": 2.1799999999999997,
+      "end": 3.4,
+      "text": " Someone is looking for me.",
+      "no_speech_prob": 6.647513269009142e-12,
+      "words": [
+        {
+          "word": " Someone",
+          "start": 2.1799999999999997,
+          "end": 2.62,
+          "probability": 0.8460519909858704
+        },
+        {
+          "word": " is",
+          "start": 2.62,
+          "end": 2.78,
+          "probability": 0.9972479939460754
+        },
+        {
+          "word": " looking",
+          "start": 2.78,
+          "end": 2.98,
+          "probability": 0.9991639852523804
+        },
+        {
+          "word": " for",
+          "start": 2.98,
+          "end": 3.2,
+          "probability": 0.9994339346885681
+        },
+        {
+          "word": " me.",
+          "start": 3.2,
+          "end": 3.4,
+          "probability": 0.999754011631012
+        }
+      ]
+    },
+    {
+      "start": 4.34,
+      "end": 6.54,
+      "text": " I needed somewhere they hadn't chosen for me.",
+      "no_speech_prob": 6.647513269009142e-12,
+      "words": [
+        {
+          "word": " I",
+          "start": 4.34,
+          "end": 4.78,
+          "probability": 0.9979342222213745
+        },
+        {
+          "word": " needed",
+          "start": 4.78,
+          "end": 4.98,
+          "probability": 0.9953258037567139
+        },
+        {
+          "word": " somewhere",
+          "start": 4.98,
+          "end": 5.34,
+          "probability": 0.9952402114868164
+        },
+        {
+          "word": " they",
+          "start": 5.34,
+          "end": 5.56,
+          "probability": 0.9929640293121338
+        },
+        {
+          "word": " hadn't",
+          "start": 5.56,
+          "end": 5.84,
+          "probability": 0.9961417019367218
+        },
+        {
+          "word": " chosen",
+          "start": 5.84,
+          "end": 6.14,
+          "probability": 0.9968453049659729
+        },
+        {
+          "word": " for",
+          "start": 6.14,
+          "end": 6.36,
+          "probability": 0.9926844835281372
+        },
+        {
+          "word": " me.",
+          "start": 6.36,
+          "end": 6.54,
+          "probability": 0.9997269511222839
+        }
+      ]
+    }
+  ]
+}

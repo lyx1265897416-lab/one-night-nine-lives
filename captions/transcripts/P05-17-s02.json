@@ -1,0 +1,45 @@
+{
+  "source": "media/P05-17-s02.mp4",
+  "sha256": "46266810a48101e486afc46bfffa2c0ce1cbf809b0a9cc95e9612ab0fc3d4489",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.9000000000000004,
+      "end": 3.54,
+      "text": " Nobody's applying for my pillow.",
+      "no_speech_prob": 0.05115356668829918,
+      "words": [
+        {
+          "word": " Nobody's",
+          "start": 1.9000000000000004,
+          "end": 2.52,
+          "probability": 0.8435255885124207
+        },
+        {
+          "word": " applying",
+          "start": 2.52,
+          "end": 2.8,
+          "probability": 0.9957067370414734
+        },
+        {
+          "word": " for",
+          "start": 2.8,
+          "end": 3.04,
+          "probability": 0.9973413348197937
+        },
+        {
+          "word": " my",
+          "start": 3.04,
+          "end": 3.2,
+          "probability": 0.9983848333358765
+        },
+        {
+          "word": " pillow.",
+          "start": 3.2,
+          "end": 3.54,
+          "probability": 0.9980668425559998
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "source": "media/P02-11-s02.mp4",
+  "sha256": "dac7f6b02f13496315d96192b24b234b7533f694ca3923a606271c9ae21de5b4",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.4000000000000004,
+      "end": 5.16,
+      "text": " You could spill on a napkin. Very traditional.",
+      "no_speech_prob": 0.1297311931848526,
+      "words": [
+        {
+          "word": " You",
+          "start": 1.4000000000000004,
+          "end": 2.16,
+          "probability": 0.8487563729286194
+        },
+        {
+          "word": " could",
+          "start": 2.16,
+          "end": 2.3,
+          "probability": 0.9739355444908142
+        },
+        {
+          "word": " spill",
+          "start": 2.3,
+          "end": 2.52,
+          "probability": 0.9893741011619568
+        },
+        {
+          "word": " on",
+          "start": 2.52,
+          "end": 2.7,
+          "probability": 0.9958421587944031
+        },
+        {
+          "word": " a",
+          "start": 2.7,
+          "end": 2.78,
+          "probability": 0.9967861175537109
+        },
+        {
+          "word": " napkin.",
+          "start": 2.78,
+          "end": 3.28,
+          "probability": 0.9902142882347107
+        },
+        {
+          "word": " Very",
+          "start": 4.4,
+          "end": 4.74,
+          "probability": 0.9959908127784729
+        },
+        {
+          "word": " traditional.",
+          "start": 4.74,
+          "end": 5.16,
+          "probability": 0.9968184232711792
+        }
+      ]
+    }
+  ]
+}

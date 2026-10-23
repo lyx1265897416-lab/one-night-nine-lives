@@ -1,0 +1,33 @@
+{
+  "source": "media/P06-01-r7-s02.mp4",
+  "sha256": "17065da15bc38e00c4bdb8716e6cb76bb9d9e0086edf6f60393212b11db2834d",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.78,
+      "text": " Thanks for watching.",
+      "no_speech_prob": 0.5697911381721497,
+      "words": [
+        {
+          "word": " Thanks",
+          "start": 0.0,
+          "end": 1.32,
+          "probability": 0.0032386500388383865
+        },
+        {
+          "word": " for",
+          "start": 1.32,
+          "end": 1.68,
+          "probability": 0.788870096206665
+        },
+        {
+          "word": " watching.",
+          "start": 1.68,
+          "end": 3.78,
+          "probability": 0.9731138348579407
+        }
+      ]
+    }
+  ]
+}

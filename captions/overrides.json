@@ -1,0 +1,369 @@
+{
+  "media/P02-04-s02.mp4": [
+    {
+      "text": "I'm looking for a black cat.",
+      "en": "I'm looking for a black cat.",
+      "zh": "我在找一只黑猫。",
+      "startMs": 0,
+      "endMs": 1640,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    },
+    {
+      "text": "This is a clinic.",
+      "en": "This is a clinic.",
+      "zh": "这里是诊所。",
+      "speaker": "June",
+      "startMs": 1980,
+      "endMs": 2860,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "Not a lost-property auction.",
+      "en": "Not a lost-property auction.",
+      "zh": "不是失物拍卖。",
+      "speaker": "June",
+      "startMs": 3080,
+      "endMs": 4660,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    }
+  ],
+  "media/P02-11c-s01.mp4": [
+    {
+      "text": "You just wanted to see if I’d blush.",
+      "en": "You just wanted to see if I’d blush.",
+      "zh": "你就是想看我会不会脸红。",
+      "speaker": "June",
+      "startMs": 0,
+      "endMs": 1900,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "Guilty. But where's the fun in that?",
+      "en": "Guilty. But where's the fun in that?",
+      "zh": "被你发现了。不过，那样还有什么乐趣？",
+      "startMs": 3100,
+      "endMs": 5680,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    }
+  ],
+  "media/P02-11c-s02.mp4": [
+    {
+      "text": "You were just stalling to mess with me, weren't you?",
+      "en": "You were just stalling to mess with me, weren't you?",
+      "zh": "你只是故意拖延来逗我，对不对？",
+      "startMs": 0,
+      "endMs": 1820,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    },
+    {
+      "text": "Yes.",
+      "en": "Yes.",
+      "zh": "是。",
+      "speaker": "Rhys",
+      "startMs": 1980,
+      "endMs": 2520,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "More interesting results than the coffee.",
+      "en": "More interesting results than the coffee.",
+      "zh": "结果比咖啡值得研究。",
+      "speaker": "Rhys",
+      "startMs": 2940,
+      "endMs": 4880,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    }
+  ],
+  "media/P02-14-s02.mp4": [
+    {
+      "text": "Then at least cover the coffee.",
+      "en": "Then at least cover the coffee.",
+      "zh": "那你至少负担一下咖啡。",
+      "speaker": "June",
+      "startMs": 0,
+      "endMs": 1440,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "I'm waiting.",
+      "en": "I'm waiting.",
+      "zh": "我等着呢。",
+      "startMs": 2600,
+      "endMs": 3360,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    }
+  ],
+  "media/P03-04-s02.mp4": [
+    {
+      "text": "So you’ve finally decided to wash a cup?",
+      "en": "So you’ve finally decided to wash a cup?",
+      "zh": "所以你终于决定洗杯子了？",
+      "speaker": "June",
+      "startMs": 0,
+      "endMs": 2160,
+      "timestampMs": null,
+      "confidence": 0.941,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "Only if you promise not to sneak a sip of my tea again.",
+      "en": "Only if you promise not to sneak a sip of my tea again.",
+      "zh": "那你得保证不再偷喝我的茶。",
+      "startMs": 2820,
+      "endMs": 4920,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    }
+  ],
+  "media/P03-11-s01.mp4": [
+    {
+      "text": "Do you want out of the wedding, or out of every responsibility?",
+      "en": "Do you want out of the wedding, or out of every responsibility?",
+      "zh": "你想摆脱婚礼，还是摆脱所有责任？",
+      "speaker": "June",
+      "startMs": 0,
+      "endMs": 3280,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "I… I haven't figured that out yet.",
+      "en": "I… I haven't figured that out yet.",
+      "zh": "我……我还没想清楚。",
+      "startMs": 5740,
+      "endMs": 7820,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    }
+  ],
+  "media/P03-11-s02.mp4": [
+    {
+      "text": "Freedom, or are you just running from responsibility?",
+      "en": "Freedom, or are you just running from responsibility?",
+      "zh": "是要自由，还是只想逃避责任？",
+      "startMs": 1200,
+      "endMs": 3180,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    }
+  ],
+  "media/P03-16c-s02.mp4": [
+    {
+      "text": "Tell me what you're planning for tomorrow.",
+      "en": "Tell me what you're planning for tomorrow.",
+      "zh": "告诉我你明天的打算。",
+      "startMs": 0,
+      "endMs": 1280,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    },
+    {
+      "text": "Tomorrow night.",
+      "en": "Tomorrow night.",
+      "zh": "明晚。",
+      "speaker": "Rhys",
+      "startMs": 2920,
+      "endMs": 3560,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "No evasions.",
+      "en": "No evasions.",
+      "zh": "不再绕弯。",
+      "speaker": "Rhys",
+      "startMs": 4000,
+      "endMs": 4780,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    }
+  ],
+  "media/P04-03-s02.mp4": [
+    {
+      "text": "Human, both forms, or a return to court.",
+      "en": "Human, both forms, or a return to court.",
+      "zh": "人形、双形，或者回庭。",
+      "speaker": "Vael",
+      "startMs": 0,
+      "endMs": 3580,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "He signs the choice.",
+      "en": "He signs the choice.",
+      "zh": "每一条都由他签。",
+      "speaker": "Vael",
+      "startMs": 4320,
+      "endMs": 5500,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "The choice is mine.",
+      "en": "The choice is mine.",
+      "zh": "选择权在我。",
+      "startMs": 7520,
+      "endMs": 8760,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    }
+  ],
+  "media/P04-12b-s01.mp4": [
+    {
+      "text": "So what's the catch for each one?",
+      "en": "So what's the catch for each one?",
+      "zh": "那每一种要付出什么代价？",
+      "startMs": 0,
+      "endMs": 2260,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    },
+    {
+      "text": "Human means no magic.",
+      "en": "Human means no magic.",
+      "zh": "固定人形，没有魔力。",
+      "speaker": "Rhys",
+      "startMs": 2260,
+      "endMs": 4640,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "Both forms means no throne.",
+      "en": "Both forms means no throne.",
+      "zh": "双形自由，没有王位。",
+      "speaker": "Rhys",
+      "startMs": 4640,
+      "endMs": 7520,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    }
+  ],
+  "media/P05-09b-s01.mp4": [
+    {
+      "text": "Finally. And that's when I realized maybe cats and vacuum cleaners aren't the best combo.",
+      "en": "Finally. And that's when I realized maybe cats and vacuum cleaners aren't the best combo.",
+      "zh": "终于。那时我才发现，猫和吸尘器可能不太合得来。",
+      "startMs": 0,
+      "endMs": 4060,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    }
+  ],
+  "media/P05-10-s02.mp4": [
+    {
+      "text": "If it wasn't for being a witness, would you still want to stay?",
+      "en": "If it wasn't for being a witness, would you still want to stay?",
+      "zh": "如果不是为了见证，你还想留下吗？",
+      "startMs": 0,
+      "endMs": 2620,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    },
+    {
+      "text": "By my own means.",
+      "en": "By my own means.",
+      "zh": "只是要用我自己的办法。",
+      "speaker": "Rhys",
+      "startMs": 3100,
+      "endMs": 4120,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "Not by spending your kindness.",
+      "en": "Not by spending your kindness.",
+      "zh": "不是消耗你的善良。",
+      "speaker": "Rhys",
+      "startMs": 4660,
+      "endMs": 5940,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    }
+  ],
+  "media/P05-13c-s01.mp4": [
+    {
+      "text": "The version you choose.",
+      "en": "The version you choose.",
+      "zh": "你自己选的样子。",
+      "speaker": "June",
+      "startMs": 0,
+      "endMs": 1100,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    },
+    {
+      "text": "Thank you for putting yourself in the choice too.",
+      "en": "Thank you for putting yourself in the choice too.",
+      "zh": "谢谢你也把自己放进了这个选择里。",
+      "startMs": 2020,
+      "endMs": 4220,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    },
+    {
+      "text": "No more paper choosing for you.",
+      "en": "No more paper choosing for you.",
+      "zh": "我不想再有一张纸替你选。",
+      "speaker": "June",
+      "startMs": 5140,
+      "endMs": 6880,
+      "timestampMs": null,
+      "confidence": 1.0,
+      "method": "script line aligned to actual ASR word timestamps"
+    }
+  ],
+  "media/P06-06-s01.mp4": [
+    {
+      "text": "I welcomed a cat.",
+      "en": "I welcomed a cat.",
+      "zh": "我收留的是一只猫。",
+      "startMs": 0,
+      "endMs": 1820,
+      "timestampMs": null,
+      "confidence": null,
+      "method": "ASR wording with editorial translation; timing from source word/segment timestamps"
+    }
+  ],
+  "media/P05-09c-s02.mp4": []
+}

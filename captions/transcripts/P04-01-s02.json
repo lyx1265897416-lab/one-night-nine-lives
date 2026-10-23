@@ -1,0 +1,63 @@
+{
+  "source": "media/P04-01-s02.mp4",
+  "sha256": "7e63af292af676f53efd40d8f2c211c4c15d1b0ddd614644892c9d20ee98d74b",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.0199999999999996,
+      "end": 3.28,
+      "text": " Shame there's no box for my personal life.",
+      "no_speech_prob": 0.035663504153490067,
+      "words": [
+        {
+          "word": " Shame",
+          "start": 1.0199999999999996,
+          "end": 1.54,
+          "probability": 0.9265990853309631
+        },
+        {
+          "word": " there's",
+          "start": 1.54,
+          "end": 1.78,
+          "probability": 0.9837662577629089
+        },
+        {
+          "word": " no",
+          "start": 1.78,
+          "end": 1.92,
+          "probability": 0.9979321956634521
+        },
+        {
+          "word": " box",
+          "start": 1.92,
+          "end": 2.18,
+          "probability": 0.9945529103279114
+        },
+        {
+          "word": " for",
+          "start": 2.18,
+          "end": 2.38,
+          "probability": 0.996297299861908
+        },
+        {
+          "word": " my",
+          "start": 2.38,
+          "end": 2.52,
+          "probability": 0.9989327788352966
+        },
+        {
+          "word": " personal",
+          "start": 2.52,
+          "end": 2.86,
+          "probability": 0.9988652467727661
+        },
+        {
+          "word": " life.",
+          "start": 2.86,
+          "end": 3.28,
+          "probability": 0.9995836615562439
+        }
+      ]
+    }
+  ]
+}

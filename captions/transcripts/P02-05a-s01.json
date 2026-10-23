@@ -1,0 +1,69 @@
+{
+  "source": "media/P02-05a-s01.mp4",
+  "sha256": "cdd9a9645a18bce593529abc9edf5a58d106e433b9b68537c364e997aca6f085",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.7800000000000002,
+      "end": 3.52,
+      "text": " The patient comes with me. Sir, make an appointment.",
+      "no_speech_prob": 0.21077416837215424,
+      "words": [
+        {
+          "word": " The",
+          "start": 0.7800000000000002,
+          "end": 1.26,
+          "probability": 0.847411036491394
+        },
+        {
+          "word": " patient",
+          "start": 1.26,
+          "end": 1.48,
+          "probability": 0.9921576976776123
+        },
+        {
+          "word": " comes",
+          "start": 1.48,
+          "end": 1.78,
+          "probability": 0.9933079481124878
+        },
+        {
+          "word": " with",
+          "start": 1.78,
+          "end": 2.0,
+          "probability": 0.9984968900680542
+        },
+        {
+          "word": " me.",
+          "start": 2.0,
+          "end": 2.26,
+          "probability": 0.9986938834190369
+        },
+        {
+          "word": " Sir,",
+          "start": 2.68,
+          "end": 2.72,
+          "probability": 0.978132963180542
+        },
+        {
+          "word": " make",
+          "start": 2.92,
+          "end": 3.06,
+          "probability": 0.9973202347755432
+        },
+        {
+          "word": " an",
+          "start": 3.06,
+          "end": 3.2,
+          "probability": 0.9978901743888855
+        },
+        {
+          "word": " appointment.",
+          "start": 3.2,
+          "end": 3.52,
+          "probability": 0.9896953105926514
+        }
+      ]
+    }
+  ]
+}

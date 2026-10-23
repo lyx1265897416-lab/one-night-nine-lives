@@ -1,0 +1,83 @@
+{
+  "source": "media/P01-12c-s01.mp4",
+  "sha256": "5d32b895e89e24a6b9f3e0e23d3812c3a1b6fbfe889e597bdb962c628cbf4d1f",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.839999999999999,
+      "end": 5.34,
+      "text": " You're good at interrogations.",
+      "no_speech_prob": 0.3692253530025482,
+      "words": [
+        {
+          "word": " You're",
+          "start": 3.839999999999999,
+          "end": 4.42,
+          "probability": 0.9043931365013123
+        },
+        {
+          "word": " good",
+          "start": 4.42,
+          "end": 4.52,
+          "probability": 0.9979891777038574
+        },
+        {
+          "word": " at",
+          "start": 4.52,
+          "end": 4.64,
+          "probability": 0.9982534050941467
+        },
+        {
+          "word": " interrogations.",
+          "start": 4.64,
+          "end": 5.34,
+          "probability": 0.9975680708885193
+        }
+      ]
+    },
+    {
+      "start": 6.18,
+      "end": 7.64,
+      "text": " I haven't even made coffee yet.",
+      "no_speech_prob": 0.3692253530025482,
+      "words": [
+        {
+          "word": " I",
+          "start": 6.18,
+          "end": 6.46,
+          "probability": 0.9777069091796875
+        },
+        {
+          "word": " haven't",
+          "start": 6.46,
+          "end": 6.68,
+          "probability": 0.9980826079845428
+        },
+        {
+          "word": " even",
+          "start": 6.68,
+          "end": 6.8,
+          "probability": 0.996669352054596
+        },
+        {
+          "word": " made",
+          "start": 6.8,
+          "end": 7.02,
+          "probability": 0.9974247217178345
+        },
+        {
+          "word": " coffee",
+          "start": 7.02,
+          "end": 7.32,
+          "probability": 0.9973269701004028
+        },
+        {
+          "word": " yet.",
+          "start": 7.32,
+          "end": 7.64,
+          "probability": 0.9839463233947754
+        }
+      ]
+    }
+  ]
+}

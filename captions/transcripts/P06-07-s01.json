@@ -1,0 +1,45 @@
+{
+  "source": "media/P06-07-s01.mp4",
+  "sha256": "adda24acffe0a7d3c3c6ea2c36a2a997bf740deaff96b32906a8a46feb00f043",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.2400000000000007,
+      "end": 4.76,
+      "text": " Take back my throne first.",
+      "no_speech_prob": 0.25786057114601135,
+      "words": [
+        {
+          "word": " Take",
+          "start": 3.2400000000000007,
+          "end": 3.72,
+          "probability": 0.6772135496139526
+        },
+        {
+          "word": " back",
+          "start": 3.72,
+          "end": 3.92,
+          "probability": 0.9896146655082703
+        },
+        {
+          "word": " my",
+          "start": 3.92,
+          "end": 4.14,
+          "probability": 0.9963868856430054
+        },
+        {
+          "word": " throne",
+          "start": 4.14,
+          "end": 4.34,
+          "probability": 0.9423307180404663
+        },
+        {
+          "word": " first.",
+          "start": 4.34,
+          "end": 4.76,
+          "probability": 0.991973876953125
+        }
+      ]
+    }
+  ]
+}

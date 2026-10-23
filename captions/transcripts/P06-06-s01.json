@@ -1,0 +1,39 @@
+{
+  "source": "media/P06-06-s01.mp4",
+  "sha256": "d0499973f7e41702ed23f836255a4eaa14f40d3004eddaf0fd759bb5558f32e8",
+  "method": "local faster-whisper large-v3-turbo",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.78,
+      "text": " I welcomed a cat.",
+      "no_speech_prob": 3.7386489737389894e-11,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 1.0,
+          "probability": 0.9366734623908997
+        },
+        {
+          "word": " welcomed",
+          "start": 1.0,
+          "end": 1.34,
+          "probability": 0.9854587316513062
+        },
+        {
+          "word": " a",
+          "start": 1.34,
+          "end": 1.5,
+          "probability": 0.9961775541305542
+        },
+        {
+          "word": " cat.",
+          "start": 1.5,
+          "end": 1.78,
+          "probability": 0.9527694582939148
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "source": "media/P02-18-spatial-r4-s02.mp4",
+  "sha256": "ecf21364967fc67a87df5716d559b7147346cc19cf1ef97852aa0a84160f9f30",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.02,
+      "text": " The second time was mostly for my lease.",
+      "no_speech_prob": 0.13999025523662567,
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.86,
+          "probability": 0.8645318746566772
+        },
+        {
+          "word": " second",
+          "start": 0.86,
+          "end": 1.12,
+          "probability": 0.9803500175476074
+        },
+        {
+          "word": " time",
+          "start": 1.12,
+          "end": 1.54,
+          "probability": 0.9966713786125183
+        },
+        {
+          "word": " was",
+          "start": 1.54,
+          "end": 1.8,
+          "probability": 0.9822302460670471
+        },
+        {
+          "word": " mostly",
+          "start": 1.8,
+          "end": 2.18,
+          "probability": 0.9933237433433533
+        },
+        {
+          "word": " for",
+          "start": 2.18,
+          "end": 2.54,
+          "probability": 0.9844623804092407
+        },
+        {
+          "word": " my",
+          "start": 2.54,
+          "end": 2.72,
+          "probability": 0.997184693813324
+        },
+        {
+          "word": " lease.",
+          "start": 2.72,
+          "end": 3.02,
+          "probability": 0.8988438844680786
+        }
+      ]
+    }
+  ]
+}

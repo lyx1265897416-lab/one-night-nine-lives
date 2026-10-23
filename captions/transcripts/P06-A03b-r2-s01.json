@@ -1,0 +1,45 @@
+{
+  "source": "media/P06-A03b-r2-s01.mp4",
+  "sha256": "757e77c3d864dc008786bf6cf702078e773f54adb841dca37e5ffb13fd15673e",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.6200000000000006,
+      "end": 3.8,
+      "text": " I'll get used to this.",
+      "no_speech_prob": 0.0198656152933836,
+      "words": [
+        {
+          "word": " I'll",
+          "start": 2.6200000000000006,
+          "end": 3.08,
+          "probability": 0.9411860108375549
+        },
+        {
+          "word": " get",
+          "start": 3.08,
+          "end": 3.2,
+          "probability": 0.9986819624900818
+        },
+        {
+          "word": " used",
+          "start": 3.2,
+          "end": 3.38,
+          "probability": 0.981445848941803
+        },
+        {
+          "word": " to",
+          "start": 3.38,
+          "end": 3.52,
+          "probability": 0.9992616772651672
+        },
+        {
+          "word": " this.",
+          "start": 3.52,
+          "end": 3.8,
+          "probability": 0.9986371397972107
+        }
+      ]
+    }
+  ]
+}

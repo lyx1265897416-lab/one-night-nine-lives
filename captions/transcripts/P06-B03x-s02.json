@@ -1,0 +1,77 @@
+{
+  "source": "media/P06-B03x-s02.mp4",
+  "sha256": "214f9ca7cdd16ed06031b985280268aabd6b4af5d1bf17c08505b92c6ac08bf6",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.14,
+      "text": " ...",
+      "no_speech_prob": 0.4897880554199219,
+      "words": [
+        {
+          "word": " ...",
+          "start": 0.0,
+          "end": 1.14,
+          "probability": 0.0030295683536678553
+        }
+      ]
+    },
+    {
+      "start": 1.14,
+      "end": 2.34,
+      "text": " ...",
+      "no_speech_prob": 0.4897880554199219,
+      "words": [
+        {
+          "word": " ...",
+          "start": 1.14,
+          "end": 2.34,
+          "probability": 0.12809458374977112
+        }
+      ]
+    },
+    {
+      "start": 2.34,
+      "end": 4.06,
+      "text": " ...",
+      "no_speech_prob": 0.4897880554199219,
+      "words": [
+        {
+          "word": " ...",
+          "start": 2.34,
+          "end": 4.06,
+          "probability": 0.8028345108032227
+        }
+      ]
+    },
+    {
+      "start": 4.06,
+      "end": 4.48,
+      "text": " ...",
+      "no_speech_prob": 0.4897880554199219,
+      "words": [
+        {
+          "word": " ...",
+          "start": 4.06,
+          "end": 4.48,
+          "probability": 0.9040995240211487
+        }
+      ]
+    },
+    {
+      "start": 4.48,
+      "end": 4.52,
+      "text": " ...",
+      "no_speech_prob": 0.4897880554199219,
+      "words": [
+        {
+          "word": " ...",
+          "start": 4.48,
+          "end": 4.52,
+          "probability": 0.9321240782737732
+        }
+      ]
+    }
+  ]
+}

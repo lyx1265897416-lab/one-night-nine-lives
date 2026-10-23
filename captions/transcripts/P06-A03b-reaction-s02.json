@@ -1,0 +1,39 @@
+{
+  "source": "media/P06-A03b-reaction-s02.mp4",
+  "sha256": "b917ebedbe88a835c2248b160cd43c96f51db53bf4c972d6f30d9939d1cf0821",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.42,
+      "text": " Including me holding you?",
+      "no_speech_prob": 0.002287830226123333,
+      "words": [
+        {
+          "word": " Including",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.4891176223754883
+        },
+        {
+          "word": " me",
+          "start": 0.34,
+          "end": 0.58,
+          "probability": 0.9988333582878113
+        },
+        {
+          "word": " holding",
+          "start": 0.58,
+          "end": 0.82,
+          "probability": 0.9868074059486389
+        },
+        {
+          "word": " you?",
+          "start": 0.82,
+          "end": 1.42,
+          "probability": 0.9992088675498962
+        }
+      ]
+    }
+  ]
+}

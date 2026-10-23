@@ -1,0 +1,57 @@
+{
+  "source": "media/P04-12b-s02.mp4",
+  "sha256": "826c8a6fb034b20b9d00fc624161c71cc2dd705d2b6528a4204d8ada51f8c5c5",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.28,
+      "text": " So returning means facing what I owe.",
+      "no_speech_prob": 0.045045819133520126,
+      "words": [
+        {
+          "word": " So",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.001535714603960514
+        },
+        {
+          "word": " returning",
+          "start": 0.46,
+          "end": 2.0,
+          "probability": 0.566335916519165
+        },
+        {
+          "word": " means",
+          "start": 2.0,
+          "end": 2.28,
+          "probability": 0.9667729735374451
+        },
+        {
+          "word": " facing",
+          "start": 2.28,
+          "end": 2.64,
+          "probability": 0.9637337923049927
+        },
+        {
+          "word": " what",
+          "start": 2.64,
+          "end": 2.9,
+          "probability": 0.9947944283485413
+        },
+        {
+          "word": " I",
+          "start": 2.9,
+          "end": 3.06,
+          "probability": 0.967527449131012
+        },
+        {
+          "word": " owe.",
+          "start": 3.06,
+          "end": 3.28,
+          "probability": 0.9935156106948853
+        }
+      ]
+    }
+  ]
+}

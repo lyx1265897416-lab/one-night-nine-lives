@@ -1,0 +1,81 @@
+{
+  "source": "media/P02-15-s01.mp4",
+  "sha256": "f1b05daf0a5f97181d29a12b376d21ddcd8fbecd96c33461d753378a5acb1c3a",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.3200000000000005,
+      "end": 6.82,
+      "text": " I left a wedding it's more complicated than a bad date",
+      "no_speech_prob": 0.05902727320790291,
+      "words": [
+        {
+          "word": " I",
+          "start": 1.3200000000000005,
+          "end": 1.84,
+          "probability": 0.8535407781600952
+        },
+        {
+          "word": " left",
+          "start": 1.84,
+          "end": 2.0,
+          "probability": 0.9575715065002441
+        },
+        {
+          "word": " a",
+          "start": 2.0,
+          "end": 2.16,
+          "probability": 0.9757187366485596
+        },
+        {
+          "word": " wedding",
+          "start": 2.16,
+          "end": 2.44,
+          "probability": 0.9966104626655579
+        },
+        {
+          "word": " it's",
+          "start": 2.44,
+          "end": 4.9,
+          "probability": 0.5488253235816956
+        },
+        {
+          "word": " more",
+          "start": 4.9,
+          "end": 5.08,
+          "probability": 0.9983525276184082
+        },
+        {
+          "word": " complicated",
+          "start": 5.08,
+          "end": 5.58,
+          "probability": 0.999365508556366
+        },
+        {
+          "word": " than",
+          "start": 5.58,
+          "end": 5.84,
+          "probability": 0.989203155040741
+        },
+        {
+          "word": " a",
+          "start": 5.84,
+          "end": 5.96,
+          "probability": 0.9987762570381165
+        },
+        {
+          "word": " bad",
+          "start": 5.96,
+          "end": 6.16,
+          "probability": 0.9986550807952881
+        },
+        {
+          "word": " date",
+          "start": 6.16,
+          "end": 6.82,
+          "probability": 0.99299156665802
+        }
+      ]
+    }
+  ]
+}

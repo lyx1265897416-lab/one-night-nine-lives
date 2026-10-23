@@ -1,0 +1,45 @@
+{
+  "source": "media/P01-12a-s02.mp4",
+  "sha256": "a4fdacfc87ccd3efe1eac14632d2132c69e7284b3264949b61222dce55d34115",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 1.4600000000000004,
+      "end": 3.48,
+      "text": " The chair is very persuasive.",
+      "no_speech_prob": 0.1739892065525055,
+      "words": [
+        {
+          "word": " The",
+          "start": 1.4600000000000004,
+          "end": 2.24,
+          "probability": 0.8012351393699646
+        },
+        {
+          "word": " chair",
+          "start": 2.24,
+          "end": 2.48,
+          "probability": 0.9139218330383301
+        },
+        {
+          "word": " is",
+          "start": 2.48,
+          "end": 2.68,
+          "probability": 0.9959147572517395
+        },
+        {
+          "word": " very",
+          "start": 2.68,
+          "end": 2.94,
+          "probability": 0.9960336089134216
+        },
+        {
+          "word": " persuasive.",
+          "start": 2.94,
+          "end": 3.48,
+          "probability": 0.994862973690033
+        }
+      ]
+    }
+  ]
+}

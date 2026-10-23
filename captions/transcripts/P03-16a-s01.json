@@ -1,0 +1,57 @@
+{
+  "source": "media/P03-16a-s01.mp4",
+  "sha256": "63323a92c79014438c4ffc5a84aee02761e27f15491a6ec525d456720c448592",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 4.04,
+      "end": 5.82,
+      "text": " You like making your point very clear.",
+      "no_speech_prob": 0.030667617917060852,
+      "words": [
+        {
+          "word": " You",
+          "start": 4.04,
+          "end": 4.48,
+          "probability": 0.7682912349700928
+        },
+        {
+          "word": " like",
+          "start": 4.48,
+          "end": 4.64,
+          "probability": 0.9860708117485046
+        },
+        {
+          "word": " making",
+          "start": 4.64,
+          "end": 4.9,
+          "probability": 0.9943713545799255
+        },
+        {
+          "word": " your",
+          "start": 4.9,
+          "end": 5.06,
+          "probability": 0.9953740239143372
+        },
+        {
+          "word": " point",
+          "start": 5.06,
+          "end": 5.26,
+          "probability": 0.997142493724823
+        },
+        {
+          "word": " very",
+          "start": 5.26,
+          "end": 5.5,
+          "probability": 0.9866964221000671
+        },
+        {
+          "word": " clear.",
+          "start": 5.5,
+          "end": 5.82,
+          "probability": 0.999301552772522
+        }
+      ]
+    }
+  ]
+}

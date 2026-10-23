@@ -1,0 +1,107 @@
+{
+  "source": "media/P04-11-s02.mp4",
+  "sha256": "837293ad6c6e894ac05ea6bc5f2db40f6536ae8f0f3c264fc9544937fd9e0f16",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 3.479999999999999,
+      "end": 5.7,
+      "text": " I confused the two and kept you in the dark.",
+      "no_speech_prob": 0.20638921856880188,
+      "words": [
+        {
+          "word": " I",
+          "start": 3.479999999999999,
+          "end": 3.94,
+          "probability": 0.8434616923332214
+        },
+        {
+          "word": " confused",
+          "start": 3.94,
+          "end": 4.26,
+          "probability": 0.9062609672546387
+        },
+        {
+          "word": " the",
+          "start": 4.26,
+          "end": 4.52,
+          "probability": 0.9940886497497559
+        },
+        {
+          "word": " two",
+          "start": 4.52,
+          "end": 4.72,
+          "probability": 0.9953091740608215
+        },
+        {
+          "word": " and",
+          "start": 4.72,
+          "end": 4.88,
+          "probability": 0.9626709818840027
+        },
+        {
+          "word": " kept",
+          "start": 4.88,
+          "end": 5.04,
+          "probability": 0.991412878036499
+        },
+        {
+          "word": " you",
+          "start": 5.04,
+          "end": 5.24,
+          "probability": 0.9987754225730896
+        },
+        {
+          "word": " in",
+          "start": 5.24,
+          "end": 5.32,
+          "probability": 0.9988442659378052
+        },
+        {
+          "word": " the",
+          "start": 5.32,
+          "end": 5.44,
+          "probability": 0.9988355040550232
+        },
+        {
+          "word": " dark.",
+          "start": 5.44,
+          "end": 5.7,
+          "probability": 0.9961219429969788
+        }
+      ]
+    },
+    {
+      "start": 8.04,
+      "end": 9.12,
+      "text": " That was my fault.",
+      "no_speech_prob": 0.20638921856880188,
+      "words": [
+        {
+          "word": " That",
+          "start": 8.04,
+          "end": 8.5,
+          "probability": 0.9863623976707458
+        },
+        {
+          "word": " was",
+          "start": 8.5,
+          "end": 8.62,
+          "probability": 0.9988164901733398
+        },
+        {
+          "word": " my",
+          "start": 8.62,
+          "end": 8.82,
+          "probability": 0.9940253496170044
+        },
+        {
+          "word": " fault.",
+          "start": 8.82,
+          "end": 9.12,
+          "probability": 0.99946528673172
+        }
+      ]
+    }
+  ]
+}

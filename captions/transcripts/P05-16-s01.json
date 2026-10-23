@@ -1,0 +1,6 @@
+{
+  "source": "media/P05-16-s01.mp4",
+  "sha256": "ab52124d74548d833677de74d1caebd20953b0ac323f914d7c66cc27baa5a573",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": []
+}

@@ -1,0 +1,39 @@
+{
+  "source": "media/P01-05-s02.mp4",
+  "sha256": "20517c50676dce8feeae199ce6ba80c028aded7ace337445fb32944c99bfbdd6",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 2.520000000000001,
+      "end": 4.14,
+      "text": " Mostly my rent payments.",
+      "no_speech_prob": 0.02807457558810711,
+      "words": [
+        {
+          "word": " Mostly",
+          "start": 2.520000000000001,
+          "end": 3.32,
+          "probability": 0.519250214099884
+        },
+        {
+          "word": " my",
+          "start": 3.32,
+          "end": 3.54,
+          "probability": 0.9719638824462891
+        },
+        {
+          "word": " rent",
+          "start": 3.54,
+          "end": 3.74,
+          "probability": 0.9946298599243164
+        },
+        {
+          "word": " payments.",
+          "start": 3.74,
+          "end": 4.14,
+          "probability": 0.9971068501472473
+        }
+      ]
+    }
+  ]
+}

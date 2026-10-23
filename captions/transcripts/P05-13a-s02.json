@@ -1,0 +1,53 @@
+{
+  "source": "media/P05-13a-s02.mp4",
+  "sha256": "e55fa12f3474a96b134754914d54fefafb8365abf113ff02eef3a42c4519b558",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.74,
+      "text": " Good.",
+      "no_speech_prob": 0.011906072497367859,
+      "words": [
+        {
+          "word": " Good.",
+          "start": 0.0,
+          "end": 0.74,
+          "probability": 0.6198930740356445
+        }
+      ]
+    },
+    {
+      "start": 1.74,
+      "end": 2.66,
+      "text": " I'll shorten the resume.",
+      "no_speech_prob": 0.011906072497367859,
+      "words": [
+        {
+          "word": " I'll",
+          "start": 1.74,
+          "end": 2.04,
+          "probability": 0.9833524525165558
+        },
+        {
+          "word": " shorten",
+          "start": 2.04,
+          "end": 2.24,
+          "probability": 0.9919593930244446
+        },
+        {
+          "word": " the",
+          "start": 2.24,
+          "end": 2.4,
+          "probability": 0.9971911311149597
+        },
+        {
+          "word": " resume.",
+          "start": 2.4,
+          "end": 2.66,
+          "probability": 0.940815269947052
+        }
+      ]
+    }
+  ]
+}

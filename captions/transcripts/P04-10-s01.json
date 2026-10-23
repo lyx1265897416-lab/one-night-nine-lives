@@ -1,0 +1,75 @@
+{
+  "source": "media/P04-10-s01.mp4",
+  "sha256": "96d5e7130ca38522ef5ef26c699b0ec10f62a03d940141c56d6ba4d44869dd2a",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.7,
+      "text": " Did you choose my home because of the release clause?",
+      "no_speech_prob": 0.01854545809328556,
+      "words": [
+        {
+          "word": " Did",
+          "start": 0.0,
+          "end": 0.84,
+          "probability": 0.8928614854812622
+        },
+        {
+          "word": " you",
+          "start": 0.84,
+          "end": 1.02,
+          "probability": 0.9982035160064697
+        },
+        {
+          "word": " choose",
+          "start": 1.02,
+          "end": 1.22,
+          "probability": 0.9893032312393188
+        },
+        {
+          "word": " my",
+          "start": 1.22,
+          "end": 1.42,
+          "probability": 0.9944361448287964
+        },
+        {
+          "word": " home",
+          "start": 1.42,
+          "end": 1.66,
+          "probability": 0.9958654642105103
+        },
+        {
+          "word": " because",
+          "start": 1.66,
+          "end": 1.92,
+          "probability": 0.9878756403923035
+        },
+        {
+          "word": " of",
+          "start": 1.92,
+          "end": 2.08,
+          "probability": 0.9970307350158691
+        },
+        {
+          "word": " the",
+          "start": 2.08,
+          "end": 2.12,
+          "probability": 0.9957095384597778
+        },
+        {
+          "word": " release",
+          "start": 2.12,
+          "end": 2.38,
+          "probability": 0.9460641741752625
+        },
+        {
+          "word": " clause?",
+          "start": 2.38,
+          "end": 2.7,
+          "probability": 0.9900673627853394
+        }
+      ]
+    }
+  ]
+}

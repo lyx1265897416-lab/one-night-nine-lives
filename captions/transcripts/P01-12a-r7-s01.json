@@ -1,0 +1,101 @@
+{
+  "source": "media/P01-12a-r7-s01.mp4",
+  "sha256": "d6339e6d8f1d5909f2a7214c0177818f167268be804ffc0444028636922d74f0",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.38,
+      "text": " Right there. Don't romanticize the invitation.",
+      "no_speech_prob": 0.03514273464679718,
+      "words": [
+        {
+          "word": " Right",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.7734712958335876
+        },
+        {
+          "word": " there.",
+          "start": 0.46,
+          "end": 0.74,
+          "probability": 0.9946948885917664
+        },
+        {
+          "word": " Don't",
+          "start": 1.2,
+          "end": 1.64,
+          "probability": 0.9948661923408508
+        },
+        {
+          "word": " romanticize",
+          "start": 1.64,
+          "end": 1.9,
+          "probability": 0.9155985414981842
+        },
+        {
+          "word": " the",
+          "start": 1.9,
+          "end": 2.0,
+          "probability": 0.9982012510299683
+        },
+        {
+          "word": " invitation.",
+          "start": 2.0,
+          "end": 2.38,
+          "probability": 0.9963646531105042
+        }
+      ]
+    },
+    {
+      "start": 4.4,
+      "end": 6.7,
+      "text": " I'll try. The chair is very persuasive.",
+      "no_speech_prob": 0.03514273464679718,
+      "words": [
+        {
+          "word": " I'll",
+          "start": 4.4,
+          "end": 4.72,
+          "probability": 0.9904533624649048
+        },
+        {
+          "word": " try.",
+          "start": 4.72,
+          "end": 5.0,
+          "probability": 0.9995307922363281
+        },
+        {
+          "word": " The",
+          "start": 5.66,
+          "end": 5.8,
+          "probability": 0.9931134581565857
+        },
+        {
+          "word": " chair",
+          "start": 5.8,
+          "end": 5.96,
+          "probability": 0.9603862762451172
+        },
+        {
+          "word": " is",
+          "start": 5.96,
+          "end": 6.1,
+          "probability": 0.9905003905296326
+        },
+        {
+          "word": " very",
+          "start": 6.1,
+          "end": 6.3,
+          "probability": 0.997826874256134
+        },
+        {
+          "word": " persuasive.",
+          "start": 6.3,
+          "end": 6.7,
+          "probability": 0.998694121837616
+        }
+      ]
+    }
+  ]
+}

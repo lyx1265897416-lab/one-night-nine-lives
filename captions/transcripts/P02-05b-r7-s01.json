@@ -1,0 +1,133 @@
+{
+  "source": "media/P02-05b-r7-s01.mp4",
+  "sha256": "a8a8cb8bee08f3d37db65955234e480baed9fc3efc0f6d6b1e5c3f00e100ea2e",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.68,
+      "text": " Deb, could you get Vale to stop, looking for someone?",
+      "no_speech_prob": 0.05108799785375595,
+      "words": [
+        {
+          "word": " Deb,",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.650939404964447
+        },
+        {
+          "word": " could",
+          "start": 0.68,
+          "end": 0.76,
+          "probability": 0.984269380569458
+        },
+        {
+          "word": " you",
+          "start": 0.76,
+          "end": 0.86,
+          "probability": 0.9974426031112671
+        },
+        {
+          "word": " get",
+          "start": 0.86,
+          "end": 1.0,
+          "probability": 0.9969979524612427
+        },
+        {
+          "word": " Vale",
+          "start": 1.0,
+          "end": 1.14,
+          "probability": 0.7172062397003174
+        },
+        {
+          "word": " to",
+          "start": 1.14,
+          "end": 1.34,
+          "probability": 0.9979013204574585
+        },
+        {
+          "word": " stop,",
+          "start": 1.34,
+          "end": 1.64,
+          "probability": 0.9981040954589844
+        },
+        {
+          "word": " looking",
+          "start": 2.06,
+          "end": 2.2,
+          "probability": 0.9959195852279663
+        },
+        {
+          "word": " for",
+          "start": 2.2,
+          "end": 2.44,
+          "probability": 0.9988419413566589
+        },
+        {
+          "word": " someone?",
+          "start": 2.44,
+          "end": 2.68,
+          "probability": 0.996777355670929
+        }
+      ]
+    },
+    {
+      "start": 3.16,
+      "end": 3.88,
+      "text": " Start with a form.",
+      "no_speech_prob": 0.05108799785375595,
+      "words": [
+        {
+          "word": " Start",
+          "start": 3.16,
+          "end": 3.38,
+          "probability": 0.8854225277900696
+        },
+        {
+          "word": " with",
+          "start": 3.38,
+          "end": 3.52,
+          "probability": 0.9981301426887512
+        },
+        {
+          "word": " a",
+          "start": 3.52,
+          "end": 3.66,
+          "probability": 0.8918055295944214
+        },
+        {
+          "word": " form.",
+          "start": 3.66,
+          "end": 3.88,
+          "probability": 0.9625673294067383
+        }
+      ]
+    },
+    {
+      "start": 4.1,
+      "end": 4.68,
+      "text": " We have three.",
+      "no_speech_prob": 0.05108799785375595,
+      "words": [
+        {
+          "word": " We",
+          "start": 4.1,
+          "end": 4.26,
+          "probability": 0.9895948171615601
+        },
+        {
+          "word": " have",
+          "start": 4.26,
+          "end": 4.42,
+          "probability": 0.9991439580917358
+        },
+        {
+          "word": " three.",
+          "start": 4.42,
+          "end": 4.68,
+          "probability": 0.9557604193687439
+        }
+      ]
+    }
+  ]
+}

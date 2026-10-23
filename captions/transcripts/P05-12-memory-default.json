@@ -1,0 +1,63 @@
+{
+  "source": "media/P05-12-memory-default.mp4",
+  "sha256": "d218b43fbf830e637533d532e04104df3e3d9d0a2f8f6a46b978a56b3da62b27",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.6800000000000002,
+      "end": 4.22,
+      "text": " I like this rule, too. Slower. Still real.",
+      "no_speech_prob": 0.04027075693011284,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.6800000000000002,
+          "end": 1.1,
+          "probability": 0.8913975358009338
+        },
+        {
+          "word": " like",
+          "start": 1.1,
+          "end": 1.26,
+          "probability": 0.9832984805107117
+        },
+        {
+          "word": " this",
+          "start": 1.26,
+          "end": 1.44,
+          "probability": 0.9967470169067383
+        },
+        {
+          "word": " rule,",
+          "start": 1.44,
+          "end": 1.62,
+          "probability": 0.9747437834739685
+        },
+        {
+          "word": " too.",
+          "start": 1.92,
+          "end": 1.94,
+          "probability": 0.9970947504043579
+        },
+        {
+          "word": " Slower.",
+          "start": 2.88,
+          "end": 3.06,
+          "probability": 0.9684011936187744
+        },
+        {
+          "word": " Still",
+          "start": 3.88,
+          "end": 3.98,
+          "probability": 0.9920394420623779
+        },
+        {
+          "word": " real.",
+          "start": 3.98,
+          "end": 4.22,
+          "probability": 0.9958231449127197
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "source": "media/P06-B01-r7-s01.mp4",
+  "sha256": "b2394c993eaee3dddf530e4e5aa1c02ad2836b47964404bfbf484d1f1131e902",
+  "method": "local faster-whisper small.en; word timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.78,
+      "text": " Stay.",
+      "no_speech_prob": 0.10179928690195084,
+      "words": [
+        {
+          "word": " Stay.",
+          "start": 0.0,
+          "end": 0.78,
+          "probability": 0.8200588226318359
+        }
+      ]
+    },
+    {
+      "start": 1.92,
+      "end": 3.94,
+      "text": " Don't discard the part of yourself you like.",
+      "no_speech_prob": 0.10179928690195084,
+      "words": [
+        {
+          "word": " Don't",
+          "start": 1.92,
+          "end": 2.44,
+          "probability": 0.9885385036468506
+        },
+        {
+          "word": " discard",
+          "start": 2.44,
+          "end": 2.7,
+          "probability": 0.9961920976638794
+        },
+        {
+          "word": " the",
+          "start": 2.7,
+          "end": 2.88,
+          "probability": 0.9971606731414795
+        },
+        {
+          "word": " part",
+          "start": 2.88,
+          "end": 3.02,
+          "probability": 0.9985235333442688
+        },
+        {
+          "word": " of",
+          "start": 3.02,
+          "end": 3.14,
+          "probability": 0.9973775148391724
+        },
+        {
+          "word": " yourself",
+          "start": 3.14,
+          "end": 3.38,
+          "probability": 0.9904977679252625
+        },
+        {
+          "word": " you",
+          "start": 3.38,
+          "end": 3.6,
+          "probability": 0.9927352666854858
+        },
+        {
+          "word": " like.",
+          "start": 3.6,
+          "end": 3.94,
+          "probability": 0.9984173774719238
+        }
+      ]
+    }
+  ]
+}
