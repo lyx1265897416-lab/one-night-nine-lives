@@ -4,6 +4,18 @@
 
 **在线游玩**：见仓库 About 里的 Pages 链接。手机竖屏打开体验最好。
 
+## 预览
+
+在线体验：https://lyx1265897416-lab.github.io/one-night-nine-lives/
+
+| 首页 | 播放中 |
+|:---:|:---:|
+| <img src="docs/preview/home.jpg" width="260" alt="首页截图"> | <img src="docs/preview/play.jpg" width="260" alt="播放中截图"> |
+
+关键画面：
+
+<img src="docs/preview/gallery.jpg" width="720" alt="关键画面">
+
 ## 内容
 
 | 项目 | 规格 |
