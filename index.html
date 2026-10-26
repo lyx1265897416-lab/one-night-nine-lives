@@ -104,9 +104,9 @@ body.choosing #bar,body.ended #bar,body.start #bar,body.chatting #bar{display:no
 body.lang-en .zh{display:none!important}
 </style>
 
-<div id="stage">
-  <video class="v" id="va" playsinline webkit-playsinline preload="auto"></video>
-  <video class="v" id="vb" playsinline webkit-playsinline preload="auto"></video>
+<div id="stage" style="background:#000 url(poster.jpg) center/cover no-repeat">
+  <video class="v" id="va" playsinline webkit-playsinline preload="metadata"></video>
+  <video class="v" id="vb" playsinline webkit-playsinline preload="metadata"></video>
   <div class="shade"></div>
   <div id="paused" hidden><div><svg viewBox="0 0 24 24" width="26" height="26" fill="#fff"><path d="M8 5.5v13l10.5-6.5z"/></svg></div></div>
 
@@ -193,15 +193,14 @@ setMode('start');
 function toast(msg, ms=2200){ const t=$('toast'); t.textContent=msg; t.hidden=false; clearTimeout(t._t); t._t=setTimeout(()=>t.hidden=true, ms); }
 
 // ---------- data ----------
-Promise.all([
-  fetch('player-data.json').then(r=>r.json()),
-  fetch('captions/clips.json').then(r=>r.json()).catch(()=>({clips:{}}))
-]).then(([d,c]) => {
-  DATA = d; CAPS = c.clips || {};
+// the manifest gates playback; subtitles stream in afterwards so the first frame is not held up
+fetch('player-data.json').then(r=>r.json()).then(d => {
+  DATA = d;
   buildEpisodeMenu();
   applyLang();
   const q = new URLSearchParams(location.search);
   if (q.get('shot') && DATA.nodes[q.get('shot')]) { $('startCard').hidden = true; play(q.get('shot')); }
+  fetch('captions/clips.json').then(r=>r.json()).then(c => { CAPS = c.clips || {}; $('subs')._k = null; }).catch(()=>{});
 });
 
 const base = p => (p||'').split('/').pop();
