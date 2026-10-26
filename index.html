@@ -89,6 +89,8 @@ body.choosing #bar,body.ended #bar,body.start #bar,body.chatting #bar{display:no
 #menu button small{color:var(--mute)}
 #menu hr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:5px 8px}
 #menu .head{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);padding:8px 12px 4px}
+#buffer{position:absolute;z-index:9;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:8px;background:rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.14);padding:14px 18px;border-radius:14px}
+#buffer em{font-style:normal;font-size:12px;color:#c9cdd2;letter-spacing:.08em}
 #toast{position:absolute;z-index:10;left:50%;top:calc(64px + env(safe-area-inset-top,0px));transform:translateX(-50%);background:rgba(0,0,0,.75);border:1px solid rgba(255,255,255,.14);padding:8px 14px;border-radius:999px;font-size:12.5px;max-width:84%;text-align:center}
 #chat{position:absolute;inset:0;z-index:8;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:calc(56px + env(safe-area-inset-top,0px)) max(18px,env(safe-area-inset-right,0px)) calc(22px + env(safe-area-inset-bottom,0px)) max(18px,env(safe-area-inset-left,0px));background:linear-gradient(to bottom,rgba(4,5,7,.5),rgba(4,5,7,.9) 40%,rgba(4,5,7,.96))}
 #chatLog{display:flex;flex-direction:column;gap:9px;overflow:auto}
@@ -171,6 +173,7 @@ body.lang-en .zh{display:none!important}
     <div id="chatOpts" style="display:flex;flex-direction:column;gap:9px"></div>
   </section>
 
+  <div id="buffer" hidden><span class="dots"><i></i><i></i><i></i></span><em>缓冲中</em></div>
   <div id="toast" hidden></div>
 </div>
 
@@ -190,6 +193,13 @@ function applyLang(){ document.body.classList.toggle('lang-en', lang==='en'); $(
 
 function setMode(m){ document.body.classList.remove('start','choosing','ended','playing','chatting'); document.body.classList.add(m); }
 setMode('start');
+let bufT = null;
+function buffering(on){
+  const b = $('buffer');
+  clearTimeout(bufT);
+  if (on) { bufT = setTimeout(() => { b.hidden = false; }, 450); }
+  else { b.hidden = true; }
+}
 function toast(msg, ms=2200){ const t=$('toast'); t.textContent=msg; t.hidden=false; clearTimeout(t._t); t._t=setTimeout(()=>t.hidden=true, ms); }
 
 // ---------- data ----------
@@ -254,11 +264,16 @@ function startPart(i, at=0){
   el.playbackRate = speed;
   el.ontimeupdate = () => tick(el);
   el.onended = () => partEnded(el);
-  el.onplaying = () => {
+  el.onwaiting = () => buffering(true);
+  el.onstalled = () => buffering(true);
+  el.onplaying = el.oncanplay = null;
+  el.addEventListener('playing', () => buffering(false));
+  el.addEventListener('canplay', () => buffering(false));
+  el.addEventListener('playing', function swap() {
+    el.removeEventListener('playing', swap);
     if (front !== el) { front.classList.remove('on'); front.pause(); el.classList.add('on'); back = front; front = el; }
-    el.onplaying = null;
     preloadNext();
-  };
+  });
   const go = () => { try { if (at) el.currentTime = at; } catch(e){} el.play().catch(() => { el.classList.add('on'); front = el; setPaused(true); }); };
   if (el.readyState >= 1) go(); else el.onloadedmetadata = go;
 }
