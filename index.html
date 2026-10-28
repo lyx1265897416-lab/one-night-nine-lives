@@ -40,6 +40,8 @@ body.choosing #subs{bottom:calc(252px + env(safe-area-inset-bottom,0px))}
 #track i{display:block;height:2px;width:100%;background:rgba(255,255,255,.22);position:relative;border-radius:2px}
 #track i b{position:absolute;left:0;top:0;bottom:0;background:var(--gold);width:0;border-radius:2px}
 #chap{font-size:11px;letter-spacing:.12em;color:var(--mute);white-space:nowrap;text-transform:uppercase;font-variant-numeric:tabular-nums}
+#time{font-size:11px;color:var(--mute);white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:.06em}
+@media (max-width:520px){#chap{display:none}}
 body.choosing #bar,body.ended #bar,body.start #bar,body.chatting #bar{display:none}
 #paused{position:absolute;inset:0;z-index:3;display:grid;place-items:center;pointer-events:none}
 #paused div{width:66px;height:66px;border-radius:50%;background:rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.25);display:grid;place-items:center}
@@ -131,6 +133,7 @@ body.lang-en .zh{display:none!important}
   <div id="bar">
     <button class="icon" id="playBtn" aria-label="Pause"><svg viewBox="0 0 24 24" fill="#eee" id="playIco"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button>
     <div id="track" role="slider" aria-label="Episode progress" aria-valuemin="0" aria-valuemax="100" tabindex="0"><i><b id="fill"></b></i></div>
+    <div id="time"></div>
     <div id="chap"></div>
   </div>
 
@@ -185,7 +188,7 @@ let front = va, back = vb;
 let DATA = null, CAPS = {};
 let lang = 'zh';                 // 'zh' = bilingual, 'en' = English only
 let speed = 1, subsOn = true;
-let state = { node:null, part:0, memory:new Set(), path:[], checkpoint:null, waiting:false, ep:1 };
+let state = { node:null, part:0, memory:new Set(), path:[], checkpoint:null, waiting:false, ep:1, trail:[], epTotal:0 };
 
 try { const s = localStorage.getItem('nl-lang'); lang = s || ((navigator.language||'').toLowerCase().startsWith('zh') ? 'zh' : 'en'); } catch(e){}
 const txt = (zh,en) => lang==='en' ? en : zh;
@@ -224,7 +227,7 @@ function buildEpisodeMenu(){
   DATA.episodes.forEach(e => {
     const b = document.createElement('button');
     b.innerHTML = '<span>' + String(e.id).padStart(2,'0') + ' · ' + e.title + '</span>';
-    b.onclick = () => { $('menu').hidden = true; state.memory = new Set(); state.path = []; $('startCard').hidden = true; $('endCard').hidden = true; play(e.start); };
+    b.onclick = () => { $('menu').hidden = true; state.memory = new Set(); state.path = []; state.trail = []; $('startCard').hidden = true; $('endCard').hidden = true; play(e.start); };
     box.append(b);
   });
 }
@@ -242,6 +245,33 @@ function resolveMedia(id){
   return { clips: m.clips || [m.src], durations: m.durations || [m.duration || 0] };
 }
 
+// ---------- episode-long progress ----------
+// The bar measures the whole episode, not the shot on screen: everything already
+// walked, plus the shot playing now, plus the route the story takes from here.
+const fmt = t => { t = Math.max(0, Math.round(t||0)); return Math.floor(t/60) + ':' + String(t%60).padStart(2,'0'); };
+function nodeDur(id){ const m = resolveMedia(id); return m ? m.durations.reduce((a,b)=>a+(b||0),0) : 0; }
+function forwardFrom(id){
+  let cur = DATA.nodes[id], seen = new Set([id]), t = 0, guard = 0;
+  while (cur && guard++ < 400){
+    let nxt = null;
+    if (cur.interaction) { const o = (cur.interaction.options || [])[0]; nxt = o && o.target; }
+    else if (cur.next && cur.next.length) nxt = cur.next[0];
+    if (!nxt || seen.has(nxt) || !DATA.nodes[nxt] || epOf(nxt) !== epOf(id)) break;
+    seen.add(nxt); t += nodeDur(nxt); cur = DATA.nodes[nxt];
+  }
+  return t;
+}
+function markTrail(id){
+  const ep = epOf(id);
+  if (state.trail.length && state.trail[0].ep !== ep) state.trail = [];
+  const i = state.trail.findIndex(x => x.id === id);
+  if (i >= 0) state.trail.length = i;                  // replaying a shot we already walked
+  const start = state.trail.reduce((a, x) => a + x.dur, 0);
+  const dur = nodeDur(id);
+  state.trail.push({ id, ep, start, dur });
+  state.epTotal = start + dur + forwardFrom(id);
+}
+
 // ---------- playback ----------
 let media = null, idleLoop = false;
 function play(id, opts={}){
@@ -254,8 +284,13 @@ function play(id, opts={}){
   $('epLabel').textContent = String(state.ep).padStart(2,'0') + ' / 06';
   $('chap').textContent = 'EP ' + String(state.ep).padStart(2,'0') + ' · ' + episodeTitle(state.ep);
   $('sheet').classList.remove('show'); $('chat').hidden = true;
+  markTrail(id);
   setMode('playing');
-  startPart(0, opts.at || 0);
+  let at = opts.at || 0, i = 0;
+  const ds = media.durations;
+  while (i < ds.length - 1 && at > (ds[i] || 0)) { at -= (ds[i] || 0); i++; }
+  if (at > (ds[i] || 0)) at = Math.max(0, (ds[i] || 0) - 0.3);
+  startPart(i, at);
 }
 function startPart(i, at=0){
   state.part = i;
@@ -290,9 +325,15 @@ function preloadNext(){
 function tick(el){
   el = el || front;
   const d = el.duration || 0, c = el.currentTime || 0;
+  if (idleLoop) return renderCue(c, el);               // the waiting loop is not story time
   const before = media ? media.durations.slice(0, state.part).reduce((a,b)=>a+(b||0),0) : 0;
-  const total = media ? media.durations.reduce((a,b)=>a+(b||0),0) || d : d;
-  $('fill').style.width = total ? Math.min(100, 100*(before+c)/total) + '%' : '0%';
+  const here = state.trail[state.trail.length - 1];
+  const total = state.epTotal || (media ? media.durations.reduce((a,b)=>a+(b||0),0) : d) || d;
+  const at = (here ? here.start : 0) + before + c;
+  const pct = total ? Math.min(100, 100*at/total) : 0;
+  $('fill').style.width = pct + '%';
+  $('track').setAttribute('aria-valuenow', Math.round(pct));
+  $('time').textContent = fmt(at) + ' / ' + fmt(total);
   renderCue(c, el);
 }
 function renderCue(t, vid){
@@ -333,13 +374,21 @@ $('stage').addEventListener('click', e => {
   if (document.body.classList.contains('playing')) setPaused(!front.paused ? true : false);
 });
 $('track').onclick = e => {
-  if (!media) return;
+  if (!media || idleLoop || !state.epTotal) return;
   const r = e.currentTarget.getBoundingClientRect();
   const p = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width));
-  const total = media.durations.reduce((a,b)=>a+(b||0),0);
-  let want = p * total, i = 0;
-  while (i < media.durations.length - 1 && want > media.durations[i]) { want -= media.durations[i]; i++; }
-  if (i === state.part) front.currentTime = want; else startPart(i, want);
+  const t = p * state.epTotal;
+  const here = state.trail[state.trail.length - 1];
+  if (!here) return;
+  if (t >= here.start && t < here.start + here.dur) {      // inside the shot on screen
+    let want = t - here.start, i = 0;
+    while (i < media.durations.length - 1 && want > media.durations[i]) { want -= media.durations[i]; i++; }
+    if (i === state.part) front.currentTime = want; else startPart(i, want);
+    return;
+  }
+  const earlier = state.trail.find(x => t >= x.start && t < x.start + x.dur);
+  if (earlier) { play(earlier.id, { at: t - earlier.start }); return; }
+  toast(txt('前面的剧情还没演到。', 'That part of the episode has not played yet.'));
 };
 
 // ---------- choice ----------
@@ -510,7 +559,7 @@ function showEnding(n){
 }
 $('endBack').onclick = () => { $('endCard').hidden = true; if (state.checkpoint) { state.path.pop(); play(state.checkpoint, {at: 1e9}); setTimeout(()=>{ const nn=DATA.nodes[state.checkpoint]; if(nn&&nn.interaction) showChoice(nn); }, 300); } };
 $('endReplay').onclick = () => { $('endCard').hidden = true; play(state.node); };
-$('endRestart').onclick = () => { $('endCard').hidden = true; state.memory = new Set(); state.path = []; play(DATA.episodes[0].start); };
+$('endRestart').onclick = () => { $('endCard').hidden = true; state.memory = new Set(); state.path = []; state.trail = []; play(DATA.episodes[0].start); };
 
 // ---------- menu ----------
 $('menuBtn').onclick = () => { const m = $('menu'); m.hidden = !m.hidden; $('menuBtn').setAttribute('aria-expanded', String(!m.hidden)); };
